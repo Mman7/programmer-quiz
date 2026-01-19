@@ -1,0 +1,167 @@
+[
+  {
+    "questionId": "q1",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used to define a class in C#?",
+    "options": ["class", "define", "struct", "new"],
+    "answer": "class",
+    "reason": "The 'class' keyword is used to declare a class in C#."
+  },
+  {
+    "questionId": "q2",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type stores true/false values in C#?",
+    "options": ["boolean", "bool", "bit", "flag"],
+    "answer": "bool",
+    "reason": "The bool type represents boolean values."
+  },
+  {
+    "questionId": "q3",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which method is the entry point of a C# console application?",
+    "options": ["Start()", "Run()", "Main()", "Execute()"],
+    "answer": "Main()",
+    "reason": "Execution begins in the Main() method."
+  },
+  {
+    "questionId": "q4",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which symbol starts a single-line comment in C#?",
+    "options": ["//", "/*", "#", "<!--"],
+    "answer": "//",
+    "reason": "C# uses // for single-line comments."
+  },
+  {
+    "questionId": "q5",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword declares a constant in C#?",
+    "options": ["const", "static", "readonly", "fixed"],
+    "answer": "const",
+    "reason": "Const is used for compile-time constants."
+  },
+
+  {
+    "questionId": "q6",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "What type is used for text in C#?",
+    "options": ["string", "text", "char", "word"],
+    "answer": "string",
+    "reason": "The string type stores text."
+  },
+  {
+    "questionId": "q7",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator compares two values for equality in C#?",
+    "options": ["=", "==", "===", "!"],
+    "answer": "==",
+    "reason": "== checks value equality."
+  },
+  {
+    "questionId": "q8",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "What is the default value of an int in C#?",
+    "options": ["0", "null", "1", "undefined"],
+    "answer": "0",
+    "reason": "int defaults to 0."
+  },
+  {
+    "questionId": "q9",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which collection stores key-value pairs?",
+    "options": ["List", "Array", "Dictionary", "HashSet"],
+    "answer": "Dictionary",
+    "reason": "Dictionary<TKey,TValue> stores key-value pairs."
+  },
+  {
+    "questionId": "q10",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used to create an object?",
+    "options": ["create", "make", "new", "init"],
+    "answer": "new",
+    "reason": "The new keyword instantiates objects."
+  },
+
+  {
+    "questionId": "q11",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "What is used to declare a variable in C#?",
+    "options": ["var", "let", "make", "dim"],
+    "answer": "var",
+    "reason": "var allows implicit typing in C#."
+  },
+  {
+    "questionId": "q12",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type stores whole numbers?",
+    "options": ["float", "int", "double", "string"],
+    "answer": "int",
+    "reason": "The int type stores integer values."
+  },
+  {
+    "questionId": "q13",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type stores decimal numbers?",
+    "options": ["decimal", "int", "bool", "char"],
+    "answer": "decimal",
+    "reason": "Decimal stores high-precision decimal values."
+  },
+  {
+    "questionId": "q14",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines a method?",
+    "options": ["method", "func", "void", "define"],
+    "answer": "void",
+    "reason": "Void indicates a method returns nothing."
+  },
+  {
+    "questionId": "q15",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which symbol ends a statement in C#?",
+    "options": [";", ":", ".", ","],
+    "answer": ";",
+    "reason": "C# statements end with semicolons."
+  },
+
+  {
+    "questionId": "q16",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used for inheritance?",
+    "options": ["extends", "inherits", ":", "->"],
+    "answer": ":",
+    "reason": "C# uses : to specify inheritance."
+  },
+  {
+    "questionId": "q17",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type represents a single character?",
+    "options": ["string", "char", "text", "word"],
+    "answer": "char",
+    "reason": "char holds a single character."
+  },
+  {
+    "questionId": "q18",
+    "tag": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator performs addition?",
+    "options": ["*", "+", "/", "-"],
+    "answer": "+",
+    "reason": "The + operator performs addition."
+  }
+]

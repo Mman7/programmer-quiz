@@ -1,28 +1,12 @@
 "use client";
 
-import Topic from "@/src/types/topic";
-import {
-  useSelectedTopicsStore,
-  useSelectedTopics,
-} from "@/src/store/useSelectedTopicsStore";
+import { useQuizOption } from "@/src/store/useSelectedTopicsStore";
 import SelectedTopic from "./selectedTopic";
-import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 export default function Sidebar() {
-  const selectedTopics = useSelectedTopics();
-  const selectedTopicsStore = useSelectedTopicsStore();
-  const [topics, setTopics] = useState<Topic[]>([]);
-
-  //**
-  //! have to be this way to get topic
-  //  zustand querystring save data to local so it required time to get
-  //  have to wait zustand fetch data then update this component state
-  //  */
-  useEffect(() => {
-    setTopics(selectedTopics);
-  }, [selectedTopics]);
+  const { topics, removeAll } = useQuizOption();
 
   return (
     <>
@@ -33,12 +17,12 @@ export default function Sidebar() {
       ></label>
       <div className="menu bg-base-100 flex min-h-full w-80 p-4">
         <section className="flex items-center justify-between">
-          <h1 className="mb-3 text-xl font-bold">Topics</h1>
+          <h1 className="mb-3 text-xl font-bold text-black">Topics includes</h1>
           <button
-            onClick={() => selectedTopicsStore.removeAll()}
-            className="btn"
+            onClick={() => removeAll()}
+            className="btn btn-ghost btn-circle border-0 hover:bg-gray-200"
           >
-            <FontAwesomeIcon size="xl" icon={faTrash} />
+            <FontAwesomeIcon size="xl" className="text-black" icon={faTrash} />
           </button>
         </section>
 

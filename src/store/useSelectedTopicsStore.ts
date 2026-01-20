@@ -34,7 +34,7 @@ const useQuizOptionStore = create<TopicsState>()(
         }));
       },
     }),
-    { name: "store-topic" },
+    { name: "store-quiz-option" },
   ),
 );
 
@@ -50,7 +50,6 @@ const cleanDuplicates = (array: Topic[], newTopic: Topic) => {
   return array;
 };
 
-// get the selected topics
 export const useQuizOption = () => {
   const quizState = useQuizOptionStore((state) => state);
   return {

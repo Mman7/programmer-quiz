@@ -3,33 +3,39 @@
 import { create } from "zustand";
 import Topic from "../types/topic";
 import { persist } from "zustand/middleware";
-import { querystring } from "zustand-querystring";
 
 interface TopicsState {
   topics: Topic[];
+  numberOfQuiz: number;
+  setQuizNumber: (value: number) => void;
   addTopic: (newTopic: Topic) => void;
   removeAll: () => void;
   removeTopic: (topicToRemove: Topic) => void;
 }
 
-export const useSelectedTopicsStore = create<TopicsState>()(
-  querystring((set) => ({
-    topics: [],
-    addTopic: (newTopic) =>
-      set((state) => {
-        const updatedTopics = cleanDuplicates(state.topics, newTopic);
-        return { topics: updatedTopics };
-      }),
-    removeAll: () => {
-      set((state) => ({ topics: [] }));
-    },
-    removeTopic: (topicToRemove: Topic) => {
-      set((state) => ({
-        // filter out the topic to remove
-        topics: state.topics.filter((topic: Topic) => topic !== topicToRemove),
-      }));
-    },
-  })),
+const useQuizOptionStore = create<TopicsState>()(
+  persist(
+    (set) => ({
+      topics: [] as Topic[],
+      numberOfQuiz: 0,
+      setQuizNumber: (value: number) => set(() => ({ numberOfQuiz: value })),
+      addTopic: (newTopic) =>
+        set(({ topics }) => {
+          const updatedTopics = cleanDuplicates(topics, newTopic);
+          return { topics: updatedTopics };
+        }),
+      removeAll: () => {
+        set(() => ({ topics: [] }));
+      },
+      removeTopic: (topicToRemove: Topic) => {
+        set(({ topics }) => ({
+          // filter out the topic to remove
+          topics: topics.filter((topic: Topic) => topic !== topicToRemove),
+        }));
+      },
+    }),
+    { name: "store-topic" },
+  ),
 );
 
 const cleanDuplicates = (array: Topic[], newTopic: Topic) => {
@@ -45,5 +51,14 @@ const cleanDuplicates = (array: Topic[], newTopic: Topic) => {
 };
 
 // get the selected topics
-export const useSelectedTopics = () =>
-  useSelectedTopicsStore((state) => state.topics);
+export const useQuizOption = () => {
+  const quizState = useQuizOptionStore((state) => state);
+  return {
+    numberOfQuiz: quizState.numberOfQuiz,
+    setQuizNumber: quizState.setQuizNumber,
+    topics: quizState.topics,
+    addTopic: quizState.addTopic,
+    removeTopic: quizState.removeTopic,
+    removeAll: quizState.removeAll,
+  };
+};

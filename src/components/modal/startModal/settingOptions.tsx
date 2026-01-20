@@ -2,7 +2,7 @@ import { useQuizOption } from "@/src/store/useSelectedTopicsStore";
 import SelectedTopic from "../../sidebar/selectedTopic";
 
 export function SettingOpion() {
-  const { setQuizNumber } = useQuizOption();
+  const { setQuizNumber, numberOfQuiz } = useQuizOption();
   return (
     <div className="mx-2 my-2.5">
       <h2 className="font-medium text-gray-600">Number of quiz</h2>
@@ -10,6 +10,7 @@ export function SettingOpion() {
         type="number"
         className="input validator"
         required
+        value={numberOfQuiz}
         onChange={(e) => setQuizNumber(parseInt(e.target.value))}
         placeholder="Type a number between 10 to 30"
         min="10"

@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="cupcake ">
+    <html lang="en" data-theme="">
       <body>
         <Navbar />
         <div className="drawer lg:drawer-open">

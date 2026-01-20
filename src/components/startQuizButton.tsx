@@ -1,7 +1,14 @@
+import { useStartModal } from "../store/useStartModalStore";
+
 export default function StartQuizButton() {
+  const { openModal } = useStartModal();
+
   return (
-    <button className="btn btn-block bg- h-14 bg-linear-to-bl from-violet-400 to-blue-300 text-white">
-      Start Quiz
+    <button
+      onClick={() => openModal()}
+      className="btn btn-block btn-outline btn-primary"
+    >
+      Start Quiz!
     </button>
   );
 }

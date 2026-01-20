@@ -1,39 +1,39 @@
 "use client";
 
 import Topic from "@/src/types/topic";
-import { useDifficultyModalStore } from "@/src/store/useDifficultyModalStore";
-import { useSelectedTopicsStore } from "@/src/store/useSelectedTopicsStore";
+import { useDifficultyModal } from "@/src/store/useDifficultyModalStore";
 
-export default function SelectDifficultyModal() {
-  const difficultyModalStore = useDifficultyModalStore();
-  const selectedTopicsStore = useSelectedTopicsStore();
+interface SelectDifficultyModalProps {
+  chooseFn: (topic: Topic) => void;
+}
+export default function SelectDifficultyModal({
+  chooseFn,
+}: SelectDifficultyModalProps) {
+  const { topicName, closeModal, modalOpenStatus } = useDifficultyModal();
+
   const chooseDifficulty = (difficulty: string) => {
     const topic: Topic = {
-      name: difficultyModalStore.topicName,
+      name: topicName,
       difficulty: difficulty,
     };
-    selectedTopicsStore.addTopic(topic);
-    difficultyModalStore.closeModal();
+    chooseFn(topic);
+    closeModal();
   };
 
   return (
-    <dialog
-      open={difficultyModalStore.modalOpenStatus}
-      id="my_modal_3"
-      className="modal"
-    >
+    <dialog open={modalOpenStatus} id="my_modal_3" className="modal">
       <div className="modal-box">
         <form method="dialog">
           {/*  close the modal */}
           <button
-            onClick={() => difficultyModalStore.closeModal()}
+            onClick={() => closeModal()}
             className="btn btn-sm btn-circle btn-ghost absolute top-2 right-2"
           >
             ✕
           </button>
         </form>
         <h3 className="mb-4 text-lg font-bold">
-          Choose difficulty for {difficultyModalStore.topicName}
+          Choose difficulty for {topicName}
         </h3>
         <section className="flex flex-col space-y-3">
           <button

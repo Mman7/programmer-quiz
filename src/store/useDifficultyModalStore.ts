@@ -7,7 +7,7 @@ interface SelectModalState {
   closeModal: () => void;
 }
 
-export const useDifficultyModalStore = create<SelectModalState>()((set) => {
+const useDifficultyModalStore = create<SelectModalState>()((set) => {
   return {
     modalOpenStatus: false,
     topicName: "",
@@ -19,3 +19,13 @@ export const useDifficultyModalStore = create<SelectModalState>()((set) => {
       })),
   };
 });
+
+export const useDifficultyModal = () => {
+  const state = useDifficultyModalStore((state) => state);
+  return {
+    modalOpenStatus: state.modalOpenStatus,
+    topicName: state.topicName,
+    openModal: state.openModal,
+    closeModal: state.closeModal,
+  };
+};

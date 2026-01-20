@@ -57,12 +57,13 @@ export default function Searchbar() {
           className="w-full"
         />
       </label>
-
-      <section className="absolute top-full left-0 z-10 flex w-full flex-col divide-y divide-sky-100 overflow-hidden rounded-lg bg-white/30 backdrop-blur-md">
-        {searchList.map((item: string, index: number) => (
-          <DifficultyOption key={item} item={item} />
-        ))}
-      </section>
+      {searchList.length !== 0 && (
+        <section className="absolute top-full left-0 z-10 flex w-full flex-col divide-y divide-sky-100 overflow-hidden rounded-lg bg-white/30 p-1 backdrop-blur-md">
+          {searchList.map((item: string, index: number) => (
+            <DifficultyOption key={item} item={item} />
+          ))}
+        </section>
+      )}
     </fieldset>
   );
 }

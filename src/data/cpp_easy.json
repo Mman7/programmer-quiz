@@ -1,7 +1,7 @@
 [
   {
-    "questionId": "q1",
-    "tag": "cpp",
+    "questionId": "cpp_e_1",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which symbol is used to end a statement in C++?",
     "options": [";", ":", ".", ","],
@@ -9,8 +9,8 @@
     "reason": "C++ statements end with a semicolon."
   },
   {
-    "questionId": "q2",
-    "tag": "cpp",
+    "questionId": "cpp_e_2",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which header is required for cout?",
     "options": ["<iostream>", "<string>", "<stdio.h>", "<iomanip>"],
@@ -18,8 +18,8 @@
     "reason": "cout is defined inside <iostream>."
   },
   {
-    "questionId": "q3",
-    "tag": "cpp",
+    "questionId": "cpp_e_3",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "How do you declare an integer variable?",
     "options": ["int x;", "integer x;", "var x;", "num x;"],
@@ -27,8 +27,8 @@
     "reason": "int is the correct keyword for integer variables."
   },
   {
-    "questionId": "q4",
-    "tag": "cpp",
+    "questionId": "cpp_e_4",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator is used for input in C++?",
     "options": ["<<", ">>", "::", "<>"],
@@ -36,8 +36,8 @@
     "reason": "cin uses the >> operator."
   },
   {
-    "questionId": "q5",
-    "tag": "cpp",
+    "questionId": "cpp_e_5",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword creates a constant?",
     "options": ["const", "static", "final", "constant"],
@@ -45,8 +45,8 @@
     "reason": "const is used to declare constant values."
   },
   {
-    "questionId": "q6",
-    "tag": "cpp",
+    "questionId": "cpp_e_6",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which characters start a single-line comment?",
     "options": ["//", "/*", "#", "--"],
@@ -54,8 +54,8 @@
     "reason": "// begins a single-line comment."
   },
   {
-    "questionId": "q7",
-    "tag": "cpp",
+    "questionId": "cpp_e_7",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "What is the entry point of a C++ program?",
     "options": ["main()", "start()", "init()", "run()"],
@@ -63,8 +63,8 @@
     "reason": "Program execution starts from main()."
   },
   {
-    "questionId": "q8",
-    "tag": "cpp",
+    "questionId": "cpp_e_8",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "What does cout do?",
     "options": ["Outputs text", "Reads text", "Sorts numbers", "Stores data"],
@@ -72,8 +72,8 @@
     "reason": "cout prints data to the console."
   },
   {
-    "questionId": "q9",
-    "tag": "cpp",
+    "questionId": "cpp_e_9",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "What is the typical file extension for C++ source files?",
     "options": [".cpp", ".c", ".cs", ".cp"],
@@ -81,18 +81,17 @@
     "reason": ".cpp is the common C++ extension."
   },
   {
-    "questionId": "q10",
-    "tag": "cpp",
+    "questionId": "cpp_e_10",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator assigns a value?",
     "options": ["=", "==", ":=", "<-"],
     "answer": "=",
     "reason": "The = operator assigns values."
   },
-
   {
-    "questionId": "q11",
-    "tag": "cpp",
+    "questionId": "cpp_e_11",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which library includes the string type?",
     "options": ["<string>", "<cstring>", "<iostream>", "<text>"],
@@ -100,8 +99,8 @@
     "reason": "std::string is defined in <string>."
   },
   {
-    "questionId": "q12",
-    "tag": "cpp",
+    "questionId": "cpp_e_12",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator increases a value by 1?",
     "options": ["++", "+=", "--", "add"],
@@ -109,8 +108,8 @@
     "reason": "++ increments a value by 1."
   },
   {
-    "questionId": "q13",
-    "tag": "cpp",
+    "questionId": "cpp_e_13",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "cin belongs to which namespace?",
     "options": ["std", "io", "global", "sys"],
@@ -118,8 +117,8 @@
     "reason": "cin is part of the std namespace."
   },
   {
-    "questionId": "q14",
-    "tag": "cpp",
+    "questionId": "cpp_e_14",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword declares a class?",
     "options": ["class", "struct", "object", "define"],
@@ -127,8 +126,8 @@
     "reason": "The class keyword declares a class."
   },
   {
-    "questionId": "q15",
-    "tag": "cpp",
+    "questionId": "cpp_e_15",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which loop is commonly used for a fixed number of iterations?",
     "options": ["for", "while", "do-while", "repeat"],
@@ -136,8 +135,8 @@
     "reason": "for loops are ideal for fixed iteration counts."
   },
   {
-    "questionId": "q16",
-    "tag": "cpp",
+    "questionId": "cpp_e_16",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator accesses object members?",
     "options": [".", "->", "::", ":"],
@@ -145,8 +144,8 @@
     "reason": "The dot operator accesses members of objects."
   },
   {
-    "questionId": "q17",
-    "tag": "cpp",
+    "questionId": "cpp_e_17",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "true and false represent which data type?",
     "options": ["bool", "int", "char", "double"],
@@ -154,8 +153,8 @@
     "reason": "true and false are boolean values."
   },
   {
-    "questionId": "q18",
-    "tag": "cpp",
+    "questionId": "cpp_e_18",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which directive includes external libraries?",
     "options": ["#include", "#using", "#define", "#import"],
@@ -163,8 +162,8 @@
     "reason": "#include inserts header files."
   },
   {
-    "questionId": "q19",
-    "tag": "cpp",
+    "questionId": "cpp_e_19",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword is used to return a value from a function?",
     "options": ["return", "end", "stop", "output"],
@@ -172,18 +171,17 @@
     "reason": "return sends a value back to the caller."
   },
   {
-    "questionId": "q20",
-    "tag": "cpp",
+    "questionId": "cpp_e_20",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which data type stores decimal numbers?",
     "options": ["double", "int", "char", "bool"],
     "answer": "double",
     "reason": "double stores floating-point values."
   },
-
   {
-    "questionId": "q21",
-    "tag": "cpp",
+    "questionId": "cpp_e_21",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator compares two values?",
     "options": ["==", "=", "+", "!="],
@@ -191,8 +189,8 @@
     "reason": "== is used for comparison."
   },
   {
-    "questionId": "q22",
-    "tag": "cpp",
+    "questionId": "cpp_e_22",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "What is the keyword to create an array?",
     "options": ["None", "array", "arr", "newarray"],
@@ -200,8 +198,8 @@
     "reason": "C++ arrays require no keyword, just type and size."
   },
   {
-    "questionId": "q23",
-    "tag": "cpp",
+    "questionId": "cpp_e_23",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which symbol represents logical AND?",
     "options": ["&&", "&", "AND", "++"],
@@ -209,8 +207,8 @@
     "reason": "&& performs logical AND."
   },
   {
-    "questionId": "q24",
-    "tag": "cpp",
+    "questionId": "cpp_e_24",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which symbol represents logical OR?",
     "options": ["||", "|", "OR", ":"],
@@ -218,8 +216,8 @@
     "reason": "|| performs logical OR."
   },
   {
-    "questionId": "q25",
-    "tag": "cpp",
+    "questionId": "cpp_e_25",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which type stores a single character?",
     "options": ["char", "string", "int", "byte"],
@@ -227,8 +225,8 @@
     "reason": "char stores one ASCII character."
   },
   {
-    "questionId": "q26",
-    "tag": "cpp",
+    "questionId": "cpp_e_26",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which data type is used for text?",
     "options": ["string", "char", "text", "str"],
@@ -236,8 +234,8 @@
     "reason": "std::string stores text."
   },
   {
-    "questionId": "q27",
-    "tag": "cpp",
+    "questionId": "cpp_e_27",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which function pauses the program?",
     "options": ["None by default", "pause()", "stop()", "halt()"],
@@ -245,8 +243,8 @@
     "reason": "C++ has no built-in pause function."
   },
   {
-    "questionId": "q28",
-    "tag": "cpp",
+    "questionId": "cpp_e_28",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which statement repeats a block while a condition is true?",
     "options": ["while", "for", "repeat", "loop"],
@@ -254,8 +252,8 @@
     "reason": "while continues as long as condition is true."
   },
   {
-    "questionId": "q29",
-    "tag": "cpp",
+    "questionId": "cpp_e_29",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword declares a variable?",
     "options": ["int", "var", "let", "declare"],
@@ -263,18 +261,17 @@
     "reason": "int is a valid declaration keyword."
   },
   {
-    "questionId": "q30",
-    "tag": "cpp",
+    "questionId": "cpp_e_30",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator gets the memory address of a variable?",
     "options": ["&", "*", "@", "%"],
     "answer": "&",
     "reason": "& gives the memory address."
   },
-
   {
-    "questionId": "q31",
-    "tag": "cpp",
+    "questionId": "cpp_e_31",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator dereferences a pointer?",
     "options": ["*", "&", "%", "!"],
@@ -282,8 +279,8 @@
     "reason": "* accesses the value stored at an address."
   },
   {
-    "questionId": "q32",
-    "tag": "cpp",
+    "questionId": "cpp_e_32",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "What is the size of a bool?",
     "options": ["1 byte", "2 bytes", "4 bytes", "8 bytes"],
@@ -291,8 +288,8 @@
     "reason": "bool typically occupies 1 byte."
   },
   {
-    "questionId": "q33",
-    "tag": "cpp",
+    "questionId": "cpp_e_33",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword allocates memory dynamically?",
     "options": ["new", "alloc", "malloc", "make"],
@@ -300,8 +297,8 @@
     "reason": "new allocates memory in C++."
   },
   {
-    "questionId": "q34",
-    "tag": "cpp",
+    "questionId": "cpp_e_34",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword frees memory allocated by new?",
     "options": ["delete", "free", "remove", "destroy"],
@@ -309,8 +306,8 @@
     "reason": "delete deallocates memory from new."
   },
   {
-    "questionId": "q35",
-    "tag": "cpp",
+    "questionId": "cpp_e_35",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which symbol separates namespace and function names?",
     "options": ["::", ".", "->", ":"],
@@ -318,8 +315,8 @@
     "reason": ":: is the scope resolution operator."
   },
   {
-    "questionId": "q36",
-    "tag": "cpp",
+    "questionId": "cpp_e_36",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "What is the default value of uninitialized variables?",
     "options": ["Undefined", "0", "false", "empty"],
@@ -327,8 +324,8 @@
     "reason": "Local variables contain garbage values."
   },
   {
-    "questionId": "q37",
-    "tag": "cpp",
+    "questionId": "cpp_e_37",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which type is used for true/false operations?",
     "options": ["bool", "char", "int", "flag"],
@@ -336,8 +333,8 @@
     "reason": "bool stores true or false."
   },
   {
-    "questionId": "q38",
-    "tag": "cpp",
+    "questionId": "cpp_e_38",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which function reads a line of text?",
     "options": ["getline()", "get()", "read()", "line()"],
@@ -345,8 +342,8 @@
     "reason": "getline() reads entire lines including spaces."
   },
   {
-    "questionId": "q39",
-    "tag": "cpp",
+    "questionId": "cpp_e_39",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator performs modulus?",
     "options": ["%", "/", "*", "//"],
@@ -354,18 +351,17 @@
     "reason": "% computes the remainder."
   },
   {
-    "questionId": "q40",
-    "tag": "cpp",
+    "questionId": "cpp_e_40",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which data type stores whole numbers?",
     "options": ["int", "float", "double", "char"],
     "answer": "int",
     "reason": "int is used for whole values."
   },
-
   {
-    "questionId": "q41",
-    "tag": "cpp",
+    "questionId": "cpp_e_41",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which statement stops a loop?",
     "options": ["break", "stop", "exit", "halt"],
@@ -373,8 +369,8 @@
     "reason": "break exits loops."
   },
   {
-    "questionId": "q42",
-    "tag": "cpp",
+    "questionId": "cpp_e_42",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which symbol starts a multi-line comment?",
     "options": ["/*", "//", "#", "--"],
@@ -382,8 +378,8 @@
     "reason": "/* begins multi-line comments."
   },
   {
-    "questionId": "q43",
-    "tag": "cpp",
+    "questionId": "cpp_e_43",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "What is the keyword to create a function without return?",
     "options": ["void", "null", "empty", "none"],
@@ -391,8 +387,8 @@
     "reason": "void means no return value."
   },
   {
-    "questionId": "q44",
-    "tag": "cpp",
+    "questionId": "cpp_e_44",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which character terminates a char literal?",
     "options": ["'", "\"", "`", ":"],
@@ -400,8 +396,8 @@
     "reason": "char values are wrapped in single quotes."
   },
   {
-    "questionId": "q45",
-    "tag": "cpp",
+    "questionId": "cpp_e_45",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which type can store 3.14?",
     "options": ["float", "int", "char", "bool"],
@@ -409,8 +405,8 @@
     "reason": "float stores floating-point values."
   },
   {
-    "questionId": "q46",
-    "tag": "cpp",
+    "questionId": "cpp_e_46",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator performs addition?",
     "options": ["+", "-", "*", "/"],
@@ -418,8 +414,8 @@
     "reason": "+ adds two values."
   },
   {
-    "questionId": "q47",
-    "tag": "cpp",
+    "questionId": "cpp_e_47",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which header defines pow()?",
     "options": ["<cmath>", "<math.h>", "<stdlib.h>", "<numbers>"],
@@ -427,8 +423,8 @@
     "reason": "pow() is inside <cmath>."
   },
   {
-    "questionId": "q48",
-    "tag": "cpp",
+    "questionId": "cpp_e_48",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which function converts string to int?",
     "options": ["stoi()", "to_int()", "convert()", "strint()"],
@@ -436,8 +432,8 @@
     "reason": "stoi converts string → integer."
   },
   {
-    "questionId": "q49",
-    "tag": "cpp",
+    "questionId": "cpp_e_49",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword creates a loop that runs at least once?",
     "options": ["do", "for", "while", "loop"],
@@ -445,18 +441,17 @@
     "reason": "do-while executes the block at least once."
   },
   {
-    "questionId": "q50",
-    "tag": "cpp",
+    "questionId": "cpp_e_50",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which header is required for vectors?",
     "options": ["<vector>", "<list>", "<array>", "<set>"],
     "answer": "<vector>",
     "reason": "std::vector is defined in <vector>."
   },
-
   {
-    "questionId": "q51",
-    "tag": "cpp",
+    "questionId": "cpp_e_51",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which symbol indexes an array?",
     "options": ["[]", "()", "{}", "<>"],
@@ -464,8 +459,8 @@
     "reason": "Arrays use bracket notation."
   },
   {
-    "questionId": "q52",
-    "tag": "cpp",
+    "questionId": "cpp_e_52",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword defines inheritance?",
     "options": [":", "->", "::", "extends"],
@@ -473,8 +468,8 @@
     "reason": "C++ uses : for inheritance syntax."
   },
   {
-    "questionId": "q53",
-    "tag": "cpp",
+    "questionId": "cpp_e_53",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which container stores unique values?",
     "options": ["set", "vector", "queue", "stack"],
@@ -482,8 +477,8 @@
     "reason": "std::set stores only unique items."
   },
   {
-    "questionId": "q54",
-    "tag": "cpp",
+    "questionId": "cpp_e_54",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which type is used to store long integers?",
     "options": ["long", "int", "short", "byte"],
@@ -491,8 +486,8 @@
     "reason": "long stores larger integer values."
   },
   {
-    "questionId": "q55",
-    "tag": "cpp",
+    "questionId": "cpp_e_55",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator performs subtraction?",
     "options": ["-", "+", "*", "/"],
@@ -500,8 +495,8 @@
     "reason": "- subtracts two numbers."
   },
   {
-    "questionId": "q56",
-    "tag": "cpp",
+    "questionId": "cpp_e_56",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which container provides FIFO ordering?",
     "options": ["queue", "stack", "vector", "list"],
@@ -509,8 +504,8 @@
     "reason": "queue follows FIFO."
   },
   {
-    "questionId": "q57",
-    "tag": "cpp",
+    "questionId": "cpp_e_57",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword creates an object from a class?",
     "options": ["No keyword", "object", "new", "make"],
@@ -518,8 +513,8 @@
     "reason": "Objects are created directly using class name."
   },
   {
-    "questionId": "q58",
-    "tag": "cpp",
+    "questionId": "cpp_e_58",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator multiplies two numbers?",
     "options": ["*", "/", "+", "%"],
@@ -527,8 +522,8 @@
     "reason": "* is the multiplication operator."
   },
   {
-    "questionId": "q59",
-    "tag": "cpp",
+    "questionId": "cpp_e_59",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator divides two numbers?",
     "options": ["/", "*", "+", "-"],
@@ -536,18 +531,17 @@
     "reason": "/ performs division."
   },
   {
-    "questionId": "q60",
-    "tag": "cpp",
+    "questionId": "cpp_e_60",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which loop executes based on a condition?",
     "options": ["while", "for", "repeat", "run"],
     "answer": "while",
     "reason": "while checks a condition each iteration."
   },
-
   {
-    "questionId": "q61",
-    "tag": "cpp",
+    "questionId": "cpp_e_61",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "What does sizeof return?",
     "options": ["Number of bytes", "Value size", "Data type", "Address"],
@@ -555,8 +549,8 @@
     "reason": "sizeof returns size in bytes."
   },
   {
-    "questionId": "q62",
-    "tag": "cpp",
+    "questionId": "cpp_e_62",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which feature allows same function name with different parameters?",
     "options": ["Overloading", "Inheritance", "Polymorphism", "Templates"],
@@ -564,8 +558,8 @@
     "reason": "Function overloading allows same name, different parameters."
   },
   {
-    "questionId": "q63",
-    "tag": "cpp",
+    "questionId": "cpp_e_63",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which container works like a LIFO structure?",
     "options": ["stack", "queue", "vector", "set"],
@@ -573,8 +567,8 @@
     "reason": "Stack follows LIFO ordering."
   },
   {
-    "questionId": "q64",
-    "tag": "cpp",
+    "questionId": "cpp_e_64",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which header is needed for stacks?",
     "options": ["<stack>", "<queue>", "<list>", "<vector>"],
@@ -582,8 +576,8 @@
     "reason": "std::stack lives in <stack>."
   },
   {
-    "questionId": "q65",
-    "tag": "cpp",
+    "questionId": "cpp_e_65",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which function prints formatted output?",
     "options": ["printf()", "cout()", "format()", "write()"],
@@ -591,8 +585,8 @@
     "reason": "printf belongs to the C standard library."
   },
   {
-    "questionId": "q66",
-    "tag": "cpp",
+    "questionId": "cpp_e_66",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which header is required for rand()?",
     "options": ["<cstdlib>", "<iostream>", "<random>", "<math.h>"],
@@ -600,8 +594,8 @@
     "reason": "rand() is defined inside <cstdlib>."
   },
   {
-    "questionId": "q67",
-    "tag": "cpp",
+    "questionId": "cpp_e_67",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which function terminates a program immediately?",
     "options": ["exit()", "stop()", "break()", "halt()"],
@@ -609,8 +603,8 @@
     "reason": "exit() stops the entire program."
   },
   {
-    "questionId": "q68",
-    "tag": "cpp",
+    "questionId": "cpp_e_68",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword prevents value modification?",
     "options": ["const", "lock", "freeze", "readonly"],
@@ -618,8 +612,8 @@
     "reason": "const makes values immutable."
   },
   {
-    "questionId": "q69",
-    "tag": "cpp",
+    "questionId": "cpp_e_69",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which symbol ends a line of code?",
     "options": [";", ":", ".", "#"],
@@ -627,18 +621,17 @@
     "reason": "Statements end with ;"
   },
   {
-    "questionId": "q70",
-    "tag": "cpp",
+    "questionId": "cpp_e_70",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which type stores large floating numbers?",
     "options": ["double", "float", "int", "long"],
     "answer": "double",
     "reason": "double stores large precision decimals."
   },
-
   {
-    "questionId": "q71",
-    "tag": "cpp",
+    "questionId": "cpp_e_71",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword creates a reference?",
     "options": ["&", "*", "@", "%"],
@@ -646,8 +639,8 @@
     "reason": "Type& is used for references."
   },
   {
-    "questionId": "q72",
-    "tag": "cpp",
+    "questionId": "cpp_e_72",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which variable type can store 0 or 1?",
     "options": ["bool", "char", "int", "bit"],
@@ -655,8 +648,8 @@
     "reason": "bool is designed to hold true/false (0/1)."
   },
   {
-    "questionId": "q73",
-    "tag": "cpp",
+    "questionId": "cpp_e_73",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator checks inequality?",
     "options": ["!=", "==", "=", "<>"],
@@ -664,8 +657,8 @@
     "reason": "!= tests if values differ."
   },
   {
-    "questionId": "q74",
-    "tag": "cpp",
+    "questionId": "cpp_e_74",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword defines a structure?",
     "options": ["struct", "class", "object", "define"],
@@ -673,8 +666,8 @@
     "reason": "struct declares a structure."
   },
   {
-    "questionId": "q75",
-    "tag": "cpp",
+    "questionId": "cpp_e_75",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which is the correct C++ array declaration?",
     "options": ["int a[5];", "array a(5);", "int[5] a;", "arr a = 5;"],
@@ -682,8 +675,8 @@
     "reason": "This is valid C++ array syntax."
   },
   {
-    "questionId": "q76",
-    "tag": "cpp",
+    "questionId": "cpp_e_76",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which container maintains sorted order?",
     "options": ["set", "vector", "stack", "queue"],
@@ -691,8 +684,8 @@
     "reason": "std::set keeps values sorted."
   },
   {
-    "questionId": "q77",
-    "tag": "cpp",
+    "questionId": "cpp_e_77",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which header is required for maps?",
     "options": ["<map>", "<unordered_map>", "<vector>", "<list>"],
@@ -700,8 +693,8 @@
     "reason": "std::map is inside <map>."
   },
   {
-    "questionId": "q78",
-    "tag": "cpp",
+    "questionId": "cpp_e_78",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "What does return 0 indicate in main()?",
     "options": ["Success", "Error", "Stop", "False"],
@@ -709,8 +702,8 @@
     "reason": "Returning 0 means program ended normally."
   },
   {
-    "questionId": "q79",
-    "tag": "cpp",
+    "questionId": "cpp_e_79",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator gives remainder?",
     "options": ["%", "/", "*", "-"],
@@ -718,18 +711,17 @@
     "reason": "% computes modulo."
   },
   {
-    "questionId": "q80",
-    "tag": "cpp",
+    "questionId": "cpp_e_80",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which function prints output?",
     "options": ["cout", "cin", "scanf", "read"],
     "answer": "cout",
     "reason": "cout prints data."
   },
-
   {
-    "questionId": "q81",
-    "tag": "cpp",
+    "questionId": "cpp_e_81",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator concatenates strings in C++?",
     "options": ["+", "*", "&", "%"],
@@ -737,8 +729,8 @@
     "reason": "+ concatenates std::string."
   },
   {
-    "questionId": "q82",
-    "tag": "cpp",
+    "questionId": "cpp_e_82",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which header is needed for string streams?",
     "options": ["<sstream>", "<string>", "<iostream>", "<fstream>"],
@@ -746,8 +738,8 @@
     "reason": "stringstream lives in <sstream>."
   },
   {
-    "questionId": "q83",
-    "tag": "cpp",
+    "questionId": "cpp_e_83",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which symbol starts a preprocessor line?",
     "options": ["#", "$", "!", "@"],
@@ -755,8 +747,8 @@
     "reason": "Macros and directives start with #."
   },
   {
-    "questionId": "q84",
-    "tag": "cpp",
+    "questionId": "cpp_e_84",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which header handles file I/O?",
     "options": ["<fstream>", "<iostream>", "<file>", "<fs>"],
@@ -764,8 +756,8 @@
     "reason": "fstream provides file streams."
   },
   {
-    "questionId": "q85",
-    "tag": "cpp",
+    "questionId": "cpp_e_85",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword creates an enumeration?",
     "options": ["enum", "list", "type", "define"],
@@ -773,8 +765,8 @@
     "reason": "enum declares enumeration types."
   },
   {
-    "questionId": "q86",
-    "tag": "cpp",
+    "questionId": "cpp_e_86",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which statement skips to the next loop iteration?",
     "options": ["continue", "break", "skip", "next"],
@@ -782,8 +774,8 @@
     "reason": "continue jumps to the next iteration."
   },
   {
-    "questionId": "q87",
-    "tag": "cpp",
+    "questionId": "cpp_e_87",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which function reads formatted input?",
     "options": ["scanf()", "gets()", "cin()", "read()"],
@@ -791,8 +783,8 @@
     "reason": "scanf reads formatted input in C style."
   },
   {
-    "questionId": "q88",
-    "tag": "cpp",
+    "questionId": "cpp_e_88",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword is used to define a constant pointer?",
     "options": ["const", "pointer", "define", "static"],
@@ -800,8 +792,8 @@
     "reason": "const makes pointer or pointee constant."
   },
   {
-    "questionId": "q89",
-    "tag": "cpp",
+    "questionId": "cpp_e_89",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator accesses members via pointer?",
     "options": ["->", ".", "::", ":"],
@@ -809,18 +801,17 @@
     "reason": "-> accesses members through pointers."
   },
   {
-    "questionId": "q90",
-    "tag": "cpp",
+    "questionId": "cpp_e_90",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which type stores the largest integer range?",
     "options": ["long long", "int", "short", "char"],
     "answer": "long long",
     "reason": "long long stores very large integers."
   },
-
   {
-    "questionId": "q91",
-    "tag": "cpp",
+    "questionId": "cpp_e_91",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which header is needed for time-related functions?",
     "options": ["<ctime>", "<time.h>", "<chrono>", "<date>"],
@@ -828,8 +819,8 @@
     "reason": "<ctime> defines time functions."
   },
   {
-    "questionId": "q92",
-    "tag": "cpp",
+    "questionId": "cpp_e_92",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which operator is used to access global variables?",
     "options": ["::", ".", "->", ":"],
@@ -837,8 +828,8 @@
     "reason": ":: resolves global scope."
   },
   {
-    "questionId": "q93",
-    "tag": "cpp",
+    "questionId": "cpp_e_93",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which container allows fast insertion at both ends?",
     "options": ["deque", "vector", "stack", "queue"],
@@ -846,8 +837,8 @@
     "reason": "deque supports fast push/pop from both ends."
   },
   {
-    "questionId": "q94",
-    "tag": "cpp",
+    "questionId": "cpp_e_94",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "What does nullptr represent?",
     "options": ["A null pointer", "Zero", "False", "Empty string"],
@@ -855,8 +846,8 @@
     "reason": "nullptr is the modern null pointer constant."
   },
   {
-    "questionId": "q95",
-    "tag": "cpp",
+    "questionId": "cpp_e_95",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which keyword creates a template?",
     "options": ["template", "generic", "class", "define"],
@@ -864,8 +855,8 @@
     "reason": "template declares generic types."
   },
   {
-    "questionId": "q96",
-    "tag": "cpp",
+    "questionId": "cpp_e_96",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which symbol separates multiple include guards?",
     "options": ["#", "@", "%", "None"],
@@ -873,8 +864,8 @@
     "reason": "Guards do not use separators."
   },
   {
-    "questionId": "q97",
-    "tag": "cpp",
+    "questionId": "cpp_e_97",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which standard library contains algorithms?",
     "options": ["<algorithm>", "<vector>", "<numeric>", "<list>"],
@@ -882,8 +873,8 @@
     "reason": "<algorithm> contains STL algorithms."
   },
   {
-    "questionId": "q98",
-    "tag": "cpp",
+    "questionId": "cpp_e_98",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which function opens a file?",
     "options": ["open()", "file()", "start()", "load()"],
@@ -891,8 +882,8 @@
     "reason": "fstream.open() opens a file."
   },
   {
-    "questionId": "q99",
-    "tag": "cpp",
+    "questionId": "cpp_e_99",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which container stores key-value pairs?",
     "options": ["map", "vector", "set", "queue"],
@@ -900,8 +891,8 @@
     "reason": "map stores key-value elements."
   },
   {
-    "questionId": "q100",
-    "tag": "cpp",
+    "questionId": "cpp_e_100",
+    "topic": "cpp",
     "difficulty": "easy",
     "questionText": "Which symbol indicates a pointer?",
     "options": ["*", "&", "%", "#"],

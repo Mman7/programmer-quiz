@@ -1,0 +1,1372 @@
+[
+  {
+    "questionId": "js_m_1",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What will the expression [] + {} evaluate to in JavaScript?",
+    "options": ["[object Object]", "undefined", "{}", "An empty array"],
+    "answer": "[object Object]",
+    "reason": "[] becomes an empty string, {} becomes [object Object], so result is '[object Object]'."
+  },
+  {
+    "questionId": "js_m_2",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which keyword creates a block-scoped variable?",
+    "options": ["var", "let", "const", "static"],
+    "answer": "let",
+    "reason": "let creates block-scoped variables and allows reassignment."
+  },
+  {
+    "questionId": "js_m_3",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What does the 'bind' method do in JavaScript?",
+    "options": [
+      "Calls a function immediately",
+      "Creates a new function with 'this' bound",
+      "Clones an object",
+      "Stops event propagation"
+    ],
+    "answer": "Creates a new function with 'this' bound",
+    "reason": "bind returns a new function with a preset 'this' context."
+  },
+  {
+    "questionId": "js_m_4",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method schedules a function to run after the current call stack clears?",
+    "options": [
+      "setTimeout(fn, 0)",
+      "setImmediate()",
+      "nextTick()",
+      "Promise.resolve().then()"
+    ],
+    "answer": "Promise.resolve().then()",
+    "reason": "Promise microtasks run before setTimeout and after call stack cleanup."
+  },
+  {
+    "questionId": "js_m_5",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which operator can be used to provide a default value only when a variable is null or undefined?",
+    "options": ["||", "&&", "??", "?:"],
+    "answer": "??",
+    "reason": "Nullish coalescing returns the right side only if the left side is null or undefined."
+  },
+  {
+    "questionId": "js_m_6",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement about arrow functions is true?",
+    "options": [
+      "They have their own 'this'",
+      "They cannot be used as constructors",
+      "They support 'arguments' keyword",
+      "They are slower than regular functions"
+    ],
+    "answer": "They cannot be used as constructors",
+    "reason": "Arrow functions do not have [[Construct]] and cannot be called with 'new'."
+  },
+  {
+    "questionId": "js_m_7",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What will typeof NaN return?",
+    "options": ["NaN", "number", "undefined", "object"],
+    "answer": "number",
+    "reason": "NaN is considered a numeric value in JavaScript."
+  },
+  {
+    "questionId": "js_m_8",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which array method does not mutate the original array?",
+    "options": ["push()", "pop()", "splice()", "slice()"],
+    "answer": "slice()",
+    "reason": "slice returns a new array without modifying the original."
+  },
+  {
+    "questionId": "js_m_9",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which object method converts an object into an array of key-value pairs?",
+    "options": [
+      "Object.map()",
+      "Object.toList()",
+      "Object.entries()",
+      "Object.values()"
+    ],
+    "answer": "Object.entries()",
+    "reason": "Object.entries() returns an array of [key, value] pairs."
+  },
+  {
+    "questionId": "js_m_10",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which of the following is NOT a JavaScript primitive type?",
+    "options": ["string", "boolean", "object", "bigint"],
+    "answer": "object",
+    "reason": "object is not a primitive; it's a complex data type."
+  },
+  {
+    "questionId": "js_m_11",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What will console.log(0.1 + 0.2 === 0.3) output?",
+    "options": ["true", "false", "undefined", "Throws error"],
+    "answer": "false",
+    "reason": "Floating point precision causes 0.1 + 0.2 to equal 0.30000000000000004."
+  },
+  {
+    "questionId": "js_m_12",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which keyword enables JavaScript strict mode?",
+    "options": ["use mode", "\"strict mode\"", "\"use strict\"", "strict()"],
+    "answer": "\"use strict\"",
+    "reason": "Placing \"use strict\" at the top of a file or function enables strict mode."
+  },
+  {
+    "questionId": "js_m_13",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement best explains closure?",
+    "options": [
+      "A function storing variables into local storage",
+      "A function remembering its outer scope",
+      "A function that auto-executes",
+      "A function that returns another function"
+    ],
+    "answer": "A function remembering its outer scope",
+    "reason": "Closures allow inner functions to access outer function variables even after returning."
+  },
+  {
+    "questionId": "js_m_14",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method can be used to flatten a nested array?",
+    "options": ["flat()", "flatten()", "collapse()", "reduceRight()"],
+    "answer": "flat()",
+    "reason": "Array.flat(depth) flattens nested arrays."
+  },
+  {
+    "questionId": "js_m_15",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which operator spreads elements of an array or object?",
+    "options": ["...", "=>", "::", "**"],
+    "answer": "...",
+    "reason": "The spread operator expands arrays or objects."
+  },
+  {
+    "questionId": "js_m_16",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What is the default value of 'this' inside a function in strict mode?",
+    "options": ["window", "globalThis", "undefined", "{}"],
+    "answer": "undefined",
+    "reason": "Strict mode sets 'this' to undefined for functions not called with a context."
+  },
+  {
+    "questionId": "js_m_17",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which of the following methods returns a promise?",
+    "options": [
+      "JSON.parse()",
+      "setTimeout()",
+      "fetch()",
+      "localStorage.getItem()"
+    ],
+    "answer": "fetch()",
+    "reason": "fetch always returns a promise for asynchronous HTTP requests."
+  },
+  {
+    "questionId": "js_m_18",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which data structure preserves insertion order?",
+    "options": ["Set", "Map", "Object", "WeakMap"],
+    "answer": "Map",
+    "reason": "Map preserves key insertion order and supports any key type."
+  },
+  {
+    "questionId": "js_m_19",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method is used to determine if an array includes a given value?",
+    "options": ["contains()", "includes()", "has()", "exists()"],
+    "answer": "includes()",
+    "reason": "Array.includes() checks whether a value exists in the array."
+  },
+  {
+    "questionId": "js_m_20",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What will happen if you call a function before it is declared using function declaration?",
+    "options": [
+      "Throws error",
+      "Function is undefined",
+      "It works because of hoisting",
+      "Only works in strict mode"
+    ],
+    "answer": "It works because of hoisting",
+    "reason": "Function declarations are hoisted fully, allowing usage before definition."
+  },
+  {
+    "questionId": "js_m_21",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What does Object.freeze() do to an object?",
+    "options": [
+      "Prevents adding new properties",
+      "Prevents modifying existing properties",
+      "Prevents deleting properties",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "reason": "Object.freeze fully locks the object: no add/remove/modify."
+  },
+  {
+    "questionId": "js_m_22",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement about promises is true?",
+    "options": [
+      "A promise can be resolved only once",
+      "A promise can resolve multiple times",
+      "Promises are synchronous",
+      "Promises block the main thread"
+    ],
+    "answer": "A promise can be resolved only once",
+    "reason": "Promises have a final settled state that cannot change afterwards."
+  },
+  {
+    "questionId": "js_m_23",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which function converts a string to an integer?",
+    "options": ["Number()", "parseInt()", "parseFloat()", "JSON.parse()"],
+    "answer": "parseInt()",
+    "reason": "parseInt parses a string and returns an integer."
+  },
+  {
+    "questionId": "js_m_24",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which operator returns the first truthy value?",
+    "options": ["??", "&&", "||", "?:"],
+    "answer": "||",
+    "reason": "The OR operator returns the first truthy operand."
+  },
+  {
+    "questionId": "js_m_25",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which array method executes a reducer function on each element?",
+    "options": ["map()", "reduce()", "filter()", "forEach()"],
+    "answer": "reduce()",
+    "reason": "reduce combines array elements into a single value."
+  },
+  {
+    "questionId": "js_m_26",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What is the output of typeof function(){}?",
+    "options": ["object", "function", "callable", "undefined"],
+    "answer": "function",
+    "reason": "Functions have their own typeof category: 'function'."
+  },
+  {
+    "questionId": "js_m_27",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method can be used to handle both resolved and rejected promises?",
+    "options": ["then()", "catch()", "finally()", "resolve()"],
+    "answer": "finally()",
+    "reason": "finally executes regardless of resolve or reject."
+  },
+  {
+    "questionId": "js_m_28",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement is true about var declarations?",
+    "options": [
+      "They are block-scoped",
+      "They are function-scoped",
+      "They cannot be hoisted",
+      "They cannot be reassigned"
+    ],
+    "answer": "They are function-scoped",
+    "reason": "var is functional scope, unlike let/const which are block-scoped."
+  },
+  {
+    "questionId": "js_m_29",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What will happen if you re-declare a variable using var?",
+    "options": [
+      "Throws error",
+      "Overwrites silently",
+      "Creates a new block scope",
+      "Converts it into const"
+    ],
+    "answer": "Overwrites silently",
+    "reason": "var allows re-declaration in the same scope."
+  },
+  {
+    "questionId": "js_m_30",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which object method creates a shallow copy of an object?",
+    "options": [
+      "Object.assign()",
+      "Object.clone()",
+      "Object.copy()",
+      "JSON.stringify()"
+    ],
+    "answer": "Object.assign()",
+    "reason": "Object.assign copies only the first level of keys."
+  },
+  {
+    "questionId": "js_m_31",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What does Array.isArray() return?",
+    "options": [
+      "true only for arrays",
+      "true for arrays and objects",
+      "true for array-like values",
+      "false for nested arrays"
+    ],
+    "answer": "true only for arrays",
+    "reason": "Array.isArray checks if value is a real array."
+  },
+  {
+    "questionId": "js_m_32",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method stops Promise chains on error?",
+    "options": ["catch()", "then()", "resolve()", "break()"],
+    "answer": "catch()",
+    "reason": "catch handles rejections and stops propagation unless it returns a value."
+  },
+  {
+    "questionId": "js_m_33",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What will be output: console.log([1, 2] == '1,2')?",
+    "options": ["true", "false", "undefined", "Throws error"],
+    "answer": "true",
+    "reason": "Arrays convert to string '1,2' when compared with string."
+  },
+  {
+    "questionId": "js_m_34",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method converts JSON string into an object?",
+    "options": [
+      "JSON.parse()",
+      "JSON.decode()",
+      "JSON.toObject()",
+      "Object.convert()"
+    ],
+    "answer": "JSON.parse()",
+    "reason": "JSON.parse converts a valid JSON string to object."
+  },
+  {
+    "questionId": "js_m_35",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which operation will NOT mutate the original array?",
+    "options": ["splice()", "sort()", "reverse()", "map()"],
+    "answer": "map()",
+    "reason": "map returns a new array and does not modify original."
+  },
+  {
+    "questionId": "js_m_36",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method returns an iterator for array values?",
+    "options": ["entries()", "values()", "keys()", "iterator()"],
+    "answer": "values()",
+    "reason": "values() returns an iterator of array values."
+  },
+  {
+    "questionId": "js_m_37",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which operation can help prevent callback hell?",
+    "options": ["More callbacks", "Synchronous functions", "Promises", "Loops"],
+    "answer": "Promises",
+    "reason": "Promises flatten nested callbacks into chains."
+  },
+  {
+    "questionId": "js_m_38",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which function delays execution without blocking the main thread?",
+    "options": ["sleep()", "pause()", "setTimeout()", "wait()"],
+    "answer": "setTimeout()",
+    "reason": "JavaScript has no built-in sleep; setTimeout schedules async tasks."
+  },
+  {
+    "questionId": "js_m_39",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What will be the result of typeof []?",
+    "options": ["array", "object", "list", "undefined"],
+    "answer": "object",
+    "reason": "Arrays are objects, typeof cannot distinguish them."
+  },
+  {
+    "questionId": "js_m_40",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which built-in method returns an array of an object's own property names?",
+    "options": [
+      "Object.keys()",
+      "Object.names()",
+      "Object.fields()",
+      "Object.list()"
+    ],
+    "answer": "Object.keys()",
+    "reason": "Object.keys retrieves enumerable property names."
+  },
+  {
+    "questionId": "js_m_21",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What is the difference between shallow copy and deep copy in JavaScript?",
+    "options": [
+      "Shallow copy duplicates all nested objects",
+      "Deep copy copies only references",
+      "Shallow copy copies references of nested objects, deep copy copies full object structures",
+      "They are exactly the same"
+    ],
+    "answer": "Shallow copy copies references of nested objects, deep copy copies full object structures",
+    "reason": "Shallow copies only duplicate top-level properties; nested objects still reference the same memory."
+  },
+  {
+    "questionId": "js_m_22",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method is best for removing duplicates from an array?",
+    "options": [
+      "Using a for-loop",
+      "Using JSON.stringify",
+      "Using new Set()",
+      "Using Array.pop()"
+    ],
+    "answer": "Using new Set()",
+    "reason": "Set automatically enforces unique values, making it ideal for deduplication."
+  },
+  {
+    "questionId": "js_m_23",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What does the 'this' keyword refer to inside a regular function (non-arrow) by default?",
+    "options": [
+      "The function itself",
+      "The global object (or undefined in strict mode)",
+      "The parent object",
+      "The module"
+    ],
+    "answer": "The global object (or undefined in strict mode)",
+    "reason": "In regular functions, 'this' refers to the global object unless strict mode is enabled."
+  },
+  {
+    "questionId": "js_m_24",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement about closures is correct?",
+    "options": [
+      "Closures cannot access outer variables",
+      "Closures only work with arrow functions",
+      "Closures allow a function to remember variables from its parent scope",
+      "Closures are removed after the function returns"
+    ],
+    "answer": "Closures allow a function to remember variables from its parent scope",
+    "reason": "A closure captures variables from its lexical environment even after the parent function returns."
+  },
+  {
+    "questionId": "js_m_25",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method is used to convert a string to a number safely?",
+    "options": ["parseInt()", "parseFloat()", "Number()", "All of the above"],
+    "answer": "All of the above",
+    "reason": "All listed methods can convert strings to numbers but behave differently."
+  },
+  {
+    "questionId": "js_m_26",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What will Array.from('12345') produce?",
+    "options": [
+      "['12345']",
+      "[1,2,3,4,5]",
+      "['1','2','3','4','5']",
+      "An error"
+    ],
+    "answer": "['1','2','3','4','5']",
+    "reason": "Array.from() turns an iterable (string) into an array of characters."
+  },
+  {
+    "questionId": "js_m_27",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which array method does NOT mutate the original array?",
+    "options": ["splice", "sort", "reverse", "slice"],
+    "answer": "slice",
+    "reason": "slice returns a new array while the others modify the original."
+  },
+  {
+    "questionId": "js_m_28",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What is the output of typeof NaN?",
+    "options": ["'number'", "'NaN'", "'undefined'", "'object'"],
+    "answer": "'number'",
+    "reason": "NaN is defined as a special numeric value."
+  },
+  {
+    "questionId": "js_m_29",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method is used to merge two arrays?",
+    "options": ["Array.merge()", "concat()", "append()", "mix()"],
+    "answer": "concat()",
+    "reason": "concat() merges arrays into a new array."
+  },
+  {
+    "questionId": "js_m_30",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "How do you stop event bubbling?",
+    "options": [
+      "event.stop()",
+      "event.stopBubbling()",
+      "event.stopPropagation()",
+      "event.kill()"
+    ],
+    "answer": "event.stopPropagation()",
+    "reason": "stopPropagation prevents the event from bubbling to parent elements."
+  },
+  {
+    "questionId": "js_m_31",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What does Array.reduce() return?",
+    "options": [
+      "A modified version of the original array",
+      "A single accumulated value",
+      "A filtered array",
+      "An array of the same length"
+    ],
+    "answer": "A single accumulated value",
+    "reason": "reduce iterates and accumulates values into one final result."
+  },
+  {
+    "questionId": "js_m_32",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What is the default value of 'this' inside a class method?",
+    "options": [
+      "undefined",
+      "globalThis",
+      "The instance of the class",
+      "window"
+    ],
+    "answer": "The instance of the class",
+    "reason": "Class methods automatically bind this to the instance."
+  },
+  {
+    "questionId": "js_m_33",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement about async/await is true?",
+    "options": [
+      "await blocks the entire program",
+      "await pauses only the current async function",
+      "await is the same as setTimeout",
+      "await works in any function"
+    ],
+    "answer": "await pauses only the current async function",
+    "reason": "await suspends execution only inside its own async context."
+  },
+  {
+    "questionId": "js_m_34",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which operator checks value AND type equality?",
+    "options": ["==", "===", "!=", "="],
+    "answer": "===",
+    "reason": "=== compares both type and value without coercion."
+  },
+  {
+    "questionId": "js_m_35",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What does Object.freeze() do?",
+    "options": [
+      "Prevents new properties from being added",
+      "Prevents properties from being modified",
+      "Prevents properties from being deleted",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "reason": "freeze makes the object fully immutable."
+  },
+  {
+    "questionId": "js_m_36",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which array method returns the first element that matches a condition?",
+    "options": ["filter", "find", "map", "forEach"],
+    "answer": "find",
+    "reason": "find returns the first matching element, unlike filter which returns all matches."
+  },
+  {
+    "questionId": "js_m_37",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What is event capturing?",
+    "options": [
+      "Events move from parent to child",
+      "Events move from child to parent",
+      "Events fire randomly",
+      "Events only fire once"
+    ],
+    "answer": "Events move from parent to child",
+    "reason": "Capturing happens from outer elements inward before bubbling occurs."
+  },
+  {
+    "questionId": "js_m_38",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which of these is a falsy value in JavaScript?",
+    "options": ["true", "'false'", "0", "'0'"],
+    "answer": "0",
+    "reason": "0, '', false, null, undefined, NaN are falsy."
+  },
+  {
+    "questionId": "js_m_39",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "How do you convert an array like [1,2,3] into '1-2-3'?",
+    "options": [
+      "array.toString('-')",
+      "array.join('-')",
+      "array.concat('-')",
+      "array.reduce()"
+    ],
+    "answer": "array.join('-')",
+    "reason": "join concatenates array items using the provided separator."
+  },
+  {
+    "questionId": "js_m_40",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What does Promise.all() do?",
+    "options": [
+      "Runs promises sequentially",
+      "Returns the first resolved promise",
+      "Waits for all promises to resolve or any to reject",
+      "Runs only the fastest promise"
+    ],
+    "answer": "Waits for all promises to resolve or any to reject",
+    "reason": "Promise.all resolves only if all succeed, but rejects immediately on the first failure."
+  },
+  {
+    "questionId": "js_m_41",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which built-in method converts an object into an array of key-value pairs?",
+    "options": [
+      "Object.list()",
+      "Object.entries()",
+      "Object.pairs()",
+      "Object.map()"
+    ],
+    "answer": "Object.entries()",
+    "reason": "Object.entries() returns an array of [key, value] pairs from an object."
+  },
+  {
+    "questionId": "js_m_42",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of the 'finally' block in a try/catch?",
+    "options": [
+      "Executes only when an error occurs",
+      "Executes only when no error occurs",
+      "Always executes regardless of success or failure",
+      "Prevents the code from throwing errors"
+    ],
+    "answer": "Always executes regardless of success or failure",
+    "reason": "finally runs after try/catch whether an error happens or not."
+  },
+  {
+    "questionId": "js_m_43",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method creates a new array without modifying the original?",
+    "options": ["splice()", "push()", "slice()", "sort()"],
+    "answer": "slice()",
+    "reason": "slice returns a new array while splice, push, and sort mutate the original."
+  },
+  {
+    "questionId": "js_m_44",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which operator spreads the elements of an array?",
+    "options": ["??", "...", "=>", "::"],
+    "answer": "...",
+    "reason": "The spread operator (...) expands array items or object properties."
+  },
+  {
+    "questionId": "js_m_45",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What will `[1, 2] == '1,2'` return?",
+    "options": ["true", "false", "TypeError", "undefined"],
+    "answer": "true",
+    "reason": "Arrays are converted to strings for comparison: '1,2' == '1,2'."
+  },
+  {
+    "questionId": "js_m_46",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What does the 'map()' function return?",
+    "options": [
+      "A new array with transformed elements",
+      "A single accumulated result",
+      "A boolean value",
+      "The original array"
+    ],
+    "answer": "A new array with transformed elements",
+    "reason": "map applies a callback and returns a new array."
+  },
+  {
+    "questionId": "js_m_47",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of the 'bind()' method?",
+    "options": [
+      "To clone an object",
+      "To permanently bind 'this' to a function",
+      "To create a promise",
+      "To prevent a function from executing"
+    ],
+    "answer": "To permanently bind 'this' to a function",
+    "reason": "bind returns a new function with fixed 'this'."
+  },
+  {
+    "questionId": "js_m_48",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement is true about arrow functions?",
+    "options": [
+      "Arrow functions have their own 'this'",
+      "Arrow functions inherit 'this' from the surrounding scope",
+      "Arrow functions cannot return values",
+      "Arrow functions must always use curly braces"
+    ],
+    "answer": "Arrow functions inherit 'this' from the surrounding scope",
+    "reason": "Arrow functions do not create their own 'this'."
+  },
+  {
+    "questionId": "js_m_49",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which built-in method converts an array of key-value pairs into an object?",
+    "options": [
+      "Object.fromEntries()",
+      "Object.toObject()",
+      "Object.create()",
+      "Object.merge()"
+    ],
+    "answer": "Object.fromEntries()",
+    "reason": "It reverses Object.entries(), building an object from key-value pairs."
+  },
+  {
+    "questionId": "js_m_50",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement about promises is correct?",
+    "options": [
+      "A promise can only resolve once",
+      "A promise can resolve multiple times",
+      "A promise executes only when awaited",
+      "A promise must be manually started"
+    ],
+    "answer": "A promise can only resolve once",
+    "reason": "Promises are immutable after being resolved or rejected."
+  },
+  {
+    "questionId": "js_m_51",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What does 'typeof null' return?",
+    "options": ["'null'", "'object'", "'undefined'", "'nil'"],
+    "answer": "'object'",
+    "reason": "This is a long-standing JavaScript bug but maintained for compatibility."
+  },
+  {
+    "questionId": "js_m_52",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method checks if *every* element passes a condition?",
+    "options": ["some()", "every()", "find()", "filter()"],
+    "answer": "every()",
+    "reason": "every returns true only if all elements satisfy the condition."
+  },
+  {
+    "questionId": "js_m_53",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which object method prevents extensions to an object?",
+    "options": [
+      "Object.freeze()",
+      "Object.protect()",
+      "Object.seal()",
+      "Object.preventExtensions()"
+    ],
+    "answer": "Object.preventExtensions()",
+    "reason": "It blocks adding new properties to an object."
+  },
+  {
+    "questionId": "js_m_54",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What is the output of `[...new Set([1,1,2,3])]`?",
+    "options": ["[1,1,2,3]", "[1,2,3]", "[2,3]", "[1,3]"],
+    "answer": "[1,2,3]",
+    "reason": "Set removes duplicates, and spread converts it back to an array."
+  },
+  {
+    "questionId": "js_m_55",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method schedules a function after the current call stack clears?",
+    "options": [
+      "setTimeout(fn, 0)",
+      "setInterval(fn)",
+      "queueMicrotask(fn)",
+      "Promise.reject()"
+    ],
+    "answer": "setTimeout(fn, 0)",
+    "reason": "setTimeout with 0ms runs after the current stack, in macrotask queue."
+  },
+  {
+    "questionId": "js_m_56",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What is the order of execution for JavaScript event loop tasks?",
+    "options": [
+      "Macrotasks before Microtasks",
+      "Microtasks before Macrotasks",
+      "Random order",
+      "Alphabetical by function name"
+    ],
+    "answer": "Microtasks before Macrotasks",
+    "reason": "Microtasks (Promise jobs) always run before macrotasks."
+  },
+  {
+    "questionId": "js_m_57",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What does the spread operator do when applied to an object?",
+    "options": [
+      "Clones the object shallowly",
+      "Creates a deep copy",
+      "Deletes keys",
+      "Locks the object"
+    ],
+    "answer": "Clones the object shallowly",
+    "reason": "Spread on objects performs a shallow copy of its properties."
+  },
+  {
+    "questionId": "js_m_58",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method allows transforming both keys and values of an object?",
+    "options": [
+      "Object.transform()",
+      "Object.entries() + Array.map() + Object.fromEntries()",
+      "Object.map()",
+      "Object.clone()"
+    ],
+    "answer": "Object.entries() + Array.map() + Object.fromEntries()",
+    "reason": "JavaScript has no native Object.map; this pattern is used instead."
+  },
+  {
+    "questionId": "js_m_59",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which keyword declares a block-scoped variable?",
+    "options": ["var", "let", "static", "define"],
+    "answer": "let",
+    "reason": "var is function-scoped, let is block-scoped."
+  },
+  {
+    "questionId": "js_m_60",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which array function can flatten nested arrays?",
+    "options": ["flat()", "flatten()", "reduce()", "clean()"],
+    "answer": "flat()",
+    "reason": "flat() reduces nested array depth into a single array."
+  },
+  {
+    "questionId": "js_m_61",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement about closures is true?",
+    "options": [
+      "Closures store only global variables",
+      "Closures allow functions to access outer scope variables",
+      "Closures can access variables after the outer function is destroyed",
+      "Closures prevent garbage collection entirely"
+    ],
+    "answer": "Closures allow functions to access outer scope variables",
+    "reason": "Closures keep references to variables in the lexical environment."
+  },
+  {
+    "questionId": "js_m_62",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which keyword stops further event propagation?",
+    "options": [
+      "event.stopPropagation()",
+      "event.preventDefault()",
+      "event.pause()",
+      "event.abort()"
+    ],
+    "answer": "event.stopPropagation()",
+    "reason": "stopPropagation stops bubbling or capturing further."
+  },
+  {
+    "questionId": "js_m_63",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement about async/await is correct?",
+    "options": [
+      "await only works inside async functions",
+      "await works in any function",
+      "await blocks the JavaScript thread",
+      "async functions cannot return values"
+    ],
+    "answer": "await only works inside async functions",
+    "reason": "await must be used within an async function."
+  },
+  {
+    "questionId": "js_m_64",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What does 'debounce' do?",
+    "options": [
+      "Executes a function multiple times in quick succession",
+      "Ensures a function runs only after waiting without new calls",
+      "Executes a function at fixed intervals",
+      "Stops a function from ever running"
+    ],
+    "answer": "Ensures a function runs only after waiting without new calls",
+    "reason": "Debouncing waits for user inactivity before firing."
+  },
+  {
+    "questionId": "js_m_65",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which DOM method selects the first matching element?",
+    "options": [
+      "querySelector()",
+      "querySelectorAll()",
+      "getElementsByClassName()",
+      "getElementById()"
+    ],
+    "answer": "querySelector()",
+    "reason": "querySelector returns the first element matching the selector."
+  },
+  {
+    "questionId": "js_m_66",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which of these is NOT a primitive type in JavaScript?",
+    "options": ["symbol", "boolean", "object", "bigint"],
+    "answer": "object",
+    "reason": "Objects are non-primitive; primitives include number, string, boolean, etc."
+  },
+  {
+    "questionId": "js_m_67",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method merges two or more arrays?",
+    "options": ["concat()", "merge()", "pushAll()", "extend()"],
+    "answer": "concat()",
+    "reason": "concat merges arrays without mutating them."
+  },
+  {
+    "questionId": "js_m_68",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which value is returned when accessing a missing object property?",
+    "options": ["null", "undefined", "false", "0"],
+    "answer": "undefined",
+    "reason": "Missing properties return undefined."
+  },
+  {
+    "questionId": "js_m_69",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method finds the first array element that matches a condition?",
+    "options": ["filter()", "find()", "map()", "indexOf()"],
+    "answer": "find()",
+    "reason": "find returns the first matching element."
+  },
+  {
+    "questionId": "js_m_70",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which operator checks both value and type?",
+    "options": ["==", "===", "=", "!="],
+    "answer": "===",
+    "reason": "=== compares both type and value."
+  },
+  {
+    "questionId": "js_m_71",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which built-in method returns an iterator for object keys?",
+    "options": [
+      "Object.keysIterator()",
+      "Object.keys().iterator()",
+      "Object.keys()",
+      "Object.iterateKeys()"
+    ],
+    "answer": "Object.keys()",
+    "reason": "JavaScript does not have keysIterator; keys() returns an array."
+  },
+  {
+    "questionId": "js_m_72",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which Array method removes the last element?",
+    "options": ["shift()", "pop()", "unshift()", "removeLast()"],
+    "answer": "pop()",
+    "reason": "pop removes and returns the last element."
+  },
+  {
+    "questionId": "js_m_73",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What will be the output of: Boolean('false')?",
+    "options": ["false", "true", "undefined", "Throws error"],
+    "answer": "true",
+    "reason": "'false' is a non-empty string, so it's truthy."
+  },
+  {
+    "questionId": "js_m_74",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which built-in function parses a floating-point number?",
+    "options": ["parseFloat()", "parseInt()", "float()", "toFloat()"],
+    "answer": "parseFloat()",
+    "reason": "parseFloat converts a string to a floating-point number."
+  },
+  {
+    "questionId": "js_m_75",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of event.preventDefault()?",
+    "options": [
+      "Stops event bubbling",
+      "Stops default browser behavior",
+      "Deletes the event",
+      "Cancels JavaScript execution"
+    ],
+    "answer": "Stops default browser behavior",
+    "reason": "preventDefault prevents default actions like form submit navigation."
+  },
+  {
+    "questionId": "js_m_76",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement is true about 'this' in JavaScript?",
+    "options": [
+      "It always refers to the global object",
+      "Its value depends on how the function is called",
+      "It always refers to the current function",
+      "It cannot be changed"
+    ],
+    "answer": "Its value depends on how the function is called",
+    "reason": "this changes based on call site (bind, call, method, etc.)."
+  },
+  {
+    "questionId": "js_m_77",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method checks if at least one array element matches a condition?",
+    "options": ["every()", "some()", "filter()", "map()"],
+    "answer": "some()",
+    "reason": "some returns true if any element passes the condition."
+  },
+  {
+    "questionId": "js_m_78",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which array method changes the original array?",
+    "options": ["slice()", "map()", "filter()", "splice()"],
+    "answer": "splice()",
+    "reason": "splice modifies the array directly."
+  },
+  {
+    "questionId": "js_m_79",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What does the optional chaining operator (?.) do?",
+    "options": [
+      "Throws an error when property is missing",
+      "Safely accesses properties without throwing errors",
+      "Declares optional variables",
+      "Converts undefined to null"
+    ],
+    "answer": "Safely accesses properties without throwing errors",
+    "reason": "?. prevents accessing undefined properties from throwing errors."
+  },
+  {
+    "questionId": "js_m_80",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method returns the index of the first matched element?",
+    "options": ["find()", "filter()", "findIndex()", "index()"],
+    "answer": "findIndex()",
+    "reason": "findIndex returns the index instead of the value."
+  },
+  {
+    "questionId": "js_m_81",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript feature allows functions to be treated as variables?",
+    "options": [
+      "First-class functions",
+      "Async functions",
+      "Global functions",
+      "Native functions"
+    ],
+    "answer": "First-class functions",
+    "reason": "JavaScript treats functions as values, allowing them to be passed and stored."
+  },
+  {
+    "questionId": "js_m_82",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement about the 'reduce()' method is true?",
+    "options": [
+      "It returns only boolean values",
+      "It processes array elements to produce a single output",
+      "It always returns an array",
+      "It mutates the original array"
+    ],
+    "answer": "It processes array elements to produce a single output",
+    "reason": "reduce accumulates values into a single result."
+  },
+  {
+    "questionId": "js_m_83",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which keyword is used to create a class in JavaScript?",
+    "options": ["struct", "object", "class", "type"],
+    "answer": "class",
+    "reason": "JavaScript uses the 'class' keyword for class syntax."
+  },
+  {
+    "questionId": "js_m_84",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement best describes hoisting?",
+    "options": [
+      "Variables are executed before they are declared",
+      "Declarations are moved to the top of their scope",
+      "JavaScript reorders all lines of code",
+      "Functions cannot be used before being declared"
+    ],
+    "answer": "Declarations are moved to the top of their scope",
+    "reason": "Hoisting moves declarations, not initializations, to the top."
+  },
+  {
+    "questionId": "js_m_85",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which collection type stores unique values only?",
+    "options": ["Array", "Set", "Map", "Object"],
+    "answer": "Set",
+    "reason": "A Set only stores unique values."
+  },
+  {
+    "questionId": "js_m_86",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method adds an element to the beginning of an array?",
+    "options": ["push()", "prepend()", "unshift()", "addStart()"],
+    "answer": "unshift()",
+    "reason": "unshift inserts elements at the beginning."
+  },
+  {
+    "questionId": "js_m_87",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement describes a pure function?",
+    "options": [
+      "It depends on external state",
+      "It has no return value",
+      "It always returns the same output for the same input",
+      "It changes external variables"
+    ],
+    "answer": "It always returns the same output for the same input",
+    "reason": "Pure functions are deterministic and side-effect free."
+  },
+  {
+    "questionId": "js_m_88",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What is the output of `[1, 2].map(parseInt)`?",
+    "options": ["[1, 2]", "[1, NaN]", "[NaN, NaN]", "[1, 1]"],
+    "answer": "[1, NaN]",
+    "reason": "parseInt receives (value, index); parseInt(2,1) → NaN."
+  },
+  {
+    "questionId": "js_m_89",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of JSON.stringify()?",
+    "options": [
+      "Convert JSON to object",
+      "Convert object to JSON string",
+      "Format JSON output",
+      "Encrypt JSON data"
+    ],
+    "answer": "Convert object to JSON string",
+    "reason": "JSON.stringify converts JS objects into JSON strings."
+  },
+  {
+    "questionId": "js_m_90",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which value is considered falsy?",
+    "options": ["[]", "{}", "0", "'0'"],
+    "answer": "0",
+    "reason": "Falsy values include 0, '', null, undefined, NaN, false."
+  },
+  {
+    "questionId": "js_m_91",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method converts a string into an array?",
+    "options": ["split()", "break()", "slice()", "divide()"],
+    "answer": "split()",
+    "reason": "split divides a string into an array."
+  },
+  {
+    "questionId": "js_m_92",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which operator provides a default value when the left side is null or undefined?",
+    "options": ["||", "??", "&&", "::"],
+    "answer": "??",
+    "reason": "Nullish coalescing operator checks for null or undefined only."
+  },
+  {
+    "questionId": "js_m_93",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which method removes the first element from an array?",
+    "options": ["shift()", "pop()", "removeStart()", "delete()"],
+    "answer": "shift()",
+    "reason": "shift removes and returns the first element."
+  },
+  {
+    "questionId": "js_m_94",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which built-in method delays execution until the next microtask?",
+    "options": [
+      "setTimeout()",
+      "Promise.resolve().then()",
+      "setInterval()",
+      "queueTask()"
+    ],
+    "answer": "Promise.resolve().then()",
+    "reason": "Promise callbacks run in the microtask queue."
+  },
+  {
+    "questionId": "js_m_95",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "In JavaScript, functions without return statements return:",
+    "options": ["null", "undefined", "0", "false"],
+    "answer": "undefined",
+    "reason": "All functions return undefined by default if no return is specified."
+  },
+  {
+    "questionId": "js_m_96",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement best describes shallow comparison?",
+    "options": [
+      "It compares nested objects deeply",
+      "It compares only top-level properties",
+      "It checks memory addresses",
+      "It only compares arrays"
+    ],
+    "answer": "It compares only top-level properties",
+    "reason": "Shallow compare does not inspect nested structures."
+  },
+  {
+    "questionId": "js_m_97",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which object method freezes an object completely?",
+    "options": [
+      "Object.lock()",
+      "Object.freeze()",
+      "Object.preventExtensions()",
+      "Object.protect()"
+    ],
+    "answer": "Object.freeze()",
+    "reason": "freeze prevents adding, removing, or modifying properties."
+  },
+  {
+    "questionId": "js_m_98",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which built-in method checks if a value is NaN?",
+    "options": ["Number.isNaN()", "isNull()", "Number.check()", "Math.isnan()"],
+    "answer": "Number.isNaN()",
+    "reason": "Number.isNaN is the recommended and accurate method."
+  },
+  {
+    "questionId": "js_m_99",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which statement about promises is true?",
+    "options": [
+      "Promise.then always returns a new promise",
+      "Promises can be reused infinite times",
+      "Promises block JavaScript execution",
+      "Promises must be manually destroyed"
+    ],
+    "answer": "Promise.then always returns a new promise",
+    "reason": "then() always returns a new promise, enabling chaining."
+  },
+  {
+    "questionId": "js_m_100",
+    "tag": "javascript",
+    "difficulty": "medium",
+    "questionText": "Which feature is used to group related code into reusable units?",
+    "options": ["Closures", "Modules", "Promise chains", "Scopes"],
+    "answer": "Modules",
+    "reason": "Modules allow splitting code into reusable files and components."
+  }
+]

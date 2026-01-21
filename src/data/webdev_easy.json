@@ -1,7 +1,7 @@
 [
   {
     "questionId": "web1",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which language is used to create the structure of a web page?",
     "options": ["HTML", "CSS", "JavaScript", "Python"],
@@ -10,7 +10,7 @@
   },
   {
     "questionId": "web2",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which language is used to style web pages?",
     "options": ["HTML", "CSS", "JavaScript", "Python"],
@@ -19,7 +19,7 @@
   },
   {
     "questionId": "web3",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which language is used to make web pages interactive?",
     "options": ["HTML", "CSS", "JavaScript", "SQL"],
@@ -28,25 +28,25 @@
   },
   {
     "questionId": "web4",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag is used to insert an image?",
+    "questionText": "Which HTML topic is used to insert an image?",
     "options": ["<img>", "<image>", "<picture>", "<src>"],
     "answer": "<img>",
-    "reason": "The <img> tag embeds images in an HTML document."
+    "reason": "The <img> topic embeds images in an HTML document."
   },
   {
     "questionId": "web5",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag creates a hyperlink?",
+    "questionText": "Which HTML topic creates a hyperlink?",
     "options": ["<a>", "<link>", "<href>", "<url>"],
     "answer": "<a>",
-    "reason": "The <a> tag is used to create hyperlinks."
+    "reason": "The <a> topic is used to create hyperlinks."
   },
   {
     "questionId": "web6",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which attribute specifies the URL of a hyperlink?",
     "options": ["href", "src", "link", "url"],
@@ -55,43 +55,43 @@
   },
   {
     "questionId": "web7",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which tag is used to create an unordered list?",
+    "questionText": "Which topic is used to create an unordered list?",
     "options": ["<ul>", "<ol>", "<li>", "<list>"],
     "answer": "<ul>",
     "reason": "<ul> defines an unordered list."
   },
   {
     "questionId": "web8",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which tag is used to create an ordered list?",
+    "questionText": "Which topic is used to create an ordered list?",
     "options": ["<ul>", "<ol>", "<li>", "<list>"],
     "answer": "<ol>",
     "reason": "<ol> defines an ordered list."
   },
   {
     "questionId": "web9",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which tag defines a table row?",
+    "questionText": "Which topic defines a table row?",
     "options": ["<tr>", "<td>", "<th>", "<row>"],
     "answer": "<tr>",
     "reason": "<tr> defines a row in a table."
   },
   {
     "questionId": "web10",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which tag defines a table header cell?",
+    "questionText": "Which topic defines a table header cell?",
     "options": ["<th>", "<td>", "<tr>", "<thead>"],
     "answer": "<th>",
     "reason": "<th> is used for table header cells."
   },
   {
     "questionId": "web11",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property changes the text color?",
     "options": ["color", "text-color", "font-color", "foreground-color"],
@@ -100,7 +100,7 @@
   },
   {
     "questionId": "web12",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property changes the background color?",
     "options": ["background-color", "bgcolor", "color", "fill"],
@@ -109,7 +109,7 @@
   },
   {
     "questionId": "web13",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property sets the font size?",
     "options": ["font-size", "text-size", "size", "font-style"],
@@ -118,7 +118,7 @@
   },
   {
     "questionId": "web14",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property sets the spacing between letters?",
     "options": ["letter-spacing", "text-spacing", "spacing", "font-spacing"],
@@ -127,7 +127,7 @@
   },
   {
     "questionId": "web15",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property sets the vertical space between lines of text?",
     "options": ["line-height", "line-spacing", "text-height", "spacing"],
@@ -136,7 +136,7 @@
   },
   {
     "questionId": "web16",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element contains metadata about a page?",
     "options": ["<head>", "<meta>", "<title>", "<body>"],
@@ -145,7 +145,7 @@
   },
   {
     "questionId": "web17",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element contains the visible page content?",
     "options": ["<head>", "<body>", "<main>", "<content>"],
@@ -154,7 +154,7 @@
   },
   {
     "questionId": "web18",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript function prints to the browser console?",
     "options": ["print()", "println()", "console.log()", "log()"],
@@ -163,25 +163,25 @@
   },
   {
     "questionId": "web19",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag embeds JavaScript?",
+    "questionText": "Which HTML topic embeds JavaScript?",
     "options": ["<script>", "<js>", "<javascript>", "<code>"],
     "answer": "<script>",
     "reason": "<script> embeds or links JavaScript."
   },
   {
     "questionId": "web20",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag embeds internal CSS?",
+    "questionText": "Which HTML topic embeds internal CSS?",
     "options": ["<style>", "<css>", "<link>", "<script>"],
     "answer": "<style>",
     "reason": "<style> defines internal CSS."
   },
   {
     "questionId": "web21",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which attribute sets inline CSS for an element?",
     "options": ["style", "class", "id", "css"],
@@ -190,7 +190,7 @@
   },
   {
     "questionId": "web22",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which attribute gives a unique identifier to an element?",
     "options": ["id", "class", "name", "key"],
@@ -199,7 +199,7 @@
   },
   {
     "questionId": "web23",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which attribute applies a CSS class to an element?",
     "options": ["class", "id", "style", "type"],
@@ -208,7 +208,7 @@
   },
   {
     "questionId": "web24",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTTP method retrieves data from a server?",
     "options": ["GET", "POST", "PUT", "DELETE"],
@@ -217,7 +217,7 @@
   },
   {
     "questionId": "web25",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTTP method sends data to a server?",
     "options": ["POST", "GET", "DELETE", "PUT"],
@@ -226,7 +226,7 @@
   },
   {
     "questionId": "web26",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML attribute specifies the server URL for a form?",
     "options": ["action", "method", "target", "href"],
@@ -235,7 +235,7 @@
   },
   {
     "questionId": "web27",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML form attribute specifies the HTTP method?",
     "options": ["method", "action", "type", "submit"],
@@ -244,7 +244,7 @@
   },
   {
     "questionId": "web28",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which input type creates a text box?",
     "options": ["text", "password", "checkbox", "radio"],
@@ -253,7 +253,7 @@
   },
   {
     "questionId": "web29",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which input type masks the text entered by the user?",
     "options": ["password", "text", "checkbox", "radio"],
@@ -262,7 +262,7 @@
   },
   {
     "questionId": "web30",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element defines a dropdown list?",
     "options": ["<select>", "<dropdown>", "<list>", "<options>"],
@@ -271,7 +271,7 @@
   },
   {
     "questionId": "web31",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element is used to create a checkbox?",
     "options": [
@@ -285,7 +285,7 @@
   },
   {
     "questionId": "web32",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element is used to create a radio button?",
     "options": [
@@ -299,7 +299,7 @@
   },
   {
     "questionId": "web33",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript event occurs when a user clicks on an element?",
     "options": ["onclick", "onhover", "onchange", "onload"],
@@ -308,7 +308,7 @@
   },
   {
     "questionId": "web34",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript function displays an alert dialog?",
     "options": ["alert()", "prompt()", "console.log()", "confirm()"],
@@ -317,7 +317,7 @@
   },
   {
     "questionId": "web35",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which method is used to select an element by its ID in JavaScript?",
     "options": [
@@ -331,7 +331,7 @@
   },
   {
     "questionId": "web36",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which method is used to add a class to an HTML element using JavaScript?",
     "options": [
@@ -345,25 +345,25 @@
   },
   {
     "questionId": "web37",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag is used to create a numbered list?",
+    "questionText": "Which HTML topic is used to create a numbered list?",
     "options": ["<ol>", "<ul>", "<li>", "<list>"],
     "answer": "<ol>",
     "reason": "<ol> creates an ordered (numbered) list."
   },
   {
     "questionId": "web38",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag is used to create a bulleted list?",
+    "questionText": "Which HTML topic is used to create a bulleted list?",
     "options": ["<ul>", "<ol>", "<li>", "<list>"],
     "answer": "<ul>",
     "reason": "<ul> creates an unordered (bulleted) list."
   },
   {
     "questionId": "web39",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which attribute specifies the destination URL of a link?",
     "options": ["href", "src", "link", "url"],
@@ -372,7 +372,7 @@
   },
   {
     "questionId": "web40",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property sets the margin outside an element?",
     "options": ["margin", "padding", "border", "spacing"],
@@ -381,7 +381,7 @@
   },
   {
     "questionId": "web41",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property sets the padding inside an element?",
     "options": ["padding", "margin", "border", "spacing"],
@@ -390,7 +390,7 @@
   },
   {
     "questionId": "web42",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property changes the font family of text?",
     "options": ["font-family", "font-type", "text-family", "text-style"],
@@ -399,7 +399,7 @@
   },
   {
     "questionId": "web43",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property sets the width of an element?",
     "options": ["width", "height", "size", "length"],
@@ -408,7 +408,7 @@
   },
   {
     "questionId": "web44",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property sets the height of an element?",
     "options": ["height", "width", "size", "length"],
@@ -417,18 +417,18 @@
   },
   {
     "questionId": "web45",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag is used to create a text input field?",
+    "questionText": "Which HTML topic is used to create a text input field?",
     "options": ["<input type='text'>", "<textarea>", "<text>", "<field>"],
     "answer": "<input type='text'>",
     "reason": "A text input is created using <input type='text'>."
   },
   {
     "questionId": "web46",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag is used to create a multi-line text area?",
+    "questionText": "Which HTML topic is used to create a multi-line text area?",
     "options": [
       "<textarea>",
       "<input type='text'>",
@@ -440,43 +440,43 @@
   },
   {
     "questionId": "web47",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag is used to create a dropdown list?",
+    "questionText": "Which HTML topic is used to create a dropdown list?",
     "options": ["<select>", "<dropdown>", "<list>", "<options>"],
     "answer": "<select>",
     "reason": "<select> creates a dropdown list."
   },
   {
     "questionId": "web48",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag is used to define a table cell?",
+    "questionText": "Which HTML topic is used to define a table cell?",
     "options": ["<td>", "<th>", "<tr>", "<table>"],
     "answer": "<td>",
     "reason": "<td> defines a cell in a table row."
   },
   {
     "questionId": "web49",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag defines a table header row?",
+    "questionText": "Which HTML topic defines a table header row?",
     "options": ["<thead>", "<tbody>", "<tfoot>", "<tr>"],
     "answer": "<thead>",
     "reason": "<thead> defines the table header section."
   },
   {
     "questionId": "web50",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag defines a table footer row?",
+    "questionText": "Which HTML topic defines a table footer row?",
     "options": ["<tfoot>", "<tbody>", "<thead>", "<tr>"],
     "answer": "<tfoot>",
     "reason": "<tfoot> defines the footer of a table."
   },
   {
     "questionId": "web51",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript keyword declares a variable?",
     "options": ["var", "define", "let", "set"],
@@ -485,7 +485,7 @@
   },
   {
     "questionId": "web52",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript keyword declares a block-scoped variable?",
     "options": ["let", "var", "const", "define"],
@@ -494,7 +494,7 @@
   },
   {
     "questionId": "web53",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript keyword declares a constant?",
     "options": ["const", "let", "var", "final"],
@@ -503,7 +503,7 @@
   },
   {
     "questionId": "web54",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript method gets the value of an input field?",
     "options": [".value", ".val()", ".text", ".get()"],
@@ -512,7 +512,7 @@
   },
   {
     "questionId": "web55",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript method changes the content of an HTML element?",
     "options": ["innerHTML", "textContent", "value", "html()"],
@@ -521,7 +521,7 @@
   },
   {
     "questionId": "web56",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which method is used to attach an event handler in JavaScript?",
     "options": ["addEventListener()", "attachEvent()", "on()", "listen()"],
@@ -530,7 +530,7 @@
   },
   {
     "questionId": "web57",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript function converts a string to a number?",
     "options": ["parseInt()", "Number()", "toNumber()", "int()"],
@@ -539,7 +539,7 @@
   },
   {
     "questionId": "web58",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript function converts a number to a string?",
     "options": ["toString()", "String()", "parseStr()", "convert()"],
@@ -548,7 +548,7 @@
   },
   {
     "questionId": "web59",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which operator checks equality of value and type in JavaScript?",
     "options": ["===", "==", "!=", "!=="],
@@ -557,7 +557,7 @@
   },
   {
     "questionId": "web60",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript keyword stops a loop prematurely?",
     "options": ["break", "stop", "exit", "return"],
@@ -566,7 +566,7 @@
   },
   {
     "questionId": "web61",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element is used to display a paragraph?",
     "options": ["<p>", "<paragraph>", "<text>", "<div>"],
@@ -575,7 +575,7 @@
   },
   {
     "questionId": "web62",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element is used to display a heading?",
     "options": ["<h1> to <h6>", "<header>", "<heading>", "<title>"],
@@ -584,25 +584,25 @@
   },
   {
     "questionId": "web63",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag is used for a horizontal line?",
+    "questionText": "Which HTML topic is used for a horizontal line?",
     "options": ["<hr>", "<line>", "<break>", "<hl>"],
     "answer": "<hr>",
     "reason": "<hr> creates a horizontal rule (line)."
   },
   {
     "questionId": "web64",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag is used for a line break?",
+    "questionText": "Which HTML topic is used for a line break?",
     "options": ["<br>", "<break>", "<lb>", "<hr>"],
     "answer": "<br>",
     "reason": "<br> inserts a line break."
   },
   {
     "questionId": "web65",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property changes text alignment?",
     "options": ["text-align", "align", "font-align", "align-text"],
@@ -611,7 +611,7 @@
   },
   {
     "questionId": "web66",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property makes text bold?",
     "options": ["font-weight", "font-style", "text-weight", "bold"],
@@ -620,7 +620,7 @@
   },
   {
     "questionId": "web67",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property makes text italic?",
     "options": ["font-style", "text-style", "font-italic", "italic"],
@@ -629,7 +629,7 @@
   },
   {
     "questionId": "web68",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property sets the border width?",
     "options": ["border-width", "border-size", "border", "border-style"],
@@ -638,7 +638,7 @@
   },
   {
     "questionId": "web69",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property sets the border color?",
     "options": ["border-color", "color", "border-style", "border"],
@@ -647,7 +647,7 @@
   },
   {
     "questionId": "web70",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property sets the background image?",
     "options": ["background-image", "bg-image", "image", "background-src"],
@@ -656,7 +656,7 @@
   },
   {
     "questionId": "web71",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element represents the main content of a page?",
     "options": ["<main>", "<body>", "<section>", "<div>"],
@@ -665,7 +665,7 @@
   },
   {
     "questionId": "web72",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element represents a section in a page?",
     "options": ["<section>", "<div>", "<article>", "<main>"],
@@ -674,7 +674,7 @@
   },
   {
     "questionId": "web73",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element represents an article?",
     "options": ["<article>", "<section>", "<div>", "<main>"],
@@ -683,7 +683,7 @@
   },
   {
     "questionId": "web74",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element represents navigation links?",
     "options": ["<nav>", "<menu>", "<links>", "<ul>"],
@@ -692,7 +692,7 @@
   },
   {
     "questionId": "web75",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element is used to display emphasized text?",
     "options": ["<em>", "<strong>", "<i>", "<b>"],
@@ -701,7 +701,7 @@
   },
   {
     "questionId": "web76",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element is used to display important text?",
     "options": ["<strong>", "<em>", "<b>", "<i>"],
@@ -710,7 +710,7 @@
   },
   {
     "questionId": "web77",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS unit represents relative font size based on parent?",
     "options": ["em", "px", "pt", "%"],
@@ -719,7 +719,7 @@
   },
   {
     "questionId": "web78",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS unit represents absolute pixels?",
     "options": ["px", "em", "pt", "%"],
@@ -728,25 +728,25 @@
   },
   {
     "questionId": "web79",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag is used to embed a video?",
+    "questionText": "Which HTML topic is used to embed a video?",
     "options": ["<video>", "<media>", "<movie>", "<embed>"],
     "answer": "<video>",
     "reason": "<video> embeds video content in a page."
   },
   {
     "questionId": "web80",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag is used to embed audio?",
+    "questionText": "Which HTML topic is used to embed audio?",
     "options": ["<audio>", "<sound>", "<media>", "<music>"],
     "answer": "<audio>",
     "reason": "<audio> embeds audio content in a page."
   },
   {
     "questionId": "web81",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML attribute provides alternative text for images?",
     "options": ["alt", "title", "text", "description"],
@@ -755,7 +755,7 @@
   },
   {
     "questionId": "web82",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML attribute sets a tooltip when hovering over an element?",
     "options": ["title", "alt", "tooltip", "hover"],
@@ -764,7 +764,7 @@
   },
   {
     "questionId": "web83",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property controls element visibility?",
     "options": ["visibility", "display", "opacity", "show"],
@@ -773,7 +773,7 @@
   },
   {
     "questionId": "web84",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS property completely removes an element from the layout?",
     "options": ["display", "visibility", "opacity", "position"],
@@ -782,7 +782,7 @@
   },
   {
     "questionId": "web85",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element is used to create a button?",
     "options": ["<button>", "<input type='button'>", "<a>", "<btn>"],
@@ -791,7 +791,7 @@
   },
   {
     "questionId": "web86",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which input type creates a submit button?",
     "options": [
@@ -805,7 +805,7 @@
   },
   {
     "questionId": "web87",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which CSS pseudo-class applies style when the mouse is over an element?",
     "options": [":hover", ":active", ":focus", ":mouseover"],
@@ -814,7 +814,7 @@
   },
   {
     "questionId": "web88",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML attribute specifies the type of an input element?",
     "options": ["type", "input-type", "kind", "format"],
@@ -823,7 +823,7 @@
   },
   {
     "questionId": "web89",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML attribute defines the placeholder text in input?",
     "options": ["placeholder", "title", "value", "hint"],
@@ -832,16 +832,16 @@
   },
   {
     "questionId": "web90",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag creates a form?",
+    "questionText": "Which HTML topic creates a form?",
     "options": ["<form>", "<input>", "<fieldset>", "<div>"],
     "answer": "<form>",
     "reason": "<form> is used to create a form for user input."
   },
   {
     "questionId": "web91",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript method opens a new browser window?",
     "options": ["window.open()", "open()", "newWindow()", "createWindow()"],
@@ -850,7 +850,7 @@
   },
   {
     "questionId": "web92",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript method closes the current window?",
     "options": ["window.close()", "close()", "exit()", "window.exit()"],
@@ -859,7 +859,7 @@
   },
   {
     "questionId": "web93",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element defines an ordered list?",
     "options": ["<ol>", "<ul>", "<li>", "<list>"],
@@ -868,7 +868,7 @@
   },
   {
     "questionId": "web94",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element defines an unordered list?",
     "options": ["<ul>", "<ol>", "<li>", "<list>"],
@@ -877,7 +877,7 @@
   },
   {
     "questionId": "web95",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which HTML element defines a list item?",
     "options": ["<li>", "<ul>", "<ol>", "<item>"],
@@ -886,34 +886,34 @@
   },
   {
     "questionId": "web96",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag defines a definition list?",
+    "questionText": "Which HTML topic defines a definition list?",
     "options": ["<dl>", "<ul>", "<ol>", "<list>"],
     "answer": "<dl>",
     "reason": "<dl> defines a definition list."
   },
   {
     "questionId": "web97",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag defines a term in a definition list?",
+    "questionText": "Which HTML topic defines a term in a definition list?",
     "options": ["<dt>", "<dd>", "<li>", "<term>"],
     "answer": "<dt>",
     "reason": "<dt> defines a term in a definition list."
   },
   {
     "questionId": "web98",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
-    "questionText": "Which HTML tag defines a description in a definition list?",
+    "questionText": "Which HTML topic defines a description in a definition list?",
     "options": ["<dd>", "<dt>", "<li>", "<desc>"],
     "answer": "<dd>",
     "reason": "<dd> defines a description for a term."
   },
   {
     "questionId": "web99",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript method returns the length of a string?",
     "options": [".length", ".size", ".count", ".len"],
@@ -922,7 +922,7 @@
   },
   {
     "questionId": "web100",
-    "tag": "web",
+    "topic": "web",
     "difficulty": "easy",
     "questionText": "Which JavaScript method converts JSON text into an object?",
     "options": [

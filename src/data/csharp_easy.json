@@ -1,7 +1,7 @@
 [
   {
-    "questionId": "q1",
-    "tag": "csharp",
+    "questionId": "csharp_e_1",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which keyword is used to define a class in C#?",
     "options": ["class", "define", "struct", "new"],
@@ -9,8 +9,8 @@
     "reason": "The 'class' keyword is used to declare a class in C#."
   },
   {
-    "questionId": "q2",
-    "tag": "csharp",
+    "questionId": "csharp_e_2",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which type stores true/false values in C#?",
     "options": ["boolean", "bool", "bit", "flag"],
@@ -18,8 +18,8 @@
     "reason": "The bool type represents boolean values."
   },
   {
-    "questionId": "q3",
-    "tag": "csharp",
+    "questionId": "csharp_e_3",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which method is the entry point of a C# console application?",
     "options": ["Start()", "Run()", "Main()", "Execute()"],
@@ -27,8 +27,8 @@
     "reason": "Execution begins in the Main() method."
   },
   {
-    "questionId": "q4",
-    "tag": "csharp",
+    "questionId": "csharp_e_4",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which symbol starts a single-line comment in C#?",
     "options": ["//", "/*", "#", "<!--"],
@@ -36,18 +36,17 @@
     "reason": "C# uses // for single-line comments."
   },
   {
-    "questionId": "q5",
-    "tag": "csharp",
+    "questionId": "csharp_e_5",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which keyword declares a constant in C#?",
     "options": ["const", "static", "readonly", "fixed"],
     "answer": "const",
     "reason": "Const is used for compile-time constants."
   },
-
   {
-    "questionId": "q6",
-    "tag": "csharp",
+    "questionId": "csharp_e_6",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "What type is used for text in C#?",
     "options": ["string", "text", "char", "word"],
@@ -55,8 +54,8 @@
     "reason": "The string type stores text."
   },
   {
-    "questionId": "q7",
-    "tag": "csharp",
+    "questionId": "csharp_e_7",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which operator compares two values for equality in C#?",
     "options": ["=", "==", "===", "!"],
@@ -64,8 +63,8 @@
     "reason": "== checks value equality."
   },
   {
-    "questionId": "q8",
-    "tag": "csharp",
+    "questionId": "csharp_e_8",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "What is the default value of an int in C#?",
     "options": ["0", "null", "1", "undefined"],
@@ -73,8 +72,8 @@
     "reason": "int defaults to 0."
   },
   {
-    "questionId": "q9",
-    "tag": "csharp",
+    "questionId": "csharp_e_9",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which collection stores key-value pairs?",
     "options": ["List", "Array", "Dictionary", "HashSet"],
@@ -82,18 +81,17 @@
     "reason": "Dictionary<TKey,TValue> stores key-value pairs."
   },
   {
-    "questionId": "q10",
-    "tag": "csharp",
+    "questionId": "csharp_e_10",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which keyword is used to create an object?",
     "options": ["create", "make", "new", "init"],
     "answer": "new",
     "reason": "The new keyword instantiates objects."
   },
-
   {
-    "questionId": "q11",
-    "tag": "csharp",
+    "questionId": "csharp_e_11",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "What is used to declare a variable in C#?",
     "options": ["var", "let", "make", "dim"],
@@ -101,8 +99,8 @@
     "reason": "var allows implicit typing in C#."
   },
   {
-    "questionId": "q12",
-    "tag": "csharp",
+    "questionId": "csharp_e_12",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which type stores whole numbers?",
     "options": ["float", "int", "double", "string"],
@@ -110,8 +108,8 @@
     "reason": "The int type stores integer values."
   },
   {
-    "questionId": "q13",
-    "tag": "csharp",
+    "questionId": "csharp_e_13",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which type stores decimal numbers?",
     "options": ["decimal", "int", "bool", "char"],
@@ -119,8 +117,8 @@
     "reason": "Decimal stores high-precision decimal values."
   },
   {
-    "questionId": "q14",
-    "tag": "csharp",
+    "questionId": "csharp_e_14",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which keyword defines a method?",
     "options": ["method", "func", "void", "define"],
@@ -128,18 +126,17 @@
     "reason": "Void indicates a method returns nothing."
   },
   {
-    "questionId": "q15",
-    "tag": "csharp",
+    "questionId": "csharp_e_15",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which symbol ends a statement in C#?",
     "options": [";", ":", ".", ","],
     "answer": ";",
     "reason": "C# statements end with semicolons."
   },
-
   {
-    "questionId": "q16",
-    "tag": "csharp",
+    "questionId": "csharp_e_16",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which keyword is used for inheritance?",
     "options": ["extends", "inherits", ":", "->"],
@@ -147,8 +144,8 @@
     "reason": "C# uses : to specify inheritance."
   },
   {
-    "questionId": "q17",
-    "tag": "csharp",
+    "questionId": "csharp_e_17",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which type represents a single character?",
     "options": ["string", "char", "text", "word"],
@@ -156,12 +153,750 @@
     "reason": "char holds a single character."
   },
   {
-    "questionId": "q18",
-    "tag": "csharp",
+    "questionId": "csharp_e_18",
+    "topic": "csharp",
     "difficulty": "easy",
     "questionText": "Which operator performs addition?",
     "options": ["*", "+", "/", "-"],
     "answer": "+",
     "reason": "The + operator performs addition."
+  },
+  {
+    "questionId": "csharp_e_19",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which logical operator means AND?",
+    "options": ["||", "&&", "!", "%"],
+    "answer": "&&",
+    "reason": "&& is the logical AND operator."
+  },
+  {
+    "questionId": "csharp_e_20",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines a namespace?",
+    "options": ["package", "namespace", "space", "module"],
+    "answer": "namespace",
+    "reason": "The namespace keyword organizes code."
+  },
+  {
+    "questionId": "csharp_e_21",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which access modifier makes a member publicly accessible?",
+    "options": ["public", "private", "protected", "internal"],
+    "answer": "public",
+    "reason": "Public allows access from anywhere."
+  },
+  {
+    "questionId": "csharp_e_22",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword prevents a class from being inherited?",
+    "options": ["sealed", "static", "final", "locked"],
+    "answer": "sealed",
+    "reason": "Sealed classes cannot be inherited."
+  },
+  {
+    "questionId": "csharp_e_23",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator concatenates strings?",
+    "options": ["+", "-", "*", "&"],
+    "answer": "+",
+    "reason": "The + operator concatenates strings."
+  },
+  {
+    "questionId": "csharp_e_24",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which statement repeats code while a condition is true?",
+    "options": ["if", "while", "break", "return"],
+    "answer": "while",
+    "reason": "While repeats while condition is true."
+  },
+  {
+    "questionId": "csharp_e_25",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type represents true/false?",
+    "options": ["bool", "binary", "flag", "logic"],
+    "answer": "bool",
+    "reason": "Bool stores boolean values."
+  },
+  {
+    "questionId": "csharp_e_26",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword creates an array?",
+    "options": ["list", "array", "new", "alloc"],
+    "answer": "new",
+    "reason": "Arrays are initialized with new."
+  },
+  {
+    "questionId": "csharp_e_27",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator checks inequality?",
+    "options": ["!=", "==", "<>", "!=="],
+    "answer": "!=",
+    "reason": "!= means not equal."
+  },
+  {
+    "questionId": "csharp_e_28",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which loops run a fixed number of times?",
+    "options": ["while", "if", "for", "switch"],
+    "answer": "for",
+    "reason": "For loops are ideal for fixed iteration counts."
+  },
+  {
+    "questionId": "csharp_e_29",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword returns a value from a method?",
+    "options": ["end", "return", "break", "stop"],
+    "answer": "return",
+    "reason": "Return exits a method and sends back a value."
+  },
+  {
+    "questionId": "csharp_e_30",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type stores text?",
+    "options": ["string", "char", "text", "byte"],
+    "answer": "string",
+    "reason": "String stores text data."
+  },
+  {
+    "questionId": "csharp_e_31",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which list type allows duplicates?",
+    "options": ["List", "HashSet", "Dictionary", "Queue"],
+    "answer": "List",
+    "reason": "List allows duplicate elements."
+  },
+  {
+    "questionId": "csharp_e_32",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "What is the value of true && false?",
+    "options": ["true", "false", "null", "error"],
+    "answer": "false",
+    "reason": "AND is true only if both conditions are true."
+  },
+  {
+    "questionId": "csharp_e_33",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword creates an instance of a class?",
+    "options": ["class", "new", "instance", "init"],
+    "answer": "new",
+    "reason": "Objects are created using new."
+  },
+  {
+    "questionId": "csharp_e_34",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which function prints output to the console?",
+    "options": ["Console.Write()", "Print()", "System.Out()", "write()"],
+    "answer": "Console.Write()",
+    "reason": "Console.Write() prints text without a newline."
+  },
+  {
+    "questionId": "csharp_e_35",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which statement selects between multiple options?",
+    "options": ["switch", "choose", "case", "if"],
+    "answer": "switch",
+    "reason": "Switch allows multiple branch choices."
+  },
+  {
+    "questionId": "csharp_e_36",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword prevents modifications after initialization?",
+    "options": ["const", "fixed", "readonly", "locked"],
+    "answer": "readonly",
+    "reason": "Readonly variables can only be assigned once."
+  },
+  {
+    "questionId": "csharp_e_37",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type holds true/false values?",
+    "options": ["bool", "logical", "binary", "flag"],
+    "answer": "bool",
+    "reason": "Bool holds boolean values."
+  },
+  {
+    "questionId": "csharp_e_38",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator performs multiplication?",
+    "options": ["+", "-", "*", "/"],
+    "answer": "*",
+    "reason": "The * operator multiplies numbers."
+  },
+  {
+    "questionId": "csharp_e_39",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which package is required for console operations?",
+    "options": ["System", "Console", "IO", "Runtime"],
+    "answer": "System",
+    "reason": "Console belongs to the System namespace."
+  },
+  {
+    "questionId": "csharp_e_40",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type stores decimal values?",
+    "options": ["float", "decimal", "bool", "int"],
+    "answer": "decimal",
+    "reason": "Decimal stores precise decimal numbers."
+  },
+  {
+    "questionId": "csharp_e_41",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which is a loop?",
+    "options": ["for", "if", "goto", "case"],
+    "answer": "for",
+    "reason": "For is a looping construct."
+  },
+  {
+    "questionId": "csharp_e_42",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which statement exits a loop?",
+    "options": ["end", "stop", "break", "return"],
+    "answer": "break",
+    "reason": "Break exits loops and switch statements."
+  },
+  {
+    "questionId": "csharp_e_43",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines a property?",
+    "options": ["prop", "property", "get", "set"],
+    "answer": "get",
+    "reason": "Get and set define properties."
+  },
+  {
+    "questionId": "csharp_e_44",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator divides numbers?",
+    "options": ["*", "/", "+", "%"],
+    "answer": "/",
+    "reason": "The / operator performs division."
+  },
+  {
+    "questionId": "csharp_e_45",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type stores a single byte?",
+    "options": ["byte", "char", "int", "string"],
+    "answer": "byte",
+    "reason": "Byte stores values 0–255."
+  },
+  {
+    "questionId": "csharp_e_46",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword declares a method that must be overridden?",
+    "options": ["virtual", "abstract", "override", "sealed"],
+    "answer": "abstract",
+    "reason": "Abstract methods require overrides."
+  },
+  {
+    "questionId": "csharp_e_47",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which access modifier is default for class members?",
+    "options": ["private", "public", "protected", "internal"],
+    "answer": "private",
+    "reason": "Class members default to private."
+  },
+  {
+    "questionId": "csharp_e_48",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator finds remainder?",
+    "options": ["+", "-", "/", "%"],
+    "answer": "%",
+    "reason": "The % operator yields the remainder."
+  },
+  {
+    "questionId": "csharp_e_49",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "What is the default value of a bool?",
+    "options": ["false", "true", "0", "null"],
+    "answer": "false",
+    "reason": "Bool fields default to false."
+  },
+  {
+    "questionId": "csharp_e_50",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword creates a list?",
+    "options": ["new", "list", "add", "create"],
+    "answer": "new",
+    "reason": "List<T> is created using new."
+  },
+  {
+    "questionId": "csharp_e_51",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which symbol is used for string interpolation?",
+    "options": ["$", "@", "``", "#"],
+    "answer": "$",
+    "reason": "$ indicates an interpolated string."
+  },
+  {
+    "questionId": "csharp_e_52",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type stores very large integers?",
+    "options": ["int", "long", "byte", "char"],
+    "answer": "long",
+    "reason": "Long holds larger integer values than int."
+  },
+  {
+    "questionId": "csharp_e_53",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword handles exceptions?",
+    "options": ["catch", "if", "break", "using"],
+    "answer": "catch",
+    "reason": "Catch handles exceptions thrown in try blocks."
+  },
+  {
+    "questionId": "csharp_e_54",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword starts an exception block?",
+    "options": ["try", "do", "catch", "throw"],
+    "answer": "try",
+    "reason": "try begins exception handling."
+  },
+  {
+    "questionId": "csharp_e_55",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator increments a value?",
+    "options": ["++", "--", "+=", "="],
+    "answer": "++",
+    "reason": "++ increases a value by 1."
+  },
+  {
+    "questionId": "csharp_e_56",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type converts automatically to a larger type?",
+    "options": ["implicit", "explicit", "manual", "auto"],
+    "answer": "implicit",
+    "reason": "Implicit casts occur automatically."
+  },
+  {
+    "questionId": "csharp_e_57",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines an enumeration?",
+    "options": ["enum", "list", "set", "define"],
+    "answer": "enum",
+    "reason": "Enum defines named constants."
+  },
+  {
+    "questionId": "csharp_e_58",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword triggers an exception?",
+    "options": ["throw", "catch", "raise", "send"],
+    "answer": "throw",
+    "reason": "Throw generates an exception."
+  },
+  {
+    "questionId": "csharp_e_59",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which loop runs at least once?",
+    "options": ["while", "do-while", "for", "foreach"],
+    "answer": "do-while",
+    "reason": "do-while executes before checking the condition."
+  },
+  {
+    "questionId": "csharp_e_60",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines an interface?",
+    "options": ["interface", "class", "implements", "contract"],
+    "answer": "interface",
+    "reason": "The interface keyword defines interfaces."
+  },
+  {
+    "questionId": "csharp_e_61",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which symbol indexes an array?",
+    "options": ["[]", "()", "{}", "<>"],
+    "answer": "[]",
+    "reason": "Arrays use square brackets."
+  },
+  {
+    "questionId": "csharp_e_62",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator joins two conditions with OR?",
+    "options": ["||", "&&", "&", "%"],
+    "answer": "||",
+    "reason": "|| is the logical OR operator."
+  },
+  {
+    "questionId": "csharp_e_63",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines a class constructor?",
+    "options": ["constructor", "init", "class name", "new"],
+    "answer": "class name",
+    "reason": "Constructors use the class name."
+  },
+  {
+    "questionId": "csharp_e_64",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which collection stores unique values?",
+    "options": ["List", "Dictionary", "Queue", "HashSet"],
+    "answer": "HashSet",
+    "reason": "HashSet only stores unique values."
+  },
+  {
+    "questionId": "csharp_e_65",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword calls the base class constructor?",
+    "options": ["parent", "super", "base", "class"],
+    "answer": "base",
+    "reason": "Base refers to the parent class."
+  },
+  {
+    "questionId": "csharp_e_66",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type stores double-precision numbers?",
+    "options": ["int", "float", "double", "string"],
+    "answer": "double",
+    "reason": "Double stores double-precision floating numbers."
+  },
+  {
+    "questionId": "csharp_e_67",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which statement ends program execution?",
+    "options": ["return", "stop", "end", "exit"],
+    "answer": "return",
+    "reason": "Return exits the Main method."
+  },
+  {
+    "questionId": "csharp_e_68",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword imports namespaces?",
+    "options": ["import", "use", "using", "include"],
+    "answer": "using",
+    "reason": "Using imports namespaces."
+  },
+  {
+    "questionId": "csharp_e_69",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator performs subtraction?",
+    "options": ["+", "-", "*", "="],
+    "answer": "-",
+    "reason": "The - operator subtracts numbers."
+  },
+  {
+    "questionId": "csharp_e_70",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which symbol concatenates strings?",
+    "options": ["+", "-", "&", "*"],
+    "answer": "+",
+    "reason": "+ concatenates strings."
+  },
+  {
+    "questionId": "csharp_e_71",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type stores Unicode characters?",
+    "options": ["byte", "int", "char", "string"],
+    "answer": "char",
+    "reason": "char stores Unicode characters."
+  },
+  {
+    "questionId": "csharp_e_72",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "What is the value of !true?",
+    "options": ["true", "false", "null", "error"],
+    "answer": "false",
+    "reason": "! negates boolean values."
+  },
+  {
+    "questionId": "csharp_e_73",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which loop iterates over collections?",
+    "options": ["foreach", "for", "while", "if"],
+    "answer": "foreach",
+    "reason": "Foreach iterates through collections."
+  },
+  {
+    "questionId": "csharp_e_74",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator assigns a value?",
+    "options": ["=", "==", "+", "*"],
+    "answer": "=",
+    "reason": "= assigns values."
+  },
+  {
+    "questionId": "csharp_e_75",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type stores a sequence of characters?",
+    "options": ["char", "string", "byte", "word"],
+    "answer": "string",
+    "reason": "String stores sequences of characters."
+  },
+  {
+    "questionId": "csharp_e_76",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which statement throws an exception?",
+    "options": ["throw", "catch", "raise", "error"],
+    "answer": "throw",
+    "reason": "Throw generates an exception."
+  },
+  {
+    "questionId": "csharp_e_77",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator checks equality?",
+    "options": ["=", "==", "===", "!="],
+    "answer": "==",
+    "reason": "== compares values."
+  },
+  {
+    "questionId": "csharp_e_78",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type stores floating-point numbers?",
+    "options": ["float", "int", "long", "bool"],
+    "answer": "float",
+    "reason": "Float stores floating values."
+  },
+  {
+    "questionId": "csharp_e_79",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword makes a method overridable?",
+    "options": ["virtual", "override", "abstract", "sealed"],
+    "answer": "virtual",
+    "reason": "Virtual marks methods as overridable."
+  },
+  {
+    "questionId": "csharp_e_80",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which statement selects between true and false?",
+    "options": ["if", "switch", "for", "call"],
+    "answer": "if",
+    "reason": "If allows conditional branching."
+  },
+  {
+    "questionId": "csharp_e_81",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator multiplies values?",
+    "options": ["*", "+", "/", "%"],
+    "answer": "*",
+    "reason": "* multiplies numbers."
+  },
+  {
+    "questionId": "csharp_e_82",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines a constant?",
+    "options": ["static", "const", "readonly", "final"],
+    "answer": "const",
+    "reason": "Const defines compile-time constants."
+  },
+  {
+    "questionId": "csharp_e_83",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which loop repeats until condition is false?",
+    "options": ["while", "for", "if", "foreach"],
+    "answer": "while",
+    "reason": "While repeats until condition is false."
+  },
+  {
+    "questionId": "csharp_e_84",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator performs logical NOT?",
+    "options": ["!", "&&", "||", "%"],
+    "answer": "!",
+    "reason": "! negates a boolean value."
+  },
+  {
+    "questionId": "csharp_e_85",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines a new namespace?",
+    "options": ["namespace", "module", "include", "system"],
+    "answer": "namespace",
+    "reason": "Namespace organizes classes."
+  },
+  {
+    "questionId": "csharp_e_86",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which access modifier restricts access to the same class?",
+    "options": ["private", "public", "protected", "internal"],
+    "answer": "private",
+    "reason": "Private restricts access to the class itself."
+  },
+  {
+    "questionId": "csharp_e_87",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword declares a method override?",
+    "options": ["override", "virtual", "abstract", "sealed"],
+    "answer": "override",
+    "reason": "Override is used to override base methods."
+  },
+  {
+    "questionId": "csharp_e_88",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type stores 64-bit integers?",
+    "options": ["int", "long", "short", "byte"],
+    "answer": "long",
+    "reason": "Long is a 64-bit integer."
+  },
+  {
+    "questionId": "csharp_e_89",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator compares values?",
+    "options": ["==", "=", "+", "*"],
+    "answer": "==",
+    "reason": "== is the equality operator."
+  },
+  {
+    "questionId": "csharp_e_90",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword creates an array?",
+    "options": ["new", "array", "init", "alloc"],
+    "answer": "new",
+    "reason": "Arrays are created using new."
+  },
+  {
+    "questionId": "csharp_e_91",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type stores multiple values of the same type?",
+    "options": ["array", "class", "method", "char"],
+    "answer": "array",
+    "reason": "Arrays store multiple elements of the same type."
+  },
+  {
+    "questionId": "csharp_e_92",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which loop iterates through each element of a collection?",
+    "options": ["foreach", "for", "while", "switch"],
+    "answer": "foreach",
+    "reason": "Foreach is used to loop collections."
+  },
+  {
+    "questionId": "csharp_e_93",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used for inheritance?",
+    "options": [":", "extends", "inherit", "super"],
+    "answer": ":",
+    "reason": "C# uses : for inheritance."
+  },
+  {
+    "questionId": "csharp_e_94",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which operator performs modulo?",
+    "options": ["%", "/", "*", "+"],
+    "answer": "%",
+    "reason": "% returns the remainder."
+  },
+  {
+    "questionId": "csharp_e_95",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "What is the default value of a string?",
+    "options": ["null", "", "undefined", "0"],
+    "answer": "null",
+    "reason": "Reference types default to null."
+  },
+  {
+    "questionId": "csharp_e_96",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword declares a structure?",
+    "options": ["struct", "class", "record", "object"],
+    "answer": "struct",
+    "reason": "Struct declares value-type structures."
+  },
+  {
+    "questionId": "csharp_e_97",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which access modifier limits access to current assembly?",
+    "options": ["internal", "public", "private", "protected"],
+    "answer": "internal",
+    "reason": "Internal restricts access to the same assembly."
+  },
+  {
+    "questionId": "csharp_e_98",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines a new object instance?",
+    "options": ["class", "instance", "new", "init"],
+    "answer": "new",
+    "reason": "New creates objects."
+  },
+  {
+    "questionId": "csharp_e_99",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which type stores single-precision floats?",
+    "options": ["float", "double", "decimal", "long"],
+    "answer": "float",
+    "reason": "Float stores single-precision values."
+  },
+  {
+    "questionId": "csharp_e_100",
+    "topic": "csharp",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines a class?",
+    "options": ["class", "struct", "type", "define"],
+    "answer": "class",
+    "reason": "Class declares reference-type classes."
   }
 ]

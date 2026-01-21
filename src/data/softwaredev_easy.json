@@ -1,7 +1,7 @@
 [
   {
     "questionId": "soft1",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming paradigm focuses on objects and their interactions?",
     "options": ["Procedural", "Functional", "Object-Oriented", "Logic"],
@@ -10,7 +10,7 @@
   },
   {
     "questionId": "soft2",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which version control system is widely used in software development?",
     "options": ["Git", "FTP", "SVN", "Docker"],
@@ -19,7 +19,7 @@
   },
   {
     "questionId": "soft3",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which language is primarily used for web frontend development?",
     "options": ["JavaScript", "Python", "C#", "Java"],
@@ -28,7 +28,7 @@
   },
   {
     "questionId": "soft4",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software development methodology emphasizes iterative development?",
     "options": ["Waterfall", "Agile", "Spiral", "V-Model"],
@@ -37,7 +37,7 @@
   },
   {
     "questionId": "soft5",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which data structure uses LIFO (Last In, First Out) principle?",
     "options": ["Queue", "Stack", "Array", "Linked List"],
@@ -46,7 +46,7 @@
   },
   {
     "questionId": "soft6",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which data structure uses FIFO (First In, First Out) principle?",
     "options": ["Stack", "Queue", "Tree", "Graph"],
@@ -55,7 +55,7 @@
   },
   {
     "questionId": "soft7",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software testing type verifies individual units or functions?",
     "options": [
@@ -69,7 +69,7 @@
   },
   {
     "questionId": "soft8",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes fixing errors in software code?",
     "options": ["Debugging", "Compiling", "Refactoring", "Deploying"],
@@ -78,7 +78,7 @@
   },
   {
     "questionId": "soft9",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software design principle encourages code reusability?",
     "options": ["DRY", "KISS", "YAGNI", "SOLID"],
@@ -87,7 +87,7 @@
   },
   {
     "questionId": "soft10",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software development environment allows writing and testing code?",
     "options": ["IDE", "API", "SDK", "CLI"],
@@ -96,7 +96,7 @@
   },
   {
     "questionId": "soft11",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming paradigm focuses on pure functions and immutability?",
     "options": ["Procedural", "Functional", "Object-Oriented", "Event-Driven"],
@@ -105,7 +105,7 @@
   },
   {
     "questionId": "soft12",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which keyword in C# defines a constant value?",
     "options": ["const", "let", "readonly", "static"],
@@ -114,7 +114,7 @@
   },
   {
     "questionId": "soft13",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software document describes system requirements?",
     "options": ["SRS", "Design Doc", "Test Plan", "Deployment Guide"],
@@ -123,7 +123,7 @@
   },
   {
     "questionId": "soft14",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which design principle suggests components should be open for extension but closed for modification?",
     "options": [
@@ -137,7 +137,7 @@
   },
   {
     "questionId": "soft15",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software tool is used to manage project tasks and track progress?",
     "options": ["Jira", "GitHub", "VS Code", "Docker"],
@@ -146,7 +146,7 @@
   },
   {
     "questionId": "soft16",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming concept allows code reuse through inheritance?",
     "options": ["Polymorphism", "Inheritance", "Encapsulation", "Abstraction"],
@@ -155,7 +155,7 @@
   },
   {
     "questionId": "soft17",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes the process of improving code structure without changing its behavior?",
     "options": ["Refactoring", "Debugging", "Compiling", "Deploying"],
@@ -164,7 +164,7 @@
   },
   {
     "questionId": "soft18",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming concept hides internal details of a class?",
     "options": ["Encapsulation", "Polymorphism", "Inheritance", "Abstraction"],
@@ -173,7 +173,7 @@
   },
   {
     "questionId": "soft19",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming concept allows using objects of different types through the same interface?",
     "options": ["Polymorphism", "Inheritance", "Encapsulation", "Abstraction"],
@@ -182,7 +182,7 @@
   },
   {
     "questionId": "soft20",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming principle suggests keeping things simple and avoiding unnecessary complexity?",
     "options": ["KISS", "DRY", "YAGNI", "SOLID"],
@@ -191,7 +191,7 @@
   },
   {
     "questionId": "soft21",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming principle suggests not repeating code unnecessarily?",
     "options": ["DRY", "KISS", "YAGNI", "SOLID"],
@@ -200,7 +200,7 @@
   },
   {
     "questionId": "soft22",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes developing software in small, incremental pieces?",
     "options": ["Iterative Development", "Waterfall", "Big Bang", "Spiral"],
@@ -209,7 +209,7 @@
   },
   {
     "questionId": "soft23",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of loop executes code as long as a condition is true?",
     "options": ["While Loop", "For Loop", "Do-While Loop", "Switch Loop"],
@@ -218,7 +218,7 @@
   },
   {
     "questionId": "soft24",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of loop executes code at least once before checking the condition?",
     "options": ["Do-While Loop", "While Loop", "For Loop", "Switch Loop"],
@@ -227,7 +227,7 @@
   },
   {
     "questionId": "soft25",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software development activity ensures software meets quality standards?",
     "options": ["Testing", "Coding", "Refactoring", "Designing"],
@@ -236,7 +236,7 @@
   },
   {
     "questionId": "soft26",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of testing checks integration of multiple components?",
     "options": [
@@ -250,7 +250,7 @@
   },
   {
     "questionId": "soft27",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of testing validates the software against user requirements?",
     "options": [
@@ -264,7 +264,7 @@
   },
   {
     "questionId": "soft28",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software document defines how to deploy an application?",
     "options": ["Deployment Guide", "SRS", "Design Doc", "Test Plan"],
@@ -273,7 +273,7 @@
   },
   {
     "questionId": "soft29",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of software maintenance fixes bugs after release?",
     "options": [
@@ -287,7 +287,7 @@
   },
   {
     "questionId": "soft30",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of software maintenance improves performance or features?",
     "options": [
@@ -301,7 +301,7 @@
   },
   {
     "questionId": "soft31",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of software maintenance adapts software to changes in environment?",
     "options": [
@@ -315,7 +315,7 @@
   },
   {
     "questionId": "soft32",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of software maintenance prevents future defects?",
     "options": [
@@ -329,7 +329,7 @@
   },
   {
     "questionId": "soft33",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term refers to writing instructions for a computer to perform tasks?",
     "options": ["Programming", "Testing", "Debugging", "Designing"],
@@ -338,7 +338,7 @@
   },
   {
     "questionId": "soft34",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which tool automates software builds and deployment?",
     "options": ["CI/CD", "IDE", "Debugger", "Version Control"],
@@ -347,7 +347,7 @@
   },
   {
     "questionId": "soft35",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which practice involves reviewing code to detect errors before merging?",
     "options": ["Code Review", "Unit Testing", "Debugging", "Refactoring"],
@@ -356,7 +356,7 @@
   },
   {
     "questionId": "soft36",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software architecture pattern separates concerns into Model, View, and Controller?",
     "options": ["MVC", "MVVM", "MVP", "Layered"],
@@ -365,7 +365,7 @@
   },
   {
     "questionId": "soft37",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of variable can store multiple values of the same type?",
     "options": ["Array", "Object", "String", "Integer"],
@@ -374,7 +374,7 @@
   },
   {
     "questionId": "soft38",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which data structure stores key-value pairs?",
     "options": ["Dictionary/Map", "Array", "Queue", "Stack"],
@@ -383,7 +383,7 @@
   },
   {
     "questionId": "soft39",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of loop is best when the number of iterations is known?",
     "options": ["For Loop", "While Loop", "Do-While Loop", "Recursive Loop"],
@@ -392,7 +392,7 @@
   },
   {
     "questionId": "soft40",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software principle encourages separating unrelated functions into different modules?",
     "options": ["Separation of Concerns", "DRY", "KISS", "SOLID"],
@@ -401,7 +401,7 @@
   },
   {
     "questionId": "soft41",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming keyword defines a class in C#?",
     "options": ["class", "object", "struct", "type"],
@@ -410,7 +410,7 @@
   },
   {
     "questionId": "soft42",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which statement exits a loop immediately in most programming languages?",
     "options": ["break", "continue", "exit", "return"],
@@ -419,7 +419,7 @@
   },
   {
     "questionId": "soft43",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which statement skips the current iteration of a loop?",
     "options": ["continue", "break", "return", "skip"],
@@ -428,7 +428,7 @@
   },
   {
     "questionId": "soft44",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which testing type ensures the system works as a whole?",
     "options": [
@@ -442,7 +442,7 @@
   },
   {
     "questionId": "soft45",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of testing checks the software against user requirements?",
     "options": [
@@ -456,7 +456,7 @@
   },
   {
     "questionId": "soft46",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes creating a temporary copy of data to speed up access?",
     "options": ["Caching", "Buffering", "Streaming", "Queueing"],
@@ -465,7 +465,7 @@
   },
   {
     "questionId": "soft47",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of error occurs when code compiles but fails during execution?",
     "options": [
@@ -479,7 +479,7 @@
   },
   {
     "questionId": "soft48",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of error occurs when code violates syntax rules?",
     "options": [
@@ -493,7 +493,7 @@
   },
   {
     "questionId": "soft49",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of error occurs when code produces incorrect results despite running?",
     "options": [
@@ -507,7 +507,7 @@
   },
   {
     "questionId": "soft50",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which keyword in C# defines a function that does not return a value?",
     "options": ["void", "int", "return", "function"],
@@ -516,7 +516,7 @@
   },
   {
     "questionId": "soft51",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming concept allows functions to call themselves?",
     "options": ["Recursion", "Iteration", "Inheritance", "Polymorphism"],
@@ -525,7 +525,7 @@
   },
   {
     "questionId": "soft52",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software model follows strict sequential phases?",
     "options": ["Waterfall", "Agile", "Spiral", "Iterative"],
@@ -534,7 +534,7 @@
   },
   {
     "questionId": "soft53",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes automatically running tests on each code change?",
     "options": [
@@ -548,7 +548,7 @@
   },
   {
     "questionId": "soft54",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of software metric measures code complexity?",
     "options": [
@@ -562,7 +562,7 @@
   },
   {
     "questionId": "soft55",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which design pattern ensures a class has only one instance?",
     "options": ["Singleton", "Factory", "Observer", "Decorator"],
@@ -571,7 +571,7 @@
   },
   {
     "questionId": "soft56",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which design pattern separates the construction of a complex object from its representation?",
     "options": ["Builder", "Factory", "Singleton", "Adapter"],
@@ -580,7 +580,7 @@
   },
   {
     "questionId": "soft57",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which design pattern provides an interface to create families of related objects?",
     "options": ["Abstract Factory", "Factory Method", "Singleton", "Observer"],
@@ -589,7 +589,7 @@
   },
   {
     "questionId": "soft58",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of diagram shows classes and relationships in OOP?",
     "options": [
@@ -603,7 +603,7 @@
   },
   {
     "questionId": "soft59",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which version control term describes copying a repository to local machine?",
     "options": ["Clone", "Pull", "Push", "Commit"],
@@ -612,7 +612,7 @@
   },
   {
     "questionId": "soft60",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which version control term sends local changes to remote repository?",
     "options": ["Push", "Pull", "Clone", "Commit"],
@@ -621,7 +621,7 @@
   },
   {
     "questionId": "soft61",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes recording changes to the version control system?",
     "options": ["Commit", "Push", "Pull", "Merge"],
@@ -630,7 +630,7 @@
   },
   {
     "questionId": "soft62",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term in Git integrates changes from one branch into another?",
     "options": ["Merge", "Commit", "Push", "Clone"],
@@ -639,7 +639,7 @@
   },
   {
     "questionId": "soft63",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which C# keyword prevents modification of a variable after initialization?",
     "options": ["readonly", "const", "static", "volatile"],
@@ -648,7 +648,7 @@
   },
   {
     "questionId": "soft64",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which loop is ideal for iterating over elements of a collection in C#?",
     "options": ["foreach", "for", "while", "do-while"],
@@ -657,7 +657,7 @@
   },
   {
     "questionId": "soft65",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes a reusable piece of code that performs a specific task?",
     "options": ["Function/Method", "Class", "Object", "Variable"],
@@ -666,7 +666,7 @@
   },
   {
     "questionId": "soft66",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming practice divides a program into small, testable units?",
     "options": [
@@ -680,7 +680,7 @@
   },
   {
     "questionId": "soft67",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which C# access modifier makes members accessible only within the same class?",
     "options": ["private", "public", "protected", "internal"],
@@ -689,7 +689,7 @@
   },
   {
     "questionId": "soft68",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which C# access modifier allows access from derived classes?",
     "options": ["protected", "private", "public", "internal"],
@@ -698,7 +698,7 @@
   },
   {
     "questionId": "soft69",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which C# keyword allows creating an instance of a class?",
     "options": ["new", "create", "instance", "object"],
@@ -707,7 +707,7 @@
   },
   {
     "questionId": "soft70",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes the process of converting requirements into a software design?",
     "options": ["Software Design", "Coding", "Testing", "Deployment"],
@@ -716,7 +716,7 @@
   },
   {
     "questionId": "soft71",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming construct allows decision making based on conditions?",
     "options": ["if/else", "for", "while", "switch-case"],
@@ -725,7 +725,7 @@
   },
   {
     "questionId": "soft72",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which C# keyword allows handling exceptions?",
     "options": ["try/catch", "throw", "finally", "error"],
@@ -734,7 +734,7 @@
   },
   {
     "questionId": "soft73",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes repeating a process until a condition is met?",
     "options": ["Iteration", "Recursion", "Compilation", "Execution"],
@@ -743,16 +743,16 @@
   },
   {
     "questionId": "soft74",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software metric measures code coverage by automated tests?",
     "options": ["Test Coverage", "Cyclomatic Complexity", "LOC", "Bug Count"],
     "answer": "Test Coverage",
-    "reason": "Test coverage shows the percentage of code executed by tests."
+    "reason": "Test coverage shows the percentopice of code executed by tests."
   },
   {
     "questionId": "soft75",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of relationship represents a 'has-a' association in OOP?",
     "options": [
@@ -766,7 +766,7 @@
   },
   {
     "questionId": "soft76",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which keyword defines an interface in C#?",
     "options": ["interface", "abstract", "class", "struct"],
@@ -775,7 +775,7 @@
   },
   {
     "questionId": "soft77",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of loop is guaranteed to execute at least once?",
     "options": ["do-while", "while", "for", "foreach"],
@@ -784,7 +784,7 @@
   },
   {
     "questionId": "soft78",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes storing temporary data to reduce repeated calculations?",
     "options": ["Caching", "Buffering", "Queuing", "Logging"],
@@ -793,7 +793,7 @@
   },
   {
     "questionId": "soft79",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which principle suggests modules should have only one reason to change?",
     "options": [
@@ -807,7 +807,7 @@
   },
   {
     "questionId": "soft80",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which practice integrates code changes frequently and runs automated tests?",
     "options": [
@@ -821,7 +821,7 @@
   },
   {
     "questionId": "soft81",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of loop is preferred when iterating a known number of times?",
     "options": ["for", "while", "do-while", "foreach"],
@@ -830,7 +830,7 @@
   },
   {
     "questionId": "soft82",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of testing ensures modified code does not break existing features?",
     "options": [
@@ -844,7 +844,7 @@
   },
   {
     "questionId": "soft83",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which design pattern defines a family of algorithms and makes them interchangeable?",
     "options": ["Strategy", "Observer", "Decorator", "Singleton"],
@@ -853,7 +853,7 @@
   },
   {
     "questionId": "soft84",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes the process of preparing code for deployment?",
     "options": ["Build", "Debug", "Test", "Refactor"],
@@ -862,7 +862,7 @@
   },
   {
     "questionId": "soft85",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes software written to be portable across platforms?",
     "options": ["Cross-Platform", "Open-Source", "Proprietary", "Embedded"],
@@ -871,7 +871,7 @@
   },
   {
     "questionId": "soft86",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which concept allows different methods to have the same name but different parameters?",
     "options": [
@@ -885,7 +885,7 @@
   },
   {
     "questionId": "soft87",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which concept allows a derived class to provide a specific implementation of a method in the base class?",
     "options": [
@@ -899,7 +899,7 @@
   },
   {
     "questionId": "soft88",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of software testing checks individual lines or branches of code?",
     "options": [
@@ -913,7 +913,7 @@
   },
   {
     "questionId": "soft89",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of software testing focuses on functionality without looking at internal code?",
     "options": [
@@ -927,7 +927,7 @@
   },
   {
     "questionId": "soft90",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes converting human-readable code to machine-readable instructions?",
     "options": ["Compilation", "Interpretation", "Execution", "Debugging"],
@@ -936,7 +936,7 @@
   },
   {
     "questionId": "soft91",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming concept allows defining variables outside functions for global access?",
     "options": [
@@ -950,13 +950,13 @@
   },
   {
     "questionId": "soft92",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software deployment type updates code directly on production servers?",
     "options": [
       "Continuous Deployment",
       "Manual Deployment",
-      "Staging Deployment",
+      "Stopicing Deployment",
       "Rollback"
     ],
     "answer": "Continuous Deployment",
@@ -964,7 +964,7 @@
   },
   {
     "questionId": "soft93",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming term refers to creating a new object based on an existing object?",
     "options": ["Instantiation", "Inheritance", "Composition", "Abstraction"],
@@ -973,7 +973,7 @@
   },
   {
     "questionId": "soft94",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which C# keyword ensures a method can be overridden by a derived class?",
     "options": ["virtual", "override", "abstract", "sealed"],
@@ -982,7 +982,7 @@
   },
   {
     "questionId": "soft95",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which C# keyword overrides a virtual method in a derived class?",
     "options": ["override", "virtual", "abstract", "new"],
@@ -991,7 +991,7 @@
   },
   {
     "questionId": "soft96",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes a tool that tracks changes, branches, and merges code?",
     "options": ["Version Control System", "IDE", "Debugger", "Compiler"],
@@ -1000,7 +1000,7 @@
   },
   {
     "questionId": "soft97",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software engineering model uses prototypes to gather user feedback early?",
     "options": [
@@ -1014,7 +1014,7 @@
   },
   {
     "questionId": "soft98",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes the practice of monitoring and maintaining software performance after release?",
     "options": ["Software Maintenance", "Debugging", "Refactoring", "Testing"],
@@ -1023,7 +1023,7 @@
   },
   {
     "questionId": "soft99",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which concept refers to hiding implementation details and exposing only necessary functionality?",
     "options": ["Abstraction", "Encapsulation", "Polymorphism", "Inheritance"],
@@ -1032,7 +1032,7 @@
   },
   {
     "questionId": "soft100",
-    "tag": "software",
+    "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software development activity involves improving code readability and structure without changing behavior?",
     "options": ["Refactoring", "Debugging", "Testing", "Deployment"],

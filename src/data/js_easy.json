@@ -1,6 +1,6 @@
 [
   {
-    "questionId": "q1",
+    "questionId": "js_e_1",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method converts a JSON string to an object?",
@@ -14,7 +14,7 @@
     "reason": "JSON.parse() converts JSON string into an object."
   },
   {
-    "questionId": "q2",
+    "questionId": "js_e_2",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which keyword declares a block-scoped variable?",
@@ -23,7 +23,7 @@
     "reason": "let creates a block-scoped variable."
   },
   {
-    "questionId": "q3",
+    "questionId": "js_e_3",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which of the following is NOT a JavaScript data type?",
@@ -32,7 +32,7 @@
     "reason": "JavaScript does not have a character type."
   },
   {
-    "questionId": "q4",
+    "questionId": "js_e_4",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator compares both value and type?",
@@ -41,7 +41,7 @@
     "reason": "=== compares value and type."
   },
   {
-    "questionId": "q5",
+    "questionId": "js_e_5",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method adds an element to the end of an array?",
@@ -49,9 +49,8 @@
     "answer": "push()",
     "reason": "push() adds an item to the end of an array."
   },
-
   {
-    "questionId": "q6",
+    "questionId": "js_e_6",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which symbol is used for single-line comments?",
@@ -60,7 +59,7 @@
     "reason": "Single-line comments begin with //."
   },
   {
-    "questionId": "q7",
+    "questionId": "js_e_7",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What method outputs to the browser console?",
@@ -69,7 +68,7 @@
     "reason": "console.log() prints to the console."
   },
   {
-    "questionId": "q8",
+    "questionId": "js_e_8",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which keyword declares a constant?",
@@ -78,7 +77,7 @@
     "reason": "const declares a constant variable."
   },
   {
-    "questionId": "q9",
+    "questionId": "js_e_9",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method removes the last element of an array?",
@@ -87,7 +86,7 @@
     "reason": "pop() removes the last element."
   },
   {
-    "questionId": "q10",
+    "questionId": "js_e_10",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which character is used for template literals?",
@@ -95,9 +94,8 @@
     "answer": "`",
     "reason": "Template literals use backticks."
   },
-
   {
-    "questionId": "q11",
+    "questionId": "js_e_11",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method converts a JavaScript object into a JSON string?",
@@ -106,7 +104,7 @@
     "reason": "JSON.stringify() converts an object to JSON string."
   },
   {
-    "questionId": "q12",
+    "questionId": "js_e_12",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which loop runs at least once no matter what?",
@@ -115,7 +113,7 @@
     "reason": "do...while runs once before checking condition."
   },
   {
-    "questionId": "q13",
+    "questionId": "js_e_13",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What does DOM stand for?",
@@ -129,7 +127,7 @@
     "reason": "DOM stands for Document Object Model."
   },
   {
-    "questionId": "q14",
+    "questionId": "js_e_14",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which one is a Boolean value?",
@@ -138,7 +136,7 @@
     "reason": "true is a Boolean value."
   },
   {
-    "questionId": "q15",
+    "questionId": "js_e_15",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What is the result of typeof []?",
@@ -146,9 +144,8 @@
     "answer": "object",
     "reason": "Arrays are objects in JavaScript."
   },
-
   {
-    "questionId": "q16",
+    "questionId": "js_e_16",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which function alerts a message to the browser?",
@@ -157,7 +154,7 @@
     "reason": "alert() displays a popup message."
   },
   {
-    "questionId": "q17",
+    "questionId": "js_e_17",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What does NaN mean?",
@@ -171,7 +168,7 @@
     "reason": "NaN stands for Not a Number."
   },
   {
-    "questionId": "q18",
+    "questionId": "js_e_18",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which built-in method joins array elements into a string?",
@@ -180,7 +177,7 @@
     "reason": "join() creates a string from array elements."
   },
   {
-    "questionId": "q19",
+    "questionId": "js_e_19",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which symbol is used to access object properties?",
@@ -189,7 +186,7 @@
     "reason": "Dot notation accesses object properties."
   },
   {
-    "questionId": "q20",
+    "questionId": "js_e_20",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method converts a number to a string?",
@@ -197,9 +194,8 @@
     "answer": "toString()",
     "reason": "toString() converts a number to string."
   },
-
   {
-    "questionId": "q21",
+    "questionId": "js_e_21",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator is used for strict inequality?",
@@ -207,9 +203,8 @@
     "answer": "!==",
     "reason": "!== checks type and value inequality."
   },
-
   {
-    "questionId": "q22",
+    "questionId": "js_e_22",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What is the default value of an uninitialized variable?",
@@ -217,9 +212,8 @@
     "answer": "undefined",
     "reason": "Uninitialized variables are undefined."
   },
-
   {
-    "questionId": "q23",
+    "questionId": "js_e_23",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which function rounds a number down?",
@@ -227,9 +221,8 @@
     "answer": "Math.floor()",
     "reason": "Math.floor() rounds down to the nearest integer."
   },
-
   {
-    "questionId": "q24",
+    "questionId": "js_e_24",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method removes the first array element?",
@@ -237,9 +230,8 @@
     "answer": "shift()",
     "reason": "shift() removes the first element."
   },
-
   {
-    "questionId": "q25",
+    "questionId": "js_e_25",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator is the logical AND?",
@@ -247,9 +239,8 @@
     "answer": "&&",
     "reason": "&& represents logical AND."
   },
-
   {
-    "questionId": "q26",
+    "questionId": "js_e_26",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator is used for string concatenation?",
@@ -257,9 +248,8 @@
     "answer": "+",
     "reason": "The + operator concatenates strings."
   },
-
   {
-    "questionId": "q27",
+    "questionId": "js_e_27",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What does typeof null return?",
@@ -267,9 +257,8 @@
     "answer": "object",
     "reason": "typeof null is a known JavaScript quirk."
   },
-
   {
-    "questionId": "q28",
+    "questionId": "js_e_28",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which symbol begins an array?",
@@ -277,9 +266,8 @@
     "answer": "[",
     "reason": "Arrays use square brackets."
   },
-
   {
-    "questionId": "q29",
+    "questionId": "js_e_29",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which function gives the length of a string?",
@@ -287,9 +275,8 @@
     "answer": "length",
     "reason": "length returns string length."
   },
-
   {
-    "questionId": "q30",
+    "questionId": "js_e_30",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What is an array?",
@@ -302,9 +289,8 @@
     "answer": "A list of values",
     "reason": "Arrays store ordered lists of values."
   },
-
   {
-    "questionId": "q31",
+    "questionId": "js_e_31",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method checks if an array includes a value?",
@@ -312,9 +298,8 @@
     "answer": "includes()",
     "reason": "includes() checks for a value."
   },
-
   {
-    "questionId": "q32",
+    "questionId": "js_e_32",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which keyword declares a variable that can be updated but not re-declared?",
@@ -322,9 +307,8 @@
     "answer": "let",
     "reason": "let can be reassigned but not redeclared in the same scope."
   },
-
   {
-    "questionId": "q33",
+    "questionId": "js_e_33",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which built-in method converts a string to uppercase?",
@@ -332,9 +316,8 @@
     "answer": "toUpperCase()",
     "reason": "toUpperCase() converts strings to uppercase."
   },
-
   {
-    "questionId": "q34",
+    "questionId": "js_e_34",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator represents OR?",
@@ -342,9 +325,8 @@
     "answer": "||",
     "reason": "|| is logical OR."
   },
-
   {
-    "questionId": "q35",
+    "questionId": "js_e_35",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which number represents false in Boolean conversion?",
@@ -352,9 +334,8 @@
     "answer": "0",
     "reason": "0 converts to false."
   },
-
   {
-    "questionId": "q36",
+    "questionId": "js_e_36",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which object handles math operations?",
@@ -362,9 +343,8 @@
     "answer": "Math",
     "reason": "Math contains mathematical functions."
   },
-
   {
-    "questionId": "q37",
+    "questionId": "js_e_37",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which type is returned by typeof []?",
@@ -372,9 +352,8 @@
     "answer": "object",
     "reason": "Arrays are objects in JavaScript."
   },
-
   {
-    "questionId": "q38",
+    "questionId": "js_e_38",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which keyword declares a function?",
@@ -382,9 +361,8 @@
     "answer": "function",
     "reason": "function keyword declares a function."
   },
-
   {
-    "questionId": "q39",
+    "questionId": "js_e_39",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What is used to enclose object literals?",
@@ -392,9 +370,8 @@
     "answer": "{}",
     "reason": "Objects use curly braces."
   },
-
   {
-    "questionId": "q40",
+    "questionId": "js_e_40",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method returns the index of an array value?",
@@ -402,9 +379,8 @@
     "answer": "indexOf()",
     "reason": "indexOf() finds an element's index."
   },
-
   {
-    "questionId": "q41",
+    "questionId": "js_e_41",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which value is falsy?",
@@ -412,9 +388,8 @@
     "answer": "0",
     "reason": "0 is a falsy value."
   },
-
   {
-    "questionId": "q42",
+    "questionId": "js_e_42",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator assigns a value?",
@@ -422,9 +397,8 @@
     "answer": "=",
     "reason": "The = operator assigns a value."
   },
-
   {
-    "questionId": "q43",
+    "questionId": "js_e_43",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator increments a number?",
@@ -432,9 +406,8 @@
     "answer": "++",
     "reason": "++ increments by 1."
   },
-
   {
-    "questionId": "q44",
+    "questionId": "js_e_44",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method turns string to lowercase?",
@@ -442,9 +415,8 @@
     "answer": "toLowerCase()",
     "reason": "toLowerCase() converts to lowercase."
   },
-
   {
-    "questionId": "q45",
+    "questionId": "js_e_45",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which symbol is used to separate object key/value?",
@@ -452,9 +424,8 @@
     "answer": ":",
     "reason": "Objects use : between key and value."
   },
-
   {
-    "questionId": "q46",
+    "questionId": "js_e_46",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which loop iterates over array elements?",
@@ -462,9 +433,8 @@
     "answer": "forEach",
     "reason": "forEach loops through array values."
   },
-
   {
-    "questionId": "q47",
+    "questionId": "js_e_47",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method removes items from an array?",
@@ -472,9 +442,8 @@
     "answer": "splice()",
     "reason": "splice() removes or adds array elements."
   },
-
   {
-    "questionId": "q48",
+    "questionId": "js_e_48",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which keyword stops a loop?",
@@ -482,9 +451,8 @@
     "answer": "break",
     "reason": "break exits loops."
   },
-
   {
-    "questionId": "q49",
+    "questionId": "js_e_49",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which built-in function parses integers?",
@@ -492,9 +460,8 @@
     "answer": "parseInt()",
     "reason": "parseInt() converts strings to integers."
   },
-
   {
-    "questionId": "q50",
+    "questionId": "js_e_50",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What value does typeof undefined return?",
@@ -502,9 +469,8 @@
     "answer": "undefined",
     "reason": "undefined is its own type."
   },
-
   {
-    "questionId": "q51",
+    "questionId": "js_e_51",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which built-in function parses floating numbers?",
@@ -512,9 +478,8 @@
     "answer": "parseFloat()",
     "reason": "parseFloat() parses float numbers."
   },
-
   {
-    "questionId": "q52",
+    "questionId": "js_e_52",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator represents NOT?",
@@ -522,9 +487,8 @@
     "answer": "!",
     "reason": "! negates Boolean values."
   },
-
   {
-    "questionId": "q53",
+    "questionId": "js_e_53",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method gets the last element of an array?",
@@ -532,9 +496,8 @@
     "answer": "at(-1)",
     "reason": "Array.at(-1) returns last element."
   },
-
   {
-    "questionId": "q54",
+    "questionId": "js_e_54",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which type can store multiple different data types?",
@@ -542,9 +505,8 @@
     "answer": "array",
     "reason": "Arrays store mixed types."
   },
-
   {
-    "questionId": "q55",
+    "questionId": "js_e_55",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method repeats a string?",
@@ -552,9 +514,8 @@
     "answer": "repeat()",
     "reason": "repeat() repeats a string."
   },
-
   {
-    "questionId": "q56",
+    "questionId": "js_e_56",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What does === check?",
@@ -562,9 +523,8 @@
     "answer": "value and type",
     "reason": "=== enforces strict equality."
   },
-
   {
-    "questionId": "q57",
+    "questionId": "js_e_57",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which symbol encloses function parameters?",
@@ -572,9 +532,8 @@
     "answer": "()",
     "reason": "Function parameters go inside ()."
   },
-
   {
-    "questionId": "q58",
+    "questionId": "js_e_58",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which type describes true/false?",
@@ -582,9 +541,8 @@
     "answer": "boolean",
     "reason": "Boolean values are true/false."
   },
-
   {
-    "questionId": "q59",
+    "questionId": "js_e_59",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator concatenates arrays?",
@@ -592,9 +550,8 @@
     "answer": "concat()",
     "reason": "concat() combines arrays."
   },
-
   {
-    "questionId": "q60",
+    "questionId": "js_e_60",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which statement defines a function?",
@@ -602,9 +559,8 @@
     "answer": "function()",
     "reason": "Functions are declared with function keyword."
   },
-
   {
-    "questionId": "q61",
+    "questionId": "js_e_61",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator is used for exponent?",
@@ -612,9 +568,8 @@
     "answer": "**",
     "reason": "** performs exponentiation."
   },
-
   {
-    "questionId": "q62",
+    "questionId": "js_e_62",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method trims whitespace from a string?",
@@ -622,9 +577,8 @@
     "answer": "trim()",
     "reason": "trim() removes leading/trailing spaces."
   },
-
   {
-    "questionId": "q63",
+    "questionId": "js_e_63",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What is null?",
@@ -637,9 +591,8 @@
     "answer": "A reference to nothing",
     "reason": "null means empty value."
   },
-
   {
-    "questionId": "q64",
+    "questionId": "js_e_64",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method checks if a string starts with a specific value?",
@@ -647,9 +600,8 @@
     "answer": "startsWith()",
     "reason": "startsWith() checks beginning of strings."
   },
-
   {
-    "questionId": "q65",
+    "questionId": "js_e_65",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which structure stores key/value pairs?",
@@ -657,9 +609,8 @@
     "answer": "object",
     "reason": "Objects store key/value pairs."
   },
-
   {
-    "questionId": "q66",
+    "questionId": "js_e_66",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method returns array length?",
@@ -667,9 +618,8 @@
     "answer": "length",
     "reason": "length provides array size."
   },
-
   {
-    "questionId": "q67",
+    "questionId": "js_e_67",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which type is returned by typeof function?",
@@ -677,9 +627,8 @@
     "answer": "function",
     "reason": "typeof returns 'function' for functions."
   },
-
   {
-    "questionId": "q68",
+    "questionId": "js_e_68",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What is the result of true && false?",
@@ -687,9 +636,8 @@
     "answer": "false",
     "reason": "AND requires both sides true."
   },
-
   {
-    "questionId": "q69",
+    "questionId": "js_e_69",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator represents OR?",
@@ -697,9 +645,8 @@
     "answer": "||",
     "reason": "|| is logical OR."
   },
-
   {
-    "questionId": "q70",
+    "questionId": "js_e_70",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method splits a string into an array?",
@@ -707,9 +654,8 @@
     "answer": "split()",
     "reason": "split() turns strings into arrays."
   },
-
   {
-    "questionId": "q71",
+    "questionId": "js_e_71",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What keyword creates a promise?",
@@ -722,9 +668,8 @@
     "answer": "new Promise()",
     "reason": "Promises are created using new Promise()."
   },
-
   {
-    "questionId": "q72",
+    "questionId": "js_e_72",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which statement handles errors?",
@@ -732,9 +677,8 @@
     "answer": "try...catch",
     "reason": "try...catch handles exceptions."
   },
-
   {
-    "questionId": "q73",
+    "questionId": "js_e_73",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which keyword sends output from a function?",
@@ -742,9 +686,8 @@
     "answer": "return",
     "reason": "Functions output values using return."
   },
-
   {
-    "questionId": "q74",
+    "questionId": "js_e_74",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which value does typeof false return?",
@@ -752,9 +695,8 @@
     "answer": "boolean",
     "reason": "false is a boolean."
   },
-
   {
-    "questionId": "q75",
+    "questionId": "js_e_75",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which built-in method finds the first element matching a test?",
@@ -762,9 +704,8 @@
     "answer": "find()",
     "reason": "find() returns the first matching element."
   },
-
   {
-    "questionId": "q76",
+    "questionId": "js_e_76",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method checks if every array element meets a condition?",
@@ -772,9 +713,8 @@
     "answer": "every()",
     "reason": "every() tests all elements."
   },
-
   {
-    "questionId": "q77",
+    "questionId": "js_e_77",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method returns current timestamp?",
@@ -782,9 +722,8 @@
     "answer": "Date.now()",
     "reason": "Date.now() returns Unix time in ms."
   },
-
   {
-    "questionId": "q78",
+    "questionId": "js_e_78",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method merges two objects?",
@@ -797,9 +736,8 @@
     "answer": "Object.assign()",
     "reason": "Object.assign() merges objects."
   },
-
   {
-    "questionId": "q79",
+    "questionId": "js_e_79",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which keyword declares a class?",
@@ -807,9 +745,8 @@
     "answer": "class",
     "reason": "JavaScript classes use class keyword."
   },
-
   {
-    "questionId": "q80",
+    "questionId": "js_e_80",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which type is an array?",
@@ -817,9 +754,8 @@
     "answer": "object",
     "reason": "typeof array is object."
   },
-
   {
-    "questionId": "q81",
+    "questionId": "js_e_81",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method combines arrays into one?",
@@ -827,9 +763,8 @@
     "answer": "concat()",
     "reason": "concat() merges arrays."
   },
-
   {
-    "questionId": "q82",
+    "questionId": "js_e_82",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What does the break keyword do?",
@@ -837,9 +772,8 @@
     "answer": "Ends loop",
     "reason": "break stops loop execution."
   },
-
   {
-    "questionId": "q83",
+    "questionId": "js_e_83",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method returns current date?",
@@ -847,9 +781,8 @@
     "answer": "new Date()",
     "reason": "new Date() creates a Date object."
   },
-
   {
-    "questionId": "q84",
+    "questionId": "js_e_84",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator converts string to number?",
@@ -857,9 +790,8 @@
     "answer": "+",
     "reason": "Unary + converts to number."
   },
-
   {
-    "questionId": "q85",
+    "questionId": "js_e_85",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator checks loose equality?",
@@ -867,9 +799,8 @@
     "answer": "==",
     "reason": "== compares values loosely."
   },
-
   {
-    "questionId": "q86",
+    "questionId": "js_e_86",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which object represents errors?",
@@ -877,9 +808,8 @@
     "answer": "Error",
     "reason": "Errors are instances of Error."
   },
-
   {
-    "questionId": "q87",
+    "questionId": "js_e_87",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method returns part of a string?",
@@ -887,9 +817,8 @@
     "answer": "slice()",
     "reason": "slice() extracts string portions."
   },
-
   {
-    "questionId": "q88",
+    "questionId": "js_e_88",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator is used to access array elements?",
@@ -897,9 +826,8 @@
     "answer": "[]",
     "reason": "Arrays use [] to access elements."
   },
-
   {
-    "questionId": "q89",
+    "questionId": "js_e_89",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "What does JSON stand for?",
@@ -912,9 +840,8 @@
     "answer": "JavaScript Object Notation",
     "reason": "JSON stands for JavaScript Object Notation."
   },
-
   {
-    "questionId": "q90",
+    "questionId": "js_e_90",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method checks if any array value meets a condition?",
@@ -922,9 +849,8 @@
     "answer": "some()",
     "reason": "some() tests at least one element."
   },
-
   {
-    "questionId": "q91",
+    "questionId": "js_e_91",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which keyword creates an object?",
@@ -932,9 +858,8 @@
     "answer": "new",
     "reason": "Objects are created using new keyword."
   },
-
   {
-    "questionId": "q92",
+    "questionId": "js_e_92",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method converts array to string?",
@@ -942,9 +867,8 @@
     "answer": "toString()",
     "reason": "toString() converts array to string."
   },
-
   {
-    "questionId": "q93",
+    "questionId": "js_e_93",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operation adds items to the beginning of an array?",
@@ -952,9 +876,8 @@
     "answer": "unshift()",
     "reason": "unshift() adds at start."
   },
-
   {
-    "questionId": "q94",
+    "questionId": "js_e_94",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method gets the length of an array?",
@@ -962,9 +885,8 @@
     "answer": "length",
     "reason": "length gives array size."
   },
-
   {
-    "questionId": "q95",
+    "questionId": "js_e_95",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which operator compares NOT equal?",
@@ -972,9 +894,8 @@
     "answer": "!=",
     "reason": "!= checks loose inequality."
   },
-
   {
-    "questionId": "q96",
+    "questionId": "js_e_96",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which bracket wraps JSON objects?",
@@ -982,9 +903,8 @@
     "answer": "{}",
     "reason": "JSON objects use {}."
   },
-
   {
-    "questionId": "q97",
+    "questionId": "js_e_97",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which method is used to delay a function?",
@@ -992,9 +912,8 @@
     "answer": "setTimeout()",
     "reason": "setTimeout() schedules delayed execution."
   },
-
   {
-    "questionId": "q98",
+    "questionId": "js_e_98",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which value is truthy?",
@@ -1002,9 +921,8 @@
     "answer": "\"hello\"",
     "reason": "Non-empty strings are truthy."
   },
-
   {
-    "questionId": "q99",
+    "questionId": "js_e_99",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which keyword handles asynchronous operations?",
@@ -1012,9 +930,8 @@
     "answer": "await",
     "reason": "await pauses async functions."
   },
-
   {
-    "questionId": "q100",
+    "questionId": "js_e_100",
     "tag": "javascript",
     "difficulty": "easy",
     "questionText": "Which keyword defines an async function?",

@@ -10,8 +10,7 @@ export default function StartGameModal() {
   const { numberOfQuiz, topics } = useQuizOption();
 
   const startHandler = () => {
-    console.log(numberOfQuiz);
-    router.push("/f");
+    router.push("/quiz");
   };
 
   const checkOptionValid = () => {

@@ -32,16 +32,14 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
         <h1 className="mb-6 text-2xl font-medium text-shadow-gray-600">
           {id}. {question.questionText}
         </h1>
-        <section
-          className={`flex flex-col space-y-3 rounded-xl bg-white/60 p-4 ${isOptionLessThan5Character && "grid grid-cols-2 grid-rows-2 gap-4"}`}
-        >
-          <QuestionOptions
-            answer={answer}
-            question={question}
-            selectedAnswer={selectedAnswer}
-            setSetselectedAnswer={setSetselectedAnswer}
-          />
-        </section>
+
+        <QuestionOptions
+          answer={answer}
+          question={question}
+          selectedAnswer={selectedAnswer}
+          setSetselectedAnswer={setSetselectedAnswer}
+        />
+
         <h1
           className={`${isSubmit && "visible"} ${answer === selectedAnswer ? "text-green-300" : "text-red-400"} v invisible my-2 rounded-xl bg-white/60 p-4 font-bold`}
         >

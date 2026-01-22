@@ -16,15 +16,15 @@ export default function QuestionOptions({
   setSetselectedAnswer,
 }: QuestionOptionsProps) {
   const isOptionLessThan5Character: boolean = question.options[0].length < 5;
-
+  const btnBlockStyle = isOptionLessThan5Character && "p-6 ";
   return (
     <section
-      className={`flex flex-col space-y-3 rounded-xl bg-white/60 p-4 ${isOptionLessThan5Character && "grid grid-cols-2 grid-rows-2 gap-4"}`}
+      className={`flex flex-col space-y-3 rounded-xl bg-white/60 p-6 ${isOptionLessThan5Character && "grid grid-cols-2 grid-rows-2 gap-6"}`}
     >
       {question.options.map((option: string, index: number) => (
         <button
           onClick={() => setSetselectedAnswer(option)}
-          className={`${answer === selectedAnswer && "green-300 text-shadow-gray-700!"} ${selectedAnswer === option && "bg-info"} btn btn-neutral w-full border-0 bg-gray-600 text-xl transition-all! duration-100! hover:animate-pulse`}
+          className={`${answer === selectedAnswer && "green-300 text-shadow-gray-700!"} ${btnBlockStyle} ${selectedAnswer === option && "bg-info"} btn btn-neutral w-full border-0 bg-gray-600 text-xl transition-all! duration-100! hover:animate-pulse`}
           key={option}
         >
           {indexOrder[index]} {option}

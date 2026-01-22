@@ -3,6 +3,7 @@ import SelectedTopic from "../../sidebar/selectedTopic";
 
 export function SettingOpion() {
   const { setQuizNumber, numberOfQuiz } = useQuizOption();
+
   return (
     <div className="mx-2 my-2.5">
       <h2 className="font-medium text-gray-600">Number of quiz</h2>
@@ -31,7 +32,12 @@ export default function TopicOptions() {
   const { topics } = useQuizOption();
   return (
     <div className="flex flex-wrap">
-      <section className="my-1 flex flex-row flex-wrap gap-3 rounded-xl bg-gray-100/50 p-3">
+      <h2 className={`text-red-400 ${topics.length > 0 && "hidden"}`}>
+        Please select some topics
+      </h2>
+      <section
+        className={`invisible my-1 flex flex-row flex-wrap gap-3 rounded-xl bg-gray-100/50 p-3 ${topics.length > 0 && "visible"}`}
+      >
         {topics.map((item, index) => (
           <SelectedTopic topic={item} key={index} />
         ))}

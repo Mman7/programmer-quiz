@@ -1,5 +1,6 @@
 "use client";
 
+import InfiniteLoading from "@/src/components/infiniteLoading";
 import QuestionSection from "@/src/components/quizPage/questionSection";
 import { useMounted } from "@/src/hooks/useMounted";
 import { useQuizGame } from "@/src/store/useQuizGameStore";
@@ -21,7 +22,7 @@ export default function QuestionPage() {
   }, [mounted]);
 
   if (question === undefined) {
-    return <div>Loading...</div>;
+    return <InfiniteLoading className="size-20 bg-white" />;
   }
   return (
     <div className="m-auto max-w-6xl md:min-w-3xl">

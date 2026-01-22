@@ -1,5 +1,5 @@
 type Topic = {
-  name: string;
+  name: TopicType;
   difficulty: string;
 };
 

@@ -3,8 +3,9 @@
 import React, { useState } from "react";
 import { useDebouncedCallback } from "use-debounce";
 import DifficultyOption from "./difficultyOption";
+import { TopicType } from "@/src/enum/topicTypes";
 
-export const Topics = ["JavaScript", "C#", "C++"];
+export const Topics: string[] = Object.values(TopicType);
 
 export default function Searchbar() {
   const [inputValue, setInputValue] = useState<string>("");

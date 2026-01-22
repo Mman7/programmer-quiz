@@ -16,7 +16,7 @@ interface TopicsState {
 const useQuizOptionStore = create<TopicsState>()(
   persist(
     (set) => ({
-      topics: [] as Topic[],
+      topics: [],
       numberOfQuiz: 0,
       setQuizNumber: (value: number) => set(() => ({ numberOfQuiz: value })),
       addTopic: (newTopic) =>

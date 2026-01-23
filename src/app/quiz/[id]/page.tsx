@@ -25,7 +25,7 @@ export default function QuestionPage() {
     return <InfiniteLoading className="size-20 bg-white" />;
   }
   return (
-    <div className="m-auto max-w-6xl md:min-w-3xl">
+    <div className="m-auto flex max-w-6xl flex-col justify-center sm:min-w-3xl lg:min-w-4xl">
       <QuestionSection question={question} />
     </div>
   );

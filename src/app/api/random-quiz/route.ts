@@ -23,7 +23,7 @@ export async function POST(request: Request) {
   // Combine QuizMap which selected
   const combinedMap = combineMapInArray(filteredTopicList);
   // get random question
-  const randomQuestion = getRandomQuestion(
+  const randomQuestion: QuizQuestion[] = getRandomQuestion(
     combinedMap as Map<string, QuizQuestion>,
     numberOfQuiz,
   );

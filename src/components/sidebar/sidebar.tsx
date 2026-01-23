@@ -5,11 +5,19 @@ import SelectedTopic from "./selectedTopic";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { usePathname } from "next/navigation";
+import { useQuizGame } from "@/src/store/useQuizGameStore";
+import { ModelName, useConfirmModal } from "@/src/store/useComfirmModalStore";
 
 export default function Sidebar() {
-  const { topics, removeAll } = useQuizOption();
+  const { topics, clearTopic } = useQuizOption();
   const pathname = usePathname();
-  const isQuizPage = pathname == "/quiz";
+  const isQuizPage = pathname == "/quiz" || pathname.startsWith("/quiz/");
+  const { questions } = useQuizGame();
+  const { setModalName } = useConfirmModal();
+
+  const showConfirmModal = () => {
+    setModalName(ModelName.removeTopicModal);
+  };
 
   return (
     <>
@@ -21,11 +29,11 @@ export default function Sidebar() {
       <div className="menu bg-base-100 flex min-h-full w-80 p-4">
         <section className="flex items-center justify-between">
           <h1 className="mb-3 text-xl font-bold text-black">Topics includes</h1>
-          {isQuizPage ? (
-            <></>
-          ) : (
+          {!isQuizPage && (
             <button
-              onClick={() => removeAll()}
+              onClick={() =>
+                questions.length > 0 ? showConfirmModal() : clearTopic()
+              }
               className="btn btn-ghost btn-circle border-0 hover:bg-gray-200"
             >
               <FontAwesomeIcon

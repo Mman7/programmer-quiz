@@ -1,0 +1,1150 @@
+[
+  {
+    "questionId": "cpp_m_1",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of the virtual keyword in C++?",
+    "options": [
+      "To enable dynamic binding",
+      "To prevent inheritance",
+      "To improve performance",
+      "To allocate memory dynamically"
+    ],
+    "answer": "To enable dynamic binding",
+    "reason": "virtual enables runtime polymorphism through dynamic dispatch."
+  },
+  {
+    "questionId": "cpp_m_2",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which concept allows a function to have multiple implementations?",
+    "options": ["Encapsulation", "Polymorphism", "Abstraction", "Composition"],
+    "answer": "Polymorphism",
+    "reason": "Polymorphism allows different implementations via inheritance and virtual functions."
+  },
+  {
+    "questionId": "cpp_m_3",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What happens if a base class destructor is not virtual?",
+    "options": [
+      "Memory leak may occur",
+      "Program will not compile",
+      "Derived destructor is always called",
+      "Nothing special happens"
+    ],
+    "answer": "Memory leak may occur",
+    "reason": "Deleting derived objects via base pointer may skip derived destructor."
+  },
+  {
+    "questionId": "cpp_m_4",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which container provides constant time average lookup?",
+    "options": ["vector", "list", "map", "unordered_map"],
+    "answer": "unordered_map",
+    "reason": "unordered_map uses hashing for average O(1) lookup."
+  },
+  {
+    "questionId": "cpp_m_5",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does RAII stand for?",
+    "options": [
+      "Resource Allocation Is Initialization",
+      "Runtime Allocation In Inheritance",
+      "Reference Access Is Immediate",
+      "Random Allocation In Interface"
+    ],
+    "answer": "Resource Allocation Is Initialization",
+    "reason": "RAII ties resource lifetime to object lifetime."
+  },
+
+  {
+    "questionId": "cpp_m_6",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which smart pointer allows shared ownership?",
+    "options": ["unique_ptr", "shared_ptr", "weak_ptr", "auto_ptr"],
+    "answer": "shared_ptr",
+    "reason": "shared_ptr maintains a reference count for shared ownership."
+  },
+  {
+    "questionId": "cpp_m_7",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What is the role of weak_ptr?",
+    "options": [
+      "Owns the resource",
+      "Deletes memory automatically",
+      "Prevents circular references",
+      "Improves performance"
+    ],
+    "answer": "Prevents circular references",
+    "reason": "weak_ptr observes shared_ptr without increasing reference count."
+  },
+  {
+    "questionId": "cpp_m_8",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which feature allows function behavior to be decided at runtime?",
+    "options": [
+      "Templates",
+      "Function overloading",
+      "Virtual functions",
+      "Inlining"
+    ],
+    "answer": "Virtual functions",
+    "reason": "Virtual functions use dynamic dispatch at runtime."
+  },
+  {
+    "questionId": "cpp_m_9",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What is the difference between struct and class?",
+    "options": [
+      "struct cannot have methods",
+      "class members are private by default",
+      "struct does not support inheritance",
+      "They are identical in every way"
+    ],
+    "answer": "class members are private by default",
+    "reason": "struct members are public by default, class members are private."
+  },
+  {
+    "questionId": "cpp_m_10",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which keyword prevents a class from being inherited?",
+    "options": ["static", "sealed", "final", "const"],
+    "answer": "final",
+    "reason": "final prevents further inheritance."
+  },
+
+  {
+    "questionId": "cpp_m_11",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which STL container maintains sorted order?",
+    "options": ["vector", "unordered_set", "set", "deque"],
+    "answer": "set",
+    "reason": "set stores elements in sorted order."
+  },
+  {
+    "questionId": "cpp_m_12",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does const at the end of a member function mean?",
+    "options": [
+      "Function cannot be overridden",
+      "Function cannot modify object state",
+      "Function is inline",
+      "Function returns constant value"
+    ],
+    "answer": "Function cannot modify object state",
+    "reason": "const member functions cannot modify member variables."
+  },
+  {
+    "questionId": "cpp_m_13",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which cast is safest for polymorphic downcasting?",
+    "options": [
+      "static_cast",
+      "reinterpret_cast",
+      "dynamic_cast",
+      "const_cast"
+    ],
+    "answer": "dynamic_cast",
+    "reason": "dynamic_cast performs runtime type checking."
+  },
+  {
+    "questionId": "cpp_m_14",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which C++ feature supports generic programming?",
+    "options": ["Inheritance", "Templates", "Namespaces", "Macros"],
+    "answer": "Templates",
+    "reason": "Templates enable type-independent programming."
+  },
+  {
+    "questionId": "cpp_m_15",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does noexcept indicate?",
+    "options": [
+      "Function will not throw exceptions",
+      "Function is always inline",
+      "Function is deprecated",
+      "Function returns no value"
+    ],
+    "answer": "Function will not throw exceptions",
+    "reason": "noexcept guarantees no exceptions will be thrown."
+  },
+
+  {
+    "questionId": "cpp_m_16",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which operator cannot be overloaded?",
+    "options": ["+", "[]", "::", "=="],
+    "answer": "::",
+    "reason": "Scope resolution operator cannot be overloaded."
+  },
+  {
+    "questionId": "cpp_m_17",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::move do?",
+    "options": [
+      "Moves memory physically",
+      "Casts to rvalue reference",
+      "Copies the object",
+      "Deletes the object"
+    ],
+    "answer": "Casts to rvalue reference",
+    "reason": "std::move enables move semantics by casting."
+  },
+  {
+    "questionId": "cpp_m_18",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which concept avoids copying objects unnecessarily?",
+    "options": [
+      "Copy constructor",
+      "Move semantics",
+      "Virtual inheritance",
+      "Inlining"
+    ],
+    "answer": "Move semantics",
+    "reason": "Move semantics transfer ownership instead of copying."
+  },
+  {
+    "questionId": "cpp_m_19",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What is diamond problem related to?",
+    "options": ["Multiple inheritance", "Templates", "Pointers", "Recursion"],
+    "answer": "Multiple inheritance",
+    "reason": "Diamond problem occurs with multiple inheritance ambiguity."
+  },
+  {
+    "questionId": "cpp_m_20",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which keyword resolves diamond problem?",
+    "options": ["static", "virtual", "final", "override"],
+    "answer": "virtual",
+    "reason": "Virtual inheritance prevents duplicate base class instances."
+  },
+  {
+    "questionId": "cpp_m_21",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which STL algorithm is used to remove consecutive duplicate elements?",
+    "options": ["remove", "unique", "erase", "distinct"],
+    "answer": "unique",
+    "reason": "std::unique removes consecutive duplicate elements logically."
+  },
+  {
+    "questionId": "cpp_m_22",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What is the time complexity of std::map lookup?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "answer": "O(log n)",
+    "reason": "std::map is typically implemented as a red-black tree."
+  },
+  {
+    "questionId": "cpp_m_23",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which header is required for std::thread?",
+    "options": ["<thread>", "<pthread>", "<future>", "<mutex>"],
+    "answer": "<thread>",
+    "reason": "std::thread is declared in the <thread> header."
+  },
+  {
+    "questionId": "cpp_m_24",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::lock_guard do?",
+    "options": [
+      "Locks a mutex manually",
+      "Unlocks a mutex",
+      "Manages mutex locking via RAII",
+      "Creates a new mutex"
+    ],
+    "answer": "Manages mutex locking via RAII",
+    "reason": "lock_guard locks on construction and unlocks on destruction."
+  },
+  {
+    "questionId": "cpp_m_25",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which type is used for atomic operations?",
+    "options": ["volatile", "atomic", "mutex", "thread"],
+    "answer": "atomic",
+    "reason": "std::atomic provides lock-free atomic operations."
+  },
+
+  {
+    "questionId": "cpp_m_26",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does volatile keyword ensure?",
+    "options": [
+      "Thread safety",
+      "No optimization on variable access",
+      "Atomic access",
+      "Memory allocation"
+    ],
+    "answer": "No optimization on variable access",
+    "reason": "volatile prevents compiler optimizations on variable access."
+  },
+  {
+    "questionId": "cpp_m_27",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which container allows fast insertion at both ends?",
+    "options": ["vector", "deque", "list", "set"],
+    "answer": "deque",
+    "reason": "deque supports efficient insertion at both front and back."
+  },
+  {
+    "questionId": "cpp_m_28",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What is undefined behavior?",
+    "options": [
+      "Behavior defined by compiler",
+      "Behavior that causes compilation error",
+      "Behavior not defined by the standard",
+      "Runtime exception"
+    ],
+    "answer": "Behavior not defined by the standard",
+    "reason": "Undefined behavior may result in unpredictable outcomes."
+  },
+  {
+    "questionId": "cpp_m_29",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which keyword enforces override checking?",
+    "options": ["virtual", "final", "override", "explicit"],
+    "answer": "override",
+    "reason": "override ensures function correctly overrides a base virtual function."
+  },
+  {
+    "questionId": "cpp_m_30",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does explicit prevent?",
+    "options": [
+      "Inheritance",
+      "Implicit conversions",
+      "Copying objects",
+      "Overloading"
+    ],
+    "answer": "Implicit conversions",
+    "reason": "explicit prevents unintended implicit constructor conversions."
+  },
+
+  {
+    "questionId": "cpp_m_31",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which feature allows compile-time computation?",
+    "options": ["constexpr", "virtual", "mutable", "dynamic_cast"],
+    "answer": "constexpr",
+    "reason": "constexpr enables evaluation at compile time."
+  },
+  {
+    "questionId": "cpp_m_32",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of std::function?",
+    "options": [
+      "Store any callable",
+      "Create threads",
+      "Handle exceptions",
+      "Manage memory"
+    ],
+    "answer": "Store any callable",
+    "reason": "std::function can store lambdas, functions, and functors."
+  },
+  {
+    "questionId": "cpp_m_33",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which capture allows modifying external variables in lambda?",
+    "options": ["By value", "By reference", "Mutable", "Static"],
+    "answer": "By reference",
+    "reason": "Reference capture allows modifying external variables."
+  },
+  {
+    "questionId": "cpp_m_34",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does mutable keyword allow in lambdas?",
+    "options": [
+      "Modify captured by value variables",
+      "Change return type",
+      "Enable recursion",
+      "Disable capture"
+    ],
+    "answer": "Modify captured by value variables",
+    "reason": "mutable allows modifying value-captured variables."
+  },
+  {
+    "questionId": "cpp_m_35",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which container invalidates iterators on reallocation?",
+    "options": ["list", "vector", "set", "map"],
+    "answer": "vector",
+    "reason": "vector reallocation invalidates iterators."
+  },
+
+  {
+    "questionId": "cpp_m_36",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What is the default capture mode for lambdas?",
+    "options": ["By value", "By reference", "No capture", "Automatic"],
+    "answer": "No capture",
+    "reason": "Lambdas capture nothing unless specified."
+  },
+  {
+    "questionId": "cpp_m_37",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which STL algorithm applies a function to each element?",
+    "options": ["transform", "for_each", "apply", "map"],
+    "answer": "for_each",
+    "reason": "std::for_each applies a function to each element."
+  },
+  {
+    "questionId": "cpp_m_38",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of std::optional?",
+    "options": [
+      "Thread synchronization",
+      "Represent optional values",
+      "Memory pooling",
+      "Error handling"
+    ],
+    "answer": "Represent optional values",
+    "reason": "std::optional may or may not contain a value."
+  },
+  {
+    "questionId": "cpp_m_39",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which feature replaces macros safely?",
+    "options": ["inline", "constexpr", "templates", "all of the above"],
+    "answer": "all of the above",
+    "reason": "These features are safer alternatives to macros."
+  },
+  {
+    "questionId": "cpp_m_40",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which tool detects memory leaks?",
+    "options": ["gdb", "valgrind", "cmake", "make"],
+    "answer": "valgrind",
+    "reason": "Valgrind detects memory leaks and invalid access."
+  },
+
+  {
+    "questionId": "cpp_m_41",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::future represent?",
+    "options": [
+      "Thread",
+      "Shared memory",
+      "Result of async operation",
+      "Mutex"
+    ],
+    "answer": "Result of async operation",
+    "reason": "std::future holds the result of an asynchronous task."
+  },
+  {
+    "questionId": "cpp_m_42",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which keyword allows modifying member in const function?",
+    "options": ["static", "mutable", "volatile", "register"],
+    "answer": "mutable",
+    "reason": "mutable allows modification in const context."
+  },
+  {
+    "questionId": "cpp_m_43",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::swap do?",
+    "options": [
+      "Copies objects",
+      "Moves objects",
+      "Swaps values",
+      "Deletes objects"
+    ],
+    "answer": "Swaps values",
+    "reason": "std::swap exchanges values of two objects."
+  },
+  {
+    "questionId": "cpp_m_44",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which operator checks object equality?",
+    "options": ["!=", "==", "<", "&&"],
+    "answer": "==",
+    "reason": "operator== compares equality."
+  },
+  {
+    "questionId": "cpp_m_45",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What is a functor?",
+    "options": [
+      "Function pointer",
+      "Object with operator()",
+      "Lambda only",
+      "Template specialization"
+    ],
+    "answer": "Object with operator()",
+    "reason": "Functors overload operator()."
+  },
+
+  {
+    "questionId": "cpp_m_46",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which C++ feature ensures single instance?",
+    "options": ["Factory", "Observer", "Singleton", "Adapter"],
+    "answer": "Singleton",
+    "reason": "Singleton restricts class instantiation."
+  },
+  {
+    "questionId": "cpp_m_47",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which keyword disables copy constructor?",
+    "options": ["delete", "explicit", "private", "final"],
+    "answer": "delete",
+    "reason": "delete prevents function usage."
+  },
+  {
+    "questionId": "cpp_m_48",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::bind do?",
+    "options": [
+      "Thread binding",
+      "Partial function application",
+      "Memory binding",
+      "Namespace binding"
+    ],
+    "answer": "Partial function application",
+    "reason": "std::bind binds arguments to callable."
+  },
+  {
+    "questionId": "cpp_m_49",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which STL container allows duplicate keys?",
+    "options": ["set", "map", "multiset", "unordered_map"],
+    "answer": "multiset",
+    "reason": "multiset allows duplicate keys."
+  },
+  {
+    "questionId": "cpp_m_50",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::array provide over raw arrays?",
+    "options": [
+      "Dynamic size",
+      "STL compatibility",
+      "Heap allocation",
+      "Pointer arithmetic"
+    ],
+    "answer": "STL compatibility",
+    "reason": "std::array integrates with STL algorithms."
+  },
+
+  {
+    "questionId": "cpp_m_51",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which header defines std::chrono?",
+    "options": ["<time>", "<chrono>", "<ctime>", "<thread>"],
+    "answer": "<chrono>",
+    "reason": "std::chrono is declared in <chrono>."
+  },
+  {
+    "questionId": "cpp_m_52",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::this_thread::sleep_for do?",
+    "options": [
+      "Terminates thread",
+      "Pauses thread execution",
+      "Blocks process",
+      "Kills CPU usage"
+    ],
+    "answer": "Pauses thread execution",
+    "reason": "sleep_for pauses current thread for duration."
+  },
+  {
+    "questionId": "cpp_m_53",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which container is best for frequent insertions in middle?",
+    "options": ["vector", "list", "deque", "array"],
+    "answer": "list",
+    "reason": "list supports fast middle insertions."
+  },
+  {
+    "questionId": "cpp_m_54",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::enable_if support?",
+    "options": [
+      "Runtime checking",
+      "Template metaprogramming",
+      "Thread safety",
+      "Memory control"
+    ],
+    "answer": "Template metaprogramming",
+    "reason": "enable_if enables conditional template instantiation."
+  },
+  {
+    "questionId": "cpp_m_55",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which keyword prevents function inheritance?",
+    "options": ["final", "override", "static", "const"],
+    "answer": "final",
+    "reason": "final prevents further overriding."
+  },
+
+  {
+    "questionId": "cpp_m_56",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::nullptr represent?",
+    "options": [
+      "Integer zero",
+      "Null pointer constant",
+      "Void pointer",
+      "Uninitialized pointer"
+    ],
+    "answer": "Null pointer constant",
+    "reason": "nullptr is type-safe null pointer."
+  },
+  {
+    "questionId": "cpp_m_57",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which cast removes constness?",
+    "options": [
+      "static_cast",
+      "dynamic_cast",
+      "const_cast",
+      "reinterpret_cast"
+    ],
+    "answer": "const_cast",
+    "reason": "const_cast removes const qualifier."
+  },
+  {
+    "questionId": "cpp_m_58",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What is SFINAE?",
+    "options": [
+      "Runtime error handling",
+      "Template substitution failure",
+      "Memory optimization",
+      "Thread safety model"
+    ],
+    "answer": "Template substitution failure",
+    "reason": "SFINAE ignores invalid template substitutions."
+  },
+  {
+    "questionId": "cpp_m_59",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which STL container preserves insertion order?",
+    "options": ["vector", "set", "map", "unordered_set"],
+    "answer": "vector",
+    "reason": "vector preserves insertion order."
+  },
+  {
+    "questionId": "cpp_m_60",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::move_if_noexcept do?",
+    "options": [
+      "Always moves",
+      "Moves only if noexcept",
+      "Never moves",
+      "Deletes object"
+    ],
+    "answer": "Moves only if noexcept",
+    "reason": "It moves only if move constructor is noexcept."
+  },
+
+  {
+    "questionId": "cpp_m_61",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which algorithm checks sorted order?",
+    "options": ["sort", "is_sorted", "check", "verify"],
+    "answer": "is_sorted",
+    "reason": "std::is_sorted checks if range is sorted."
+  },
+  {
+    "questionId": "cpp_m_62",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::distance compute?",
+    "options": [
+      "Element value",
+      "Iterator distance",
+      "Memory offset",
+      "Time complexity"
+    ],
+    "answer": "Iterator distance",
+    "reason": "std::distance computes number of elements between iterators."
+  },
+  {
+    "questionId": "cpp_m_63",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which container supports random access iterators?",
+    "options": ["list", "map", "vector", "set"],
+    "answer": "vector",
+    "reason": "vector supports random access."
+  },
+  {
+    "questionId": "cpp_m_64",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of std::reference_wrapper?",
+    "options": [
+      "Pointer wrapper",
+      "Store references in containers",
+      "Thread safety",
+      "Memory management"
+    ],
+    "answer": "Store references in containers",
+    "reason": "reference_wrapper allows references in STL containers."
+  },
+  {
+    "questionId": "cpp_m_65",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which function terminates program immediately?",
+    "options": ["exit", "return", "abort", "break"],
+    "answer": "abort",
+    "reason": "abort terminates program immediately."
+  },
+
+  {
+    "questionId": "cpp_m_66",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::terminate indicate?",
+    "options": [
+      "Normal exit",
+      "Unhandled exception",
+      "Thread join",
+      "Memory leak"
+    ],
+    "answer": "Unhandled exception",
+    "reason": "std::terminate is called on unhandled exceptions."
+  },
+  {
+    "questionId": "cpp_m_67",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which container supports stable iterators?",
+    "options": ["vector", "deque", "list", "array"],
+    "answer": "list",
+    "reason": "list iterators remain valid on insert/erase."
+  },
+  {
+    "questionId": "cpp_m_68",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::clamp do?",
+    "options": [
+      "Sort values",
+      "Limit value to range",
+      "Remove duplicates",
+      "Normalize data"
+    ],
+    "answer": "Limit value to range",
+    "reason": "std::clamp limits value within bounds."
+  },
+  {
+    "questionId": "cpp_m_69",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which keyword indicates likely branch?",
+    "options": ["likely", "expect", "[[likely]]", "hint"],
+    "answer": "[[likely]]",
+    "reason": "Attributes [[likely]] hint branch prediction."
+  },
+  {
+    "questionId": "cpp_m_70",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which feature enables structured bindings?",
+    "options": ["C++11", "C++14", "C++17", "C++20"],
+    "answer": "C++17",
+    "reason": "Structured bindings were introduced in C++17."
+  },
+
+  {
+    "questionId": "cpp_m_71",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::variant represent?",
+    "options": [
+      "Optional value",
+      "Union-like type-safe container",
+      "Thread-safe variable",
+      "Template specialization"
+    ],
+    "answer": "Union-like type-safe container",
+    "reason": "std::variant holds one of several types safely."
+  },
+  {
+    "questionId": "cpp_m_72",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which function visits std::variant?",
+    "options": ["visit", "apply", "get", "call"],
+    "answer": "visit",
+    "reason": "std::visit accesses variant values."
+  },
+  {
+    "questionId": "cpp_m_73",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::any store?",
+    "options": [
+      "Any pointer",
+      "Any type value",
+      "Only primitives",
+      "Templates"
+    ],
+    "answer": "Any type value",
+    "reason": "std::any stores any copyable type."
+  },
+  {
+    "questionId": "cpp_m_74",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which header provides std::filesystem?",
+    "options": ["<file>", "<filesystem>", "<path>", "<io>"],
+    "answer": "<filesystem>",
+    "reason": "std::filesystem is in <filesystem>."
+  },
+  {
+    "questionId": "cpp_m_75",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which feature improves compile time safety?",
+    "options": ["constexpr", "static_assert", "templates", "macros"],
+    "answer": "static_assert",
+    "reason": "static_assert validates conditions at compile time."
+  },
+
+  {
+    "questionId": "cpp_m_76",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::launder relate to?",
+    "options": [
+      "Memory model",
+      "Thread scheduling",
+      "IO buffering",
+      "Templates"
+    ],
+    "answer": "Memory model",
+    "reason": "std::launder relates to object lifetime and memory."
+  },
+  {
+    "questionId": "cpp_m_77",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which keyword ensures object is initialized once?",
+    "options": ["const", "static", "mutable", "volatile"],
+    "answer": "static",
+    "reason": "static ensures single initialization."
+  },
+  {
+    "questionId": "cpp_m_78",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of std::scoped_lock?",
+    "options": [
+      "Single mutex lock",
+      "Multiple mutex lock",
+      "Thread creation",
+      "Memory safety"
+    ],
+    "answer": "Multiple mutex lock",
+    "reason": "scoped_lock locks multiple mutexes safely."
+  },
+  {
+    "questionId": "cpp_m_79",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which container uses contiguous memory?",
+    "options": ["list", "deque", "vector", "set"],
+    "answer": "vector",
+    "reason": "vector stores elements contiguously."
+  },
+  {
+    "questionId": "cpp_m_80",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::erase remove?",
+    "options": [
+      "Single element",
+      "Range",
+      "All matching values",
+      "First element"
+    ],
+    "answer": "All matching values",
+    "reason": "std::erase removes all matching elements."
+  },
+
+  {
+    "questionId": "cpp_m_81",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which function merges sorted ranges?",
+    "options": ["combine", "merge", "join", "concat"],
+    "answer": "merge",
+    "reason": "std::merge merges sorted ranges."
+  },
+  {
+    "questionId": "cpp_m_82",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::inclusive_scan compute?",
+    "options": ["Prefix sums", "Sorting", "Filtering", "Searching"],
+    "answer": "Prefix sums",
+    "reason": "inclusive_scan computes prefix sums."
+  },
+  {
+    "questionId": "cpp_m_83",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which header contains std::ranges?",
+    "options": ["<algorithm>", "<ranges>", "<iterator>", "<utility>"],
+    "answer": "<ranges>",
+    "reason": "Ranges library is in <ranges>."
+  },
+  {
+    "questionId": "cpp_m_84",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::views provide?",
+    "options": [
+      "Copy containers",
+      "Lazy range transformations",
+      "Thread views",
+      "Memory views"
+    ],
+    "answer": "Lazy range transformations",
+    "reason": "Views allow lazy evaluated transformations."
+  },
+  {
+    "questionId": "cpp_m_85",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which C++ standard introduced concepts?",
+    "options": ["C++17", "C++20", "C++14", "C++11"],
+    "answer": "C++20",
+    "reason": "Concepts were introduced in C++20."
+  },
+
+  {
+    "questionId": "cpp_m_86",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does requires keyword do?",
+    "options": [
+      "Runtime check",
+      "Template constraint",
+      "Memory allocation",
+      "Thread lock"
+    ],
+    "answer": "Template constraint",
+    "reason": "requires defines template constraints."
+  },
+  {
+    "questionId": "cpp_m_87",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which feature enables coroutines?",
+    "options": ["C++17", "C++20", "C++14", "C++11"],
+    "answer": "C++20",
+    "reason": "Coroutines are introduced in C++20."
+  },
+  {
+    "questionId": "cpp_m_88",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does co_await do?",
+    "options": [
+      "Blocks thread",
+      "Suspends coroutine",
+      "Creates thread",
+      "Terminates program"
+    ],
+    "answer": "Suspends coroutine",
+    "reason": "co_await suspends coroutine execution."
+  },
+  {
+    "questionId": "cpp_m_89",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which keyword resumes coroutine?",
+    "options": ["co_return", "co_yield", "resume", "await"],
+    "answer": "co_yield",
+    "reason": "co_yield yields control back to caller."
+  },
+  {
+    "questionId": "cpp_m_90",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does co_return do?",
+    "options": [
+      "Suspend coroutine",
+      "Return value and end coroutine",
+      "Throw exception",
+      "Resume execution"
+    ],
+    "answer": "Return value and end coroutine",
+    "reason": "co_return finishes coroutine execution."
+  },
+
+  {
+    "questionId": "cpp_m_91",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which library supports formatting?",
+    "options": ["<iostream>", "<format>", "<printf>", "<string>"],
+    "answer": "<format>",
+    "reason": "std::format is in <format>."
+  },
+  {
+    "questionId": "cpp_m_92",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::span represent?",
+    "options": [
+      "Dynamic container",
+      "Non-owning view of sequence",
+      "Thread range",
+      "Iterator wrapper"
+    ],
+    "answer": "Non-owning view of sequence",
+    "reason": "std::span is a lightweight view."
+  },
+  {
+    "questionId": "cpp_m_93",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which feature improves error handling?",
+    "options": [
+      "std::expected",
+      "std::optional",
+      "exceptions",
+      "all of the above"
+    ],
+    "answer": "all of the above",
+    "reason": "All improve error handling in different ways."
+  },
+  {
+    "questionId": "cpp_m_94",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What does std::source_location provide?",
+    "options": [
+      "Runtime logs",
+      "Compile-time source info",
+      "Memory tracking",
+      "Thread id"
+    ],
+    "answer": "Compile-time source info",
+    "reason": "source_location captures file, line, function."
+  },
+  {
+    "questionId": "cpp_m_95",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which standard introduced modules?",
+    "options": ["C++17", "C++20", "C++14", "C++11"],
+    "answer": "C++20",
+    "reason": "Modules were introduced in C++20."
+  },
+
+  {
+    "questionId": "cpp_m_96",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "What problem do modules solve?",
+    "options": [
+      "Runtime errors",
+      "Long compile times",
+      "Memory leaks",
+      "Thread safety"
+    ],
+    "answer": "Long compile times",
+    "reason": "Modules reduce header dependencies and compile times."
+  },
+  {
+    "questionId": "cpp_m_97",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which keyword exports module interface?",
+    "options": ["export", "module", "import", "expose"],
+    "answer": "export",
+    "reason": "export exposes module symbols."
+  },
+  {
+    "questionId": "cpp_m_98",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which keyword imports module?",
+    "options": ["include", "import", "use", "require"],
+    "answer": "import",
+    "reason": "import loads a C++ module."
+  },
+  {
+    "questionId": "cpp_m_99",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which feature reduces header dependencies?",
+    "options": ["Namespaces", "Modules", "Templates", "Inlining"],
+    "answer": "Modules",
+    "reason": "Modules reduce header inclusion complexity."
+  },
+  {
+    "questionId": "cpp_m_100",
+    "tag": "cpp",
+    "difficulty": "medium",
+    "questionText": "Which C++ principle promotes safe resource management?",
+    "options": ["RAII", "OOP", "STL", "Polymorphism"],
+    "answer": "RAII",
+    "reason": "RAII ensures resource safety via object lifetime."
+  }
+]

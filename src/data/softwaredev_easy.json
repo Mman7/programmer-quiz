@@ -1,6 +1,6 @@
 [
   {
-    "questionId": "soft1",
+    "questionId": "soft_e_1",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming paradigm focuses on objects and their interactions?",
@@ -9,7 +9,7 @@
     "reason": "Object-Oriented Programming (OOP) organizes code using objects and classes."
   },
   {
-    "questionId": "soft2",
+    "questionId": "soft_e_2",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which version control system is widely used in software development?",
@@ -18,7 +18,7 @@
     "reason": "Git is a distributed version control system commonly used in development."
   },
   {
-    "questionId": "soft3",
+    "questionId": "soft_e_3",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which language is primarily used for web frontend development?",
@@ -27,7 +27,7 @@
     "reason": "JavaScript is the main language for web frontend interaction."
   },
   {
-    "questionId": "soft4",
+    "questionId": "soft_e_4",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software development methodology emphasizes iterative development?",
@@ -36,7 +36,7 @@
     "reason": "Agile promotes iterative and incremental development cycles."
   },
   {
-    "questionId": "soft5",
+    "questionId": "soft_e_5",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which data structure uses LIFO (Last In, First Out) principle?",
@@ -45,7 +45,7 @@
     "reason": "A stack follows Last In, First Out (LIFO) ordering."
   },
   {
-    "questionId": "soft6",
+    "questionId": "soft_e_6",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which data structure uses FIFO (First In, First Out) principle?",
@@ -54,7 +54,7 @@
     "reason": "A queue follows First In, First Out (FIFO) ordering."
   },
   {
-    "questionId": "soft7",
+    "questionId": "soft_e_7",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software testing type verifies individual units or functions?",
@@ -68,7 +68,7 @@
     "reason": "Unit testing checks individual units or components for correctness."
   },
   {
-    "questionId": "soft8",
+    "questionId": "soft_e_8",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes fixing errors in software code?",
@@ -77,7 +77,7 @@
     "reason": "Debugging is the process of finding and fixing code errors."
   },
   {
-    "questionId": "soft9",
+    "questionId": "soft_e_9",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software design principle encourages code reusability?",
@@ -86,7 +86,7 @@
     "reason": "DRY (Don't Repeat Yourself) promotes reusing code instead of duplicating it."
   },
   {
-    "questionId": "soft10",
+    "questionId": "soft_e_10",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software development environment allows writing and testing code?",
@@ -95,7 +95,7 @@
     "reason": "An Integrated Development Environment (IDE) is used to write, debug, and test code."
   },
   {
-    "questionId": "soft11",
+    "questionId": "soft_e_11",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming paradigm focuses on pure functions and immutability?",
@@ -104,7 +104,7 @@
     "reason": "Functional programming emphasizes pure functions and avoids changing state."
   },
   {
-    "questionId": "soft12",
+    "questionId": "soft_e_12",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which keyword in C# defines a constant value?",
@@ -113,16 +113,16 @@
     "reason": "'const' declares a compile-time constant."
   },
   {
-    "questionId": "soft13",
+    "questionId": "soft_e_13",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software document describes system requirements?",
     "options": ["SRS", "Design Doc", "Test Plan", "Deployment Guide"],
     "answer": "SRS",
-    "reason": "SRS (Software Requirements Specification) outlines the system requirements."
+    "reason": "SRS (software Requirements Specification) outlines the system requirements."
   },
   {
-    "questionId": "soft14",
+    "questionId": "soft_e_14",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which design principle suggests components should be open for extension but closed for modification?",
@@ -136,7 +136,7 @@
     "reason": "Open/Closed Principle promotes extending functionality without changing existing code."
   },
   {
-    "questionId": "soft15",
+    "questionId": "soft_e_15",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software tool is used to manage project tasks and track progress?",
@@ -145,7 +145,7 @@
     "reason": "Jira is commonly used for task management in software projects."
   },
   {
-    "questionId": "soft16",
+    "questionId": "soft_e_16",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming concept allows code reuse through inheritance?",
@@ -154,7 +154,7 @@
     "reason": "Inheritance allows a class to inherit properties and methods from another class."
   },
   {
-    "questionId": "soft17",
+    "questionId": "soft_e_17",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes the process of improving code structure without changing its behavior?",
@@ -163,7 +163,7 @@
     "reason": "Refactoring improves code readability and maintainability without affecting functionality."
   },
   {
-    "questionId": "soft18",
+    "questionId": "soft_e_18",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming concept hides internal details of a class?",
@@ -172,7 +172,7 @@
     "reason": "Encapsulation hides the internal state and requires access through methods."
   },
   {
-    "questionId": "soft19",
+    "questionId": "soft_e_19",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming concept allows using objects of different types through the same interface?",
@@ -181,7 +181,7 @@
     "reason": "Polymorphism allows objects of different classes to be treated as the same type through a common interface."
   },
   {
-    "questionId": "soft20",
+    "questionId": "soft_e_20",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming principle suggests keeping things simple and avoiding unnecessary complexity?",
@@ -190,7 +190,7 @@
     "reason": "KISS (Keep It Simple, Stupid) emphasizes simplicity in design and implementation."
   },
   {
-    "questionId": "soft21",
+    "questionId": "soft_e_21",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming principle suggests not repeating code unnecessarily?",
@@ -199,7 +199,7 @@
     "reason": "DRY (Don't Repeat Yourself) encourages reusing code instead of duplication."
   },
   {
-    "questionId": "soft22",
+    "questionId": "soft_e_22",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes developing software in small, incremental pieces?",
@@ -208,7 +208,7 @@
     "reason": "Iterative development builds software in small, testable increments."
   },
   {
-    "questionId": "soft23",
+    "questionId": "soft_e_23",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of loop executes code as long as a condition is true?",
@@ -217,7 +217,7 @@
     "reason": "A while loop repeats code while the condition is true."
   },
   {
-    "questionId": "soft24",
+    "questionId": "soft_e_24",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of loop executes code at least once before checking the condition?",
@@ -226,7 +226,7 @@
     "reason": "A do-while loop runs once before evaluating the condition."
   },
   {
-    "questionId": "soft25",
+    "questionId": "soft_e_25",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software development activity ensures software meets quality standards?",
@@ -235,7 +235,7 @@
     "reason": "Testing verifies that software works correctly and meets requirements."
   },
   {
-    "questionId": "soft26",
+    "questionId": "soft_e_26",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of testing checks integration of multiple components?",
@@ -249,7 +249,7 @@
     "reason": "Integration testing ensures components work together correctly."
   },
   {
-    "questionId": "soft27",
+    "questionId": "soft_e_27",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of testing validates the software against user requirements?",
@@ -263,7 +263,7 @@
     "reason": "Acceptance testing ensures the software meets user needs."
   },
   {
-    "questionId": "soft28",
+    "questionId": "soft_e_28",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software document defines how to deploy an application?",
@@ -272,7 +272,7 @@
     "reason": "A deployment guide outlines steps to install and deploy software."
   },
   {
-    "questionId": "soft29",
+    "questionId": "soft_e_29",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of software maintenance fixes bugs after release?",
@@ -286,7 +286,7 @@
     "reason": "Corrective maintenance fixes defects discovered after release."
   },
   {
-    "questionId": "soft30",
+    "questionId": "soft_e_30",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of software maintenance improves performance or features?",
@@ -300,7 +300,7 @@
     "reason": "Perfective maintenance enhances software functionality or performance."
   },
   {
-    "questionId": "soft31",
+    "questionId": "soft_e_31",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of software maintenance adapts software to changes in environment?",
@@ -314,7 +314,7 @@
     "reason": "Adaptive maintenance modifies software to work in new environments."
   },
   {
-    "questionId": "soft32",
+    "questionId": "soft_e_32",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of software maintenance prevents future defects?",
@@ -328,7 +328,7 @@
     "reason": "Preventive maintenance anticipates potential problems and prevents them."
   },
   {
-    "questionId": "soft33",
+    "questionId": "soft_e_33",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term refers to writing instructions for a computer to perform tasks?",
@@ -337,7 +337,7 @@
     "reason": "Programming is writing code that tells a computer what to do."
   },
   {
-    "questionId": "soft34",
+    "questionId": "soft_e_34",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which tool automates software builds and deployment?",
@@ -346,7 +346,7 @@
     "reason": "CI/CD pipelines automate building, testing, and deploying software."
   },
   {
-    "questionId": "soft35",
+    "questionId": "soft_e_35",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which practice involves reviewing code to detect errors before merging?",
@@ -355,7 +355,7 @@
     "reason": "Code review improves quality by having peers examine code before integration."
   },
   {
-    "questionId": "soft36",
+    "questionId": "soft_e_36",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software architecture pattern separates concerns into Model, View, and Controller?",
@@ -364,7 +364,7 @@
     "reason": "MVC (Model-View-Controller) separates application logic, UI, and input handling."
   },
   {
-    "questionId": "soft37",
+    "questionId": "soft_e_37",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of variable can store multiple values of the same type?",
@@ -373,7 +373,7 @@
     "reason": "An array holds multiple values of the same type in contiguous memory."
   },
   {
-    "questionId": "soft38",
+    "questionId": "soft_e_38",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which data structure stores key-value pairs?",
@@ -382,7 +382,7 @@
     "reason": "Dictionaries or maps store values associated with unique keys."
   },
   {
-    "questionId": "soft39",
+    "questionId": "soft_e_39",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of loop is best when the number of iterations is known?",
@@ -391,7 +391,7 @@
     "reason": "For loops are ideal for a known number of iterations."
   },
   {
-    "questionId": "soft40",
+    "questionId": "soft_e_40",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software principle encourages separating unrelated functions into different modules?",
@@ -400,7 +400,7 @@
     "reason": "Separation of Concerns improves maintainability by dividing responsibilities."
   },
   {
-    "questionId": "soft41",
+    "questionId": "soft_e_41",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming keyword defines a class in C#?",
@@ -409,7 +409,7 @@
     "reason": "'class' defines a class in C# and other OOP languages."
   },
   {
-    "questionId": "soft42",
+    "questionId": "soft_e_42",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which statement exits a loop immediately in most programming languages?",
@@ -418,7 +418,7 @@
     "reason": "'break' exits the current loop immediately."
   },
   {
-    "questionId": "soft43",
+    "questionId": "soft_e_43",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which statement skips the current iteration of a loop?",
@@ -427,7 +427,7 @@
     "reason": "'continue' skips the current loop iteration and moves to the next."
   },
   {
-    "questionId": "soft44",
+    "questionId": "soft_e_44",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which testing type ensures the system works as a whole?",
@@ -441,7 +441,7 @@
     "reason": "System testing validates the entire integrated system for correctness."
   },
   {
-    "questionId": "soft45",
+    "questionId": "soft_e_45",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of testing checks the software against user requirements?",
@@ -455,7 +455,7 @@
     "reason": "Acceptance testing ensures the software meets user needs and requirements."
   },
   {
-    "questionId": "soft46",
+    "questionId": "soft_e_46",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes creating a temporary copy of data to speed up access?",
@@ -464,7 +464,7 @@
     "reason": "Caching stores data temporarily to improve performance."
   },
   {
-    "questionId": "soft47",
+    "questionId": "soft_e_47",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of error occurs when code compiles but fails during execution?",
@@ -478,7 +478,7 @@
     "reason": "Runtime errors occur while the program is running."
   },
   {
-    "questionId": "soft48",
+    "questionId": "soft_e_48",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of error occurs when code violates syntax rules?",
@@ -492,7 +492,7 @@
     "reason": "Syntax errors violate language grammar and prevent compilation."
   },
   {
-    "questionId": "soft49",
+    "questionId": "soft_e_49",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of error occurs when code produces incorrect results despite running?",
@@ -506,7 +506,7 @@
     "reason": "Logic errors occur when code behaves incorrectly but runs without crashing."
   },
   {
-    "questionId": "soft50",
+    "questionId": "soft_e_50",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which keyword in C# defines a function that does not return a value?",
@@ -515,7 +515,7 @@
     "reason": "'void' indicates that a method does not return any value."
   },
   {
-    "questionId": "soft51",
+    "questionId": "soft_e_51",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming concept allows functions to call themselves?",
@@ -524,7 +524,7 @@
     "reason": "Recursion occurs when a function calls itself directly or indirectly."
   },
   {
-    "questionId": "soft52",
+    "questionId": "soft_e_52",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software model follows strict sequential phases?",
@@ -533,7 +533,7 @@
     "reason": "Waterfall model follows sequential steps like requirements, design, implementation, testing."
   },
   {
-    "questionId": "soft53",
+    "questionId": "soft_e_53",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes automatically running tests on each code change?",
@@ -547,7 +547,7 @@
     "reason": "Continuous testing is part of CI/CD to ensure quality on each code change."
   },
   {
-    "questionId": "soft54",
+    "questionId": "soft_e_54",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of software metric measures code complexity?",
@@ -561,7 +561,7 @@
     "reason": "Cyclomatic complexity quantifies the number of independent paths in code."
   },
   {
-    "questionId": "soft55",
+    "questionId": "soft_e_55",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which design pattern ensures a class has only one instance?",
@@ -570,7 +570,7 @@
     "reason": "Singleton pattern restricts a class to a single instance."
   },
   {
-    "questionId": "soft56",
+    "questionId": "soft_e_56",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which design pattern separates the construction of a complex object from its representation?",
@@ -579,7 +579,7 @@
     "reason": "Builder pattern constructs complex objects step by step."
   },
   {
-    "questionId": "soft57",
+    "questionId": "soft_e_57",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which design pattern provides an interface to create families of related objects?",
@@ -588,7 +588,7 @@
     "reason": "Abstract Factory provides a way to create related objects without specifying concrete classes."
   },
   {
-    "questionId": "soft58",
+    "questionId": "soft_e_58",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of diagram shows classes and relationships in OOP?",
@@ -602,7 +602,7 @@
     "reason": "Class diagrams visualize classes, attributes, methods, and their relationships."
   },
   {
-    "questionId": "soft59",
+    "questionId": "soft_e_59",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which version control term describes copying a repository to local machine?",
@@ -611,7 +611,7 @@
     "reason": "Cloning creates a local copy of the remote repository."
   },
   {
-    "questionId": "soft60",
+    "questionId": "soft_e_60",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which version control term sends local changes to remote repository?",
@@ -620,7 +620,7 @@
     "reason": "Push uploads local commits to the remote repository."
   },
   {
-    "questionId": "soft61",
+    "questionId": "soft_e_61",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes recording changes to the version control system?",
@@ -629,7 +629,7 @@
     "reason": "Commit saves local changes in version control history."
   },
   {
-    "questionId": "soft62",
+    "questionId": "soft_e_62",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term in Git integrates changes from one branch into another?",
@@ -638,7 +638,7 @@
     "reason": "Merge combines changes from different branches into a single branch."
   },
   {
-    "questionId": "soft63",
+    "questionId": "soft_e_63",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which C# keyword prevents modification of a variable after initialization?",
@@ -647,7 +647,7 @@
     "reason": "'readonly' allows assignment only at declaration or in constructor."
   },
   {
-    "questionId": "soft64",
+    "questionId": "soft_e_64",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which loop is ideal for iterating over elements of a collection in C#?",
@@ -656,7 +656,7 @@
     "reason": "'foreach' iterates over collections easily without indexing."
   },
   {
-    "questionId": "soft65",
+    "questionId": "soft_e_65",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes a reusable piece of code that performs a specific task?",
@@ -665,7 +665,7 @@
     "reason": "Functions/methods encapsulate code to perform tasks and can be reused."
   },
   {
-    "questionId": "soft66",
+    "questionId": "soft_e_66",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming practice divides a program into small, testable units?",
@@ -679,7 +679,7 @@
     "reason": "Modular programming improves maintainability and testability by dividing code into modules."
   },
   {
-    "questionId": "soft67",
+    "questionId": "soft_e_67",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which C# access modifier makes members accessible only within the same class?",
@@ -688,7 +688,7 @@
     "reason": "'private' restricts access to the defining class only."
   },
   {
-    "questionId": "soft68",
+    "questionId": "soft_e_68",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which C# access modifier allows access from derived classes?",
@@ -697,7 +697,7 @@
     "reason": "'protected' allows access within the class and its derived classes."
   },
   {
-    "questionId": "soft69",
+    "questionId": "soft_e_69",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which C# keyword allows creating an instance of a class?",
@@ -706,16 +706,16 @@
     "reason": "'new' is used to instantiate an object in C#."
   },
   {
-    "questionId": "soft70",
+    "questionId": "soft_e_70",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes the process of converting requirements into a software design?",
-    "options": ["Software Design", "Coding", "Testing", "Deployment"],
-    "answer": "Software Design",
-    "reason": "Software design transforms requirements into a blueprint for implementation."
+    "options": ["software Design", "Coding", "Testing", "Deployment"],
+    "answer": "software Design",
+    "reason": "software design transforms requirements into a blueprint for implementation."
   },
   {
-    "questionId": "soft71",
+    "questionId": "soft_e_71",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming construct allows decision making based on conditions?",
@@ -724,7 +724,7 @@
     "reason": "if/else statements execute different code blocks based on conditions."
   },
   {
-    "questionId": "soft72",
+    "questionId": "soft_e_72",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which C# keyword allows handling exceptions?",
@@ -733,7 +733,7 @@
     "reason": "try/catch is used to catch and handle runtime exceptions."
   },
   {
-    "questionId": "soft73",
+    "questionId": "soft_e_73",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes repeating a process until a condition is met?",
@@ -742,7 +742,7 @@
     "reason": "Iteration repeats code execution while a condition holds true."
   },
   {
-    "questionId": "soft74",
+    "questionId": "soft_e_74",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software metric measures code coverage by automated tests?",
@@ -751,7 +751,7 @@
     "reason": "Test coverage shows the percentopice of code executed by tests."
   },
   {
-    "questionId": "soft75",
+    "questionId": "soft_e_75",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of relationship represents a 'has-a' association in OOP?",
@@ -765,7 +765,7 @@
     "reason": "Composition/Aggregation shows one class contains or is made up of another."
   },
   {
-    "questionId": "soft76",
+    "questionId": "soft_e_76",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which keyword defines an interface in C#?",
@@ -774,7 +774,7 @@
     "reason": "'interface' defines a contract of methods and properties without implementation."
   },
   {
-    "questionId": "soft77",
+    "questionId": "soft_e_77",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of loop is guaranteed to execute at least once?",
@@ -783,7 +783,7 @@
     "reason": "do-while evaluates the condition after executing the loop body once."
   },
   {
-    "questionId": "soft78",
+    "questionId": "soft_e_78",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes storing temporary data to reduce repeated calculations?",
@@ -792,7 +792,7 @@
     "reason": "Caching saves intermediate results for faster access later."
   },
   {
-    "questionId": "soft79",
+    "questionId": "soft_e_79",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which principle suggests modules should have only one reason to change?",
@@ -806,7 +806,7 @@
     "reason": "Each module or class should have only one responsibility."
   },
   {
-    "questionId": "soft80",
+    "questionId": "soft_e_80",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which practice integrates code changes frequently and runs automated tests?",
@@ -820,7 +820,7 @@
     "reason": "CI merges code frequently and ensures automated tests pass on each change."
   },
   {
-    "questionId": "soft81",
+    "questionId": "soft_e_81",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of loop is preferred when iterating a known number of times?",
@@ -829,7 +829,7 @@
     "reason": "for loops are best for a fixed number of iterations."
   },
   {
-    "questionId": "soft82",
+    "questionId": "soft_e_82",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of testing ensures modified code does not break existing features?",
@@ -843,7 +843,7 @@
     "reason": "Regression testing checks that new changes don't introduce bugs in existing functionality."
   },
   {
-    "questionId": "soft83",
+    "questionId": "soft_e_83",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which design pattern defines a family of algorithms and makes them interchangeable?",
@@ -852,7 +852,7 @@
     "reason": "Strategy pattern allows changing the algorithm dynamically at runtime."
   },
   {
-    "questionId": "soft84",
+    "questionId": "soft_e_84",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes the process of preparing code for deployment?",
@@ -861,7 +861,7 @@
     "reason": "Building compiles and packages code for deployment."
   },
   {
-    "questionId": "soft85",
+    "questionId": "soft_e_85",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes software written to be portable across platforms?",
@@ -870,7 +870,7 @@
     "reason": "Cross-platform software runs on multiple operating systems without modification."
   },
   {
-    "questionId": "soft86",
+    "questionId": "soft_e_86",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which concept allows different methods to have the same name but different parameters?",
@@ -884,7 +884,7 @@
     "reason": "Method overloading allows multiple methods with the same name but different parameter lists."
   },
   {
-    "questionId": "soft87",
+    "questionId": "soft_e_87",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which concept allows a derived class to provide a specific implementation of a method in the base class?",
@@ -898,7 +898,7 @@
     "reason": "Method overriding allows a subclass to replace or extend base class functionality."
   },
   {
-    "questionId": "soft88",
+    "questionId": "soft_e_88",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of software testing checks individual lines or branches of code?",
@@ -912,7 +912,7 @@
     "reason": "White-box testing inspects the internal code logic to verify correctness."
   },
   {
-    "questionId": "soft89",
+    "questionId": "soft_e_89",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which type of software testing focuses on functionality without looking at internal code?",
@@ -926,7 +926,7 @@
     "reason": "Black-box testing validates software behavior from user perspective."
   },
   {
-    "questionId": "soft90",
+    "questionId": "soft_e_90",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes converting human-readable code to machine-readable instructions?",
@@ -935,7 +935,7 @@
     "reason": "Compilation transforms source code into executable machine code."
   },
   {
-    "questionId": "soft91",
+    "questionId": "soft_e_91",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming concept allows defining variables outside functions for global access?",
@@ -949,7 +949,7 @@
     "reason": "Global variables are accessible from any part of the program."
   },
   {
-    "questionId": "soft92",
+    "questionId": "soft_e_92",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software deployment type updates code directly on production servers?",
@@ -963,7 +963,7 @@
     "reason": "Continuous Deployment automatically deploys code changes to production after passing tests."
   },
   {
-    "questionId": "soft93",
+    "questionId": "soft_e_93",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which programming term refers to creating a new object based on an existing object?",
@@ -972,7 +972,7 @@
     "reason": "Instantiation creates a new instance of a class or object."
   },
   {
-    "questionId": "soft94",
+    "questionId": "soft_e_94",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which C# keyword ensures a method can be overridden by a derived class?",
@@ -981,7 +981,7 @@
     "reason": "'virtual' allows derived classes to override a method."
   },
   {
-    "questionId": "soft95",
+    "questionId": "soft_e_95",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which C# keyword overrides a virtual method in a derived class?",
@@ -990,7 +990,7 @@
     "reason": "'override' provides a new implementation of a virtual method."
   },
   {
-    "questionId": "soft96",
+    "questionId": "soft_e_96",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes a tool that tracks changes, branches, and merges code?",
@@ -999,7 +999,7 @@
     "reason": "VCS helps manage code changes and collaboration."
   },
   {
-    "questionId": "soft97",
+    "questionId": "soft_e_97",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software engineering model uses prototypes to gather user feedback early?",
@@ -1013,16 +1013,16 @@
     "reason": "Prototyping builds preliminary versions to collect user feedback."
   },
   {
-    "questionId": "soft98",
+    "questionId": "soft_e_98",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which term describes the practice of monitoring and maintaining software performance after release?",
-    "options": ["Software Maintenance", "Debugging", "Refactoring", "Testing"],
-    "answer": "Software Maintenance",
-    "reason": "Software maintenance ensures applications continue to operate efficiently after release."
+    "options": ["software Maintenance", "Debugging", "Refactoring", "Testing"],
+    "answer": "software Maintenance",
+    "reason": "software maintenance ensures applications continue to operate efficiently after release."
   },
   {
-    "questionId": "soft99",
+    "questionId": "soft_e_99",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which concept refers to hiding implementation details and exposing only necessary functionality?",
@@ -1031,7 +1031,7 @@
     "reason": "Abstraction simplifies complexity by showing only essential features."
   },
   {
-    "questionId": "soft100",
+    "questionId": "soft_e_100",
     "topic": "software",
     "difficulty": "easy",
     "questionText": "Which software development activity involves improving code readability and structure without changing behavior?",

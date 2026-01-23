@@ -1,0 +1,1328 @@
+[
+  {
+    "questionId": "js_h_1",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why does `typeof null` return \"object\" in JavaScript?",
+    "options": [
+      "It is a historical bug kept for backward compatibility",
+      "null is an instance of Object",
+      "null is stored as an object internally",
+      "typeof checks prototype chain"
+    ],
+    "answer": "It is a historical bug kept for backward compatibility",
+    "reason": "`typeof null === 'object'` is a legacy bug from early JavaScript versions."
+  },
+  {
+    "questionId": "js_h_2",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What will be logged?\n\n```js\nconsole.log([] + {});\nconsole.log({} + []);\n```",
+    "options": [
+      "\"[object Object]\" and 0",
+      "\"[object Object]\" and \"[object Object]\"",
+      "\"[object Object]\" and \"\"",
+      "\"\" and \"[object Object]\""
+    ],
+    "answer": "\"[object Object]\" and 0",
+    "reason": "`[] + {}` becomes string concatenation, while `{}` is parsed as a block in the second case."
+  },
+  {
+    "questionId": "js_h_3",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is the main difference between microtasks and macrotasks?",
+    "options": [
+      "Microtasks run before the next event loop tick",
+      "Microtasks run after rendering",
+      "Macrotasks block the call stack",
+      "Microtasks are synchronous"
+    ],
+    "answer": "Microtasks run before the next event loop tick",
+    "reason": "Promise callbacks (microtasks) run before rendering and before the next macrotask."
+  },
+  {
+    "questionId": "js_h_4",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which statement about closures is TRUE?",
+    "options": [
+      "Closures capture variables, not values",
+      "Closures copy variables at creation",
+      "Closures only work with functions",
+      "Closures prevent garbage collection entirely"
+    ],
+    "answer": "Closures capture variables, not values",
+    "reason": "Closures reference the same variable, reflecting its latest value."
+  },
+  {
+    "questionId": "js_h_5",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What problem does the Temporal Dead Zone (TDZ) prevent?",
+    "options": [
+      "Accessing variables before declaration",
+      "Memory leaks",
+      "Hoisting of functions",
+      "Race conditions"
+    ],
+    "answer": "Accessing variables before declaration",
+    "reason": "TDZ prevents usage of let/const variables before initialization."
+  },
+
+  {
+    "questionId": "js_h_6",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why is `Object.is(NaN, NaN)` true but `NaN === NaN` false?",
+    "options": [
+      "Object.is uses SameValue comparison",
+      "NaN is coerced to number",
+      "=== compares references",
+      "NaN is undefined"
+    ],
+    "answer": "Object.is uses SameValue comparison",
+    "reason": "`Object.is` treats NaN as equal to itself, unlike `===`."
+  },
+  {
+    "questionId": "js_h_7",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What happens if a Promise resolves with another Promise?",
+    "options": [
+      "It adopts the inner Promise's state",
+      "It resolves immediately",
+      "It rejects automatically",
+      "It creates a Promise chain error"
+    ],
+    "answer": "It adopts the inner Promise's state",
+    "reason": "Promise resolution is recursive and unwraps nested Promises."
+  },
+  {
+    "questionId": "js_h_8",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why can arrow functions not be used as constructors?",
+    "options": [
+      "They do not have a [[Construct]] method",
+      "They have no prototype",
+      "They bind this lexically",
+      "They cannot return objects"
+    ],
+    "answer": "They do not have a [[Construct]] method",
+    "reason": "Arrow functions lack the internal constructor behavior."
+  },
+  {
+    "questionId": "js_h_9",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which operation breaks referential transparency?",
+    "options": [
+      "Mutating an object",
+      "Returning a new object",
+      "Using pure functions",
+      "Using const"
+    ],
+    "answer": "Mutating an object",
+    "reason": "Mutation causes the same reference to produce different results."
+  },
+  {
+    "questionId": "js_h_10",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why is JSON.parse(JSON.stringify(obj)) unsafe for deep cloning?",
+    "options": [
+      "It loses functions and special values",
+      "It is too slow",
+      "It keeps references",
+      "It throws syntax errors"
+    ],
+    "answer": "It loses functions and special values",
+    "reason": "Dates, undefined, functions, Maps, Sets are lost."
+  },
+
+  {
+    "questionId": "js_h_11",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is the main risk of using eval?",
+    "options": [
+      "Security vulnerabilities",
+      "Memory leaks",
+      "Syntax errors",
+      "Slow rendering"
+    ],
+    "answer": "Security vulnerabilities",
+    "reason": "eval can execute arbitrary code, leading to injection attacks."
+  },
+  {
+    "questionId": "js_h_12",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does structuredClone solve?",
+    "options": [
+      "Safe deep cloning of complex objects",
+      "Shallow copying",
+      "Reference comparison",
+      "Serialization"
+    ],
+    "answer": "Safe deep cloning of complex objects",
+    "reason": "structuredClone supports Dates, Maps, Sets, and more."
+  },
+  {
+    "questionId": "js_h_13",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which statement about JavaScript memory management is TRUE?",
+    "options": [
+      "Garbage collection is automatic",
+      "Developers must free memory manually",
+      "GC runs only on page unload",
+      "Closures always leak memory"
+    ],
+    "answer": "Garbage collection is automatic",
+    "reason": "JavaScript uses automatic garbage collection."
+  },
+  {
+    "questionId": "js_h_14",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What causes a memory leak in JavaScript?",
+    "options": [
+      "Unreleased references",
+      "Using const",
+      "Using async/await",
+      "Calling functions repeatedly"
+    ],
+    "answer": "Unreleased references",
+    "reason": "Objects remain in memory if still referenced."
+  },
+  {
+    "questionId": "js_h_15",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why is WeakMap useful?",
+    "options": [
+      "It allows garbage collection of keys",
+      "It preserves insertion order",
+      "It supports iteration",
+      "It improves lookup speed"
+    ],
+    "answer": "It allows garbage collection of keys",
+    "reason": "WeakMap keys are weakly referenced."
+  },
+
+  {
+    "questionId": "js_h_16",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is tail call optimization?",
+    "options": [
+      "Eliminating stack frames for tail calls",
+      "Inlining functions",
+      "Removing recursion",
+      "Caching results"
+    ],
+    "answer": "Eliminating stack frames for tail calls",
+    "reason": "TCO avoids growing the call stack in recursion."
+  },
+  {
+    "questionId": "js_h_17",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which scenario causes a race condition?",
+    "options": [
+      "Multiple async operations modifying shared state",
+      "Using synchronous code",
+      "Using promises",
+      "Using immutable data"
+    ],
+    "answer": "Multiple async operations modifying shared state",
+    "reason": "Race conditions occur when execution order is unpredictable."
+  },
+  {
+    "questionId": "js_h_18",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does `await` actually do?",
+    "options": [
+      "Pauses execution of the async function",
+      "Blocks the thread",
+      "Stops the event loop",
+      "Creates a new Promise"
+    ],
+    "answer": "Pauses execution of the async function",
+    "reason": "await yields control back to the event loop."
+  },
+  {
+    "questionId": "js_h_19",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why is `this` undefined in strict mode functions?",
+    "options": [
+      "It prevents accidental global binding",
+      "It improves performance",
+      "It enforces OOP",
+      "It disables closures"
+    ],
+    "answer": "It prevents accidental global binding",
+    "reason": "Strict mode avoids binding `this` to the global object."
+  },
+  {
+    "questionId": "js_h_20",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does module scope provide?",
+    "options": [
+      "Encapsulation without global pollution",
+      "Automatic lazy loading",
+      "Faster execution",
+      "Implicit strict mode only"
+    ],
+    "answer": "Encapsulation without global pollution",
+    "reason": "Modules isolate variables from the global scope."
+  },
+  {
+    "questionId": "js_h_21",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is the main difference between `for...in` and `for...of`?",
+    "options": [
+      "`for...in` iterates keys, `for...of` iterates values",
+      "`for...in` works only on arrays",
+      "`for...of` iterates object properties",
+      "They are identical"
+    ],
+    "answer": "`for...in` iterates keys, `for...of` iterates values",
+    "reason": "`for...in` iterates enumerable property names, `for...of` iterates iterable values."
+  },
+  {
+    "questionId": "js_h_22",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why is `Map` preferred over plain objects for frequent additions/removals?",
+    "options": [
+      "Predictable iteration order and better performance",
+      "Maps use less memory",
+      "Objects cannot store keys",
+      "Maps are immutable"
+    ],
+    "answer": "Predictable iteration order and better performance",
+    "reason": "Map is optimized for frequent key-value operations."
+  },
+  {
+    "questionId": "js_h_23",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does the event loop prioritize after the call stack is empty?",
+    "options": [
+      "Microtask queue",
+      "Macrotask queue",
+      "Rendering",
+      "I/O callbacks"
+    ],
+    "answer": "Microtask queue",
+    "reason": "Microtasks (Promises) run before macrotasks."
+  },
+  {
+    "questionId": "js_h_24",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which operation is NOT allowed on a frozen object?",
+    "options": [
+      "Adding new properties",
+      "Reading properties",
+      "Accessing prototype",
+      "Passing as argument"
+    ],
+    "answer": "Adding new properties",
+    "reason": "Object.freeze prevents adding, removing, or modifying properties."
+  },
+  {
+    "questionId": "js_h_25",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What happens when an async function throws an error?",
+    "options": [
+      "The returned Promise is rejected",
+      "The program crashes",
+      "The error is swallowed",
+      "The event loop stops"
+    ],
+    "answer": "The returned Promise is rejected",
+    "reason": "Errors inside async functions reject the Promise."
+  },
+
+  {
+    "questionId": "js_h_26",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why are symbols useful?",
+    "options": [
+      "They create unique property keys",
+      "They replace strings",
+      "They improve performance",
+      "They enable reflection"
+    ],
+    "answer": "They create unique property keys",
+    "reason": "Symbols prevent property name collisions."
+  },
+  {
+    "questionId": "js_h_27",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does `Object.create(null)` produce?",
+    "options": [
+      "An object without a prototype",
+      "An empty object",
+      "A frozen object",
+      "A sealed object"
+    ],
+    "answer": "An object without a prototype",
+    "reason": "It creates an object with no inherited properties."
+  },
+  {
+    "questionId": "js_h_28",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why is prototype pollution dangerous?",
+    "options": [
+      "It can modify global object behavior",
+      "It slows down execution",
+      "It breaks garbage collection",
+      "It blocks rendering"
+    ],
+    "answer": "It can modify global object behavior",
+    "reason": "Prototype pollution can affect all objects."
+  },
+  {
+    "questionId": "js_h_29",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is the main benefit of immutability?",
+    "options": [
+      "Predictable state changes",
+      "Lower memory usage",
+      "Faster execution",
+      "Less code"
+    ],
+    "answer": "Predictable state changes",
+    "reason": "Immutability prevents unintended side effects."
+  },
+  {
+    "questionId": "js_h_30",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why is `setTimeout(fn, 0)` not executed immediately?",
+    "options": [
+      "It waits for the call stack and microtasks",
+      "It blocks rendering",
+      "It is synchronous",
+      "It has minimum delay of 1s"
+    ],
+    "answer": "It waits for the call stack and microtasks",
+    "reason": "Timers are macrotasks executed after current tasks."
+  },
+
+  {
+    "questionId": "js_h_31",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which feature allows intercepting object operations?",
+    "options": ["Proxy", "Reflect", "Decorator", "Observer"],
+    "answer": "Proxy",
+    "reason": "Proxy can intercept get, set, and other operations."
+  },
+  {
+    "questionId": "js_h_32",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does Reflect provide?",
+    "options": [
+      "Low-level object operation methods",
+      "Type checking",
+      "Metadata storage",
+      "Async control"
+    ],
+    "answer": "Low-level object operation methods",
+    "reason": "Reflect exposes internal object operations."
+  },
+  {
+    "questionId": "js_h_33",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why can floating-point math be inaccurate in JavaScript?",
+    "options": [
+      "IEEE 754 representation",
+      "Weak typing",
+      "Implicit coercion",
+      "JIT compilation"
+    ],
+    "answer": "IEEE 754 representation",
+    "reason": "Binary floating-point cannot precisely represent some decimals."
+  },
+  {
+    "questionId": "js_h_34",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does `Number.EPSILON` represent?",
+    "options": [
+      "Smallest difference between two representable numbers",
+      "Maximum safe integer",
+      "Minimum number value",
+      "Infinity threshold"
+    ],
+    "answer": "Smallest difference between two representable numbers",
+    "reason": "EPSILON helps compare floating-point numbers."
+  },
+  {
+    "questionId": "js_h_35",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which pattern helps manage complex async flows?",
+    "options": ["Promise chaining", "Singleton", "Adapter", "Facade"],
+    "answer": "Promise chaining",
+    "reason": "Chaining simplifies sequential async logic."
+  },
+
+  {
+    "questionId": "js_h_36",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why is recursion risky without optimization?",
+    "options": ["Stack overflow", "Memory leak", "Race conditions", "Deadlock"],
+    "answer": "Stack overflow",
+    "reason": "Deep recursion can exhaust the call stack."
+  },
+  {
+    "questionId": "js_h_37",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which Web API enables background threads?",
+    "options": ["Web Workers", "Service Workers", "SharedArrayBuffer", "Fetch"],
+    "answer": "Web Workers",
+    "reason": "Web Workers run scripts in background threads."
+  },
+  {
+    "questionId": "js_h_38",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is the role of a Service Worker?",
+    "options": [
+      "Intercept network requests",
+      "Manipulate DOM",
+      "Execute JS faster",
+      "Manage memory"
+    ],
+    "answer": "Intercept network requests",
+    "reason": "Service Workers enable caching and offline support."
+  },
+  {
+    "questionId": "js_h_39",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which API enables real-time communication?",
+    "options": ["WebSocket", "Fetch", "XHR", "HTTP polling"],
+    "answer": "WebSocket",
+    "reason": "WebSocket provides full-duplex communication."
+  },
+  {
+    "questionId": "js_h_40",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why is blocking the main thread problematic?",
+    "options": [
+      "It freezes the UI",
+      "It increases memory",
+      "It causes GC issues",
+      "It breaks modules"
+    ],
+    "answer": "It freezes the UI",
+    "reason": "The main thread handles rendering and user interaction."
+  },
+  {
+    "questionId": "js_h_41",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is the main purpose of the JavaScript execution context?",
+    "options": [
+      "To execute asynchronous code",
+      "To manage variable scope and function calls",
+      "To optimize memory usage",
+      "To handle DOM rendering"
+    ],
+    "answer": "To manage variable scope and function calls",
+    "reason": "Execution context defines variable environment, scope chain, and this binding."
+  },
+  {
+    "questionId": "js_h_42",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What happens when a Promise is resolved with another Promise?",
+    "options": [
+      "It resolves immediately",
+      "It rejects automatically",
+      "It adopts the state of the passed Promise",
+      "It throws an error"
+    ],
+    "answer": "It adopts the state of the passed Promise",
+    "reason": "Promise resolution is recursive and follows the inner promise's state."
+  },
+  {
+    "questionId": "js_h_43",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is the output of: Promise.resolve(1).then(2).then(console.log)?",
+    "options": ["1", "2", "undefined", "Error"],
+    "answer": "1",
+    "reason": "Non-function arguments in then are ignored, value passes through."
+  },
+  {
+    "questionId": "js_h_44",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why are arrow functions unsuitable as constructors?",
+    "options": [
+      "They lack a prototype",
+      "They are slower",
+      "They cannot access arguments",
+      "They are immutable"
+    ],
+    "answer": "They lack a prototype",
+    "reason": "Arrow functions do not have [[Construct]] and prototype."
+  },
+  {
+    "questionId": "js_h_45",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which mechanism prevents garbage collection of referenced objects?",
+    "options": ["Event Loop", "Closures", "Hoisting", "Currying"],
+    "answer": "Closures",
+    "reason": "Closures retain references to outer scope variables."
+  },
+  {
+    "questionId": "js_h_46",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does Object.freeze() do?",
+    "options": [
+      "Makes object immutable",
+      "Prevents adding/removing/modifying properties",
+      "Deletes prototype chain",
+      "Clones object deeply"
+    ],
+    "answer": "Prevents adding/removing/modifying properties",
+    "reason": "freeze locks property configuration but is shallow."
+  },
+  {
+    "questionId": "js_h_47",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which operation creates a new execution context?",
+    "options": [
+      "Variable declaration",
+      "Function invocation",
+      "Property access",
+      "Array iteration"
+    ],
+    "answer": "Function invocation",
+    "reason": "Each function call creates a new execution context."
+  },
+  {
+    "questionId": "js_h_48",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What problem does tail call optimization solve?",
+    "options": [
+      "Memory leaks",
+      "Stack overflow",
+      "Event loop blocking",
+      "Race conditions"
+    ],
+    "answer": "Stack overflow",
+    "reason": "TCO reuses stack frames for recursive calls."
+  },
+  {
+    "questionId": "js_h_49",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is the result of typeof NaN?",
+    "options": ["number", "NaN", "undefined", "object"],
+    "answer": "number",
+    "reason": "NaN is a numeric type representing an invalid number."
+  },
+  {
+    "questionId": "js_h_50",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which method schedules a microtask?",
+    "options": [
+      "setTimeout",
+      "setInterval",
+      "Promise.then",
+      "requestAnimationFrame"
+    ],
+    "answer": "Promise.then",
+    "reason": "Promise callbacks are queued as microtasks."
+  },
+  {
+    "questionId": "js_h_51",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is a thunk in JavaScript?",
+    "options": [
+      "A delayed computation wrapper",
+      "A prototype method",
+      "A Promise state",
+      "A closure bug"
+    ],
+    "answer": "A delayed computation wrapper",
+    "reason": "A thunk wraps an expression to delay evaluation."
+  },
+  {
+    "questionId": "js_h_52",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does Reflect.apply() do?",
+    "options": [
+      "Calls a function with a given this and arguments",
+      "Creates a proxy",
+      "Copies object properties",
+      "Binds a function permanently"
+    ],
+    "answer": "Calls a function with a given this and arguments",
+    "reason": "Reflect.apply mirrors Function.prototype.apply."
+  },
+  {
+    "questionId": "js_h_53",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which issue can arise from modifying Array.prototype?",
+    "options": [
+      "Syntax error",
+      "Unexpected behavior in loops",
+      "Memory overflow",
+      "Scope isolation"
+    ],
+    "answer": "Unexpected behavior in loops",
+    "reason": "Prototype pollution affects all arrays globally."
+  },
+  {
+    "questionId": "js_h_54",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does structuredClone() provide?",
+    "options": [
+      "Shallow copy",
+      "Deep clone with circular support",
+      "JSON serialization",
+      "Prototype inheritance"
+    ],
+    "answer": "Deep clone with circular support",
+    "reason": "structuredClone safely deep copies complex objects."
+  },
+  {
+    "questionId": "js_h_55",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why is eval() considered dangerous?",
+    "options": [
+      "It is slow only",
+      "It breaks promises",
+      "It executes arbitrary code",
+      "It blocks event loop"
+    ],
+    "answer": "It executes arbitrary code",
+    "reason": "eval can introduce security vulnerabilities."
+  },
+  {
+    "questionId": "js_h_56",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which API enables fine-grained interception of object operations?",
+    "options": ["Proxy", "Reflect", "Symbol", "WeakMap"],
+    "answer": "Proxy",
+    "reason": "Proxy allows intercepting get/set/construct operations."
+  },
+  {
+    "questionId": "js_h_57",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is the main benefit of WeakMap?",
+    "options": [
+      "Iterable keys",
+      "Automatic garbage collection of keys",
+      "Faster access",
+      "JSON compatibility"
+    ],
+    "answer": "Automatic garbage collection of keys",
+    "reason": "WeakMap keys are weakly referenced."
+  },
+  {
+    "questionId": "js_h_58",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which statement about generators is true?",
+    "options": [
+      "They run asynchronously by default",
+      "They can pause and resume execution",
+      "They replace promises",
+      "They block the event loop"
+    ],
+    "answer": "They can pause and resume execution",
+    "reason": "Generators yield control and resume later."
+  },
+  {
+    "questionId": "js_h_59",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does Symbol.toPrimitive control?",
+    "options": [
+      "Object cloning",
+      "Primitive type conversion",
+      "Garbage collection",
+      "Iteration order"
+    ],
+    "answer": "Primitive type conversion",
+    "reason": "It customizes object-to-primitive conversion."
+  },
+  {
+    "questionId": "js_h_60",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is a race condition in async JavaScript?",
+    "options": [
+      "Multiple events firing",
+      "Unpredictable results due to timing",
+      "Infinite recursion",
+      "Memory leak"
+    ],
+    "answer": "Unpredictable results due to timing",
+    "reason": "Race conditions occur when async operations compete."
+  },
+  {
+    "questionId": "js_h_61",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does the Temporal Dead Zone (TDZ) refer to?",
+    "options": [
+      "Variables that are garbage collected",
+      "The time before variables are hoisted",
+      "The period where let/const exist but are inaccessible",
+      "Blocked event loop state"
+    ],
+    "answer": "The period where let/const exist but are inaccessible",
+    "reason": "Accessing let/const before initialization throws a ReferenceError."
+  },
+  {
+    "questionId": "js_h_62",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which internal slot stores an object's prototype?",
+    "options": [
+      "[[Prototype]]",
+      "[[Extensible]]",
+      "[[Scope]]",
+      "[[Environment]]"
+    ],
+    "answer": "[[Prototype]]",
+    "reason": "The [[Prototype]] internal slot defines prototype inheritance."
+  },
+  {
+    "questionId": "js_h_63",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does Function.prototype.bind() return?",
+    "options": [
+      "The original function",
+      "A new bound function",
+      "An executed function",
+      "A promise"
+    ],
+    "answer": "A new bound function",
+    "reason": "bind creates a new function with fixed this context."
+  },
+  {
+    "questionId": "js_h_64",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which scenario can cause memory leaks in JavaScript?",
+    "options": [
+      "Unused variables",
+      "Detached DOM nodes",
+      "Strict mode usage",
+      "Immutable objects"
+    ],
+    "answer": "Detached DOM nodes",
+    "reason": "References to removed DOM nodes prevent garbage collection."
+  },
+  {
+    "questionId": "js_h_65",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is the role of the job queue?",
+    "options": [
+      "Handle rendering",
+      "Store macrotasks",
+      "Store microtasks",
+      "Manage threads"
+    ],
+    "answer": "Store microtasks",
+    "reason": "Promises and MutationObservers are processed in the microtask queue."
+  },
+  {
+    "questionId": "js_h_66",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why is JSON.parse(JSON.stringify(obj)) unreliable for deep cloning?",
+    "options": [
+      "Too slow",
+      "Does not copy functions or symbols",
+      "Creates circular references",
+      "Changes prototype"
+    ],
+    "answer": "Does not copy functions or symbols",
+    "reason": "JSON serialization loses non-JSON-compatible data."
+  },
+  {
+    "questionId": "js_h_67",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is the effect of using await outside an async function?",
+    "options": [
+      "Works normally",
+      "Throws a syntax error",
+      "Returns undefined",
+      "Creates a promise"
+    ],
+    "answer": "Throws a syntax error",
+    "reason": "await is only valid inside async functions (except modules)."
+  },
+  {
+    "questionId": "js_h_68",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does Object.seal() prevent?",
+    "options": [
+      "Modifying values",
+      "Adding or removing properties",
+      "Reading properties",
+      "Prototype access"
+    ],
+    "answer": "Adding or removing properties",
+    "reason": "seal allows value modification but locks property structure."
+  },
+  {
+    "questionId": "js_h_69",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which operator checks if an object has a property directly?",
+    "options": ["in", "hasOwn", "hasOwnProperty", "instanceof"],
+    "answer": "hasOwnProperty",
+    "reason": "hasOwnProperty excludes prototype chain properties."
+  },
+  {
+    "questionId": "js_h_70",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What happens if a Promise executor throws an error?",
+    "options": [
+      "Promise stays pending",
+      "Promise resolves",
+      "Promise rejects",
+      "Program crashes"
+    ],
+    "answer": "Promise rejects",
+    "reason": "Thrown errors inside executor cause rejection."
+  },
+  {
+    "questionId": "js_h_71",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is prototype pollution?",
+    "options": [
+      "Memory leak",
+      "Corrupting Object.prototype",
+      "Blocking garbage collection",
+      "Async race condition"
+    ],
+    "answer": "Corrupting Object.prototype",
+    "reason": "Prototype pollution modifies shared prototypes globally."
+  },
+  {
+    "questionId": "js_h_72",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does new.target indicate?",
+    "options": [
+      "Current prototype",
+      "Constructor invocation",
+      "Execution context",
+      "Parent function"
+    ],
+    "answer": "Constructor invocation",
+    "reason": "new.target detects if a function was called with new."
+  },
+  {
+    "questionId": "js_h_73",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why are WeakSet values not enumerable?",
+    "options": [
+      "Performance reasons",
+      "Security reasons",
+      "Garbage collection safety",
+      "Syntax limitation"
+    ],
+    "answer": "Garbage collection safety",
+    "reason": "Weak references must not prevent GC."
+  },
+  {
+    "questionId": "js_h_74",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does Object.is() do differently from ===?",
+    "options": [
+      "Handles NaN and -0 correctly",
+      "Checks prototype",
+      "Compares references only",
+      "Allows coercion"
+    ],
+    "answer": "Handles NaN and -0 correctly",
+    "reason": "Object.is(NaN, NaN) is true; === is false."
+  },
+  {
+    "questionId": "js_h_75",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is an IIFE mainly used for?",
+    "options": [
+      "Async execution",
+      "Loop optimization",
+      "Scope isolation",
+      "Error handling"
+    ],
+    "answer": "Scope isolation",
+    "reason": "IIFE creates a private scope."
+  },
+  {
+    "questionId": "js_h_76",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which feature enables lazy evaluation?",
+    "options": ["Promises", "Generators", "Closures", "Callbacks"],
+    "answer": "Generators",
+    "reason": "Generators yield values on demand."
+  },
+  {
+    "questionId": "js_h_77",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does the 'use strict' directive prevent?",
+    "options": ["Global variables", "Silent errors", "Async code", "Closures"],
+    "answer": "Silent errors",
+    "reason": "Strict mode throws errors instead of failing silently."
+  },
+  {
+    "questionId": "js_h_78",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is the main drawback of monkey patching?",
+    "options": [
+      "Syntax errors",
+      "Unexpected side effects",
+      "Slower execution",
+      "Memory leaks"
+    ],
+    "answer": "Unexpected side effects",
+    "reason": "Modifying existing objects affects all consumers."
+  },
+  {
+    "questionId": "js_h_79",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which structure preserves insertion order?",
+    "options": ["Object", "Map", "Set", "WeakMap"],
+    "answer": "Map",
+    "reason": "Map guarantees insertion order for keys."
+  },
+  {
+    "questionId": "js_h_80",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does Promise.all reject on?",
+    "options": [
+      "First resolved promise",
+      "All promises resolved",
+      "First rejected promise",
+      "Timeout"
+    ],
+    "answer": "First rejected promise",
+    "reason": "Promise.all fails fast on rejection."
+  },
+  {
+    "questionId": "js_h_81",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does the internal [[Call]] method represent?",
+    "options": [
+      "Object construction",
+      "Function invocation behavior",
+      "Prototype inheritance",
+      "Scope resolution"
+    ],
+    "answer": "Function invocation behavior",
+    "reason": "[[Call]] defines how a function is executed when invoked."
+  },
+  {
+    "questionId": "js_h_82",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why can floating point math be inaccurate in JavaScript?",
+    "options": [
+      "JavaScript uses base-10 numbers",
+      "JavaScript uses IEEE 754 binary floating-point",
+      "JavaScript rounds numbers aggressively",
+      "JavaScript stores numbers as strings"
+    ],
+    "answer": "JavaScript uses IEEE 754 binary floating-point",
+    "reason": "Some decimal fractions cannot be represented exactly in binary."
+  },
+  {
+    "questionId": "js_h_83",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which operation is guaranteed to be atomic in JavaScript?",
+    "options": [
+      "Incrementing a variable",
+      "Reading a variable",
+      "Promise resolution",
+      "Array push"
+    ],
+    "answer": "Reading a variable",
+    "reason": "Single reads are atomic, but writes and increments are not."
+  },
+  {
+    "questionId": "js_h_84",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does the term \"reentrancy\" refer to?",
+    "options": [
+      "Multiple async calls",
+      "A function being safely callable again before completion",
+      "Recursive execution",
+      "Parallel threads"
+    ],
+    "answer": "A function being safely callable again before completion",
+    "reason": "Reentrancy issues arise when shared state is accessed unexpectedly."
+  },
+  {
+    "questionId": "js_h_85",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which browser feature enforces same-origin policy?",
+    "options": ["Event Loop", "CORS", "JavaScript engine", "Garbage Collector"],
+    "answer": "CORS",
+    "reason": "CORS controls cross-origin access between resources."
+  },
+  {
+    "questionId": "js_h_86",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What happens when await is used on a non-Promise value?",
+    "options": [
+      "Throws an error",
+      "Returns undefined",
+      "Wraps the value in a resolved Promise",
+      "Blocks execution"
+    ],
+    "answer": "Wraps the value in a resolved Promise",
+    "reason": "await Promise.resolve(value) is applied internally."
+  },
+  {
+    "questionId": "js_h_87",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of MutationObserver?",
+    "options": [
+      "Track network requests",
+      "Observe DOM changes",
+      "Detect memory leaks",
+      "Monitor event loop"
+    ],
+    "answer": "Observe DOM changes",
+    "reason": "MutationObserver watches DOM mutations asynchronously."
+  },
+  {
+    "questionId": "js_h_88",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why is shared mutable state dangerous?",
+    "options": [
+      "Slower performance",
+      "Race conditions",
+      "Syntax errors",
+      "Garbage collection failure"
+    ],
+    "answer": "Race conditions",
+    "reason": "Concurrent access can cause unpredictable behavior."
+  },
+  {
+    "questionId": "js_h_89",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does Intl API primarily handle?",
+    "options": [
+      "Networking",
+      "Internationalization",
+      "Security",
+      "Date storage"
+    ],
+    "answer": "Internationalization",
+    "reason": "Intl formats dates, numbers, and strings for locales."
+  },
+  {
+    "questionId": "js_h_90",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which technique avoids callback hell?",
+    "options": ["Closures", "Async/await", "Hoisting", "Currying"],
+    "answer": "Async/await",
+    "reason": "Async/await flattens asynchronous control flow."
+  },
+  {
+    "questionId": "js_h_91",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is a side effect in functional programming?",
+    "options": [
+      "Return value",
+      "State mutation or external interaction",
+      "Closure capture",
+      "Garbage collection"
+    ],
+    "answer": "State mutation or external interaction",
+    "reason": "Side effects change state outside function scope."
+  },
+  {
+    "questionId": "js_h_92",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why is recursion sometimes discouraged in JavaScript?",
+    "options": [
+      "Slow execution",
+      "Stack overflow risk",
+      "Syntax limitations",
+      "Async incompatibility"
+    ],
+    "answer": "Stack overflow risk",
+    "reason": "Deep recursion can exceed call stack size."
+  },
+  {
+    "questionId": "js_h_93",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does Object.getOwnPropertyDescriptor() return?",
+    "options": [
+      "Property value",
+      "Prototype chain",
+      "Property metadata",
+      "Object keys"
+    ],
+    "answer": "Property metadata",
+    "reason": "It returns writable, enumerable, configurable flags."
+  },
+  {
+    "questionId": "js_h_94",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which pattern restricts object creation to one instance?",
+    "options": ["Factory", "Observer", "Singleton", "Decorator"],
+    "answer": "Singleton",
+    "reason": "Singleton ensures a single shared instance."
+  },
+  {
+    "questionId": "js_h_95",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does backpressure mean in streams?",
+    "options": [
+      "Memory leak prevention",
+      "Controlling data flow speed",
+      "Blocking async code",
+      "Error handling"
+    ],
+    "answer": "Controlling data flow speed",
+    "reason": "Backpressure prevents overwhelming consumers."
+  },
+  {
+    "questionId": "js_h_96",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Why is immutability beneficial?",
+    "options": [
+      "Faster execution",
+      "Predictable state changes",
+      "Lower memory usage",
+      "Automatic GC"
+    ],
+    "answer": "Predictable state changes",
+    "reason": "Immutable data prevents unintended mutations."
+  },
+  {
+    "questionId": "js_h_97",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does the module scope prevent?",
+    "options": [
+      "Async execution",
+      "Global namespace pollution",
+      "Garbage collection",
+      "Hoisting"
+    ],
+    "answer": "Global namespace pollution",
+    "reason": "Modules encapsulate variables by default."
+  },
+  {
+    "questionId": "js_h_98",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "Which API provides high-resolution timestamps?",
+    "options": [
+      "Date.now()",
+      "performance.now()",
+      "console.time()",
+      "setTimeout()"
+    ],
+    "answer": "performance.now()",
+    "reason": "performance.now offers sub-millisecond precision."
+  },
+  {
+    "questionId": "js_h_99",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What does shadowing a variable mean?",
+    "options": [
+      "Deleting a variable",
+      "Redeclaring in inner scope",
+      "Hoisting failure",
+      "Garbage collection"
+    ],
+    "answer": "Redeclaring in inner scope",
+    "reason": "Inner scope variables hide outer ones."
+  },
+  {
+    "questionId": "js_h_100",
+    "tag": "javascript",
+    "difficulty": "hard",
+    "questionText": "What is the primary benefit of event delegation?",
+    "options": [
+      "Faster rendering",
+      "Reduced memory usage",
+      "Cleaner syntax",
+      "Automatic garbage collection"
+    ],
+    "answer": "Reduced memory usage",
+    "reason": "Delegation minimizes event listeners by leveraging bubbling."
+  }
+]

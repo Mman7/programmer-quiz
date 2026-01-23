@@ -1,0 +1,1132 @@
+[
+  {
+    "questionId": "soft_h_1",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which software design pattern allows you to add responsibilities to objects at runtime without affecting other objects?",
+    "options": ["Decorator", "Adapter", "Singleton", "Observer"],
+    "answer": "Decorator",
+    "reason": "Decorator dynamically adds behavior to individual objects without affecting others."
+  },
+  {
+    "questionId": "soft_h_2",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle of SOLID helps in reducing coupling by depending on abstractions rather than concrete implementations?",
+    "options": [
+      "Dependency Inversion Principle",
+      "Open/Closed Principle",
+      "Liskov Substitution Principle",
+      "Single Responsibility Principle"
+    ],
+    "answer": "Dependency Inversion Principle",
+    "reason": "DIP ensures that high-level modules do not depend on low-level modules directly, promoting loose coupling."
+  },
+  {
+    "questionId": "soft_h_3",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern encapsulates a request as an object, thereby allowing parameterization of clients and support for undoable operations?",
+    "options": ["Command", "Observer", "Strategy", "State"],
+    "answer": "Command",
+    "reason": "Command pattern encapsulates a request, allowing flexible command execution and undo functionality."
+  },
+  {
+    "questionId": "soft_h_4",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle suggests that software entities should be open for extension but closed for modification?",
+    "options": [
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Interface Segregation Principle",
+      "Liskov Substitution Principle"
+    ],
+    "answer": "Open/Closed Principle",
+    "reason": "OCP allows behavior to be extended without modifying existing code, reducing risk of introducing bugs."
+  },
+  {
+    "questionId": "soft_h_5",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern decouples the abstraction from its implementation, allowing both to vary independently?",
+    "options": ["Bridge", "Adapter", "Facade", "Decorator"],
+    "answer": "Bridge",
+    "reason": "Bridge separates abstraction from implementation so they can evolve independently."
+  },
+  {
+    "questionId": "soft_h_6",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which DevOps practice emphasizes infrastructure consistency and repeatability using code?",
+    "options": [
+      "Infrastructure as Code (IaC)",
+      "Manual configuration",
+      "Continuous integration",
+      "Unit testing"
+    ],
+    "answer": "Infrastructure as Code (IaC)",
+    "reason": "IaC automates environment provisioning and ensures consistency across deployments."
+  },
+  {
+    "questionId": "soft_h_7",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which type of database is most suitable for highly connected data with complex relationships?",
+    "options": [
+      "Graph database",
+      "Relational database",
+      "Document database",
+      "Key-value store"
+    ],
+    "answer": "Graph database",
+    "reason": "Graph databases efficiently represent and query complex relationships between entities."
+  },
+  {
+    "questionId": "soft_h_8",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which design pattern allows a single object to coordinate and control the interactions of multiple objects?",
+    "options": ["Mediator", "Observer", "State", "Strategy"],
+    "answer": "Mediator",
+    "reason": "Mediator reduces coupling by centralizing communication between objects."
+  },
+  {
+    "questionId": "soft_h_9",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which metric measures the structural complexity of a program by counting independent paths?",
+    "options": [
+      "Cyclomatic complexity",
+      "Code coverage",
+      "MTTR",
+      "Response time"
+    ],
+    "answer": "Cyclomatic complexity",
+    "reason": "Cyclomatic complexity quantifies the number of independent paths through code, indicating complexity."
+  },
+  {
+    "questionId": "soft_h_10",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows an object to alter its behavior when its internal state changes without changing its class?",
+    "options": ["State", "Strategy", "Observer", "Decorator"],
+    "answer": "State",
+    "reason": "State pattern enables dynamic behavior changes based on the internal state of an object."
+  },
+  {
+    "questionId": "soft_h_11",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle ensures that derived classes can substitute their base classes without affecting correctness?",
+    "options": [
+      "Liskov Substitution Principle",
+      "Open/Closed Principle",
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle"
+    ],
+    "answer": "Liskov Substitution Principle",
+    "reason": "LSP guarantees that subclasses uphold the contract of the base class."
+  },
+  {
+    "questionId": "soft_h_12",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern provides a simplified interface to a set of complex subsystems?",
+    "options": ["Facade", "Adapter", "Decorator", "Observer"],
+    "answer": "Facade",
+    "reason": "Facade hides complexity and provides a simple interface for clients."
+  },
+  {
+    "questionId": "soft_h_13",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which practice emphasizes delivering software in small, frequent, and reversible increments?",
+    "options": [
+      "Incremental development",
+      "Big Bang development",
+      "Waterfall",
+      "Ad hoc coding"
+    ],
+    "answer": "Incremental development",
+    "reason": "Incremental development reduces risk by releasing small, testable units of functionality."
+  },
+  {
+    "questionId": "soft_h_14",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which DevOps metric measures the average time to restore service after a failure?",
+    "options": [
+      "Mean Time to Recovery (MTTR)",
+      "Code coverage",
+      "Build stability",
+      "Cyclomatic complexity"
+    ],
+    "answer": "Mean Time to Recovery (MTTR)",
+    "reason": "MTTR quantifies the speed at which a system recovers from failures."
+  },
+  {
+    "questionId": "soft_h_15",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern defines a family of algorithms, encapsulates each one, and makes them interchangeable?",
+    "options": ["Strategy", "State", "Observer", "Adapter"],
+    "answer": "Strategy",
+    "reason": "Strategy allows clients to choose algorithms dynamically without modifying the client code."
+  },
+  {
+    "questionId": "soft_h_16",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which testing type evaluates system performance and reliability under peak load conditions?",
+    "options": [
+      "Stress testing",
+      "Unit testing",
+      "Integration testing",
+      "Acceptance testing"
+    ],
+    "answer": "Stress testing",
+    "reason": "Stress testing determines system behavior under extreme conditions."
+  },
+  {
+    "questionId": "soft_h_17",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern centralizes complex communication and control logic to reduce coupling?",
+    "options": ["Mediator", "Observer", "Command", "State"],
+    "answer": "Mediator",
+    "reason": "Mediator manages interactions between objects, reducing direct dependencies."
+  },
+  {
+    "questionId": "soft_h_18",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle encourages that classes should only have one reason to change?",
+    "options": [
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle"
+    ],
+    "answer": "Single Responsibility Principle",
+    "reason": "SRP ensures each class focuses on a single responsibility, making it easier to maintain."
+  },
+  {
+    "questionId": "soft_h_19",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which DevOps practice ensures that code changes are automatically tested and integrated frequently?",
+    "options": [
+      "Continuous Integration",
+      "Manual testing",
+      "Load testing",
+      "Pair programming"
+    ],
+    "answer": "Continuous Integration",
+    "reason": "CI automates testing and integration to catch issues early."
+  },
+  {
+    "questionId": "soft_h_20",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows an object to observe state changes in another object without tight coupling?",
+    "options": ["Observer", "Command", "State", "Strategy"],
+    "answer": "Observer",
+    "reason": "Observer allows objects to subscribe and react to events without knowing the subject's details."
+  },
+  {
+    "questionId": "soft_h_21",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern provides a mechanism to compose objects into tree structures to represent part-whole hierarchies?",
+    "options": ["Composite", "Decorator", "Facade", "Adapter"],
+    "answer": "Composite",
+    "reason": "Composite allows clients to treat individual objects and compositions uniformly."
+  },
+  {
+    "questionId": "soft_h_22",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which design principle ensures that high-level modules are not dependent on low-level modules, but both depend on abstractions?",
+    "options": [
+      "Dependency Inversion Principle",
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Liskov Substitution Principle"
+    ],
+    "answer": "Dependency Inversion Principle",
+    "reason": "DIP reduces coupling by having modules depend on interfaces or abstractions rather than concrete implementations."
+  },
+  {
+    "questionId": "soft_h_23",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern ensures that only one instance of a class exists and provides a global point of access?",
+    "options": ["Singleton", "Factory", "Prototype", "Facade"],
+    "answer": "Singleton",
+    "reason": "Singleton restricts instantiation of a class to a single object, ensuring controlled access."
+  },
+  {
+    "questionId": "soft_h_24",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which type of testing is specifically aimed at detecting performance bottlenecks and system scalability?",
+    "options": [
+      "Performance testing",
+      "Unit testing",
+      "Integration testing",
+      "Acceptance testing"
+    ],
+    "answer": "Performance testing",
+    "reason": "Performance testing evaluates responsiveness, throughput, and resource usage under load."
+  },
+  {
+    "questionId": "soft_h_25",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern provides a surrogate or placeholder for another object to control access or add functionality?",
+    "options": ["Proxy", "Adapter", "Decorator", "Facade"],
+    "answer": "Proxy",
+    "reason": "Proxy controls access to the original object and can add additional behavior."
+  },
+  {
+    "questionId": "soft_h_26",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle suggests that objects should be open for extension but closed for modification?",
+    "options": [
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle"
+    ],
+    "answer": "Open/Closed Principle",
+    "reason": "OCP allows extending behavior without changing existing, tested code."
+  },
+  {
+    "questionId": "soft_h_27",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern provides an interface for creating families of related or dependent objects without specifying their concrete classes?",
+    "options": ["Abstract Factory", "Factory Method", "Builder", "Prototype"],
+    "answer": "Abstract Factory",
+    "reason": "Abstract Factory provides a way to create related objects while keeping the system independent of their concrete classes."
+  },
+  {
+    "questionId": "soft_h_28",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which DevOps practice combines software development and IT operations to shorten the system development life cycle?",
+    "options": [
+      "Continuous delivery and integration",
+      "Manual deployment",
+      "Unit testing",
+      "Waterfall approach"
+    ],
+    "answer": "Continuous delivery and integration",
+    "reason": "DevOps emphasizes collaboration and automation to improve delivery speed and reliability."
+  },
+  {
+    "questionId": "soft_h_29",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which design pattern allows you to create complex objects step by step, keeping the construction process separate from the final representation?",
+    "options": ["Builder", "Factory", "Prototype", "Singleton"],
+    "answer": "Builder",
+    "reason": "Builder separates object construction from representation, enabling more flexible object creation."
+  },
+  {
+    "questionId": "soft_h_30",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which type of testing ensures that new code changes do not break existing functionality?",
+    "options": [
+      "Regression testing",
+      "Unit testing",
+      "Integration testing",
+      "Acceptance testing"
+    ],
+    "answer": "Regression testing",
+    "reason": "Regression tests verify that recent changes do not introduce defects in existing code."
+  },
+  {
+    "questionId": "soft_h_31",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle suggests that objects of a superclass should be replaceable with objects of a subclass without affecting correctness?",
+    "options": [
+      "Liskov Substitution Principle",
+      "Open/Closed Principle",
+      "Dependency Inversion Principle",
+      "Interface Segregation Principle"
+    ],
+    "answer": "Liskov Substitution Principle",
+    "reason": "LSP ensures that derived classes can substitute their base classes safely."
+  },
+  {
+    "questionId": "soft_h_32",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern provides a way to access elements of an aggregate object sequentially without exposing its underlying representation?",
+    "options": ["Iterator", "Observer", "Strategy", "State"],
+    "answer": "Iterator",
+    "reason": "Iterator allows traversal of collections without exposing internal structure."
+  },
+  {
+    "questionId": "soft_h_33",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which design pattern allows dynamic substitution of algorithms or strategies at runtime?",
+    "options": ["Strategy", "State", "Observer", "Adapter"],
+    "answer": "Strategy",
+    "reason": "Strategy encapsulates algorithms so they can be switched without altering the client."
+  },
+  {
+    "questionId": "soft_h_34",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which type of database is optimized for quick lookups using key-value pairs?",
+    "options": [
+      "Key-value store",
+      "Relational database",
+      "Graph database",
+      "Document database"
+    ],
+    "answer": "Key-value store",
+    "reason": "Key-value databases provide fast access to data by keys."
+  },
+  {
+    "questionId": "soft_h_35",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern centralizes communication between related objects, reducing direct dependencies?",
+    "options": ["Mediator", "Observer", "Command", "State"],
+    "answer": "Mediator",
+    "reason": "Mediator reduces coupling by controlling interactions between objects."
+  },
+  {
+    "questionId": "soft_h_36",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which testing type evaluates system behavior under extreme stress conditions to identify breaking points?",
+    "options": [
+      "Stress testing",
+      "Load testing",
+      "Unit testing",
+      "Integration testing"
+    ],
+    "answer": "Stress testing",
+    "reason": "Stress testing pushes systems beyond normal limits to find failure points."
+  },
+  {
+    "questionId": "soft_h_37",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle suggests splitting large interfaces into smaller, client-specific ones to reduce dependencies?",
+    "options": [
+      "Interface Segregation Principle",
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Dependency Inversion Principle"
+    ],
+    "answer": "Interface Segregation Principle",
+    "reason": "ISP ensures that clients are not forced to depend on methods they do not use."
+  },
+  {
+    "questionId": "soft_h_38",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which DevOps tool is used for container orchestration and deployment at scale?",
+    "options": ["Kubernetes", "Jenkins", "Docker Compose", "Ansible"],
+    "answer": "Kubernetes",
+    "reason": "Kubernetes automates deployment, scaling, and management of containerized applications."
+  },
+  {
+    "questionId": "soft_h_39",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows an object to observe and react to changes in another object without tight coupling?",
+    "options": ["Observer", "Command", "State", "Strategy"],
+    "answer": "Observer",
+    "reason": "Observer decouples subjects and observers, enabling dynamic reactions to events."
+  },
+  {
+    "questionId": "soft_h_40",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which practice involves reviewing code for defects, style, and maintainability by peers before merging?",
+    "options": [
+      "Code review",
+      "Unit testing",
+      "Integration testing",
+      "Continuous deployment"
+    ],
+    "answer": "Code review",
+    "reason": "Code review improves code quality by catching issues early and sharing knowledge."
+  },
+  {
+    "questionId": "soft_h_41",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which design pattern allows for object creation while hiding the instantiation logic from the client?",
+    "options": ["Factory Method", "Builder", "Singleton", "Prototype"],
+    "answer": "Factory Method",
+    "reason": "Factory Method defines an interface for creating objects but lets subclasses decide which class to instantiate."
+  },
+  {
+    "questionId": "soft_h_42",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle recommends that each class should have only one reason to change?",
+    "options": [
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle"
+    ],
+    "answer": "Single Responsibility Principle",
+    "reason": "SRP ensures maintainability by keeping classes focused on a single responsibility."
+  },
+  {
+    "questionId": "soft_h_43",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern provides a way to restore an object’s state without violating encapsulation?",
+    "options": ["Memento", "Prototype", "Observer", "State"],
+    "answer": "Memento",
+    "reason": "Memento captures and externalizes an object's internal state without exposing its implementation."
+  },
+  {
+    "questionId": "soft_h_44",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows objects to be created based on a prototypical instance, reducing the need for subclassing?",
+    "options": ["Prototype", "Factory Method", "Builder", "Singleton"],
+    "answer": "Prototype",
+    "reason": "Prototype clones existing objects to create new ones without depending on concrete classes."
+  },
+  {
+    "questionId": "soft_h_45",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which DevOps practice ensures automated testing, building, and deployment on every code change?",
+    "options": [
+      "Continuous Integration",
+      "Manual testing",
+      "Pair programming",
+      "Waterfall development"
+    ],
+    "answer": "Continuous Integration",
+    "reason": "CI automatically tests and integrates code changes to detect errors early."
+  },
+  {
+    "questionId": "soft_h_46",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle suggests that derived classes must be substitutable for their base classes?",
+    "options": [
+      "Liskov Substitution Principle",
+      "Open/Closed Principle",
+      "Dependency Inversion Principle",
+      "Single Responsibility Principle"
+    ],
+    "answer": "Liskov Substitution Principle",
+    "reason": "LSP ensures subclasses can replace base classes without altering program correctness."
+  },
+  {
+    "questionId": "soft_h_47",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows an object to alter its behavior when its internal state changes?",
+    "options": ["State", "Strategy", "Observer", "Decorator"],
+    "answer": "State",
+    "reason": "State pattern lets an object change its behavior dynamically depending on internal state."
+  },
+  {
+    "questionId": "soft_h_48",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern encapsulates requests as objects, allowing parameterization, queuing, and undo functionality?",
+    "options": ["Command", "Observer", "State", "Strategy"],
+    "answer": "Command",
+    "reason": "Command pattern encapsulates operations as objects for flexibility and undo capability."
+  },
+  {
+    "questionId": "soft_h_49",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which design principle encourages depending on abstractions rather than concrete implementations?",
+    "options": [
+      "Dependency Inversion Principle",
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Interface Segregation Principle"
+    ],
+    "answer": "Dependency Inversion Principle",
+    "reason": "DIP reduces coupling by making modules depend on interfaces or abstractions."
+  },
+  {
+    "questionId": "soft_h_50",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern provides a way to access elements of an aggregate object sequentially without exposing its underlying structure?",
+    "options": ["Iterator", "Observer", "Strategy", "State"],
+    "answer": "Iterator",
+    "reason": "Iterator pattern allows traversing a collection without exposing its internal representation."
+  },
+  {
+    "questionId": "soft_h_51",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern centralizes complex interactions among objects to reduce direct dependencies?",
+    "options": ["Mediator", "Observer", "Command", "State"],
+    "answer": "Mediator",
+    "reason": "Mediator reduces coupling by coordinating communication between objects."
+  },
+  {
+    "questionId": "soft_h_52",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which testing type evaluates system scalability and behavior under extreme workloads?",
+    "options": [
+      "Stress testing",
+      "Load testing",
+      "Unit testing",
+      "Integration testing"
+    ],
+    "answer": "Stress testing",
+    "reason": "Stress testing identifies breaking points under heavy or abnormal loads."
+  },
+  {
+    "questionId": "soft_h_53",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle suggests creating smaller, client-specific interfaces instead of large, general-purpose ones?",
+    "options": [
+      "Interface Segregation Principle",
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Dependency Inversion Principle"
+    ],
+    "answer": "Interface Segregation Principle",
+    "reason": "ISP reduces dependencies on unused methods, improving modularity."
+  },
+  {
+    "questionId": "soft_h_54",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which DevOps tool orchestrates containers, managing deployment, scaling, and operations?",
+    "options": ["Kubernetes", "Docker", "Jenkins", "Ansible"],
+    "answer": "Kubernetes",
+    "reason": "Kubernetes automates container management at scale."
+  },
+  {
+    "questionId": "soft_h_55",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows dynamic selection of an algorithm or behavior at runtime?",
+    "options": ["Strategy", "State", "Observer", "Adapter"],
+    "answer": "Strategy",
+    "reason": "Strategy encapsulates interchangeable algorithms that can be selected at runtime."
+  },
+  {
+    "questionId": "soft_h_56",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which practice emphasizes delivering software in small, frequent, reversible increments?",
+    "options": [
+      "Incremental development",
+      "Big Bang development",
+      "Waterfall",
+      "Ad hoc coding"
+    ],
+    "answer": "Incremental development",
+    "reason": "Incremental development reduces risk by releasing small, testable functionality iteratively."
+  },
+  {
+    "questionId": "soft_h_57",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern provides a simplified interface to a complex subsystem, hiding its complexity?",
+    "options": ["Facade", "Adapter", "Decorator", "Observer"],
+    "answer": "Facade",
+    "reason": "Facade offers a unified interface, simplifying usage of a complex system."
+  },
+  {
+    "questionId": "soft_h_58",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern provides a surrogate for another object to control access or add functionality?",
+    "options": ["Proxy", "Adapter", "Decorator", "Facade"],
+    "answer": "Proxy",
+    "reason": "Proxy controls access to an object and can add additional behavior."
+  },
+  {
+    "questionId": "soft_h_59",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows objects to be composed into tree structures to represent part-whole hierarchies?",
+    "options": ["Composite", "Decorator", "Facade", "Adapter"],
+    "answer": "Composite",
+    "reason": "Composite lets clients treat individual and composite objects uniformly."
+  },
+  {
+    "questionId": "soft_h_60",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which DevOps practice provides rapid feedback from monitoring, metrics, and logging in production?",
+    "options": [
+      "Observability",
+      "Manual testing",
+      "Pair programming",
+      "Code review"
+    ],
+    "answer": "Observability",
+    "reason": "Observability enables detection and diagnosis of issues in production efficiently."
+  },
+  {
+    "questionId": "soft_h_61",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which design pattern allows for creating objects step by step and lets you produce different representations using the same construction process?",
+    "options": ["Builder", "Factory Method", "Prototype", "Singleton"],
+    "answer": "Builder",
+    "reason": "Builder separates the construction of a complex object from its representation, allowing different representations."
+  },
+  {
+    "questionId": "soft_h_62",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle promotes that software entities should depend on abstractions rather than concrete classes?",
+    "options": [
+      "Dependency Inversion Principle",
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Interface Segregation Principle"
+    ],
+    "answer": "Dependency Inversion Principle",
+    "reason": "DIP reduces coupling by depending on interfaces or abstractions."
+  },
+  {
+    "questionId": "soft_h_63",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern captures the internal state of an object without exposing its internal structure, enabling undo functionality?",
+    "options": ["Memento", "Prototype", "Observer", "State"],
+    "answer": "Memento",
+    "reason": "Memento preserves object state for restoration without violating encapsulation."
+  },
+  {
+    "questionId": "soft_h_64",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle suggests that classes should have only one reason to change?",
+    "options": [
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle"
+    ],
+    "answer": "Single Responsibility Principle",
+    "reason": "SRP ensures classes are focused on a single task, improving maintainability."
+  },
+  {
+    "questionId": "soft_h_65",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows an object to change its behavior when its internal state changes?",
+    "options": ["State", "Strategy", "Observer", "Decorator"],
+    "answer": "State",
+    "reason": "State pattern allows objects to alter behavior dynamically according to internal state."
+  },
+  {
+    "questionId": "soft_h_66",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern encapsulates a request as an object, allowing parameterization, queuing, and undo operations?",
+    "options": ["Command", "Observer", "State", "Strategy"],
+    "answer": "Command",
+    "reason": "Command pattern encapsulates operations as objects, supporting flexible execution."
+  },
+  {
+    "questionId": "soft_h_67",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which testing type evaluates software performance under expected load conditions?",
+    "options": [
+      "Load testing",
+      "Unit testing",
+      "Integration testing",
+      "Stress testing"
+    ],
+    "answer": "Load testing",
+    "reason": "Load testing measures system behavior under normal expected workload."
+  },
+  {
+    "questionId": "soft_h_68",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle ensures derived classes can be substituted for their base classes without affecting correctness?",
+    "options": [
+      "Liskov Substitution Principle",
+      "Open/Closed Principle",
+      "Dependency Inversion Principle",
+      "Interface Segregation Principle"
+    ],
+    "answer": "Liskov Substitution Principle",
+    "reason": "LSP guarantees that subclasses uphold base class behavior expectations."
+  },
+  {
+    "questionId": "soft_h_69",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows dynamic switching of algorithms or behaviors at runtime?",
+    "options": ["Strategy", "State", "Observer", "Adapter"],
+    "answer": "Strategy",
+    "reason": "Strategy pattern encapsulates interchangeable algorithms, allowing runtime selection."
+  },
+  {
+    "questionId": "soft_h_70",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which DevOps practice involves automated code building, testing, and merging multiple times per day?",
+    "options": [
+      "Continuous Integration",
+      "Manual testing",
+      "Pair programming",
+      "Waterfall development"
+    ],
+    "answer": "Continuous Integration",
+    "reason": "CI automates integration and testing to detect errors early and maintain code quality."
+  },
+  {
+    "questionId": "soft_h_71",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows objects to subscribe and react to changes in another object without tight coupling?",
+    "options": ["Observer", "Command", "State", "Strategy"],
+    "answer": "Observer",
+    "reason": "Observer decouples subjects and observers, enabling dynamic responses to events."
+  },
+  {
+    "questionId": "soft_h_72",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern simplifies a complex subsystem by providing a unified interface?",
+    "options": ["Facade", "Adapter", "Decorator", "Observer"],
+    "answer": "Facade",
+    "reason": "Facade pattern provides a simple interface to interact with complex systems."
+  },
+  {
+    "questionId": "soft_h_73",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern provides a placeholder for controlling access to another object?",
+    "options": ["Proxy", "Adapter", "Decorator", "Facade"],
+    "answer": "Proxy",
+    "reason": "Proxy controls access and can add extra behavior without changing the original object."
+  },
+  {
+    "questionId": "soft_h_74",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle encourages splitting large interfaces into smaller, client-specific ones?",
+    "options": [
+      "Interface Segregation Principle",
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Dependency Inversion Principle"
+    ],
+    "answer": "Interface Segregation Principle",
+    "reason": "ISP reduces unnecessary dependencies on methods clients do not use."
+  },
+  {
+    "questionId": "soft_h_75",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows cloning an existing object to create new objects, avoiding subclassing?",
+    "options": ["Prototype", "Factory Method", "Builder", "Singleton"],
+    "answer": "Prototype",
+    "reason": "Prototype creates new objects by cloning a prototype instance."
+  },
+  {
+    "questionId": "soft_h_76",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which practice monitors software metrics, logs, and system behavior to improve fault detection in production?",
+    "options": [
+      "Observability",
+      "Manual testing",
+      "Pair programming",
+      "Code review"
+    ],
+    "answer": "Observability",
+    "reason": "Observability enables understanding and diagnosing production system issues efficiently."
+  },
+  {
+    "questionId": "soft_h_77",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which DevOps tool automates deployment, configuration management, and infrastructure provisioning?",
+    "options": ["Ansible", "Kubernetes", "Docker", "Jenkins"],
+    "answer": "Ansible",
+    "reason": "Ansible automates configuration and deployment for infrastructure and applications."
+  },
+  {
+    "questionId": "soft_h_78",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle ensures classes and modules are easy to maintain and extend without breaking existing functionality?",
+    "options": [
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle"
+    ],
+    "answer": "Open/Closed Principle",
+    "reason": "OCP allows extending behavior without modifying tested code."
+  },
+  {
+    "questionId": "soft_h_79",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which type of testing ensures that newly developed modules integrate correctly with existing modules?",
+    "options": [
+      "Integration testing",
+      "Unit testing",
+      "Regression testing",
+      "Acceptance testing"
+    ],
+    "answer": "Integration testing",
+    "reason": "Integration testing validates interactions between modules."
+  },
+  {
+    "questionId": "soft_h_80",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows clients to traverse a collection without exposing its internal structure?",
+    "options": ["Iterator", "Observer", "Strategy", "State"],
+    "answer": "Iterator",
+    "reason": "Iterator provides sequential access to elements of a collection without exposing the underlying structure."
+  },
+  {
+    "questionId": "soft_h_81",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which design pattern decouples abstraction from implementation so they can vary independently?",
+    "options": ["Bridge", "Adapter", "Decorator", "Facade"],
+    "answer": "Bridge",
+    "reason": "Bridge allows abstraction and implementation to evolve independently."
+  },
+  {
+    "questionId": "soft_h_82",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which DevOps practice ensures frequent releases with automated testing and deployment pipelines?",
+    "options": [
+      "Continuous Delivery",
+      "Manual deployment",
+      "Big Bang release",
+      "Pair programming"
+    ],
+    "answer": "Continuous Delivery",
+    "reason": "Continuous Delivery enables automated release of software updates reliably."
+  },
+  {
+    "questionId": "soft_h_83",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern centralizes object interactions to reduce direct dependencies and simplify maintenance?",
+    "options": ["Mediator", "Observer", "Command", "State"],
+    "answer": "Mediator",
+    "reason": "Mediator coordinates communication between objects to reduce tight coupling."
+  },
+  {
+    "questionId": "soft_h_84",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which testing type evaluates system reliability under extreme conditions to identify failure points?",
+    "options": [
+      "Stress testing",
+      "Load testing",
+      "Unit testing",
+      "Integration testing"
+    ],
+    "answer": "Stress testing",
+    "reason": "Stress testing determines system behavior under abnormal conditions."
+  },
+  {
+    "questionId": "soft_h_85",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which design principle encourages using abstractions to reduce dependency on concrete implementations?",
+    "options": [
+      "Dependency Inversion Principle",
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Interface Segregation Principle"
+    ],
+    "answer": "Dependency Inversion Principle",
+    "reason": "DIP ensures flexibility and reduces coupling in software design."
+  },
+  {
+    "questionId": "soft_h_86",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle suggests that software entities should be open for extension but closed for modification?",
+    "options": [
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Interface Segregation Principle",
+      "Dependency Inversion Principle"
+    ],
+    "answer": "Open/Closed Principle",
+    "reason": "OCP allows new functionality without changing existing tested code."
+  },
+  {
+    "questionId": "soft_h_87",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which design pattern enables dynamic behavior changes by encapsulating algorithms and making them interchangeable?",
+    "options": ["Strategy", "State", "Observer", "Adapter"],
+    "answer": "Strategy",
+    "reason": "Strategy encapsulates algorithms so they can be selected or changed at runtime."
+  },
+  {
+    "questionId": "soft_h_88",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which testing type verifies that new code changes do not break existing functionality?",
+    "options": [
+      "Regression testing",
+      "Unit testing",
+      "Integration testing",
+      "Acceptance testing"
+    ],
+    "answer": "Regression testing",
+    "reason": "Regression testing ensures previously working functionality remains unaffected by new changes."
+  },
+  {
+    "questionId": "soft_h_89",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows creating a family of related objects without specifying their concrete classes?",
+    "options": ["Abstract Factory", "Factory Method", "Builder", "Prototype"],
+    "answer": "Abstract Factory",
+    "reason": "Abstract Factory provides an interface to create related objects while hiding implementation details."
+  },
+  {
+    "questionId": "soft_h_90",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows a client to treat individual objects and compositions uniformly?",
+    "options": ["Composite", "Decorator", "Facade", "Adapter"],
+    "answer": "Composite",
+    "reason": "Composite allows objects and groups of objects to be treated the same way."
+  },
+  {
+    "questionId": "soft_h_91",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which DevOps practice involves monitoring, metrics, and logging to detect failures early in production?",
+    "options": [
+      "Observability",
+      "Manual testing",
+      "Pair programming",
+      "Code review"
+    ],
+    "answer": "Observability",
+    "reason": "Observability provides insights into system behavior for faster issue detection."
+  },
+  {
+    "questionId": "soft_h_92",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern provides a way to restore an object's state to a previous state without breaking encapsulation?",
+    "options": ["Memento", "Prototype", "Observer", "State"],
+    "answer": "Memento",
+    "reason": "Memento stores an object's state externally to enable restoration later."
+  },
+  {
+    "questionId": "soft_h_93",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which design pattern allows you to add responsibilities to objects dynamically without changing their structure?",
+    "options": ["Decorator", "Adapter", "Facade", "Singleton"],
+    "answer": "Decorator",
+    "reason": "Decorator wraps objects to add behavior without modifying the original class."
+  },
+  {
+    "questionId": "soft_h_94",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern provides a way to access the elements of an aggregate object sequentially without exposing its representation?",
+    "options": ["Iterator", "Observer", "Strategy", "State"],
+    "answer": "Iterator",
+    "reason": "Iterator allows traversing collections without revealing their internal structure."
+  },
+  {
+    "questionId": "soft_h_95",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which DevOps tool automates configuration, provisioning, and deployment for infrastructure?",
+    "options": ["Ansible", "Kubernetes", "Docker", "Jenkins"],
+    "answer": "Ansible",
+    "reason": "Ansible automates server configuration and deployment reliably."
+  },
+  {
+    "questionId": "soft_h_96",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern provides a surrogate to control access to another object and optionally add behavior?",
+    "options": ["Proxy", "Adapter", "Decorator", "Facade"],
+    "answer": "Proxy",
+    "reason": "Proxy manages access to an object and can add functionality."
+  },
+  {
+    "questionId": "soft_h_97",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which principle ensures that software modules are loosely coupled and easier to maintain?",
+    "options": [
+      "Dependency Inversion Principle",
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Interface Segregation Principle"
+    ],
+    "answer": "Dependency Inversion Principle",
+    "reason": "DIP promotes depending on abstractions, reducing tight coupling."
+  },
+  {
+    "questionId": "soft_h_98",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which design pattern decouples abstraction from implementation to allow independent variation?",
+    "options": ["Bridge", "Adapter", "Decorator", "Facade"],
+    "answer": "Bridge",
+    "reason": "Bridge separates abstraction and implementation for independent evolution."
+  },
+  {
+    "questionId": "soft_h_99",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which testing type ensures that changes in code do not break existing functionality?",
+    "options": [
+      "Regression testing",
+      "Unit testing",
+      "Integration testing",
+      "Acceptance testing"
+    ],
+    "answer": "Regression testing",
+    "reason": "Regression testing validates that previously working features still function after changes."
+  },
+  {
+    "questionId": "soft_h_100",
+    "tag": "software_dev",
+    "difficulty": "hard",
+    "questionText": "Which pattern allows for creating a family of related objects without specifying concrete classes?",
+    "options": ["Abstract Factory", "Factory Method", "Builder", "Prototype"],
+    "answer": "Abstract Factory",
+    "reason": "Abstract Factory provides interfaces for creating related objects while hiding implementation details."
+  }
+]

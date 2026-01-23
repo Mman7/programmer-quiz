@@ -1,0 +1,822 @@
+[
+  {
+    "questionId": "web_h_41",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API provides ambient light sensor data in browsers?",
+    "options": [
+      "Ambient Light Sensor API",
+      "DeviceLight API",
+      "LightSensor API",
+      "Sensors API"
+    ],
+    "answer": "Ambient Light Sensor API",
+    "reason": "Provides real-time light intensity values from device sensors."
+  },
+  {
+    "questionId": "web_h_42",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API provides proximity detection in browser?",
+    "options": [
+      "Proximity Sensor API",
+      "DeviceProximity API",
+      "ProxSensor API",
+      "Sensors API"
+    ],
+    "answer": "Proximity Sensor API",
+    "reason": "Detects distance of objects near device for context-aware features."
+  },
+  {
+    "questionId": "web_h_43",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows writing service workers for offline caching?",
+    "options": [
+      "Service Worker API",
+      "Web Worker API",
+      "Offline API",
+      "Cache API"
+    ],
+    "answer": "Service Worker API",
+    "reason": "Service workers intercept network requests and manage cache for offline apps."
+  },
+  {
+    "questionId": "web_h_44",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which cache interface is accessible from service workers?",
+    "options": ["Cache API", "IndexedDB", "LocalStorage", "SessionStorage"],
+    "answer": "Cache API",
+    "reason": "Cache API stores request/response pairs for offline usage controlled by service worker."
+  },
+  {
+    "questionId": "web_h_45",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows push notifications in browser?",
+    "options": [
+      "Push API",
+      "Notification API",
+      "Service Worker API",
+      "Web Notifications API"
+    ],
+    "answer": "Push API",
+    "reason": "Push API delivers messages from server to service worker even when app is not active."
+  },
+  {
+    "questionId": "web_h_46",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows controlling how notifications are displayed?",
+    "options": [
+      "Notification API",
+      "Push API",
+      "Service Worker API",
+      "Message API"
+    ],
+    "answer": "Notification API",
+    "reason": "Notification API shows notifications with options for title, body, icon, and actions."
+  },
+  {
+    "questionId": "web_h_47",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows reading battery status in browser?",
+    "options": [
+      "Battery Status API",
+      "Battery API",
+      "Navigator API",
+      "Device API"
+    ],
+    "answer": "Battery Status API",
+    "reason": "Provides charging status and battery level for power-aware applications."
+  },
+  {
+    "questionId": "web_h_48",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows access to the device’s geolocation?",
+    "options": [
+      "Geolocation API",
+      "Location API",
+      "Navigator API",
+      "Position API"
+    ],
+    "answer": "Geolocation API",
+    "reason": "Provides latitude, longitude, and altitude of device with user permission."
+  },
+  {
+    "questionId": "web_h_49",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows detection of network connectivity changes?",
+    "options": [
+      "Network Information API",
+      "Navigator API",
+      "Connection API",
+      "Network API"
+    ],
+    "answer": "Network Information API",
+    "reason": "Provides connection type and effective bandwidth to optimize resource loading."
+  },
+  {
+    "questionId": "web_h_50",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows reading clipboard contents asynchronously?",
+    "options": [
+      "Clipboard API",
+      "Document.execCommand",
+      "ClipboardEvent",
+      "Navigator API"
+    ],
+    "answer": "Clipboard API",
+    "reason": "Provides read/write access to clipboard data securely."
+  },
+  {
+    "questionId": "web_h_51",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows streaming media recording?",
+    "options": [
+      "MediaRecorder API",
+      "MediaStream API",
+      "Web Audio API",
+      "Media Capture API"
+    ],
+    "answer": "MediaRecorder API",
+    "reason": "MediaRecorder records audio and video streams efficiently."
+  },
+  {
+    "questionId": "web_h_52",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows accessing camera and microphone?",
+    "options": [
+      "MediaDevices.getUserMedia()",
+      "Navigator.captureMedia()",
+      "MediaStream API",
+      "Camera API"
+    ],
+    "answer": "MediaDevices.getUserMedia()",
+    "reason": "Prompts user for permission to access camera/microphone streams."
+  },
+  {
+    "questionId": "web_h_53",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows enumeration of connected media devices?",
+    "options": [
+      "MediaDevices.enumerateDevices()",
+      "Navigator.devices()",
+      "MediaStream API",
+      "Device API"
+    ],
+    "answer": "MediaDevices.enumerateDevices()",
+    "reason": "Returns a list of available input/output devices like cameras and microphones."
+  },
+  {
+    "questionId": "web_h_54",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows controlling individual tracks in a MediaStream?",
+    "options": [
+      "MediaStreamTrack API",
+      "MediaStream API",
+      "MediaRecorder API",
+      "Web Audio API"
+    ],
+    "answer": "MediaStreamTrack API",
+    "reason": "Tracks can be enabled/disabled or replaced individually."
+  },
+  {
+    "questionId": "web_h_55",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows mixing multiple audio streams in browser?",
+    "options": [
+      "Web Audio API",
+      "Audio API",
+      "MediaStream API",
+      "MediaRecorder API"
+    ],
+    "answer": "Web Audio API",
+    "reason": "Web Audio API supports combining, filtering, and spatializing audio streams."
+  },
+  {
+    "questionId": "web_h_56",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows low-latency audio processing in browsers?",
+    "options": [
+      "Audio Worklet",
+      "Web Audio API",
+      "MediaStream API",
+      "AudioContext"
+    ],
+    "answer": "Audio Worklet",
+    "reason": "Audio Worklet runs custom audio code off the main thread with minimal latency."
+  },
+  {
+    "questionId": "web_h_57",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows efficient image decoding in web workers?",
+    "options": [
+      "createImageBitmap()",
+      "Image.decode()",
+      "Canvas API",
+      "OffscreenCanvas"
+    ],
+    "answer": "createImageBitmap()",
+    "reason": "Decodes images asynchronously and off the main thread to improve performance."
+  },
+  {
+    "questionId": "web_h_58",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows rendering canvas off the main thread?",
+    "options": ["OffscreenCanvas", "Canvas API", "WebGL", "Web Workers"],
+    "answer": "OffscreenCanvas",
+    "reason": "OffscreenCanvas allows drawing to a canvas in a worker thread without blocking UI."
+  },
+  {
+    "questionId": "web_h_59",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows converting canvas to a blob asynchronously?",
+    "options": [
+      "HTMLCanvasElement.toBlob()",
+      "Canvas.toDataURL()",
+      "Canvas.toBlobAsync()",
+      "OffscreenCanvas.toBlob()"
+    ],
+    "answer": "HTMLCanvasElement.toBlob()",
+    "reason": "Asynchronously returns a Blob representing the image in the canvas."
+  },
+  {
+    "questionId": "web_h_60",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows efficient binary data transfer over network?",
+    "options": [
+      "Fetch API with Streams",
+      "XMLHttpRequest",
+      "WebSocket",
+      "WebRTC"
+    ],
+    "answer": "Fetch API with Streams",
+    "reason": "Allows streaming request/response body for large binary transfers."
+  },
+  {
+    "questionId": "web_h_61",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows canceling fetch requests?",
+    "options": [
+      "AbortController",
+      "FetchController",
+      "CancelToken",
+      "Request.abort()"
+    ],
+    "answer": "AbortController",
+    "reason": "AbortController signals a fetch request to terminate early."
+  },
+  {
+    "questionId": "web_h_62",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows sending and receiving messages over TCP-like channel?",
+    "options": ["WebSocket API", "Fetch API", "WebRTC", "Server-Sent Events"],
+    "answer": "WebSocket API",
+    "reason": "WebSocket provides full-duplex persistent connection for bidirectional messaging."
+  },
+  {
+    "questionId": "web_h_63",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows one-way server-to-client streaming?",
+    "options": ["Server-Sent Events", "WebSocket", "Fetch", "WebRTC"],
+    "answer": "Server-Sent Events",
+    "reason": "SSE provides event streams from server to client with automatic reconnection."
+  },
+  {
+    "questionId": "web_h_64",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows detecting scroll position efficiently?",
+    "options": [
+      "IntersectionObserver",
+      "ScrollEvent",
+      "ResizeObserver",
+      "Viewport API"
+    ],
+    "answer": "IntersectionObserver",
+    "reason": "IntersectionObserver tracks visibility of elements relative to viewport without frequent scroll events."
+  },
+  {
+    "questionId": "web_h_65",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows high-performance animation?",
+    "options": [
+      "requestAnimationFrame",
+      "setTimeout",
+      "setInterval",
+      "CSS animations"
+    ],
+    "answer": "requestAnimationFrame",
+    "reason": "Schedules animations synchronized with browser repaint for smooth rendering."
+  },
+  {
+    "questionId": "web_h_66",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows measuring paint, layout, and frame timings?",
+    "options": [
+      "Paint Timing API",
+      "Performance API",
+      "Resource Timing API",
+      "Frame Timing API"
+    ],
+    "answer": "Paint Timing API",
+    "reason": "Provides metrics like first-paint and first-contentful-paint for performance analysis."
+  },
+  {
+    "questionId": "web_h_67",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows controlling page visibility?",
+    "options": [
+      "Page Visibility API",
+      "Document API",
+      "Navigator API",
+      "Window API"
+    ],
+    "answer": "Page Visibility API",
+    "reason": "Detects when page is hidden or visible to pause/resume resource-intensive tasks."
+  },
+  {
+    "questionId": "web_h_68",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows secure cross-origin requests with credentials?",
+    "options": [
+      "CORS with credentials",
+      "Fetch API",
+      "XMLHttpRequest",
+      "WebSocket"
+    ],
+    "answer": "CORS with credentials",
+    "reason": "Enables cross-origin requests with cookies or HTTP authentication."
+  },
+  {
+    "questionId": "web_h_69",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which CORS header specifies allowed origins?",
+    "options": [
+      "Access-Control-Allow-Origin",
+      "Access-Control-Allow-Credentials",
+      "Origin",
+      "Access-Control-Expose-Headers"
+    ],
+    "answer": "Access-Control-Allow-Origin",
+    "reason": "This header tells the browser which origins can access resources."
+  },
+  {
+    "questionId": "web_h_70",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which CORS header allows credentials in cross-origin requests?",
+    "options": [
+      "Access-Control-Allow-Credentials",
+      "Access-Control-Allow-Origin",
+      "Origin",
+      "Access-Control-Expose-Headers"
+    ],
+    "answer": "Access-Control-Allow-Credentials",
+    "reason": "This header allows sending cookies or HTTP auth in cross-origin requests."
+  },
+  {
+    "questionId": "web_h_71",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows performing cryptographic operations in browser?",
+    "options": [
+      "Web Crypto API",
+      "Crypto API",
+      "SubtleCrypto",
+      "Navigator.crypto"
+    ],
+    "answer": "Web Crypto API",
+    "reason": "Provides hashing, key generation, signing, and encryption securely in browser."
+  },
+  {
+    "questionId": "web_h_72",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which method generates cryptographically secure random values?",
+    "options": [
+      "crypto.getRandomValues()",
+      "Math.random()",
+      "Random API",
+      "crypto.random()"
+    ],
+    "answer": "crypto.getRandomValues()",
+    "reason": "Fills typed arrays with secure random numbers suitable for crypto operations."
+  },
+  {
+    "questionId": "web_h_73",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows hashing data in browser securely?",
+    "options": [
+      "SubtleCrypto.digest()",
+      "Crypto.hash()",
+      "WebCrypto.digest()",
+      "Hash API"
+    ],
+    "answer": "SubtleCrypto.digest()",
+    "reason": "Performs cryptographic hash functions like SHA-256 securely."
+  },
+  {
+    "questionId": "web_h_74",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows encrypting/decrypting data in browser?",
+    "options": [
+      "SubtleCrypto.encrypt()/decrypt()",
+      "Crypto.encrypt()",
+      "WebCrypto.encrypt()",
+      "Cipher API"
+    ],
+    "answer": "SubtleCrypto.encrypt()/decrypt()",
+    "reason": "Supports AES and RSA encryption/decryption with secure key management."
+  },
+  {
+    "questionId": "web_h_75",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows generating asymmetric key pairs?",
+    "options": [
+      "SubtleCrypto.generateKey()",
+      "Crypto.generateKey()",
+      "WebCrypto.generateKey()",
+      "KeyPair API"
+    ],
+    "answer": "SubtleCrypto.generateKey()",
+    "reason": "Generates public/private key pairs for RSA, ECDSA, and other algorithms."
+  },
+  {
+    "questionId": "web_h_76",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows signing messages cryptographically?",
+    "options": [
+      "SubtleCrypto.sign()",
+      "Crypto.sign()",
+      "WebCrypto.sign()",
+      "Sign API"
+    ],
+    "answer": "SubtleCrypto.sign()",
+    "reason": "Signs messages using private keys and secure algorithms."
+  },
+  {
+    "questionId": "web_h_77",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows verifying cryptographic signatures?",
+    "options": [
+      "SubtleCrypto.verify()",
+      "Crypto.verify()",
+      "WebCrypto.verify()",
+      "Verify API"
+    ],
+    "answer": "SubtleCrypto.verify()",
+    "reason": "Verifies authenticity of message signatures using public keys."
+  },
+  {
+    "questionId": "web_h_78",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows encoding/decoding base64 in browser?",
+    "options": [
+      "TextEncoder/TextDecoder with btoa/atob",
+      "Base64 API",
+      "Crypto API",
+      "Encoding API"
+    ],
+    "answer": "TextEncoder/TextDecoder with btoa/atob",
+    "reason": "TextEncoder converts text to bytes; btoa/atob encodes/decodes Base64 strings."
+  },
+  {
+    "questionId": "web_h_79",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows generating UUID in browser?",
+    "options": [
+      "crypto.randomUUID()",
+      "Math.random()",
+      "UUID API",
+      "Navigator API"
+    ],
+    "answer": "crypto.randomUUID()",
+    "reason": "Generates a cryptographically secure random UUID v4."
+  },
+  {
+    "questionId": "web_h_80",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows detecting and responding to online/offline events?",
+    "options": [
+      "Navigator.onLine and online/offline events",
+      "Network Information API",
+      "Connection API",
+      "Network API"
+    ],
+    "answer": "Navigator.onLine and online/offline events",
+    "reason": "Detects connectivity changes to handle offline behavior in apps."
+  },
+  {
+    "questionId": "web_h_81",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows detecting device orientation in 3D space?",
+    "options": [
+      "DeviceOrientation API",
+      "DeviceMotion API",
+      "Sensors API",
+      "Orientation API"
+    ],
+    "answer": "DeviceOrientation API",
+    "reason": "Provides alpha, beta, gamma angles of device relative to Earth coordinate system."
+  },
+  {
+    "questionId": "web_h_82",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows detecting device motion including acceleration and rotation rate?",
+    "options": [
+      "DeviceMotion API",
+      "DeviceOrientation API",
+      "Sensors API",
+      "Motion API"
+    ],
+    "answer": "DeviceMotion API",
+    "reason": "Provides acceleration, rotation rate, and interval for motion-sensitive applications."
+  },
+  {
+    "questionId": "web_h_83",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows fine-grained sensor access using promises?",
+    "options": [
+      "Generic Sensor API",
+      "DeviceMotion API",
+      "DeviceOrientation API",
+      "Sensors API"
+    ],
+    "answer": "Generic Sensor API",
+    "reason": "Provides access to accelerometer, gyroscope, magnetometer, and others via Promises."
+  },
+  {
+    "questionId": "web_h_84",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows secure key storage in browser?",
+    "options": [
+      "Web Authentication API (WebAuthn)",
+      "Web Crypto API",
+      "Credential Management API",
+      "LocalStorage"
+    ],
+    "answer": "Web Authentication API (WebAuthn)",
+    "reason": "Allows storing cryptographic keys securely for passwordless authentication."
+  },
+  {
+    "questionId": "web_h_85",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows registering FIDO2 credentials?",
+    "options": [
+      "WebAuthn API",
+      "Credential Management API",
+      "Web Crypto API",
+      "Crypto API"
+    ],
+    "answer": "WebAuthn API",
+    "reason": "Enables registration and authentication using hardware authenticators."
+  },
+  {
+    "questionId": "web_h_86",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows asynchronous reading of large files in chunks?",
+    "options": [
+      "FileReader with readAsArrayBuffer and slices",
+      "Blob API",
+      "Media API",
+      "File API"
+    ],
+    "answer": "FileReader with readAsArrayBuffer and slices",
+    "reason": "Slices and streams allow processing large files without loading entire content into memory."
+  },
+  {
+    "questionId": "web_h_87",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows secure sandboxed execution of untrusted code?",
+    "options": [
+      "WebAssembly with sandbox",
+      "Worker API",
+      "Service Worker API",
+      "iframe sandbox"
+    ],
+    "answer": "WebAssembly with sandbox",
+    "reason": "WASM code runs in a restricted environment preventing unsafe operations on host."
+  },
+  {
+    "questionId": "web_h_88",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows streaming large JSON over network efficiently?",
+    "options": [
+      "Fetch API with ReadableStream",
+      "XMLHttpRequest",
+      "WebSocket",
+      "Server-Sent Events"
+    ],
+    "answer": "Fetch API with ReadableStream",
+    "reason": "ReadableStream allows processing JSON in chunks without blocking memory."
+  },
+  {
+    "questionId": "web_h_89",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows handling HTTP/2 push in browser?",
+    "options": [
+      "Fetch API with streams",
+      "XMLHttpRequest",
+      "Service Worker",
+      "WebSocket"
+    ],
+    "answer": "Service Worker",
+    "reason": "Service worker can intercept HTTP/2 push requests and cache/preload resources."
+  },
+  {
+    "questionId": "web_h_90",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows detecting battery charging change events?",
+    "options": [
+      "Battery Status API",
+      "Navigator API",
+      "Device API",
+      "Power API"
+    ],
+    "answer": "Battery Status API",
+    "reason": "Provides onchargingchange event to react to battery charging state changes."
+  },
+  {
+    "questionId": "web_h_91",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows fetching resources with retry and timeout logic?",
+    "options": [
+      "Fetch API with AbortController",
+      "XMLHttpRequest",
+      "WebSocket",
+      "Service Worker"
+    ],
+    "answer": "Fetch API with AbortController",
+    "reason": "AbortController allows canceling requests and implementing retries/timeouts programmatically."
+  },
+  {
+    "questionId": "web_h_92",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows encoding URL query parameters safely?",
+    "options": [
+      "URLSearchParams",
+      "encodeURI/encodeURIComponent",
+      "QueryString API",
+      "URL API"
+    ],
+    "answer": "URLSearchParams",
+    "reason": "Provides convenient methods to construct and manipulate query parameters safely."
+  },
+  {
+    "questionId": "web_h_93",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows detecting keyboard visibility changes on mobile devices?",
+    "options": [
+      "VisualViewport API",
+      "KeyboardEvent API",
+      "Input API",
+      "Screen API"
+    ],
+    "answer": "VisualViewport API",
+    "reason": "Provides viewport dimensions and offsets to detect soft keyboard appearance."
+  },
+  {
+    "questionId": "web_h_94",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows detecting changes in system color scheme?",
+    "options": [
+      "matchMedia('(prefers-color-scheme)')",
+      "Media Query API",
+      "CSS Variables",
+      "VisualViewport API"
+    ],
+    "answer": "matchMedia('(prefers-color-scheme)')",
+    "reason": "Detects dark/light mode preference for adaptive UI."
+  },
+  {
+    "questionId": "web_h_95",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows requesting background sync when connection is restored?",
+    "options": [
+      "Background Sync API",
+      "Service Worker API",
+      "Fetch API",
+      "Web Push API"
+    ],
+    "answer": "Background Sync API",
+    "reason": "Service worker can schedule sync tasks to run when network becomes available."
+  },
+  {
+    "questionId": "web_h_96",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows storing credentials securely in the browser?",
+    "options": [
+      "Credential Management API",
+      "Web Storage API",
+      "IndexedDB",
+      "LocalStorage"
+    ],
+    "answer": "Credential Management API",
+    "reason": "Credential Management API allows secure storage and retrieval of user credentials like passwords and federated identities."
+  },
+  {
+    "questionId": "web_h_97",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API enables zero-copy data transfer between threads?",
+    "options": [
+      "Transferable Objects",
+      "SharedArrayBuffer",
+      "ArrayBuffer",
+      "Blob"
+    ],
+    "answer": "Transferable Objects",
+    "reason": "Transferable objects move ownership of memory between threads without copying, improving performance."
+  },
+  {
+    "questionId": "web_h_98",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows executing code at idle time to improve performance?",
+    "options": [
+      "requestIdleCallback",
+      "setTimeout",
+      "requestAnimationFrame",
+      "queueMicrotask"
+    ],
+    "answer": "requestIdleCallback",
+    "reason": "requestIdleCallback schedules low-priority tasks during browser idle periods."
+  },
+  {
+    "questionId": "web_h_99",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows detecting long tasks that block the main thread?",
+    "options": [
+      "Long Tasks API",
+      "Performance API",
+      "Task Timing API",
+      "Event Loop API"
+    ],
+    "answer": "Long Tasks API",
+    "reason": "Long Tasks API identifies tasks that block the main thread for more than 50ms."
+  },
+  {
+    "questionId": "web_h_100",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows isolating cross-origin documents for high-performance features?",
+    "options": [
+      "Cross-Origin Isolation (COOP/COEP)",
+      "CORS",
+      "Content Security Policy",
+      "Same-Origin Policy"
+    ],
+    "answer": "Cross-Origin Isolation (COOP/COEP)",
+    "reason": "COOP and COEP enable cross-origin isolation, required for features like SharedArrayBuffer."
+  }
+]

@@ -1,0 +1,1204 @@
+[
+  {
+    "questionId": "cs_h_1",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the main responsibility of the CLR?",
+    "options": [
+      "Compile C#",
+      "Manage memory and execution",
+      "Optimize UI",
+      "Handle HTTP requests"
+    ],
+    "answer": "Manage memory and execution",
+    "reason": "CLR manages memory, garbage collection, security, and execution."
+  },
+  {
+    "questionId": "cs_h_2",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What causes a Gen 2 garbage collection?",
+    "options": [
+      "Short-lived objects",
+      "Pinned objects",
+      "Long-lived objects",
+      "Stack overflow"
+    ],
+    "answer": "Long-lived objects",
+    "reason": "Gen 2 GC occurs when long-lived objects accumulate."
+  },
+  {
+    "questionId": "cs_h_3",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What happens if a Task exception is never awaited?",
+    "options": [
+      "Ignored",
+      "Application crash",
+      "Stored until GC",
+      "Logged automatically"
+    ],
+    "answer": "Stored until GC",
+    "reason": "Unobserved task exceptions are raised during finalization."
+  },
+  {
+    "questionId": "cs_h_4",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does async keyword do internally?",
+    "options": [
+      "Creates thread",
+      "Wraps method in state machine",
+      "Uses thread pool",
+      "Blocks execution"
+    ],
+    "answer": "Wraps method in state machine",
+    "reason": "async transforms method into a compiler-generated state machine."
+  },
+  {
+    "questionId": "cs_h_5",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which type is allocated on the heap?",
+    "options": ["struct", "enum", "class", "int"],
+    "answer": "class",
+    "reason": "Reference types like class are allocated on the heap."
+  },
+  {
+    "questionId": "cs_h_6",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is boxing?",
+    "options": [
+      "Casting reference",
+      "Wrapping value type into object",
+      "Heap allocation",
+      "GC optimization"
+    ],
+    "answer": "Wrapping value type into object",
+    "reason": "Boxing converts value type to object on heap."
+  },
+  {
+    "questionId": "cs_h_7",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the main danger of async void?",
+    "options": [
+      "Deadlock",
+      "Uncatchable exceptions",
+      "Memory leak",
+      "Slow execution"
+    ],
+    "answer": "Uncatchable exceptions",
+    "reason": "Exceptions from async void cannot be awaited or caught."
+  },
+  {
+    "questionId": "cs_h_8",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which collection is thread-safe?",
+    "options": [
+      "List<T>",
+      "Dictionary<T,T>",
+      "ConcurrentDictionary<T,T>",
+      "Array"
+    ],
+    "answer": "ConcurrentDictionary<T,T>",
+    "reason": "Concurrent collections are designed for thread safety."
+  },
+  {
+    "questionId": "cs_h_9",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does volatile guarantee?",
+    "options": [
+      "Atomicity",
+      "Memory visibility",
+      "Thread safety",
+      "Performance"
+    ],
+    "answer": "Memory visibility",
+    "reason": "volatile ensures latest value is read from memory."
+  },
+  {
+    "questionId": "cs_h_10",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What happens when finalizer throws exception?",
+    "options": ["Ignored", "App crash", "Logged", "GC retries"],
+    "answer": "Ignored",
+    "reason": "CLR ignores exceptions in finalizers."
+  },
+
+  {
+    "questionId": "cs_h_11",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the Large Object Heap threshold?",
+    "options": ["8KB", "16KB", "85KB", "128KB"],
+    "answer": "85KB",
+    "reason": "Objects ≥ 85KB go to the LOH."
+  },
+  {
+    "questionId": "cs_h_12",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Why is LOH not compacted by default?",
+    "options": [
+      "Performance cost",
+      "Memory leak risk",
+      "Thread safety",
+      "Security"
+    ],
+    "answer": "Performance cost",
+    "reason": "Compacting LOH is expensive."
+  },
+  {
+    "questionId": "cs_h_13",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which keyword prevents inheritance?",
+    "options": ["sealed", "static", "readonly", "const"],
+    "answer": "sealed",
+    "reason": "sealed prevents a class from being inherited."
+  },
+  {
+    "questionId": "cs_h_14",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is Span<T> used for?",
+    "options": ["Async", "Memory-safe slicing", "Threading", "Serialization"],
+    "answer": "Memory-safe slicing",
+    "reason": "Span<T> provides safe access to contiguous memory."
+  },
+  {
+    "questionId": "cs_h_15",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Why can't Span<T> be stored on heap?",
+    "options": ["Performance", "GC limitation", "Ref struct rule", "Security"],
+    "answer": "Ref struct rule",
+    "reason": "Span<T> is a ref struct and must stay on stack."
+  },
+
+  {
+    "questionId": "cs_h_16",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What causes deadlock in async code?",
+    "options": [
+      "Task.Run",
+      "ConfigureAwait(false)",
+      "Blocking .Result",
+      "Thread pool"
+    ],
+    "answer": "Blocking .Result",
+    "reason": "Blocking async calls can deadlock synchronization context."
+  },
+  {
+    "questionId": "cs_h_17",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which prevents context capture?",
+    "options": ["await", "ConfigureAwait(false)", "Task.Run", "lock"],
+    "answer": "ConfigureAwait(false)",
+    "reason": "It avoids resuming on captured context."
+  },
+  {
+    "questionId": "cs_h_18",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is IL?",
+    "options": ["Bytecode", "Native code", "Assembly", "C++"],
+    "answer": "Bytecode",
+    "reason": "IL is intermediate bytecode executed by CLR."
+  },
+  {
+    "questionId": "cs_h_19",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "When does JIT compilation occur?",
+    "options": ["Build time", "Load time", "First execution", "Shutdown"],
+    "answer": "First execution",
+    "reason": "JIT compiles methods on first use."
+  },
+  {
+    "questionId": "cs_h_20",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does unsafe keyword allow?",
+    "options": ["Pointer arithmetic", "Faster GC", "Thread safety", "Inlining"],
+    "answer": "Pointer arithmetic",
+    "reason": "unsafe enables pointer operations."
+  },
+
+  {
+    "questionId": "cs_h_21",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is reflection mainly used for?",
+    "options": [
+      "Serialization",
+      "Runtime type inspection",
+      "Performance",
+      "Threading"
+    ],
+    "answer": "Runtime type inspection",
+    "reason": "Reflection inspects metadata at runtime."
+  },
+
+  {
+    "questionId": "cs_h_22",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Why is reflection slow?",
+    "options": [
+      "Heap allocation",
+      "Metadata lookup",
+      "JIT disabled",
+      "GC pressure"
+    ],
+    "answer": "Metadata lookup",
+    "reason": "Reflection relies on runtime metadata resolution."
+  },
+
+  {
+    "questionId": "cs_h_23",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which breaks immutability?",
+    "options": [
+      "readonly field",
+      "private setter",
+      "Mutable reference field",
+      "init-only property"
+    ],
+    "answer": "Mutable reference field",
+    "reason": "Mutable references allow state changes."
+  },
+
+  {
+    "questionId": "cs_h_24",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the main purpose of ValueTask?",
+    "options": [
+      "Reduce allocations",
+      "Parallelism",
+      "Error handling",
+      "Cancellation"
+    ],
+    "answer": "Reduce allocations",
+    "reason": "ValueTask avoids Task allocation in synchronous paths."
+  },
+
+  {
+    "questionId": "cs_h_25",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which LINQ operator executes immediately?",
+    "options": ["Select", "Where", "ToList", "GroupBy"],
+    "answer": "ToList",
+    "reason": "ToList forces immediate execution."
+  },
+  {
+    "questionId": "cs_h_26",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does the lock keyword compile into?",
+    "options": ["Mutex", "SpinLock", "Monitor.Enter/Exit", "Semaphore"],
+    "answer": "Monitor.Enter/Exit",
+    "reason": "lock is syntactic sugar for Monitor.Enter and Monitor.Exit."
+  },
+  {
+    "questionId": "cs_h_27",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Why should locking on public objects be avoided?",
+    "options": [
+      "Performance loss",
+      "GC pressure",
+      "Deadlocks from external code",
+      "Compilation error"
+    ],
+    "answer": "Deadlocks from external code",
+    "reason": "Public objects can be locked externally, causing deadlocks."
+  },
+  {
+    "questionId": "cs_h_28",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of ThreadLocal<T>?",
+    "options": [
+      "Global state",
+      "Per-thread storage",
+      "Async context",
+      "Static memory"
+    ],
+    "answer": "Per-thread storage",
+    "reason": "ThreadLocal<T> stores values unique to each thread."
+  },
+  {
+    "questionId": "cs_h_29",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is a common cause of memory leaks in .NET?",
+    "options": [
+      "Value types",
+      "Unreleased event handlers",
+      "Local variables",
+      "Using statements"
+    ],
+    "answer": "Unreleased event handlers",
+    "reason": "Event subscriptions keep objects alive if not unsubscribed."
+  },
+  {
+    "questionId": "cs_h_30",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does the fixed keyword do?",
+    "options": [
+      "Locks thread",
+      "Pins memory",
+      "Optimizes GC",
+      "Allocates stack memory"
+    ],
+    "answer": "Pins memory",
+    "reason": "fixed prevents the GC from moving objects in memory."
+  },
+  {
+    "questionId": "cs_h_31",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which interface enables deterministic cleanup?",
+    "options": ["ICloneable", "IDisposable", "IAsyncEnumerable", "IEquatable"],
+    "answer": "IDisposable",
+    "reason": "IDisposable enables deterministic resource release."
+  },
+  {
+    "questionId": "cs_h_32",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What happens if Dispose is called multiple times?",
+    "options": [
+      "Exception thrown",
+      "Undefined behavior",
+      "Should be safe",
+      "GC crash"
+    ],
+    "answer": "Should be safe",
+    "reason": "Dispose implementations should be idempotent."
+  },
+  {
+    "questionId": "cs_h_33",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Why is finalizer execution non-deterministic?",
+    "options": [
+      "Thread pool scheduling",
+      "GC timing",
+      "JIT compilation",
+      "Async context"
+    ],
+    "answer": "GC timing",
+    "reason": "Finalizers run when GC decides, not at a fixed time."
+  },
+  {
+    "questionId": "cs_h_34",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does GC.SuppressFinalize do?",
+    "options": ["Stops GC", "Skips finalizer", "Deletes object", "Pins memory"],
+    "answer": "Skips finalizer",
+    "reason": "It prevents the finalizer from being called."
+  },
+  {
+    "questionId": "cs_h_35",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which async primitive supports cancellation?",
+    "options": ["Thread", "Task", "CancellationToken", "Monitor"],
+    "answer": "CancellationToken",
+    "reason": "CancellationToken cooperatively cancels async operations."
+  },
+  {
+    "questionId": "cs_h_36",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of ExecutionContext?",
+    "options": [
+      "Thread pool",
+      "Async local state flow",
+      "Exception handling",
+      "Memory isolation"
+    ],
+    "answer": "Async local state flow",
+    "reason": "ExecutionContext flows security and async-local data."
+  },
+  {
+    "questionId": "cs_h_37",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which feature allows stack-only types?",
+    "options": ["readonly struct", "ref struct", "struct", "record"],
+    "answer": "ref struct",
+    "reason": "ref struct types are restricted to stack allocation."
+  },
+  {
+    "questionId": "cs_h_38",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does the with keyword work with?",
+    "options": ["class", "record", "struct", "interface"],
+    "answer": "record",
+    "reason": "with creates copies of records with modified values."
+  },
+  {
+    "questionId": "cs_h_39",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Why are records useful?",
+    "options": [
+      "Performance",
+      "Immutability and value equality",
+      "Thread safety",
+      "Serialization"
+    ],
+    "answer": "Immutability and value equality",
+    "reason": "Records emphasize value-based equality and immutability."
+  },
+  {
+    "questionId": "cs_h_40",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the main cost of async/await?",
+    "options": [
+      "Thread creation",
+      "State machine allocation",
+      "Context switch",
+      "Blocking calls"
+    ],
+    "answer": "State machine allocation",
+    "reason": "Async methods generate state machines and allocations."
+  },
+  {
+    "questionId": "cs_h_41",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which type avoids heap allocation?",
+    "options": ["class", "record class", "struct", "object"],
+    "answer": "struct",
+    "reason": "Structs are value types and often stack allocated."
+  },
+  {
+    "questionId": "cs_h_42",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does ArrayPool<T> optimize?",
+    "options": [
+      "Sorting",
+      "Thread safety",
+      "Memory allocation",
+      "IO performance"
+    ],
+    "answer": "Memory allocation",
+    "reason": "ArrayPool<T> reduces GC pressure by reusing arrays."
+  },
+  {
+    "questionId": "cs_h_43",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does readonly struct guarantee?",
+    "options": [
+      "Thread safety",
+      "Immutability of fields",
+      "Stack allocation",
+      "No boxing"
+    ],
+    "answer": "Immutability of fields",
+    "reason": "readonly struct prevents field mutation."
+  },
+  {
+    "questionId": "cs_h_44",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is a common LINQ performance pitfall?",
+    "options": [
+      "Deferred execution",
+      "Immediate execution",
+      "Value types",
+      "Parallel queries"
+    ],
+    "answer": "Deferred execution",
+    "reason": "Deferred execution may cause repeated enumeration."
+  },
+  {
+    "questionId": "cs_h_45",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which tool analyzes IL code?",
+    "options": ["dotnet-trace", "ILDASM", "PerfView", "BenchmarkDotNet"],
+    "answer": "ILDASM",
+    "reason": "ILDASM inspects compiled IL."
+  },
+  {
+    "questionId": "cs_h_46",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of BenchmarkDotNet?",
+    "options": [
+      "Debugging",
+      "Profiling",
+      "Accurate benchmarking",
+      "Memory dump"
+    ],
+    "answer": "Accurate benchmarking",
+    "reason": "BenchmarkDotNet provides reliable performance measurements."
+  },
+  {
+    "questionId": "cs_h_47",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does tail-call optimization reduce?",
+    "options": ["Heap usage", "Stack usage", "CPU cycles", "GC frequency"],
+    "answer": "Stack usage",
+    "reason": "Tail-call optimization prevents stack growth."
+  },
+  {
+    "questionId": "cs_h_48",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which API forces full garbage collection?",
+    "options": [
+      "GC.Collect()",
+      "GC.WaitForPendingFinalizers()",
+      "GC.SuppressFinalize()",
+      "GC.GetTotalMemory()"
+    ],
+    "answer": "GC.Collect()",
+    "reason": "GC.Collect triggers garbage collection."
+  },
+  {
+    "questionId": "cs_h_49",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Why is forcing GC discouraged?",
+    "options": [
+      "Compilation error",
+      "Breaks GC heuristics",
+      "Memory leak",
+      "Thread starvation"
+    ],
+    "answer": "Breaks GC heuristics",
+    "reason": "Manual GC disrupts optimized GC behavior."
+  },
+  {
+    "questionId": "cs_h_50",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does JIT tiered compilation do?",
+    "options": [
+      "Disable optimizations",
+      "Compile once",
+      "Optimize hot paths",
+      "Reduce memory usage"
+    ],
+    "answer": "Optimize hot paths",
+    "reason": "Tiered JIT recompiles frequently executed code with optimizations."
+  },
+  {
+    "questionId": "cs_h_51",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is a common cause of deadlocks in async/await code?",
+    "options": [
+      "Task.Run",
+      "Blocking on Task.Result",
+      "ConfigureAwait(false)",
+      "Using ThreadPool"
+    ],
+    "answer": "Blocking on Task.Result",
+    "reason": "Blocking on Task.Result can cause a deadlock when waiting on the captured synchronization context."
+  },
+  {
+    "questionId": "cs_h_52",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the main advantage of ValueTask over Task?",
+    "options": [
+      "Thread safety",
+      "Reduced heap allocations",
+      "Better debugging",
+      "Supports cancellation"
+    ],
+    "answer": "Reduced heap allocations",
+    "reason": "ValueTask avoids unnecessary Task allocations for methods that often complete synchronously."
+  },
+  {
+    "questionId": "cs_h_53",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which method should be used to check object type at runtime safely?",
+    "options": [
+      "as operator",
+      "is operator",
+      "GetType() comparison",
+      "dynamic casting"
+    ],
+    "answer": "is operator",
+    "reason": "The 'is' operator safely checks for type compatibility at runtime."
+  },
+  {
+    "questionId": "cs_h_54",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which keyword prevents a class from being inherited?",
+    "options": ["sealed", "static", "readonly", "abstract"],
+    "answer": "sealed",
+    "reason": "sealed prevents other classes from inheriting from it."
+  },
+  {
+    "questionId": "cs_h_55",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of the GCHandle type?",
+    "options": [
+      "Manage threads",
+      "Pin objects in memory",
+      "Async context flow",
+      "Dispose pattern"
+    ],
+    "answer": "Pin objects in memory",
+    "reason": "GCHandle can pin managed objects so that GC does not move them."
+  },
+  {
+    "questionId": "cs_h_56",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does the await keyword do in C#?",
+    "options": [
+      "Starts a new thread",
+      "Suspends the method until the awaited task completes",
+      "Blocks the current thread",
+      "Generates a delegate"
+    ],
+    "answer": "Suspends the method until the awaited task completes",
+    "reason": "await pauses the method without blocking the thread until the Task is finished."
+  },
+  {
+    "questionId": "cs_h_57",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does the 'ref' modifier do in method parameters?",
+    "options": [
+      "Passes by value",
+      "Passes by reference",
+      "Creates a copy",
+      "Makes variable readonly"
+    ],
+    "answer": "Passes by reference",
+    "reason": "'ref' allows the method to modify the caller's variable directly."
+  },
+  {
+    "questionId": "cs_h_58",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the main difference between struct and class?",
+    "options": [
+      "Struct is reference type, class is value type",
+      "Struct is value type, class is reference type",
+      "Both are value types",
+      "Both are reference types"
+    ],
+    "answer": "Struct is value type, class is reference type",
+    "reason": "Structs are stored on stack (or inline) and classes on heap."
+  },
+  {
+    "questionId": "cs_h_59",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which statement about Span<T> is true?",
+    "options": [
+      "Can be stored on heap",
+      "Is a reference type",
+      "Provides memory-safe access to contiguous data",
+      "Supports async operations"
+    ],
+    "answer": "Provides memory-safe access to contiguous data",
+    "reason": "Span<T> enables safe, stack-only access to continuous memory segments."
+  },
+  {
+    "questionId": "cs_h_60",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which type allows pinning objects to prevent GC relocation?",
+    "options": ["object", "string", "GCHandle", "Span<T>"],
+    "answer": "GCHandle",
+    "reason": "GCHandle allows pinning to prevent object movement by GC."
+  },
+  {
+    "questionId": "cs_h_61",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which collection is optimized for multi-threaded reads and writes?",
+    "options": [
+      "List<T>",
+      "Dictionary<T,T>",
+      "ConcurrentDictionary<T,T>",
+      "HashSet<T>"
+    ],
+    "answer": "ConcurrentDictionary<T,T>",
+    "reason": "ConcurrentDictionary provides thread-safe operations for concurrent access."
+  },
+  {
+    "questionId": "cs_h_62",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does the 'volatile' keyword guarantee?",
+    "options": [
+      "Atomicity of operations",
+      "Memory visibility across threads",
+      "Thread safety",
+      "Locking mechanism"
+    ],
+    "answer": "Memory visibility across threads",
+    "reason": "volatile ensures the latest value is read by all threads but does not guarantee atomicity."
+  },
+  {
+    "questionId": "cs_h_63",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which feature allows immutable objects with value-based equality?",
+    "options": ["class", "record", "struct", "interface"],
+    "answer": "record",
+    "reason": "Records in C# provide immutability and structural equality semantics."
+  },
+  {
+    "questionId": "cs_h_64",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is a primary risk of using 'unsafe' code?",
+    "options": [
+      "Heap leaks",
+      "Pointer-related memory corruption",
+      "Thread starvation",
+      "GC overhead"
+    ],
+    "answer": "Pointer-related memory corruption",
+    "reason": "Unsafe code allows pointers and manual memory access, which can lead to memory corruption."
+  },
+  {
+    "questionId": "cs_h_65",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which type of delegate supports asynchronous invocation?",
+    "options": ["Action", "Func", "MulticastDelegate", "AsyncCallback"],
+    "answer": "MulticastDelegate",
+    "reason": "Delegates can be invoked asynchronously via BeginInvoke/EndInvoke pattern."
+  },
+  {
+    "questionId": "cs_h_66",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which method triggers garbage collection manually?",
+    "options": [
+      "GC.WaitForPendingFinalizers",
+      "GC.SuppressFinalize",
+      "GC.Collect",
+      "GC.KeepAlive"
+    ],
+    "answer": "GC.Collect",
+    "reason": "GC.Collect forces a garbage collection."
+  },
+  {
+    "questionId": "cs_h_67",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Why is forcing GC not recommended in production?",
+    "options": [
+      "Compiles slower",
+      "Breaks GC optimization heuristics",
+      "Memory leak",
+      "Thread deadlock"
+    ],
+    "answer": "Breaks GC optimization heuristics",
+    "reason": "Manual GC disrupts the GC’s internal optimization and may reduce performance."
+  },
+  {
+    "questionId": "cs_h_68",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which keyword prevents a property from being modified after object initialization?",
+    "options": ["readonly", "init", "const", "sealed"],
+    "answer": "init",
+    "reason": "init-only properties can only be set during object initialization."
+  },
+  {
+    "questionId": "cs_h_69",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which is the correct way to avoid repeated LINQ enumeration?",
+    "options": [
+      "Use ToList or ToArray",
+      "Use deferred execution",
+      "Use Select",
+      "Use IEnumerable directly"
+    ],
+    "answer": "Use ToList or ToArray",
+    "reason": "Converting to a list or array forces execution and avoids multiple enumerations."
+  },
+  {
+    "questionId": "cs_h_70",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which type of collection avoids boxing with value types?",
+    "options": [
+      "ArrayList",
+      "List<int>",
+      "Hashtable",
+      "Dictionary<int, object>"
+    ],
+    "answer": "List<int>",
+    "reason": "Generic collections like List<T> do not box value types."
+  },
+  {
+    "questionId": "cs_h_71",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which method is used to flow execution context across async threads?",
+    "options": ["Task.Run", "ExecutionContext.Run", "Thread.Start", "await"],
+    "answer": "ExecutionContext.Run",
+    "reason": "ExecutionContext.Run flows security, culture, and async-local state across threads."
+  },
+  {
+    "questionId": "cs_h_72",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which class provides pooled arrays to reduce GC pressure?",
+    "options": ["ArrayPool<T>", "List<T>", "Memory<T>", "Span<T>"],
+    "answer": "ArrayPool<T>",
+    "reason": "ArrayPool<T> reuses arrays to reduce heap allocations and GC pressure."
+  },
+  {
+    "questionId": "cs_h_73",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which keyword ensures a method cannot be overridden?",
+    "options": ["sealed", "virtual", "override", "abstract"],
+    "answer": "sealed",
+    "reason": "Sealed prevents derived classes from overriding the method."
+  },
+  {
+    "questionId": "cs_h_74",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the main benefit of Span<T> over arrays?",
+    "options": [
+      "Thread safety",
+      "Memory safety without copying",
+      "Async support",
+      "Serialization"
+    ],
+    "answer": "Memory safety without copying",
+    "reason": "Span<T> allows working with contiguous memory safely without extra allocations."
+  },
+  {
+    "questionId": "cs_h_75",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which pattern ensures deterministic disposal of unmanaged resources?",
+    "options": ["RAII", "Dispose pattern", "Singleton", "Observer"],
+    "answer": "Dispose pattern",
+    "reason": "Dispose pattern allows predictable cleanup of unmanaged resources."
+  },
+  {
+    "questionId": "cs_h_76",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the primary purpose of ConditionalWeakTable?",
+    "options": [
+      "Cache objects without preventing GC",
+      "Thread synchronization",
+      "Async state storage",
+      "Immutable collections"
+    ],
+    "answer": "Cache objects without preventing GC",
+    "reason": "ConditionalWeakTable allows associating data with objects without preventing their collection."
+  },
+  {
+    "questionId": "cs_h_77",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which type allows asynchronous iteration?",
+    "options": [
+      "IEnumerable<T>",
+      "IAsyncEnumerable<T>",
+      "IList<T>",
+      "IDisposable"
+    ],
+    "answer": "IAsyncEnumerable<T>",
+    "reason": "IAsyncEnumerable<T> enables async iteration with await foreach."
+  },
+  {
+    "questionId": "cs_h_78",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What does Lazy<T> do?",
+    "options": [
+      "Eager initialization",
+      "Thread-safe lazy initialization",
+      "Async initialization",
+      "Garbage collection"
+    ],
+    "answer": "Thread-safe lazy initialization",
+    "reason": "Lazy<T> delays object creation until first access, optionally with thread-safety."
+  },
+  {
+    "questionId": "cs_h_79",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which is true about GC generations?",
+    "options": [
+      "Gen 0: long-lived objects",
+      "Gen 2: short-lived objects",
+      "Gen 1: medium-lived objects",
+      "Gen 2: long-lived objects"
+    ],
+    "answer": "Gen 2: long-lived objects",
+    "reason": "Generation 2 stores objects that survive multiple GCs."
+  },
+  {
+    "questionId": "cs_h_80",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which feature allows stack-only asynchronous state?",
+    "options": ["ValueTask", "Task", "AsyncStateMachine", "ref struct"],
+    "answer": "ref struct",
+    "reason": "ref struct types, including Span<T>, must remain on the stack."
+  },
+  {
+    "questionId": "cs_h_81",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which operator checks for null and type at once?",
+    "options": ["as", "is", "==", "typeof"],
+    "answer": "is",
+    "reason": "is operator safely checks type and null in one expression."
+  },
+  {
+    "questionId": "cs_h_82",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the main purpose of ImmutableArray<T>?",
+    "options": [
+      "Thread safety",
+      "Performance",
+      "Memory reuse",
+      "Serialization"
+    ],
+    "answer": "Thread safety",
+    "reason": "ImmutableArray<T> provides immutable, thread-safe collections."
+  },
+  {
+    "questionId": "cs_h_83",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which feature avoids boxing of value types in collections?",
+    "options": [
+      "ArrayList",
+      "List<int>",
+      "Hashtable",
+      "Dictionary<int, object>"
+    ],
+    "answer": "List<int>",
+    "reason": "Generic collections preserve type and avoid boxing."
+  },
+  {
+    "questionId": "cs_h_84",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which keyword enables pointer arithmetic?",
+    "options": ["unsafe", "volatile", "fixed", "ref"],
+    "answer": "unsafe",
+    "reason": "unsafe allows pointer operations in C#."
+  },
+  {
+    "questionId": "cs_h_85",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which statement about async void is true?",
+    "options": [
+      "Awaitable",
+      "Exceptions can be caught outside",
+      "Not awaitable",
+      "Allocates thread"
+    ],
+    "answer": "Not awaitable",
+    "reason": "async void methods cannot be awaited and exceptions are uncatchable outside."
+  },
+  {
+    "questionId": "cs_h_86",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which C# feature allows runtime type inspection?",
+    "options": ["Reflection", "Generics", "Delegates", "Structs"],
+    "answer": "Reflection",
+    "reason": "Reflection inspects types and members at runtime."
+  },
+  {
+    "questionId": "cs_h_87",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which class provides thread-safe lazy initialization?",
+    "options": ["Lazy<T>", "Task", "ValueTask", "Monitor"],
+    "answer": "Lazy<T>",
+    "reason": "Lazy<T> optionally provides thread-safe lazy initialization."
+  },
+  {
+    "questionId": "cs_h_88",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which keyword allows a method to be asynchronously awaited?",
+    "options": ["async", "await", "Task", "ref"],
+    "answer": "async",
+    "reason": "async keyword marks a method that can contain await expressions."
+  },
+  {
+    "questionId": "cs_h_89",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which interface supports asynchronous iteration?",
+    "options": [
+      "IEnumerable<T>",
+      "IAsyncEnumerable<T>",
+      "IList<T>",
+      "IDisposable"
+    ],
+    "answer": "IAsyncEnumerable<T>",
+    "reason": "IAsyncEnumerable<T> supports async iteration with await foreach."
+  },
+  {
+    "questionId": "cs_h_90",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which type of delegate is multicast by default?",
+    "options": ["Action", "Func", "EventHandler", "MulticastDelegate"],
+    "answer": "MulticastDelegate",
+    "reason": "All delegates ultimately derive from MulticastDelegate."
+  },
+  {
+    "questionId": "cs_h_91",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the main benefit of ConditionalWeakTable?",
+    "options": [
+      "Memory leak prevention",
+      "Cache without preventing GC",
+      "Thread safety",
+      "Serialization"
+    ],
+    "answer": "Cache without preventing GC",
+    "reason": "ConditionalWeakTable allows associating auxiliary data without affecting GC."
+  },
+  {
+    "questionId": "cs_h_92",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which method blocks until pending finalizers complete?",
+    "options": [
+      "GC.Collect()",
+      "GC.WaitForPendingFinalizers()",
+      "GC.SuppressFinalize()",
+      "GC.KeepAlive()"
+    ],
+    "answer": "GC.WaitForPendingFinalizers()",
+    "reason": "It blocks until all finalizers are executed."
+  },
+  {
+    "questionId": "cs_h_93",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which data type cannot be used with async/await directly?",
+    "options": ["Task", "ValueTask", "void", "int"],
+    "answer": "int",
+    "reason": "Only Task, Task<T>, or void can be awaited."
+  },
+  {
+    "questionId": "cs_h_94",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which feature avoids memory copying for slicing arrays?",
+    "options": ["Array.Copy", "Span<T>", "List<T>", "Memory<T>"],
+    "answer": "Span<T>",
+    "reason": "Span<T> allows memory-safe slicing without allocation."
+  },
+  {
+    "questionId": "cs_h_95",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which pattern helps avoid resource leaks with unmanaged resources?",
+    "options": ["Dispose pattern", "Singleton", "Observer", "Builder"],
+    "answer": "Dispose pattern",
+    "reason": "Dispose pattern allows deterministic cleanup."
+  },
+  {
+    "questionId": "cs_h_96",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which C# feature allows structural equality for complex types?",
+    "options": ["struct", "record", "class", "interface"],
+    "answer": "record",
+    "reason": "Records provide value-based equality automatically."
+  },
+  {
+    "questionId": "cs_h_97",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the main advantage of using ArrayPool<T>?",
+    "options": [
+      "Thread safety",
+      "Avoid repeated allocations",
+      "Serialization",
+      "Performance monitoring"
+    ],
+    "answer": "Avoid repeated allocations",
+    "reason": "ArrayPool<T> reuses arrays to reduce GC allocations."
+  },
+  {
+    "questionId": "cs_h_98",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which statement about tail-call optimization is true?",
+    "options": [
+      "Eliminates heap allocations",
+      "Prevents stack growth",
+      "Speeds GC",
+      "Avoids boxing"
+    ],
+    "answer": "Prevents stack growth",
+    "reason": "Tail-call optimization allows recursive calls without growing the stack."
+  },
+  {
+    "questionId": "cs_h_99",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "Which tool can disassemble C# IL code?",
+    "options": ["dotnet-trace", "ILDASM", "BenchmarkDotNet", "PerfView"],
+    "answer": "ILDASM",
+    "reason": "ILDASM inspects the compiled intermediate language code."
+  },
+  {
+    "questionId": "cs_h_100",
+    "tag": "csharp",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of ConfigureAwait(false)?",
+    "options": [
+      "Block thread",
+      "Avoid capturing context",
+      "Force async",
+      "Debug async code"
+    ],
+    "answer": "Avoid capturing context",
+    "reason": "ConfigureAwait(false) prevents resuming on the original synchronization context, reducing deadlocks."
+  }
+]

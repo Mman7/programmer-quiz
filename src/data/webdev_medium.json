@@ -1,0 +1,1142 @@
+[
+  {
+    "questionId": "web_m_1",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript method removes an element from the DOM?",
+    "options": ["remove()", "delete()", "removeChild()", "detach()"],
+    "answer": "remove()",
+    "reason": "The remove() method deletes an element directly from the DOM."
+  },
+  {
+    "questionId": "web_m_2",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method adds a new child element to a parent node?",
+    "options": ["appendChild()", "addChild()", "insert()", "attachChild()"],
+    "answer": "appendChild()",
+    "reason": "appendChild() inserts a node as the last child of a parent."
+  },
+  {
+    "questionId": "web_m_3",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method clones a node including its children?",
+    "options": [
+      "cloneNode(true)",
+      "duplicateNode()",
+      "copyNode()",
+      "clone(true)"
+    ],
+    "answer": "cloneNode(true)",
+    "reason": "cloneNode(true) creates a deep copy including child elements."
+  },
+  {
+    "questionId": "web_m_4",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method prevents the default action of an event?",
+    "options": [
+      "preventDefault()",
+      "stopPropagation()",
+      "cancel()",
+      "blockEvent()"
+    ],
+    "answer": "preventDefault()",
+    "reason": "preventDefault() stops the browser's default behavior for an event."
+  },
+  {
+    "questionId": "web_m_5",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method stops an event from bubbling up the DOM tree?",
+    "options": [
+      "stopPropagation()",
+      "preventDefault()",
+      "cancelBubble()",
+      "stopEvent()"
+    ],
+    "answer": "stopPropagation()",
+    "reason": "stopPropagation() prevents the event from propagating to parent elements."
+  },
+  {
+    "questionId": "web_m_6",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript method returns the first element matching a CSS selector?",
+    "options": [
+      "querySelector()",
+      "getElementById()",
+      "getElementsByClassName()",
+      "querySelectorAll()"
+    ],
+    "answer": "querySelector()",
+    "reason": "querySelector() returns the first element matching the selector."
+  },
+  {
+    "questionId": "web_m_7",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript method returns all elements matching a CSS selector?",
+    "options": [
+      "querySelectorAll()",
+      "getElementsByTagName()",
+      "getElementsByClassName()",
+      "querySelector()"
+    ],
+    "answer": "querySelectorAll()",
+    "reason": "querySelectorAll() returns a static NodeList of all matching elements."
+  },
+  {
+    "questionId": "web_m_8",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript property returns the parent node of an element?",
+    "options": ["parentNode", "parentElement", "ownerNode", "ancestorNode"],
+    "answer": "parentNode",
+    "reason": "parentNode returns the immediate parent of a node."
+  },
+  {
+    "questionId": "web_m_9",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript property returns the next sibling element?",
+    "options": ["nextElementSibling", "nextSibling", "nextNode", "next()"],
+    "answer": "nextElementSibling",
+    "reason": "nextElementSibling skips text nodes and returns the next element."
+  },
+  {
+    "questionId": "web_m_10",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript property returns all child nodes including text nodes?",
+    "options": ["childNodes", "children", "childElements", "nodes"],
+    "answer": "childNodes",
+    "reason": "childNodes returns all child nodes including text and comment nodes."
+  },
+  {
+    "questionId": "web_m_11",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript property returns only child elements?",
+    "options": ["children", "childNodes", "childElements", "nodes"],
+    "answer": "children",
+    "reason": "children returns only element nodes."
+  },
+  {
+    "questionId": "web_m_12",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method inserts a node before a reference node?",
+    "options": [
+      "insertBefore()",
+      "prependChild()",
+      "appendChild()",
+      "insertAfter()"
+    ],
+    "answer": "insertBefore()",
+    "reason": "insertBefore(newNode, referenceNode) inserts before the reference."
+  },
+  {
+    "questionId": "web_m_13",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript property sets inline styles of an element?",
+    "options": ["style", "cssText", "setStyle", "inlineStyle"],
+    "answer": "style",
+    "reason": "The style property allows direct modification of CSS properties."
+  },
+  {
+    "questionId": "web_m_14",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property controls flex item growth factor?",
+    "options": ["flex-grow", "flex-shrink", "flex-basis", "flex"],
+    "answer": "flex-grow",
+    "reason": "flex-grow defines how much an item will grow relative to others."
+  },
+  {
+    "questionId": "web_m_15",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property controls flex item shrink factor?",
+    "options": ["flex-shrink", "flex-grow", "flex-basis", "flex"],
+    "answer": "flex-shrink",
+    "reason": "flex-shrink defines how much an item will shrink relative to others."
+  },
+  {
+    "questionId": "web_m_16",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property defines initial main size of a flex item?",
+    "options": ["flex-basis", "flex-grow", "flex-shrink", "width"],
+    "answer": "flex-basis",
+    "reason": "flex-basis sets the initial size before growing or shrinking."
+  },
+  {
+    "questionId": "web_m_17",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property defines the order of flex items?",
+    "options": ["order", "z-index", "position", "flex-order"],
+    "answer": "order",
+    "reason": "The order property changes the visual order of flex items."
+  },
+  {
+    "questionId": "web_m_18",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property sets grid row start line?",
+    "options": [
+      "grid-row-start",
+      "grid-column-start",
+      "grid-row",
+      "grid-start"
+    ],
+    "answer": "grid-row-start",
+    "reason": "grid-row-start specifies which row line an element starts."
+  },
+  {
+    "questionId": "web_m_19",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property sets grid column end line?",
+    "options": [
+      "grid-column-end",
+      "grid-column-start",
+      "grid-column",
+      "grid-end"
+    ],
+    "answer": "grid-column-end",
+    "reason": "grid-column-end specifies which column line an element ends."
+  },
+  {
+    "questionId": "web_m_20",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS function defines repeating grid tracks?",
+    "options": ["repeat()", "auto-fit()", "minmax()", "grid-repeat()"],
+    "answer": "repeat()",
+    "reason": "repeat() simplifies defining multiple tracks in a grid layout."
+  },
+  {
+    "questionId": "web_m_21",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript API stores key-value pairs in the browser persistently?",
+    "options": ["localStorage", "sessionStorage", "cookies", "IndexedDB"],
+    "answer": "localStorage",
+    "reason": "localStorage persists data across sessions until explicitly removed."
+  },
+  {
+    "questionId": "web_m_22",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript API stores key-value pairs for a single session?",
+    "options": ["sessionStorage", "localStorage", "cookies", "IndexedDB"],
+    "answer": "sessionStorage",
+    "reason": "sessionStorage persists data only until the tab is closed."
+  },
+  {
+    "questionId": "web_m_23",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript API allows structured storage of large objects?",
+    "options": ["IndexedDB", "localStorage", "sessionStorage", "WebSQL"],
+    "answer": "IndexedDB",
+    "reason": "IndexedDB is a low-level API for client-side storage of significant amounts of structured data."
+  },
+  {
+    "questionId": "web_m_24",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript API allows copying text to clipboard?",
+    "options": [
+      "navigator.clipboard.writeText()",
+      "document.copy()",
+      "window.clipboard()",
+      "copyText()"
+    ],
+    "answer": "navigator.clipboard.writeText()",
+    "reason": "This API writes text to the system clipboard securely."
+  },
+  {
+    "questionId": "web_m_25",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method fetches resources asynchronously in JavaScript?",
+    "options": ["fetch()", "XMLHttpRequest()", "ajax()", "getResource()"],
+    "answer": "fetch()",
+    "reason": "fetch() provides a modern promise-based API to retrieve resources."
+  },
+  {
+    "questionId": "web_m_26",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which fetch option sets HTTP method to POST?",
+    "options": [
+      "{ method: 'POST' }",
+      "{ method: 'GET' }",
+      "{ type: 'POST' }",
+      "{ action: 'POST' }"
+    ],
+    "answer": "{ method: 'POST' }",
+    "reason": "The fetch API uses the method option to define request type."
+  },
+  {
+    "questionId": "web_m_27",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which fetch option sends JSON data in the body?",
+    "options": [
+      "body: JSON.stringify(data)",
+      "data: JSON(data)",
+      "content: data",
+      "json: data"
+    ],
+    "answer": "body: JSON.stringify(data)",
+    "reason": "body must be a string, so objects are stringified."
+  },
+  {
+    "questionId": "web_m_28",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which HTTP status code indicates successful request?",
+    "options": ["200", "201", "400", "404"],
+    "answer": "200",
+    "reason": "200 OK means request succeeded."
+  },
+  {
+    "questionId": "web_m_29",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which HTTP status code indicates resource created?",
+    "options": ["201", "200", "404", "500"],
+    "answer": "201",
+    "reason": "201 Created indicates successful resource creation."
+  },
+  {
+    "questionId": "web_m_30",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which HTTP status code indicates client error?",
+    "options": ["400", "200", "301", "500"],
+    "answer": "400",
+    "reason": "400-series codes indicate client errors."
+  },
+  {
+    "questionId": "web_m_31",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which HTTP status code indicates server error?",
+    "options": ["500", "200", "404", "301"],
+    "answer": "500",
+    "reason": "500-series codes indicate server errors."
+  },
+  {
+    "questionId": "web_m_32",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript method sets a timer to execute a function repeatedly?",
+    "options": ["setInterval()", "setTimeout()", "repeat()", "timer()"],
+    "answer": "setInterval()",
+    "reason": "setInterval() runs a function at specified intervals."
+  },
+  {
+    "questionId": "web_m_33",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript method executes a function once after a delay?",
+    "options": ["setTimeout()", "setInterval()", "delay()", "wait()"],
+    "answer": "setTimeout()",
+    "reason": "setTimeout() executes once after the delay."
+  },
+  {
+    "questionId": "web_m_34",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which property returns the viewport width in pixels?",
+    "options": [
+      "window.innerWidth",
+      "document.width",
+      "screen.width",
+      "window.width"
+    ],
+    "answer": "window.innerWidth",
+    "reason": "innerWidth returns the viewport width in pixels."
+  },
+  {
+    "questionId": "web_m_35",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which property returns the viewport height in pixels?",
+    "options": [
+      "window.innerHeight",
+      "document.height",
+      "screen.height",
+      "window.height"
+    ],
+    "answer": "window.innerHeight",
+    "reason": "innerHeight returns the viewport height in pixels."
+  },
+  {
+    "questionId": "web_m_36",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property defines grid template rows?",
+    "options": [
+      "grid-template-rows",
+      "grid-rows",
+      "grid-rows-template",
+      "row-template"
+    ],
+    "answer": "grid-template-rows",
+    "reason": "Defines row tracks in a grid container."
+  },
+  {
+    "questionId": "web_m_37",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property defines grid template columns?",
+    "options": [
+      "grid-template-columns",
+      "grid-columns",
+      "grid-column-template",
+      "column-template"
+    ],
+    "answer": "grid-template-columns",
+    "reason": "Defines column tracks in a grid container."
+  },
+  {
+    "questionId": "web_m_38",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property sets the alignment of grid items along the row axis?",
+    "options": [
+      "justify-items",
+      "align-items",
+      "justify-content",
+      "align-content"
+    ],
+    "answer": "justify-items",
+    "reason": "justify-items aligns items along the row axis inside their grid area."
+  },
+  {
+    "questionId": "web_m_39",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property sets the alignment of grid items along the column axis?",
+    "options": [
+      "align-items",
+      "justify-items",
+      "align-content",
+      "justify-content"
+    ],
+    "answer": "align-items",
+    "reason": "align-items aligns items along the column axis inside their grid area."
+  },
+  {
+    "questionId": "web_m_40",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which event fires when the DOM is fully loaded?",
+    "options": ["DOMContentLoaded", "load", "ready", "onload"],
+    "answer": "DOMContentLoaded",
+    "reason": "DOMContentLoaded fires when the HTML is parsed and DOM is ready."
+  },
+  {
+    "questionId": "web_m_41",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which event fires when all resources (images, CSS) are fully loaded?",
+    "options": ["load", "DOMContentLoaded", "ready", "onready"],
+    "answer": "load",
+    "reason": "The load event waits for all resources to finish loading."
+  },
+  {
+    "questionId": "web_m_42",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript method converts a JSON string to an object?",
+    "options": [
+      "JSON.parse()",
+      "JSON.stringify()",
+      "parseJSON()",
+      "toObject()"
+    ],
+    "answer": "JSON.parse()",
+    "reason": "JSON.parse() parses JSON string into a JavaScript object."
+  },
+  {
+    "questionId": "web_m_43",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript method converts an object to a JSON string?",
+    "options": ["JSON.stringify()", "JSON.parse()", "toJSON()", "serialize()"],
+    "answer": "JSON.stringify()",
+    "reason": "JSON.stringify() serializes an object to a JSON string."
+  },
+  {
+    "questionId": "web_m_44",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property sets a background image?",
+    "options": ["background-image", "bg-image", "image", "background"],
+    "answer": "background-image",
+    "reason": "background-image sets the image for an element's background."
+  },
+  {
+    "questionId": "web_m_45",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property repeats background image vertically and horizontally?",
+    "options": [
+      "background-repeat",
+      "background-position",
+      "repeat",
+      "repeat-background"
+    ],
+    "answer": "background-repeat",
+    "reason": "background-repeat defines how background images are repeated."
+  },
+  {
+    "questionId": "web_m_46",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property sets background image position?",
+    "options": [
+      "background-position",
+      "background-align",
+      "position",
+      "image-position"
+    ],
+    "answer": "background-position",
+    "reason": "background-position sets where the background image is placed."
+  },
+  {
+    "questionId": "web_m_47",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property defines how background image scales?",
+    "options": ["background-size", "background-scale", "size", "scale"],
+    "answer": "background-size",
+    "reason": "background-size can set cover, contain, or specific dimensions."
+  },
+  {
+    "questionId": "web_m_48",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript method schedules a function to run after another completes using promises?",
+    "options": ["then()", "catch()", "finally()", "await()"],
+    "answer": "then()",
+    "reason": "then() runs after the promise resolves successfully."
+  },
+  {
+    "questionId": "web_m_49",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript method handles rejected promises?",
+    "options": ["catch()", "then()", "finally()", "throw()"],
+    "answer": "catch()",
+    "reason": "catch() handles rejected promise errors."
+  },
+  {
+    "questionId": "web_m_50",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript method executes code after promise resolves or rejects?",
+    "options": ["finally()", "then()", "catch()", "complete()"],
+    "answer": "finally()",
+    "reason": "finally() executes regardless of promise outcome."
+  },
+  {
+    "questionId": "web_m_51",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript method parses a URL string into an object?",
+    "options": ["new URL()", "URL.parse()", "parseURL()", "URLObject()"],
+    "answer": "new URL()",
+    "reason": "The URL constructor parses a string into a URL object with properties like hostname and pathname."
+  },
+  {
+    "questionId": "web_m_52",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method returns the current scroll position of the window?",
+    "options": [
+      "window.scrollY",
+      "window.scrollX",
+      "document.scrollTop",
+      "window.scrollPosition"
+    ],
+    "answer": "window.scrollY",
+    "reason": "scrollY returns the vertical scroll position in pixels."
+  },
+  {
+    "questionId": "web_m_53",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method returns the horizontal scroll position of the window?",
+    "options": [
+      "window.scrollX",
+      "window.scrollY",
+      "document.scrollLeft",
+      "window.scrollHorizontal"
+    ],
+    "answer": "window.scrollX",
+    "reason": "scrollX returns the horizontal scroll offset in pixels."
+  },
+  {
+    "questionId": "web_m_54",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property hides overflowing content with scrollbars?",
+    "options": ["overflow", "overflow-x", "overflow-y", "clip"],
+    "answer": "overflow",
+    "reason": "overflow controls how content exceeding element size is handled."
+  },
+  {
+    "questionId": "web_m_55",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property clips content without scrollbars?",
+    "options": [
+      "overflow: hidden",
+      "overflow: scroll",
+      "overflow-x: hidden",
+      "clip"
+    ],
+    "answer": "overflow: hidden",
+    "reason": "overflow: hidden hides excess content without scrollbars."
+  },
+  {
+    "questionId": "web_m_56",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method smoothly scrolls the window to a position?",
+    "options": [
+      "window.scroll({ top: 100, behavior: 'smooth' })",
+      "scrollToSmooth()",
+      "scrollWindow()",
+      "window.scrollToSmooth()"
+    ],
+    "answer": "window.scroll({ top: 100, behavior: 'smooth' })",
+    "reason": "The scroll method with behavior: 'smooth' animates scrolling."
+  },
+  {
+    "questionId": "web_m_57",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property sets text overflow with ellipsis?",
+    "options": ["text-overflow", "overflow-text", "ellipsis", "overflow"],
+    "answer": "text-overflow",
+    "reason": "text-overflow: ellipsis displays '...' when text is too long."
+  },
+  {
+    "questionId": "web_m_58",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property prevents text from wrapping to a new line?",
+    "options": [
+      "white-space: nowrap",
+      "word-wrap: normal",
+      "text-nowrap",
+      "overflow-wrap: none"
+    ],
+    "answer": "white-space: nowrap",
+    "reason": "white-space: nowrap forces text to stay on one line."
+  },
+  {
+    "questionId": "web_m_59",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method dynamically loads a JavaScript module?",
+    "options": ["import()", "require()", "loadModule()", "dynamicImport()"],
+    "answer": "import()",
+    "reason": "import() returns a promise that resolves with the module."
+  },
+  {
+    "questionId": "web_m_60",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which API allows sending data over WebSocket?",
+    "options": [
+      "WebSocket.send()",
+      "Socket.send()",
+      "ws.send()",
+      "WebSocket.emit()"
+    ],
+    "answer": "WebSocket.send()",
+    "reason": "send() transmits data over an open WebSocket connection."
+  },
+  {
+    "questionId": "web_m_61",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which event fires when a WebSocket connection opens?",
+    "options": ["open", "connect", "ready", "onopen"],
+    "answer": "open",
+    "reason": "The 'open' event signals the WebSocket is ready to send/receive data."
+  },
+  {
+    "questionId": "web_m_62",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which event fires when a WebSocket receives a message?",
+    "options": ["message", "receive", "onmessage", "data"],
+    "answer": "message",
+    "reason": "The 'message' event is triggered when data is received from server."
+  },
+  {
+    "questionId": "web_m_63",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which event fires when a WebSocket closes?",
+    "options": ["close", "disconnect", "end", "onclose"],
+    "answer": "close",
+    "reason": "The 'close' event signals the connection has been closed."
+  },
+  {
+    "questionId": "web_m_64",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method aborts an ongoing fetch request?",
+    "options": [
+      "AbortController",
+      "cancelFetch",
+      "fetch.abort()",
+      "stopFetch()"
+    ],
+    "answer": "AbortController",
+    "reason": "AbortController can cancel a fetch request via a signal."
+  },
+  {
+    "questionId": "web_m_65",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method converts a NodeList to an array?",
+    "options": [
+      "Array.from()",
+      "[].slice.call()",
+      "Array.prototype.map()",
+      "toArray()"
+    ],
+    "answer": "Array.from()",
+    "reason": "Array.from() creates a real array from array-like objects."
+  },
+  {
+    "questionId": "web_m_66",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method removes all child nodes from an element?",
+    "options": [
+      "element.innerHTML = ''",
+      "removeAll()",
+      "element.clear()",
+      "empty()"
+    ],
+    "answer": "element.innerHTML = ''",
+    "reason": "Setting innerHTML to empty string removes all child nodes."
+  },
+  {
+    "questionId": "web_m_67",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript object holds URL query parameters?",
+    "options": ["URLSearchParams", "QueryParams", "URLParams", "Params"],
+    "answer": "URLSearchParams",
+    "reason": "URLSearchParams parses and manages URL query strings."
+  },
+  {
+    "questionId": "web_m_68",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method gets value of a query parameter?",
+    "options": ["get()", "value()", "query()", "getParam()"],
+    "answer": "get()",
+    "reason": "URLSearchParams.get('key') returns the value of the key."
+  },
+  {
+    "questionId": "web_m_69",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method sets value of a query parameter?",
+    "options": ["set()", "append()", "add()", "update()"],
+    "answer": "set()",
+    "reason": "URLSearchParams.set('key', 'value') updates or adds a parameter."
+  },
+  {
+    "questionId": "web_m_70",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which API allows playing audio in the browser programmatically?",
+    "options": ["Audio()", "Sound()", "Media()", "PlayAudio()"],
+    "answer": "Audio()",
+    "reason": "Audio() creates an HTMLAudioElement to play sound files."
+  },
+  {
+    "questionId": "web_m_71",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which API allows playing video in the browser programmatically?",
+    "options": ["HTMLVideoElement", "Video()", "MediaVideo()", "PlayVideo()"],
+    "answer": "HTMLVideoElement",
+    "reason": "Video elements can be controlled via the HTMLVideoElement API."
+  },
+  {
+    "questionId": "web_m_72",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property creates a stacking context for z-index?",
+    "options": [
+      "position: relative/absolute/fixed",
+      "z-index",
+      "transform",
+      "opacity"
+    ],
+    "answer": "position: relative/absolute/fixed",
+    "reason": "A positioned element creates a new stacking context for z-index."
+  },
+  {
+    "questionId": "web_m_73",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property applies multiple transforms at once?",
+    "options": [
+      "transform",
+      "multi-transform",
+      "transform-group",
+      "transform-all"
+    ],
+    "answer": "transform",
+    "reason": "transform can combine scale, rotate, translate, etc."
+  },
+  {
+    "questionId": "web_m_74",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS function defines a rotation?",
+    "options": ["rotate()", "transform-rotate()", "rotateX()", "spin()"],
+    "answer": "rotate()",
+    "reason": "rotate(angle) rotates an element by the given angle."
+  },
+  {
+    "questionId": "web_m_75",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS function defines scaling?",
+    "options": ["scale()", "scaleX()", "scaleY()", "zoom()"],
+    "answer": "scale()",
+    "reason": "scale() enlarges or shrinks elements."
+  },
+  {
+    "questionId": "web_m_76",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property makes an element sticky during scroll?",
+    "options": [
+      "position: sticky",
+      "position: fixed",
+      "float: sticky",
+      "top: sticky"
+    ],
+    "answer": "position: sticky",
+    "reason": "Sticky positioning keeps the element fixed within its parent during scrolling."
+  },
+  {
+    "questionId": "web_m_77",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property defines animation duration?",
+    "options": [
+      "animation-duration",
+      "transition-duration",
+      "animation-time",
+      "transition-time"
+    ],
+    "answer": "animation-duration",
+    "reason": "Defines how long an animation lasts."
+  },
+  {
+    "questionId": "web_m_78",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property defines keyframes for an animation?",
+    "options": [
+      "@keyframes",
+      "animation-keyframes",
+      "@animation",
+      "animation-frame"
+    ],
+    "answer": "@keyframes",
+    "reason": "@keyframes defines the sequence of frames for CSS animation."
+  },
+  {
+    "questionId": "web_m_79",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property sets a delay before animation starts?",
+    "options": [
+      "animation-delay",
+      "transition-delay",
+      "delay",
+      "animation-start"
+    ],
+    "answer": "animation-delay",
+    "reason": "animation-delay specifies when the animation begins."
+  },
+  {
+    "questionId": "web_m_80",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property defines easing for animations?",
+    "options": [
+      "animation-timing-function",
+      "animation-ease",
+      "transition-timing-function",
+      "ease"
+    ],
+    "answer": "animation-timing-function",
+    "reason": "animation-timing-function defines speed curve of the animation."
+  },
+  {
+    "questionId": "web_m_81",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript method gets computed style of an element?",
+    "options": [
+      "getComputedStyle()",
+      "element.style",
+      "getStyle()",
+      "currentStyle"
+    ],
+    "answer": "getComputedStyle()",
+    "reason": "Returns the final used values of all CSS properties."
+  },
+  {
+    "questionId": "web_m_82",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method registers a service worker?",
+    "options": [
+      "navigator.serviceWorker.register()",
+      "ServiceWorker.register()",
+      "registerServiceWorker()",
+      "navigator.registerWorker()"
+    ],
+    "answer": "navigator.serviceWorker.register()",
+    "reason": "Registers a service worker script for offline caching and background tasks."
+  },
+  {
+    "questionId": "web_m_83",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method sends a message to a service worker?",
+    "options": [
+      "postMessage()",
+      "sendMessage()",
+      "message()",
+      "workerMessage()"
+    ],
+    "answer": "postMessage()",
+    "reason": "postMessage() sends data to a service worker."
+  },
+  {
+    "questionId": "web_m_84",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which API handles push notifications in browser?",
+    "options": ["Push API", "Notification API", "WebPush", "ServicePush"],
+    "answer": "Push API",
+    "reason": "Push API allows server to send messages to client even when page is closed."
+  },
+  {
+    "questionId": "web_m_85",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which API displays system notifications to users?",
+    "options": ["Notification API", "Push API", "alert()", "notify()"],
+    "answer": "Notification API",
+    "reason": "Notification API shows notifications outside the web page."
+  },
+  {
+    "questionId": "web_m_86",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which JavaScript API detects if page is visible?",
+    "options": [
+      "Page Visibility API",
+      "Visibility API",
+      "document.visibility",
+      "PageFocus API"
+    ],
+    "answer": "Page Visibility API",
+    "reason": "Page Visibility API detects if the document is visible or hidden."
+  },
+  {
+    "questionId": "web_m_87",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which property returns current visibility state?",
+    "options": [
+      "document.visibilityState",
+      "document.visible",
+      "document.hidden",
+      "document.isVisible"
+    ],
+    "answer": "document.visibilityState",
+    "reason": "Returns 'visible', 'hidden', etc. to detect page state."
+  },
+  {
+    "questionId": "web_m_88",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which API detects network connectivity changes?",
+    "options": [
+      "Network Information API",
+      "navigator.connection",
+      "Connectivity API",
+      "navigator.network"
+    ],
+    "answer": "Network Information API",
+    "reason": "navigator.connection provides info about network type and changes."
+  },
+  {
+    "questionId": "web_m_89",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which property gives effective type of network connection?",
+    "options": [
+      "navigator.connection.effectiveType",
+      "navigator.networkType",
+      "connectionType",
+      "navigator.connection.type"
+    ],
+    "answer": "navigator.connection.effectiveType",
+    "reason": "Indicates network speed: '4g', '3g', etc."
+  },
+  {
+    "questionId": "web_m_90",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which API provides geolocation information?",
+    "options": [
+      "Geolocation API",
+      "Location API",
+      "Navigator Location",
+      "GeoPosition API"
+    ],
+    "answer": "Geolocation API",
+    "reason": "Geolocation API gets user's current location with permission."
+  },
+  {
+    "questionId": "web_m_91",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method gets current position via Geolocation API?",
+    "options": [
+      "getCurrentPosition()",
+      "watchPosition()",
+      "getPosition()",
+      "currentLocation()"
+    ],
+    "answer": "getCurrentPosition()",
+    "reason": "getCurrentPosition() retrieves location once."
+  },
+  {
+    "questionId": "web_m_92",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method tracks position continuously via Geolocation API?",
+    "options": [
+      "watchPosition()",
+      "getCurrentPosition()",
+      "trackPosition()",
+      "positionWatch()"
+    ],
+    "answer": "watchPosition()",
+    "reason": "watchPosition() calls a callback whenever position changes."
+  },
+  {
+    "questionId": "web_m_93",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method stops watchPosition tracking?",
+    "options": ["clearWatch()", "stopWatch()", "cancelWatch()", "unwatch()"],
+    "answer": "clearWatch()",
+    "reason": "clearWatch() stops the watchPosition callback."
+  },
+  {
+    "questionId": "web_m_94",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which API provides vibration on supported devices?",
+    "options": ["Vibration API", "Haptics API", "Device API", "Vibrate API"],
+    "answer": "Vibration API",
+    "reason": "navigator.vibrate() triggers vibration pattern on device."
+  },
+  {
+    "questionId": "web_m_95",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which method triggers device vibration?",
+    "options": [
+      "navigator.vibrate([200,100,200])",
+      "navigator.vibrate(200)",
+      "device.vibrate()",
+      "vibrate()"
+    ],
+    "answer": "navigator.vibrate([200,100,200])",
+    "reason": "Vibration pattern array triggers vibration and pauses sequentially."
+  },
+  {
+    "questionId": "web_m_96",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which API allows drag-and-drop operations in browser?",
+    "options": ["Drag and Drop API", "DND API", "Draggable API", "DragAPI"],
+    "answer": "Drag and Drop API",
+    "reason": "The Drag and Drop API manages draggable elements and drop zones."
+  },
+  {
+    "questionId": "web_m_97",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which event fires when dragging starts?",
+    "options": ["dragstart", "drag", "dragbegin", "draginit"],
+    "answer": "dragstart",
+    "reason": "dragstart triggers when a draggable element begins to be dragged."
+  },
+  {
+    "questionId": "web_m_98",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which event fires when dragged element is over a drop target?",
+    "options": ["dragover", "dragenter", "drag", "drop"],
+    "answer": "dragover",
+    "reason": "dragover triggers repeatedly while element is over drop zone."
+  },
+  {
+    "questionId": "web_m_99",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which event fires when a dragged element is dropped?",
+    "options": ["drop", "dragend", "dragover", "dragenter"],
+    "answer": "drop",
+    "reason": "drop event triggers when user releases dragged element on target."
+  },
+  {
+    "questionId": "web_m_100",
+    "topic": "web",
+    "difficulty": "medium",
+    "questionText": "Which CSS property makes an element draggable visually?",
+    "options": [
+      "user-select:none",
+      "draggable attribute",
+      "pointer-events:auto",
+      "touch-action:none"
+    ],
+    "answer": "draggable attribute",
+    "reason": "Adding draggable='true' enables element to be dragged using Drag and Drop API."
+  }
+]

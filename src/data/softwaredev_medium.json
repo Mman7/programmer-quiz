@@ -1,0 +1,977 @@
+[
+  {
+    "questionId": "soft_m_1",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which of the following is an advantage of version control systems?",
+    "options": [
+      "Track changes",
+      "Compile faster",
+      "Increase CPU usage",
+      "Reduce RAM usage"
+    ],
+    "answer": "Track changes",
+    "reason": "Version control systems track and manage changes to code over time."
+  },
+  {
+    "questionId": "soft_m_2",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "What is the main purpose of unit testing?",
+    "options": [
+      "Test small code units",
+      "Deploy software",
+      "Manage servers",
+      "Write documentation"
+    ],
+    "answer": "Test small code units",
+    "reason": "Unit testing verifies that individual units of code work as intended."
+  },
+  {
+    "questionId": "soft_m_3",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which design pattern is used to ensure a class has only one instance?",
+    "options": ["Factory", "Singleton", "Observer", "Decorator"],
+    "answer": "Singleton",
+    "reason": "The Singleton pattern restricts a class to a single instance."
+  },
+  {
+    "questionId": "soft_m_4",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which methodology emphasizes iterative development and continuous feedback?",
+    "options": ["Waterfall", "Agile", "V-Model", "Big Bang"],
+    "answer": "Agile",
+    "reason": "Agile methodology promotes iterative development and continuous customer feedback."
+  },
+  {
+    "questionId": "soft_m_5",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "What is refactoring?",
+    "options": [
+      "Changing functionality",
+      "Improving code structure",
+      "Adding features",
+      "Deleting files"
+    ],
+    "answer": "Improving code structure",
+    "reason": "Refactoring improves code readability and maintainability without changing its behavior."
+  },
+  {
+    "questionId": "soft_m_6",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which type of test validates the integration of multiple components?",
+    "options": [
+      "Unit test",
+      "Integration test",
+      "System test",
+      "Acceptance test"
+    ],
+    "answer": "Integration test",
+    "reason": "Integration testing ensures that different components work together correctly."
+  },
+  {
+    "questionId": "soft_m_7",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "What does CI/CD stand for?",
+    "options": [
+      "Continuous Integration / Continuous Deployment",
+      "Code Inspection / Code Debug",
+      "Compile Instantly / Compile Daily",
+      "Control Input / Control Data"
+    ],
+    "answer": "Continuous Integration / Continuous Deployment",
+    "reason": "CI/CD automates integration, testing, and deployment of software."
+  },
+  {
+    "questionId": "soft_m_8",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which is a common anti-pattern in software development?",
+    "options": [
+      "God object",
+      "Factory pattern",
+      "Observer pattern",
+      "Dependency injection"
+    ],
+    "answer": "God object",
+    "reason": "A God object centralizes too much functionality and is hard to maintain."
+  },
+  {
+    "questionId": "soft_m_9",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which is a principle of SOLID design?",
+    "options": [
+      "Single Responsibility Principle",
+      "General Responsibility Principle",
+      "Static Responsibility Principle",
+      "System Responsibility Principle"
+    ],
+    "answer": "Single Responsibility Principle",
+    "reason": "SOLID includes principles like SRP to make software maintainable and flexible."
+  },
+  {
+    "questionId": "soft_m_10",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "What is the main purpose of code reviews?",
+    "options": [
+      "Improve code quality",
+      "Deploy faster",
+      "Test database",
+      "Run benchmarks"
+    ],
+    "answer": "Improve code quality",
+    "reason": "Code reviews catch errors early and improve maintainability."
+  },
+  {
+    "questionId": "soft_m_11",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which type of database stores data in tables?",
+    "options": ["Relational", "NoSQL", "Graph", "Time-series"],
+    "answer": "Relational",
+    "reason": "Relational databases use tables, rows, and columns to organize data."
+  },
+  {
+    "questionId": "soft_m_12",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which software development practice reduces bugs in production?",
+    "options": [
+      "Test-driven development",
+      "Skipping unit tests",
+      "Late documentation",
+      "Manual deployment only"
+    ],
+    "answer": "Test-driven development",
+    "reason": "TDD ensures tests are written first, catching bugs early."
+  },
+  {
+    "questionId": "soft_m_13",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which architecture separates concerns into presentation, business logic, and data layers?",
+    "options": ["MVC", "Monolithic", "Microservices", "Layered architecture"],
+    "answer": "Layered architecture",
+    "reason": "Layered architecture separates code by responsibility."
+  },
+  {
+    "questionId": "soft_m_14",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "What is continuous integration?",
+    "options": [
+      "Merging code frequently and running automated tests",
+      "Deploying to production once a year",
+      "Writing documentation",
+      "Manual code merging only"
+    ],
+    "answer": "Merging code frequently and running automated tests",
+    "reason": "CI ensures code changes are integrated and tested regularly."
+  },
+  {
+    "questionId": "soft_m_15",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which tool is commonly used for automated builds?",
+    "options": ["Jenkins", "Photoshop", "Slack", "Figma"],
+    "answer": "Jenkins",
+    "reason": "Jenkins automates building, testing, and deploying software."
+  },
+  {
+    "questionId": "soft_m_16",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which principle encourages replacing code dependencies with abstractions?",
+    "options": [
+      "Dependency Inversion Principle",
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Liskov Substitution Principle"
+    ],
+    "answer": "Dependency Inversion Principle",
+    "reason": "DIP promotes depending on abstractions, not concretions."
+  },
+  {
+    "questionId": "soft_m_17",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which software quality attribute measures ease of maintenance?",
+    "options": ["Performance", "Maintainability", "Security", "Scalability"],
+    "answer": "Maintainability",
+    "reason": "Maintainability is how easily code can be modified and extended."
+  },
+  {
+    "questionId": "soft_m_18",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "What is a common use of mocks in testing?",
+    "options": [
+      "Isolate units for testing",
+      "Deploy application",
+      "Monitor servers",
+      "Encrypt data"
+    ],
+    "answer": "Isolate units for testing",
+    "reason": "Mocks simulate dependencies so unit tests can run independently."
+  },
+  {
+    "questionId": "soft_m_19",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which software pattern helps decouple event senders from receivers?",
+    "options": ["Observer", "Factory", "Decorator", "Singleton"],
+    "answer": "Observer",
+    "reason": "Observer pattern allows components to subscribe and react to events without tight coupling."
+  },
+  {
+    "questionId": "soft_m_20",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which DevOps practice emphasizes fast feedback from production?",
+    "options": [
+      "Monitoring and logging",
+      "Waterfall planning",
+      "Manual testing",
+      "Skipping CI/CD"
+    ],
+    "answer": "Monitoring and logging",
+    "reason": "Observability and logging provide immediate feedback for production issues."
+  },
+  {
+    "questionId": "soft_m_41",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which pattern provides a simplified interface to a complex subsystem?",
+    "options": ["Facade", "Adapter", "Decorator", "Observer"],
+    "answer": "Facade",
+    "reason": "Facade pattern hides subsystem complexity behind a simple interface."
+  },
+  {
+    "questionId": "soft_m_42",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which type of testing focuses on the correctness of individual units?",
+    "options": [
+      "Unit testing",
+      "Integration testing",
+      "System testing",
+      "Acceptance testing"
+    ],
+    "answer": "Unit testing",
+    "reason": "Unit tests verify that small pieces of code work as expected."
+  },
+  {
+    "questionId": "soft_m_43",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which design principle aims to separate code into interchangeable interfaces?",
+    "options": [
+      "Interface Segregation Principle",
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Liskov Substitution Principle"
+    ],
+    "answer": "Interface Segregation Principle",
+    "reason": "ISP encourages creating smaller, focused interfaces to reduce dependency on unused methods."
+  },
+  {
+    "questionId": "soft_m_44",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which database model is optimized for hierarchical data representation?",
+    "options": [
+      "Graph database",
+      "Relational database",
+      "Document database",
+      "Key-value store"
+    ],
+    "answer": "Graph database",
+    "reason": "Graph databases efficiently represent and query hierarchical or networked data."
+  },
+  {
+    "questionId": "soft_m_45",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which CI/CD tool integrates well with Git repositories for automated builds?",
+    "options": ["GitHub Actions", "Photoshop", "Slack", "Figma"],
+    "answer": "GitHub Actions",
+    "reason": "GitHub Actions automates workflows directly from GitHub repositories."
+  },
+  {
+    "questionId": "soft_m_46",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which practice helps detect bugs early and improves code quality through peer evaluation?",
+    "options": [
+      "Code review",
+      "Load testing",
+      "Continuous deployment",
+      "Pair programming"
+    ],
+    "answer": "Code review",
+    "reason": "Code reviews allow peers to catch issues and ensure coding standards are followed."
+  },
+  {
+    "questionId": "soft_m_47",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which software development metric measures the effort required to understand or modify code?",
+    "options": [
+      "Cyclomatic complexity",
+      "Code coverage",
+      "Build stability",
+      "Response time"
+    ],
+    "answer": "Cyclomatic complexity",
+    "reason": "Cyclomatic complexity quantifies the number of independent paths through a code segment."
+  },
+  {
+    "questionId": "soft_m_48",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which design pattern allows adding behavior to objects without modifying their code?",
+    "options": ["Decorator", "Observer", "Factory", "Singleton"],
+    "answer": "Decorator",
+    "reason": "Decorator pattern dynamically adds behavior to objects while keeping the original class unchanged."
+  },
+  {
+    "questionId": "soft_m_49",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which approach ensures that software can be extended without changing existing code?",
+    "options": [
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Liskov Substitution Principle",
+      "Dependency Inversion Principle"
+    ],
+    "answer": "Open/Closed Principle",
+    "reason": "OCP allows new functionality via extension rather than modifying existing classes."
+  },
+  {
+    "questionId": "soft_m_50",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which DevOps tool is used for container orchestration?",
+    "options": ["Kubernetes", "Jenkins", "Slack", "GitHub"],
+    "answer": "Kubernetes",
+    "reason": "Kubernetes automates deployment, scaling, and management of containerized applications."
+  },
+  {
+    "questionId": "soft_m_51",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which pattern allows an object to notify multiple observers of state changes?",
+    "options": ["Observer", "State", "Strategy", "Adapter"],
+    "answer": "Observer",
+    "reason": "Observer pattern decouples state changes from the objects reacting to them."
+  },
+  {
+    "questionId": "soft_m_52",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which type of testing ensures that new code does not break existing functionality?",
+    "options": [
+      "Regression testing",
+      "Unit testing",
+      "Integration testing",
+      "Acceptance testing"
+    ],
+    "answer": "Regression testing",
+    "reason": "Regression tests prevent existing features from being broken by new changes."
+  },
+  {
+    "questionId": "soft_m_53",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which principle ensures that subclasses can replace their parent class without breaking the system?",
+    "options": [
+      "Liskov Substitution Principle",
+      "Open/Closed Principle",
+      "Dependency Inversion Principle",
+      "Single Responsibility Principle"
+    ],
+    "answer": "Liskov Substitution Principle",
+    "reason": "LSP guarantees that subclasses honor contracts of their base class."
+  },
+  {
+    "questionId": "soft_m_54",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which practice emphasizes writing tests before implementing functionality?",
+    "options": [
+      "Test-driven development",
+      "Behavior-driven development",
+      "Continuous integration",
+      "Code review"
+    ],
+    "answer": "Test-driven development",
+    "reason": "TDD drives development through tests that define expected behavior first."
+  },
+  {
+    "questionId": "soft_m_55",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which pattern separates what varies from what stays the same in algorithms?",
+    "options": ["Strategy", "State", "Observer", "Adapter"],
+    "answer": "Strategy",
+    "reason": "Strategy pattern allows selecting algorithms at runtime without modifying clients."
+  },
+  {
+    "questionId": "soft_m_56",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which type of database is optimized for storing documents as JSON-like structures?",
+    "options": [
+      "Document database",
+      "Relational database",
+      "Graph database",
+      "Key-value store"
+    ],
+    "answer": "Document database",
+    "reason": "Document databases store semi-structured data in flexible formats like JSON."
+  },
+  {
+    "questionId": "soft_m_57",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which principle suggests depending on abstractions rather than concrete classes?",
+    "options": [
+      "Dependency Inversion Principle",
+      "Open/Closed Principle",
+      "Single Responsibility Principle",
+      "Interface Segregation Principle"
+    ],
+    "answer": "Dependency Inversion Principle",
+    "reason": "DIP reduces coupling by ensuring high-level modules do not depend on low-level modules directly."
+  },
+  {
+    "questionId": "soft_m_58",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which DevOps practice automates testing, building, and deploying software frequently?",
+    "options": [
+      "Continuous Integration",
+      "Manual testing",
+      "Load testing",
+      "Pair programming"
+    ],
+    "answer": "Continuous Integration",
+    "reason": "CI automates workflows to detect integration issues early."
+  },
+  {
+    "questionId": "soft_m_59",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which metric measures how quickly a system can recover from failures?",
+    "options": [
+      "Mean Time to Recovery (MTTR)",
+      "Code coverage",
+      "Cyclomatic complexity",
+      "Build stability"
+    ],
+    "answer": "Mean Time to Recovery (MTTR)",
+    "reason": "MTTR indicates how fast a system can be restored after an outage."
+  },
+  {
+    "questionId": "soft_m_60",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which design pattern converts the interface of a class into another interface clients expect?",
+    "options": ["Adapter", "Observer", "Facade", "Strategy"],
+    "answer": "Adapter",
+    "reason": "Adapter allows incompatible interfaces to work together."
+  },
+  {
+    "questionId": "soft_m_61",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which practice improves code maintainability by grouping related functionality?",
+    "options": [
+      "Modularization",
+      "Pair programming",
+      "Load testing",
+      "Continuous deployment"
+    ],
+    "answer": "Modularization",
+    "reason": "Modularization organizes code into independent, reusable modules."
+  },
+  {
+    "questionId": "soft_m_62",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which pattern allows an object to change its behavior dynamically without changing its class?",
+    "options": ["State", "Strategy", "Observer", "Decorator"],
+    "answer": "State",
+    "reason": "State pattern enables objects to change behavior based on internal state."
+  },
+  {
+    "questionId": "soft_m_63",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which type of testing is usually automated to detect early integration issues?",
+    "options": [
+      "Integration testing",
+      "Unit testing",
+      "System testing",
+      "Acceptance testing"
+    ],
+    "answer": "Integration testing",
+    "reason": "Integration tests verify that multiple components work together correctly."
+  },
+  {
+    "questionId": "soft_m_64",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which practice ensures that software artifacts are versioned and tracked?",
+    "options": [
+      "Version control",
+      "Continuous deployment",
+      "Load testing",
+      "Code review"
+    ],
+    "answer": "Version control",
+    "reason": "Version control tracks changes to software artifacts and allows rollback if needed."
+  },
+  {
+    "questionId": "soft_m_65",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which pattern provides a way to access elements of an aggregate object sequentially without exposing its underlying representation?",
+    "options": ["Iterator", "Observer", "Decorator", "Adapter"],
+    "answer": "Iterator",
+    "reason": "Iterator pattern provides a standard way to traverse a collection."
+  },
+  {
+    "questionId": "soft_m_66",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which type of testing focuses on verifying system security and vulnerabilities?",
+    "options": [
+      "Security testing",
+      "Unit testing",
+      "Integration testing",
+      "Performance testing"
+    ],
+    "answer": "Security testing",
+    "reason": "Security testing identifies potential vulnerabilities and ensures data protection."
+  },
+  {
+    "questionId": "soft_m_67",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which tool is commonly used for tracking continuous integration build results?",
+    "options": ["Jenkins", "Slack", "Figma", "Photoshop"],
+    "answer": "Jenkins",
+    "reason": "Jenkins automates builds and tracks the results for CI pipelines."
+  },
+  {
+    "questionId": "soft_m_68",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which principle ensures that software components are replaceable without breaking the system?",
+    "options": [
+      "Liskov Substitution Principle",
+      "Single Responsibility Principle",
+      "Dependency Inversion Principle",
+      "Interface Segregation Principle"
+    ],
+    "answer": "Liskov Substitution Principle",
+    "reason": "LSP ensures that subclasses can replace their base classes without affecting correctness."
+  },
+  {
+    "questionId": "soft_m_69",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which type of database stores data as key-value pairs for fast retrieval?",
+    "options": [
+      "Key-value store",
+      "Relational database",
+      "Graph database",
+      "Document database"
+    ],
+    "answer": "Key-value store",
+    "reason": "Key-value stores provide fast lookups for associative data."
+  },
+  {
+    "questionId": "soft_m_70",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which pattern allows dynamic addition of responsibilities to objects without altering their structure?",
+    "options": ["Decorator", "Adapter", "Facade", "Observer"],
+    "answer": "Decorator",
+    "reason": "Decorator pattern enhances objects by adding behavior dynamically."
+  },
+  {
+    "questionId": "soft_m_71",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which testing approach simulates multiple users accessing the system concurrently?",
+    "options": [
+      "Load testing",
+      "Unit testing",
+      "Integration testing",
+      "Acceptance testing"
+    ],
+    "answer": "Load testing",
+    "reason": "Load testing measures system performance under expected and peak load."
+  },
+  {
+    "questionId": "soft_m_72",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which practice emphasizes writing small, testable pieces of functionality frequently?",
+    "options": [
+      "Agile development",
+      "Waterfall development",
+      "Big Bang approach",
+      "Manual coding"
+    ],
+    "answer": "Agile development",
+    "reason": "Agile promotes iterative development with frequent testing and feedback."
+  },
+  {
+    "questionId": "soft_m_73",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which principle suggests separating code so that changes in one area do not affect unrelated areas?",
+    "options": [
+      "Separation of concerns",
+      "Open/Closed Principle",
+      "Dependency Inversion Principle",
+      "Single Responsibility Principle"
+    ],
+    "answer": "Separation of concerns",
+    "reason": "Separating concerns reduces coupling and improves maintainability."
+  },
+  {
+    "questionId": "soft_m_74",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which tool allows monitoring of application performance and error logs in production?",
+    "options": ["New Relic", "GitHub", "Figma", "Photoshop"],
+    "answer": "New Relic",
+    "reason": "New Relic provides observability and monitoring for applications."
+  },
+  {
+    "questionId": "soft_m_75",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which pattern decouples the sender of a request from its receiver?",
+    "options": ["Command", "Observer", "Decorator", "Adapter"],
+    "answer": "Command",
+    "reason": "Command pattern encapsulates requests as objects, decoupling sender and receiver."
+  },
+  {
+    "questionId": "soft_m_76",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which type of testing is performed without executing the code, analyzing logic instead?",
+    "options": [
+      "Static testing",
+      "Unit testing",
+      "Integration testing",
+      "Acceptance testing"
+    ],
+    "answer": "Static testing",
+    "reason": "Static testing reviews code, design, and documentation to find errors without execution."
+  },
+  {
+    "questionId": "soft_m_77",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which practice involves pairing two developers at one workstation to improve quality?",
+    "options": [
+      "Pair programming",
+      "Load testing",
+      "Continuous deployment",
+      "Refactoring"
+    ],
+    "answer": "Pair programming",
+    "reason": "Pair programming promotes knowledge sharing and reduces defects."
+  },
+  {
+    "questionId": "soft_m_78",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which design principle promotes keeping classes focused and cohesive?",
+    "options": [
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Dependency Inversion Principle",
+      "Liskov Substitution Principle"
+    ],
+    "answer": "Single Responsibility Principle",
+    "reason": "SRP ensures that each class has one responsibility, making it easier to maintain."
+  },
+  {
+    "questionId": "soft_m_79",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which tool is used to automate software build, test, and deployment pipelines?",
+    "options": ["Jenkins", "Photoshop", "Slack", "Figma"],
+    "answer": "Jenkins",
+    "reason": "Jenkins automates the CI/CD pipeline for software projects."
+  },
+  {
+    "questionId": "soft_m_80",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which pattern allows changing the behavior of objects at runtime through interchangeable strategies?",
+    "options": ["Strategy", "State", "Observer", "Adapter"],
+    "answer": "Strategy",
+    "reason": "Strategy pattern encapsulates algorithms and makes them interchangeable."
+  },
+  {
+    "questionId": "soft_m_81",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which type of testing evaluates system behavior under extreme workloads?",
+    "options": [
+      "Stress testing",
+      "Unit testing",
+      "Integration testing",
+      "Acceptance testing"
+    ],
+    "answer": "Stress testing",
+    "reason": "Stress testing ensures the system can handle workloads beyond normal limits."
+  },
+  {
+    "questionId": "soft_m_82",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which practice promotes frequent, small releases to production?",
+    "options": [
+      "Continuous delivery",
+      "Waterfall development",
+      "Manual deployment",
+      "Big Bang approach"
+    ],
+    "answer": "Continuous delivery",
+    "reason": "Continuous delivery ensures that software can be reliably released at any time."
+  },
+  {
+    "questionId": "soft_m_83",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which metric measures the percentage of code exercised by tests?",
+    "options": ["Code coverage", "Build stability", "Response time", "MTTR"],
+    "answer": "Code coverage",
+    "reason": "Code coverage indicates how much of the code is executed during testing."
+  },
+  {
+    "questionId": "soft_m_84",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which principle reduces coupling by depending on abstractions rather than concrete implementations?",
+    "options": [
+      "Dependency Inversion Principle",
+      "Single Responsibility Principle",
+      "Open/Closed Principle",
+      "Interface Segregation Principle"
+    ],
+    "answer": "Dependency Inversion Principle",
+    "reason": "DIP ensures high-level modules are not tightly coupled to low-level modules."
+  },
+  {
+    "questionId": "soft_m_85",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which pattern provides a unified interface to a set of interfaces in a subsystem?",
+    "options": ["Facade", "Adapter", "Observer", "Decorator"],
+    "answer": "Facade",
+    "reason": "Facade simplifies interactions with a complex subsystem by providing a single interface."
+  },
+  {
+    "questionId": "soft_m_86",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which database is best suited for highly connected data and relationships?",
+    "options": [
+      "Graph database",
+      "Relational database",
+      "Document database",
+      "Key-value store"
+    ],
+    "answer": "Graph database",
+    "reason": "Graph databases efficiently model and query relationships between entities."
+  },
+  {
+    "questionId": "soft_m_87",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which DevOps practice enables reproducible environments via code scripts?",
+    "options": [
+      "Infrastructure as Code",
+      "Manual configuration",
+      "Pair programming",
+      "Unit testing"
+    ],
+    "answer": "Infrastructure as Code",
+    "reason": "IaC scripts automate environment provisioning and ensure consistency."
+  },
+  {
+    "questionId": "soft_m_88",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which type of testing evaluates the system’s ability to handle concurrent users?",
+    "options": [
+      "Load testing",
+      "Unit testing",
+      "Integration testing",
+      "Acceptance testing"
+    ],
+    "answer": "Load testing",
+    "reason": "Load testing checks performance under expected user load."
+  },
+  {
+    "questionId": "soft_m_89",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which pattern converts requests into objects, allowing parameterization of clients?",
+    "options": ["Command", "Observer", "Decorator", "Adapter"],
+    "answer": "Command",
+    "reason": "Command encapsulates a request as an object, decoupling sender and receiver."
+  },
+  {
+    "questionId": "soft_m_90",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which software development practice ensures small, frequent, and reversible changes?",
+    "options": [
+      "Incremental development",
+      "Big Bang development",
+      "Waterfall",
+      "Ad hoc coding"
+    ],
+    "answer": "Incremental development",
+    "reason": "Incremental development reduces risk by delivering changes gradually."
+  },
+  {
+    "questionId": "soft_m_91",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which principle advocates small, well-defined interfaces instead of large, general-purpose ones?",
+    "options": [
+      "Interface Segregation Principle",
+      "Open/Closed Principle",
+      "Dependency Inversion Principle",
+      "Single Responsibility Principle"
+    ],
+    "answer": "Interface Segregation Principle",
+    "reason": "ISP reduces dependencies on methods that clients do not use."
+  },
+  {
+    "questionId": "soft_m_92",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which DevOps tool allows container orchestration at scale?",
+    "options": ["Kubernetes", "Jenkins", "Slack", "Photoshop"],
+    "answer": "Kubernetes",
+    "reason": "Kubernetes manages deployment, scaling, and operation of containers."
+  },
+  {
+    "questionId": "soft_m_93",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which design pattern allows extending functionality without changing existing code?",
+    "options": ["Decorator", "Observer", "Adapter", "Strategy"],
+    "answer": "Decorator",
+    "reason": "Decorator adds new behavior to objects dynamically without altering their structure."
+  },
+  {
+    "questionId": "soft_m_94",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which principle encourages systems to be modular and maintainable?",
+    "options": [
+      "Separation of concerns",
+      "Dependency Inversion Principle",
+      "Single Responsibility Principle",
+      "Open/Closed Principle"
+    ],
+    "answer": "Separation of concerns",
+    "reason": "Separating concerns reduces coupling and enhances maintainability."
+  },
+  {
+    "questionId": "soft_m_95",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which type of testing validates workflow from a user perspective?",
+    "options": [
+      "Acceptance testing",
+      "Unit testing",
+      "Integration testing",
+      "System testing"
+    ],
+    "answer": "Acceptance testing",
+    "reason": "Acceptance testing verifies that the system meets business requirements."
+  },
+  {
+    "questionId": "soft_m_96",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which pattern encapsulates requests as objects to support undoable operations?",
+    "options": ["Command", "Observer", "State", "Strategy"],
+    "answer": "Command",
+    "reason": "Command objects can be stored and executed later, supporting undo functionality."
+  },
+  {
+    "questionId": "soft_m_97",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which metric measures the time it takes for a system to restore service after failure?",
+    "options": [
+      "Mean Time to Recovery (MTTR)",
+      "Code coverage",
+      "Build stability",
+      "Cyclomatic complexity"
+    ],
+    "answer": "Mean Time to Recovery (MTTR)",
+    "reason": "MTTR evaluates system resilience and recovery capability."
+  },
+  {
+    "questionId": "soft_m_98",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which database is ideal for storing unstructured documents with flexible schemas?",
+    "options": [
+      "Document database",
+      "Relational database",
+      "Graph database",
+      "Key-value store"
+    ],
+    "answer": "Document database",
+    "reason": "Document databases store data in semi-structured formats like JSON for flexibility."
+  },
+  {
+    "questionId": "soft_m_99",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which design pattern allows objects to alter behavior without changing their interface?",
+    "options": ["State", "Strategy", "Observer", "Decorator"],
+    "answer": "State",
+    "reason": "State pattern enables dynamic behavior changes based on internal state."
+  },
+  {
+    "questionId": "soft_m_100",
+    "tag": "software_dev",
+    "difficulty": "medium",
+    "questionText": "Which DevOps practice provides rapid feedback from monitoring production systems?",
+    "options": [
+      "Observability",
+      "Manual testing",
+      "Pair programming",
+      "Code review"
+    ],
+    "answer": "Observability",
+    "reason": "Observability uses logging, metrics, and tracing to detect issues quickly in production."
+  }
+]

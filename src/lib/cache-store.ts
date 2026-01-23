@@ -1,8 +1,8 @@
 import { QuizQuestion } from "../types/quizQuestion";
 
-export type TopicMap = {
+export interface TopicMap {
   [key: string]: Map<string, QuizQuestion>;
-};
+}
 
 // PATH
 const cpp_easy: QuizQuestion[] = require("@/src/data/cpp_easy.json");

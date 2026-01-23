@@ -12,20 +12,21 @@ export default function QuestionPage() {
   const [question, setQuestion] = useState<
     QuizQuestion | QuestionWithoutAnswer | undefined
   >();
-  const { questions } = useQuizGame();
+  const { questions, setLastQuestionIndex } = useQuizGame();
   const mounted = useMounted();
   const params = useParams();
   const id = Number(params.id);
 
   useEffect(() => {
     setQuestion(questions[id]);
+    setLastQuestionIndex(id);
   }, [mounted]);
 
   if (question === undefined) {
     return <InfiniteLoading className="size-20 bg-white" />;
   }
   return (
-    <div className="m-auto flex max-w-6xl flex-col justify-center sm:min-w-3xl lg:min-w-4xl">
+    <div className="m-auto flex max-w-6xl flex-col justify-center sm:min-w-2xl xl:min-w-4xl">
       <QuestionSection question={question} />
     </div>
   );

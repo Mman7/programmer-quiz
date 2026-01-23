@@ -1,4 +1,6 @@
-// TODO finish the this for UI
+//! TopicType match the key name in [allTopic] variable,naming key randomly would cause backend can't not find the data
+// file: ./src/lib/cache-store.ts
+
 export enum TopicType {
   js = "Javascript",
   csharp = "C#",

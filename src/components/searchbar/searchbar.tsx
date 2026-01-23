@@ -3,18 +3,16 @@
 import React, { useState } from "react";
 import { useDebouncedCallback } from "use-debounce";
 import DifficultyOption from "./difficultyOption";
-import { TopicType } from "@/src/enum/topicTypes";
-
-export const Topics: string[] = Object.values(TopicType);
+import { topicValueOnly } from "@/src/enum/topicTypes";
 
 export default function Searchbar() {
   const [inputValue, setInputValue] = useState<string>("");
   const [searchList, setSearchList] = useState<string[]>([]);
 
   const debounced = useDebouncedCallback((value) => {
-    const filtered: string[] = Topics.filter((topic) =>
-      topic.toLowerCase().includes(value.toLowerCase()),
-    ).slice(0, 5);
+    const filtered: string[] = topicValueOnly
+      .filter((topic) => topic.toLowerCase().includes(value.toLowerCase()))
+      .slice(0, 5);
     setSearchList(filtered);
   }, 200);
 

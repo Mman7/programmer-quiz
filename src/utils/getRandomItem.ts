@@ -1,7 +1,7 @@
-import { TopicMap } from "../app/api/random-quiz/route";
 import { QuizQuestion, QuestionWithoutAnswer } from "../types/quizQuestion";
 import { getKeyByValue } from "@enum/topicTypes";
 import Topic from "../types/topic";
+import { TopicMap } from "../lib/cache-store";
 
 interface filterOutTopicProps {
   selectedTopics: Topic[];

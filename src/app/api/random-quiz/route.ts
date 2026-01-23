@@ -1,5 +1,6 @@
-import { allTopic, TopicMap } from "@/src/lib/cache-store";
+import { allTopic } from "@/src/lib/cache-store";
 import QuizGameOption from "@/src/types/quizGameOptions";
+import { QuizQuestion } from "@/src/types/quizQuestion";
 import {
   combineMapInArray,
   filterOutTopic,
@@ -7,21 +8,25 @@ import {
 } from "@/src/utils/getRandomItem";
 import { NextResponse } from "next/server";
 
+export type TopicMap = {
+  [key: string]: Map<string, QuizQuestion>;
+};
+
 export async function POST(request: Request) {
   const body: QuizGameOption = await request.json();
   const { numberOfQuiz, topics } = body;
-
   // filter out selected topic
-  const filterSelectedTopic: TopicMap[] = filterOutTopic({
+  const filteredTopicList = filterOutTopic({
     selectedTopics: topics,
     allTopic: allTopic,
   });
-
   // Combine QuizMap which selected
-  const combinedMap = combineMapInArray(filterSelectedTopic);
-
+  const combinedMap = combineMapInArray(filteredTopicList);
   // get random question
-  const randomQuestion = getRandomQuestion(combinedMap, numberOfQuiz);
+  const randomQuestion = getRandomQuestion(
+    combinedMap as Map<string, QuizQuestion>,
+    numberOfQuiz,
+  );
 
   return NextResponse.json(randomQuestion);
 }

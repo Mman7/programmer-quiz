@@ -1,11 +1,11 @@
 import { QuizQuestion, QuestionWithoutAnswer } from "../types/quizQuestion";
-import { getKeyByValue } from "@enum/topicTypes";
-import Topic from "../types/topic";
 import { TopicMap } from "../lib/cache-store";
+import { Topic } from "../types/topic";
+import { getKeyByValue } from "../enum/topicTypes";
 
 interface filterOutTopicProps {
   selectedTopics: Topic[];
-  allTopic: TopicMap[];
+  allTopic: TopicMap;
 }
 // combine name to get same key as TopicType enum
 const combineNameWithDifficulty = (name: string, difficulty: string) =>
@@ -19,7 +19,6 @@ const renamedTopicsList = (array: Topic[]): string[] => {
     }
     return combineNameWithDifficulty(topicKey, item.difficulty);
   });
-
   return newList;
 };
 
@@ -32,21 +31,22 @@ export const filterOutTopic = ({
 }: filterOutTopicProps) => {
   // All topics can only access with specific name like "js_easy, webdev_easy"
   const topicsList: string[] = renamedTopicsList(selectedTopics);
-
-  // find the common in all topic and selected topic
-  const common: TopicMap[] = allTopic.filter((item) =>
-    topicsList.some((b) => b === Object.keys(item)[0]),
+  const allTopicKey = Object.keys(allTopic);
+  const newList = allTopicKey.filter((item) =>
+    topicsList.some((b) => {
+      return item === b;
+    }),
   );
-  return common;
+  const getItem = newList.map((item) => [allTopic[item]]);
+  console.log(allTopicKey);
+  return getItem; // find the common in all topic and selected topic
 };
 
-export const combineMapInArray = (
-  arrayOfMap: TopicMap[],
-): Map<string, QuizQuestion> => {
-  const flatmap: Map<string, QuizQuestion>[] = arrayOfMap.flatMap(
-    (item) => item[`${Object.keys(item)}`],
+export const combineMapInArray = (arrayOfMap: any) => {
+  const combineMap = arrayOfMap.flatMap(
+    (item: any) => item[`${Object.keys(item)}`],
   );
-  const combinedMap = new Map(flatmap.flatMap((m) => [...m]));
+  const combinedMap = new Map(combineMap.flatMap((m: any) => [...m]));
   return combinedMap;
 };
 

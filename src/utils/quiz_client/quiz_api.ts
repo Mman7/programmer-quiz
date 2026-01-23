@@ -6,7 +6,7 @@ export interface Quiz {
 }
 
 export const fetchQuiz = async ({ quiz }: { quiz: Quiz }) => {
-  const res = await fetch("/api/random_quiz", {
+  const res = await fetch("/api/random-quiz", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(quiz),

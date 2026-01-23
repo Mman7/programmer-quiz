@@ -2,6 +2,8 @@ import { QuizQuestion } from "@/src/types/quizQuestion";
 import { useParams, useRouter } from "next/navigation";
 import { useState } from "react";
 import QuestionOptions from "./questionOptions";
+import TopicBadge from "../topicBadge/topicBadge";
+import { Topic } from "@/src/types/topic";
 
 interface QuestionSectionProps {
   question: QuizQuestion;
@@ -15,7 +17,11 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
   const router = useRouter();
   const params = useParams();
   const id = Number(params.id);
-
+  const topic: Topic = {
+    name: question.topic,
+    difficulty: question.difficulty,
+  };
+  console.log(question.topic);
   const submitAnswer = () => {
     //TODO finish this function
   };
@@ -28,17 +34,16 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
     <div className="m-auto w-full p-3">
       <h1 className="p-2.5 text-center text-3xl font-bold">Quiz Game</h1>
       <section className="rounded-xl bg-white/50 p-6 backdrop-blur-md">
-        <h1 className="mb-6 text-2xl font-medium text-shadow-gray-600">
+        <h1 className="mb-2 text-2xl font-medium text-shadow-gray-600">
           {id}. {question.questionText}
         </h1>
-
+        <TopicBadge topic={topic} />
         <QuestionOptions
           answer={answer}
           question={question}
           selectedAnswer={selectedAnswer}
           setSetselectedAnswer={setSetselectedAnswer}
         />
-
         <h1
           className={`${isSubmit && "visible"} ${answer === selectedAnswer ? "text-green-300" : "text-red-400"} v invisible my-2 rounded-xl bg-white/60 p-4 font-bold`}
         >

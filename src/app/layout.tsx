@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "../components/navbar";
 import Sidebar from "../components/sidebar/sidebar";
+import ModalManager from "../components/modal/modalManager";
 
 export const metadata: Metadata = {
   title: "Programmer Quiz",
@@ -27,6 +28,7 @@ export default function RootLayout({
             <Sidebar />
           </div>
         </div>
+        <ModalManager />
       </body>
     </html>
   );

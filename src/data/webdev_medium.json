@@ -1,7 +1,7 @@
 [
   {
     "questionId": "web_m_1",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript method removes an element from the DOM?",
     "options": ["remove()", "delete()", "removeChild()", "detach()"],
@@ -10,7 +10,7 @@
   },
   {
     "questionId": "web_m_2",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method adds a new child element to a parent node?",
     "options": ["appendChild()", "addChild()", "insert()", "attachChild()"],
@@ -19,7 +19,7 @@
   },
   {
     "questionId": "web_m_3",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method clones a node including its children?",
     "options": [
@@ -33,7 +33,7 @@
   },
   {
     "questionId": "web_m_4",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method prevents the default action of an event?",
     "options": [
@@ -47,7 +47,7 @@
   },
   {
     "questionId": "web_m_5",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method stops an event from bubbling up the DOM tree?",
     "options": [
@@ -61,7 +61,7 @@
   },
   {
     "questionId": "web_m_6",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript method returns the first element matching a CSS selector?",
     "options": [
@@ -75,7 +75,7 @@
   },
   {
     "questionId": "web_m_7",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript method returns all elements matching a CSS selector?",
     "options": [
@@ -89,7 +89,7 @@
   },
   {
     "questionId": "web_m_8",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript property returns the parent node of an element?",
     "options": ["parentNode", "parentElement", "ownerNode", "ancestorNode"],
@@ -98,7 +98,7 @@
   },
   {
     "questionId": "web_m_9",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript property returns the next sibling element?",
     "options": ["nextElementSibling", "nextSibling", "nextNode", "next()"],
@@ -107,7 +107,7 @@
   },
   {
     "questionId": "web_m_10",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript property returns all child nodes including text nodes?",
     "options": ["childNodes", "children", "childElements", "nodes"],
@@ -116,7 +116,7 @@
   },
   {
     "questionId": "web_m_11",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript property returns only child elements?",
     "options": ["children", "childNodes", "childElements", "nodes"],
@@ -125,7 +125,7 @@
   },
   {
     "questionId": "web_m_12",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method inserts a node before a reference node?",
     "options": [
@@ -139,7 +139,7 @@
   },
   {
     "questionId": "web_m_13",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript property sets inline styles of an element?",
     "options": ["style", "cssText", "setStyle", "inlineStyle"],
@@ -148,7 +148,7 @@
   },
   {
     "questionId": "web_m_14",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property controls flex item growth factor?",
     "options": ["flex-grow", "flex-shrink", "flex-basis", "flex"],
@@ -157,7 +157,7 @@
   },
   {
     "questionId": "web_m_15",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property controls flex item shrink factor?",
     "options": ["flex-shrink", "flex-grow", "flex-basis", "flex"],
@@ -166,7 +166,7 @@
   },
   {
     "questionId": "web_m_16",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property defines initial main size of a flex item?",
     "options": ["flex-basis", "flex-grow", "flex-shrink", "width"],
@@ -175,7 +175,7 @@
   },
   {
     "questionId": "web_m_17",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property defines the order of flex items?",
     "options": ["order", "z-index", "position", "flex-order"],
@@ -184,7 +184,7 @@
   },
   {
     "questionId": "web_m_18",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property sets grid row start line?",
     "options": [
@@ -198,7 +198,7 @@
   },
   {
     "questionId": "web_m_19",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property sets grid column end line?",
     "options": [
@@ -212,7 +212,7 @@
   },
   {
     "questionId": "web_m_20",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS function defines repeating grid tracks?",
     "options": ["repeat()", "auto-fit()", "minmax()", "grid-repeat()"],
@@ -221,7 +221,7 @@
   },
   {
     "questionId": "web_m_21",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript API stores key-value pairs in the browser persistently?",
     "options": ["localStorage", "sessionStorage", "cookies", "IndexedDB"],
@@ -230,7 +230,7 @@
   },
   {
     "questionId": "web_m_22",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript API stores key-value pairs for a single session?",
     "options": ["sessionStorage", "localStorage", "cookies", "IndexedDB"],
@@ -239,7 +239,7 @@
   },
   {
     "questionId": "web_m_23",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript API allows structured storage of large objects?",
     "options": ["IndexedDB", "localStorage", "sessionStorage", "WebSQL"],
@@ -248,7 +248,7 @@
   },
   {
     "questionId": "web_m_24",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript API allows copying text to clipboard?",
     "options": [
@@ -262,7 +262,7 @@
   },
   {
     "questionId": "web_m_25",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method fetches resources asynchronously in JavaScript?",
     "options": ["fetch()", "XMLHttpRequest()", "ajax()", "getResource()"],
@@ -271,7 +271,7 @@
   },
   {
     "questionId": "web_m_26",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which fetch option sets HTTP method to POST?",
     "options": [
@@ -285,7 +285,7 @@
   },
   {
     "questionId": "web_m_27",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which fetch option sends JSON data in the body?",
     "options": [
@@ -299,7 +299,7 @@
   },
   {
     "questionId": "web_m_28",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which HTTP status code indicates successful request?",
     "options": ["200", "201", "400", "404"],
@@ -308,7 +308,7 @@
   },
   {
     "questionId": "web_m_29",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which HTTP status code indicates resource created?",
     "options": ["201", "200", "404", "500"],
@@ -317,7 +317,7 @@
   },
   {
     "questionId": "web_m_30",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which HTTP status code indicates client error?",
     "options": ["400", "200", "301", "500"],
@@ -326,7 +326,7 @@
   },
   {
     "questionId": "web_m_31",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which HTTP status code indicates server error?",
     "options": ["500", "200", "404", "301"],
@@ -335,7 +335,7 @@
   },
   {
     "questionId": "web_m_32",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript method sets a timer to execute a function repeatedly?",
     "options": ["setInterval()", "setTimeout()", "repeat()", "timer()"],
@@ -344,7 +344,7 @@
   },
   {
     "questionId": "web_m_33",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript method executes a function once after a delay?",
     "options": ["setTimeout()", "setInterval()", "delay()", "wait()"],
@@ -353,7 +353,7 @@
   },
   {
     "questionId": "web_m_34",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which property returns the viewport width in pixels?",
     "options": [
@@ -367,7 +367,7 @@
   },
   {
     "questionId": "web_m_35",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which property returns the viewport height in pixels?",
     "options": [
@@ -381,7 +381,7 @@
   },
   {
     "questionId": "web_m_36",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property defines grid template rows?",
     "options": [
@@ -395,7 +395,7 @@
   },
   {
     "questionId": "web_m_37",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property defines grid template columns?",
     "options": [
@@ -409,7 +409,7 @@
   },
   {
     "questionId": "web_m_38",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property sets the alignment of grid items along the row axis?",
     "options": [
@@ -423,7 +423,7 @@
   },
   {
     "questionId": "web_m_39",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property sets the alignment of grid items along the column axis?",
     "options": [
@@ -437,7 +437,7 @@
   },
   {
     "questionId": "web_m_40",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which event fires when the DOM is fully loaded?",
     "options": ["DOMContentLoaded", "load", "ready", "onload"],
@@ -446,7 +446,7 @@
   },
   {
     "questionId": "web_m_41",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which event fires when all resources (images, CSS) are fully loaded?",
     "options": ["load", "DOMContentLoaded", "ready", "onready"],
@@ -455,7 +455,7 @@
   },
   {
     "questionId": "web_m_42",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript method converts a JSON string to an object?",
     "options": [
@@ -469,7 +469,7 @@
   },
   {
     "questionId": "web_m_43",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript method converts an object to a JSON string?",
     "options": ["JSON.stringify()", "JSON.parse()", "toJSON()", "serialize()"],
@@ -478,7 +478,7 @@
   },
   {
     "questionId": "web_m_44",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property sets a background image?",
     "options": ["background-image", "bg-image", "image", "background"],
@@ -487,7 +487,7 @@
   },
   {
     "questionId": "web_m_45",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property repeats background image vertically and horizontally?",
     "options": [
@@ -501,7 +501,7 @@
   },
   {
     "questionId": "web_m_46",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property sets background image position?",
     "options": [
@@ -515,7 +515,7 @@
   },
   {
     "questionId": "web_m_47",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property defines how background image scales?",
     "options": ["background-size", "background-scale", "size", "scale"],
@@ -524,7 +524,7 @@
   },
   {
     "questionId": "web_m_48",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript method schedules a function to run after another completes using promises?",
     "options": ["then()", "catch()", "finally()", "await()"],
@@ -533,7 +533,7 @@
   },
   {
     "questionId": "web_m_49",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript method handles rejected promises?",
     "options": ["catch()", "then()", "finally()", "throw()"],
@@ -542,7 +542,7 @@
   },
   {
     "questionId": "web_m_50",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript method executes code after promise resolves or rejects?",
     "options": ["finally()", "then()", "catch()", "complete()"],
@@ -551,7 +551,7 @@
   },
   {
     "questionId": "web_m_51",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript method parses a URL string into an object?",
     "options": ["new URL()", "URL.parse()", "parseURL()", "URLObject()"],
@@ -560,7 +560,7 @@
   },
   {
     "questionId": "web_m_52",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method returns the current scroll position of the window?",
     "options": [
@@ -574,7 +574,7 @@
   },
   {
     "questionId": "web_m_53",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method returns the horizontal scroll position of the window?",
     "options": [
@@ -588,7 +588,7 @@
   },
   {
     "questionId": "web_m_54",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property hides overflowing content with scrollbars?",
     "options": ["overflow", "overflow-x", "overflow-y", "clip"],
@@ -597,7 +597,7 @@
   },
   {
     "questionId": "web_m_55",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property clips content without scrollbars?",
     "options": [
@@ -611,7 +611,7 @@
   },
   {
     "questionId": "web_m_56",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method smoothly scrolls the window to a position?",
     "options": [
@@ -625,7 +625,7 @@
   },
   {
     "questionId": "web_m_57",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property sets text overflow with ellipsis?",
     "options": ["text-overflow", "overflow-text", "ellipsis", "overflow"],
@@ -634,7 +634,7 @@
   },
   {
     "questionId": "web_m_58",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property prevents text from wrapping to a new line?",
     "options": [
@@ -648,7 +648,7 @@
   },
   {
     "questionId": "web_m_59",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method dynamically loads a JavaScript module?",
     "options": ["import()", "require()", "loadModule()", "dynamicImport()"],
@@ -657,7 +657,7 @@
   },
   {
     "questionId": "web_m_60",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which API allows sending data over WebSocket?",
     "options": [
@@ -671,7 +671,7 @@
   },
   {
     "questionId": "web_m_61",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which event fires when a WebSocket connection opens?",
     "options": ["open", "connect", "ready", "onopen"],
@@ -680,7 +680,7 @@
   },
   {
     "questionId": "web_m_62",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which event fires when a WebSocket receives a message?",
     "options": ["message", "receive", "onmessage", "data"],
@@ -689,7 +689,7 @@
   },
   {
     "questionId": "web_m_63",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which event fires when a WebSocket closes?",
     "options": ["close", "disconnect", "end", "onclose"],
@@ -698,7 +698,7 @@
   },
   {
     "questionId": "web_m_64",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method aborts an ongoing fetch request?",
     "options": [
@@ -712,7 +712,7 @@
   },
   {
     "questionId": "web_m_65",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method converts a NodeList to an array?",
     "options": [
@@ -726,7 +726,7 @@
   },
   {
     "questionId": "web_m_66",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method removes all child nodes from an element?",
     "options": [
@@ -740,7 +740,7 @@
   },
   {
     "questionId": "web_m_67",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript object holds URL query parameters?",
     "options": ["URLSearchParams", "QueryParams", "URLParams", "Params"],
@@ -749,7 +749,7 @@
   },
   {
     "questionId": "web_m_68",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method gets value of a query parameter?",
     "options": ["get()", "value()", "query()", "getParam()"],
@@ -758,7 +758,7 @@
   },
   {
     "questionId": "web_m_69",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method sets value of a query parameter?",
     "options": ["set()", "append()", "add()", "update()"],
@@ -767,7 +767,7 @@
   },
   {
     "questionId": "web_m_70",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which API allows playing audio in the browser programmatically?",
     "options": ["Audio()", "Sound()", "Media()", "PlayAudio()"],
@@ -776,7 +776,7 @@
   },
   {
     "questionId": "web_m_71",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which API allows playing video in the browser programmatically?",
     "options": ["HTMLVideoElement", "Video()", "MediaVideo()", "PlayVideo()"],
@@ -785,7 +785,7 @@
   },
   {
     "questionId": "web_m_72",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property creates a stacking context for z-index?",
     "options": [
@@ -799,7 +799,7 @@
   },
   {
     "questionId": "web_m_73",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property applies multiple transforms at once?",
     "options": [
@@ -813,7 +813,7 @@
   },
   {
     "questionId": "web_m_74",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS function defines a rotation?",
     "options": ["rotate()", "transform-rotate()", "rotateX()", "spin()"],
@@ -822,7 +822,7 @@
   },
   {
     "questionId": "web_m_75",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS function defines scaling?",
     "options": ["scale()", "scaleX()", "scaleY()", "zoom()"],
@@ -831,7 +831,7 @@
   },
   {
     "questionId": "web_m_76",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property makes an element sticky during scroll?",
     "options": [
@@ -845,7 +845,7 @@
   },
   {
     "questionId": "web_m_77",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property defines animation duration?",
     "options": [
@@ -859,7 +859,7 @@
   },
   {
     "questionId": "web_m_78",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property defines keyframes for an animation?",
     "options": [
@@ -873,7 +873,7 @@
   },
   {
     "questionId": "web_m_79",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property sets a delay before animation starts?",
     "options": [
@@ -887,7 +887,7 @@
   },
   {
     "questionId": "web_m_80",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property defines easing for animations?",
     "options": [
@@ -901,7 +901,7 @@
   },
   {
     "questionId": "web_m_81",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript method gets computed style of an element?",
     "options": [
@@ -915,7 +915,7 @@
   },
   {
     "questionId": "web_m_82",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method registers a service worker?",
     "options": [
@@ -929,7 +929,7 @@
   },
   {
     "questionId": "web_m_83",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method sends a message to a service worker?",
     "options": [
@@ -943,7 +943,7 @@
   },
   {
     "questionId": "web_m_84",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which API handles push notifications in browser?",
     "options": ["Push API", "Notification API", "WebPush", "ServicePush"],
@@ -952,16 +952,16 @@
   },
   {
     "questionId": "web_m_85",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which API displays system notifications to users?",
     "options": ["Notification API", "Push API", "alert()", "notify()"],
     "answer": "Notification API",
-    "reason": "Notification API shows notifications outside the web page."
+    "reason": "Notification API shows notifications outside the webdev page."
   },
   {
     "questionId": "web_m_86",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which JavaScript API detects if page is visible?",
     "options": [
@@ -975,7 +975,7 @@
   },
   {
     "questionId": "web_m_87",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which property returns current visibility state?",
     "options": [
@@ -989,7 +989,7 @@
   },
   {
     "questionId": "web_m_88",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which API detects network connectivity changes?",
     "options": [
@@ -1003,7 +1003,7 @@
   },
   {
     "questionId": "web_m_89",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which property gives effective type of network connection?",
     "options": [
@@ -1017,7 +1017,7 @@
   },
   {
     "questionId": "web_m_90",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which API provides geolocation information?",
     "options": [
@@ -1031,7 +1031,7 @@
   },
   {
     "questionId": "web_m_91",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method gets current position via Geolocation API?",
     "options": [
@@ -1045,7 +1045,7 @@
   },
   {
     "questionId": "web_m_92",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method tracks position continuously via Geolocation API?",
     "options": [
@@ -1059,7 +1059,7 @@
   },
   {
     "questionId": "web_m_93",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method stops watchPosition tracking?",
     "options": ["clearWatch()", "stopWatch()", "cancelWatch()", "unwatch()"],
@@ -1068,7 +1068,7 @@
   },
   {
     "questionId": "web_m_94",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which API provides vibration on supported devices?",
     "options": ["Vibration API", "Haptics API", "Device API", "Vibrate API"],
@@ -1077,7 +1077,7 @@
   },
   {
     "questionId": "web_m_95",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which method triggers device vibration?",
     "options": [
@@ -1091,7 +1091,7 @@
   },
   {
     "questionId": "web_m_96",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which API allows drag-and-drop operations in browser?",
     "options": ["Drag and Drop API", "DND API", "Draggable API", "DragAPI"],
@@ -1100,7 +1100,7 @@
   },
   {
     "questionId": "web_m_97",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which event fires when dragging starts?",
     "options": ["dragstart", "drag", "dragbegin", "draginit"],
@@ -1109,7 +1109,7 @@
   },
   {
     "questionId": "web_m_98",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which event fires when dragged element is over a drop target?",
     "options": ["dragover", "dragenter", "drag", "drop"],
@@ -1118,7 +1118,7 @@
   },
   {
     "questionId": "web_m_99",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which event fires when a dragged element is dropped?",
     "options": ["drop", "dragend", "dragover", "dragenter"],
@@ -1127,7 +1127,7 @@
   },
   {
     "questionId": "web_m_100",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "medium",
     "questionText": "Which CSS property makes an element draggable visually?",
     "options": [

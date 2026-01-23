@@ -1,7 +1,7 @@
 [
   {
     "questionId": "js_h_1",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why does `typeof null` return \"object\" in JavaScript?",
     "options": [
@@ -15,7 +15,7 @@
   },
   {
     "questionId": "js_h_2",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What will be logged?\n\n```js\nconsole.log([] + {});\nconsole.log({} + []);\n```",
     "options": [
@@ -29,7 +29,7 @@
   },
   {
     "questionId": "js_h_3",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is the main difference between microtasks and macrotasks?",
     "options": [
@@ -43,7 +43,7 @@
   },
   {
     "questionId": "js_h_4",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which statement about closures is TRUE?",
     "options": [
@@ -57,7 +57,7 @@
   },
   {
     "questionId": "js_h_5",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What problem does the Temporal Dead Zone (TDZ) prevent?",
     "options": [
@@ -72,7 +72,7 @@
 
   {
     "questionId": "js_h_6",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why is `Object.is(NaN, NaN)` true but `NaN === NaN` false?",
     "options": [
@@ -86,7 +86,7 @@
   },
   {
     "questionId": "js_h_7",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What happens if a Promise resolves with another Promise?",
     "options": [
@@ -100,7 +100,7 @@
   },
   {
     "questionId": "js_h_8",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why can arrow functions not be used as constructors?",
     "options": [
@@ -114,7 +114,7 @@
   },
   {
     "questionId": "js_h_9",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which operation breaks referential transparency?",
     "options": [
@@ -128,7 +128,7 @@
   },
   {
     "questionId": "js_h_10",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why is JSON.parse(JSON.stringify(obj)) unsafe for deep cloning?",
     "options": [
@@ -143,7 +143,7 @@
 
   {
     "questionId": "js_h_11",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is the main risk of using eval?",
     "options": [
@@ -157,7 +157,7 @@
   },
   {
     "questionId": "js_h_12",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does structuredClone solve?",
     "options": [
@@ -171,7 +171,7 @@
   },
   {
     "questionId": "js_h_13",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which statement about JavaScript memory management is TRUE?",
     "options": [
@@ -185,7 +185,7 @@
   },
   {
     "questionId": "js_h_14",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What causes a memory leak in JavaScript?",
     "options": [
@@ -199,7 +199,7 @@
   },
   {
     "questionId": "js_h_15",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why is WeakMap useful?",
     "options": [
@@ -214,7 +214,7 @@
 
   {
     "questionId": "js_h_16",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is tail call optimization?",
     "options": [
@@ -228,7 +228,7 @@
   },
   {
     "questionId": "js_h_17",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which scenario causes a race condition?",
     "options": [
@@ -242,7 +242,7 @@
   },
   {
     "questionId": "js_h_18",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does `await` actually do?",
     "options": [
@@ -256,7 +256,7 @@
   },
   {
     "questionId": "js_h_19",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why is `this` undefined in strict mode functions?",
     "options": [
@@ -270,7 +270,7 @@
   },
   {
     "questionId": "js_h_20",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does module scope provide?",
     "options": [
@@ -284,7 +284,7 @@
   },
   {
     "questionId": "js_h_21",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is the main difference between `for...in` and `for...of`?",
     "options": [
@@ -298,7 +298,7 @@
   },
   {
     "questionId": "js_h_22",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why is `Map` preferred over plain objects for frequent additions/removals?",
     "options": [
@@ -312,7 +312,7 @@
   },
   {
     "questionId": "js_h_23",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does the event loop prioritize after the call stack is empty?",
     "options": [
@@ -326,7 +326,7 @@
   },
   {
     "questionId": "js_h_24",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which operation is NOT allowed on a frozen object?",
     "options": [
@@ -340,7 +340,7 @@
   },
   {
     "questionId": "js_h_25",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What happens when an async function throws an error?",
     "options": [
@@ -355,7 +355,7 @@
 
   {
     "questionId": "js_h_26",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why are symbols useful?",
     "options": [
@@ -369,7 +369,7 @@
   },
   {
     "questionId": "js_h_27",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does `Object.create(null)` produce?",
     "options": [
@@ -383,7 +383,7 @@
   },
   {
     "questionId": "js_h_28",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why is prototype pollution dangerous?",
     "options": [
@@ -397,7 +397,7 @@
   },
   {
     "questionId": "js_h_29",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is the main benefit of immutability?",
     "options": [
@@ -411,7 +411,7 @@
   },
   {
     "questionId": "js_h_30",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why is `setTimeout(fn, 0)` not executed immediately?",
     "options": [
@@ -426,7 +426,7 @@
 
   {
     "questionId": "js_h_31",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which feature allows intercepting object operations?",
     "options": ["Proxy", "Reflect", "Decorator", "Observer"],
@@ -435,7 +435,7 @@
   },
   {
     "questionId": "js_h_32",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does Reflect provide?",
     "options": [
@@ -449,7 +449,7 @@
   },
   {
     "questionId": "js_h_33",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why can floating-point math be inaccurate in JavaScript?",
     "options": [
@@ -463,7 +463,7 @@
   },
   {
     "questionId": "js_h_34",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does `Number.EPSILON` represent?",
     "options": [
@@ -477,7 +477,7 @@
   },
   {
     "questionId": "js_h_35",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which pattern helps manage complex async flows?",
     "options": ["Promise chaining", "Singleton", "Adapter", "Facade"],
@@ -487,7 +487,7 @@
 
   {
     "questionId": "js_h_36",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why is recursion risky without optimization?",
     "options": ["Stack overflow", "Memory leak", "Race conditions", "Deadlock"],
@@ -496,7 +496,7 @@
   },
   {
     "questionId": "js_h_37",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which Web API enables background threads?",
     "options": ["Web Workers", "Service Workers", "SharedArrayBuffer", "Fetch"],
@@ -505,7 +505,7 @@
   },
   {
     "questionId": "js_h_38",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is the role of a Service Worker?",
     "options": [
@@ -519,7 +519,7 @@
   },
   {
     "questionId": "js_h_39",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which API enables real-time communication?",
     "options": ["WebSocket", "Fetch", "XHR", "HTTP polling"],
@@ -528,7 +528,7 @@
   },
   {
     "questionId": "js_h_40",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why is blocking the main thread problematic?",
     "options": [
@@ -542,7 +542,7 @@
   },
   {
     "questionId": "js_h_41",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is the main purpose of the JavaScript execution context?",
     "options": [
@@ -556,7 +556,7 @@
   },
   {
     "questionId": "js_h_42",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What happens when a Promise is resolved with another Promise?",
     "options": [
@@ -570,7 +570,7 @@
   },
   {
     "questionId": "js_h_43",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is the output of: Promise.resolve(1).then(2).then(console.log)?",
     "options": ["1", "2", "undefined", "Error"],
@@ -579,7 +579,7 @@
   },
   {
     "questionId": "js_h_44",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why are arrow functions unsuitable as constructors?",
     "options": [
@@ -593,7 +593,7 @@
   },
   {
     "questionId": "js_h_45",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which mechanism prevents garbage collection of referenced objects?",
     "options": ["Event Loop", "Closures", "Hoisting", "Currying"],
@@ -602,7 +602,7 @@
   },
   {
     "questionId": "js_h_46",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does Object.freeze() do?",
     "options": [
@@ -616,7 +616,7 @@
   },
   {
     "questionId": "js_h_47",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which operation creates a new execution context?",
     "options": [
@@ -630,7 +630,7 @@
   },
   {
     "questionId": "js_h_48",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What problem does tail call optimization solve?",
     "options": [
@@ -644,7 +644,7 @@
   },
   {
     "questionId": "js_h_49",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is the result of typeof NaN?",
     "options": ["number", "NaN", "undefined", "object"],
@@ -653,7 +653,7 @@
   },
   {
     "questionId": "js_h_50",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which method schedules a microtask?",
     "options": [
@@ -667,7 +667,7 @@
   },
   {
     "questionId": "js_h_51",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is a thunk in JavaScript?",
     "options": [
@@ -681,7 +681,7 @@
   },
   {
     "questionId": "js_h_52",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does Reflect.apply() do?",
     "options": [
@@ -695,7 +695,7 @@
   },
   {
     "questionId": "js_h_53",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which issue can arise from modifying Array.prototype?",
     "options": [
@@ -709,7 +709,7 @@
   },
   {
     "questionId": "js_h_54",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does structuredClone() provide?",
     "options": [
@@ -723,7 +723,7 @@
   },
   {
     "questionId": "js_h_55",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why is eval() considered dangerous?",
     "options": [
@@ -737,7 +737,7 @@
   },
   {
     "questionId": "js_h_56",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which API enables fine-grained interception of object operations?",
     "options": ["Proxy", "Reflect", "Symbol", "WeakMap"],
@@ -746,7 +746,7 @@
   },
   {
     "questionId": "js_h_57",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is the main benefit of WeakMap?",
     "options": [
@@ -760,7 +760,7 @@
   },
   {
     "questionId": "js_h_58",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which statement about generators is true?",
     "options": [
@@ -774,7 +774,7 @@
   },
   {
     "questionId": "js_h_59",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does Symbol.toPrimitive control?",
     "options": [
@@ -788,7 +788,7 @@
   },
   {
     "questionId": "js_h_60",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is a race condition in async JavaScript?",
     "options": [
@@ -802,7 +802,7 @@
   },
   {
     "questionId": "js_h_61",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does the Temporal Dead Zone (TDZ) refer to?",
     "options": [
@@ -816,7 +816,7 @@
   },
   {
     "questionId": "js_h_62",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which internal slot stores an object's prototype?",
     "options": [
@@ -830,7 +830,7 @@
   },
   {
     "questionId": "js_h_63",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does Function.prototype.bind() return?",
     "options": [
@@ -844,7 +844,7 @@
   },
   {
     "questionId": "js_h_64",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which scenario can cause memory leaks in JavaScript?",
     "options": [
@@ -858,7 +858,7 @@
   },
   {
     "questionId": "js_h_65",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is the role of the job queue?",
     "options": [
@@ -872,7 +872,7 @@
   },
   {
     "questionId": "js_h_66",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why is JSON.parse(JSON.stringify(obj)) unreliable for deep cloning?",
     "options": [
@@ -886,7 +886,7 @@
   },
   {
     "questionId": "js_h_67",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is the effect of using await outside an async function?",
     "options": [
@@ -900,7 +900,7 @@
   },
   {
     "questionId": "js_h_68",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does Object.seal() prevent?",
     "options": [
@@ -914,7 +914,7 @@
   },
   {
     "questionId": "js_h_69",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which operator checks if an object has a property directly?",
     "options": ["in", "hasOwn", "hasOwnProperty", "instanceof"],
@@ -923,7 +923,7 @@
   },
   {
     "questionId": "js_h_70",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What happens if a Promise executor throws an error?",
     "options": [
@@ -937,7 +937,7 @@
   },
   {
     "questionId": "js_h_71",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is prototype pollution?",
     "options": [
@@ -951,7 +951,7 @@
   },
   {
     "questionId": "js_h_72",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does new.target indicate?",
     "options": [
@@ -965,7 +965,7 @@
   },
   {
     "questionId": "js_h_73",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why are WeakSet values not enumerable?",
     "options": [
@@ -979,7 +979,7 @@
   },
   {
     "questionId": "js_h_74",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does Object.is() do differently from ===?",
     "options": [
@@ -993,7 +993,7 @@
   },
   {
     "questionId": "js_h_75",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is an IIFE mainly used for?",
     "options": [
@@ -1007,7 +1007,7 @@
   },
   {
     "questionId": "js_h_76",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which feature enables lazy evaluation?",
     "options": ["Promises", "Generators", "Closures", "Callbacks"],
@@ -1016,7 +1016,7 @@
   },
   {
     "questionId": "js_h_77",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does the 'use strict' directive prevent?",
     "options": ["Global variables", "Silent errors", "Async code", "Closures"],
@@ -1025,7 +1025,7 @@
   },
   {
     "questionId": "js_h_78",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is the main drawback of monkey patching?",
     "options": [
@@ -1039,7 +1039,7 @@
   },
   {
     "questionId": "js_h_79",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which structure preserves insertion order?",
     "options": ["Object", "Map", "Set", "WeakMap"],
@@ -1048,7 +1048,7 @@
   },
   {
     "questionId": "js_h_80",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does Promise.all reject on?",
     "options": [
@@ -1062,7 +1062,7 @@
   },
   {
     "questionId": "js_h_81",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does the internal [[Call]] method represent?",
     "options": [
@@ -1076,7 +1076,7 @@
   },
   {
     "questionId": "js_h_82",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why can floating point math be inaccurate in JavaScript?",
     "options": [
@@ -1090,7 +1090,7 @@
   },
   {
     "questionId": "js_h_83",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which operation is guaranteed to be atomic in JavaScript?",
     "options": [
@@ -1104,7 +1104,7 @@
   },
   {
     "questionId": "js_h_84",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does the term \"reentrancy\" refer to?",
     "options": [
@@ -1118,7 +1118,7 @@
   },
   {
     "questionId": "js_h_85",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which browser feature enforces same-origin policy?",
     "options": ["Event Loop", "CORS", "JavaScript engine", "Garbage Collector"],
@@ -1127,7 +1127,7 @@
   },
   {
     "questionId": "js_h_86",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What happens when await is used on a non-Promise value?",
     "options": [
@@ -1141,7 +1141,7 @@
   },
   {
     "questionId": "js_h_87",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is the purpose of MutationObserver?",
     "options": [
@@ -1155,7 +1155,7 @@
   },
   {
     "questionId": "js_h_88",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why is shared mutable state dangerous?",
     "options": [
@@ -1169,7 +1169,7 @@
   },
   {
     "questionId": "js_h_89",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does Intl API primarily handle?",
     "options": [
@@ -1183,7 +1183,7 @@
   },
   {
     "questionId": "js_h_90",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which technique avoids callback hell?",
     "options": ["Closures", "Async/await", "Hoisting", "Currying"],
@@ -1192,7 +1192,7 @@
   },
   {
     "questionId": "js_h_91",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is a side effect in functional programming?",
     "options": [
@@ -1206,7 +1206,7 @@
   },
   {
     "questionId": "js_h_92",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why is recursion sometimes discouraged in JavaScript?",
     "options": [
@@ -1220,7 +1220,7 @@
   },
   {
     "questionId": "js_h_93",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does Object.getOwnPropertyDescriptor() return?",
     "options": [
@@ -1234,7 +1234,7 @@
   },
   {
     "questionId": "js_h_94",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which pattern restricts object creation to one instance?",
     "options": ["Factory", "Observer", "Singleton", "Decorator"],
@@ -1243,7 +1243,7 @@
   },
   {
     "questionId": "js_h_95",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does backpressure mean in streams?",
     "options": [
@@ -1257,7 +1257,7 @@
   },
   {
     "questionId": "js_h_96",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Why is immutability beneficial?",
     "options": [
@@ -1271,7 +1271,7 @@
   },
   {
     "questionId": "js_h_97",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does the module scope prevent?",
     "options": [
@@ -1285,7 +1285,7 @@
   },
   {
     "questionId": "js_h_98",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "Which API provides high-resolution timestamps?",
     "options": [
@@ -1299,7 +1299,7 @@
   },
   {
     "questionId": "js_h_99",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What does shadowing a variable mean?",
     "options": [
@@ -1313,7 +1313,7 @@
   },
   {
     "questionId": "js_h_100",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "hard",
     "questionText": "What is the primary benefit of event delegation?",
     "options": [

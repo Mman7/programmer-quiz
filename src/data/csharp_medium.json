@@ -1,7 +1,7 @@
 [
   {
     "questionId": "cs_m_1",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is the purpose of the virtual keyword in C#?",
     "options": [
@@ -15,21 +15,16 @@
   },
   {
     "questionId": "cs_m_2",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword is used to override a base class method?",
-    "options": [
-      "override",
-      "new",
-      "virtual",
-      "sealed"
-    ],
+    "options": ["override", "new", "virtual", "sealed"],
     "answer": "override",
     "reason": "override replaces a virtual or abstract base method."
   },
   {
     "questionId": "cs_m_3",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What happens if a base class method is not virtual?",
     "options": [
@@ -43,21 +38,16 @@
   },
   {
     "questionId": "cs_m_4",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which access modifier allows access only within the same assembly?",
-    "options": [
-      "private",
-      "protected",
-      "internal",
-      "public"
-    ],
+    "options": ["private", "protected", "internal", "public"],
     "answer": "internal",
     "reason": "internal limits access to the same assembly."
   },
   {
     "questionId": "cs_m_5",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does the sealed keyword do?",
     "options": [
@@ -71,21 +61,16 @@
   },
   {
     "questionId": "cs_m_6",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which collection allows key-value pairs?",
-    "options": [
-      "List",
-      "Array",
-      "Dictionary",
-      "Queue"
-    ],
+    "options": ["List", "Array", "Dictionary", "Queue"],
     "answer": "Dictionary",
     "reason": "Dictionary stores data as key-value pairs."
   },
   {
     "questionId": "cs_m_7",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is boxing in C#?",
     "options": [
@@ -99,7 +84,7 @@
   },
   {
     "questionId": "cs_m_8",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is unboxing?",
     "options": [
@@ -113,21 +98,16 @@
   },
   {
     "questionId": "cs_m_9",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which interface supports querying collections?",
-    "options": [
-      "IEnumerable",
-      "IQueryable",
-      "ICollection",
-      "IList"
-    ],
+    "options": ["IEnumerable", "IQueryable", "ICollection", "IList"],
     "answer": "IQueryable",
     "reason": "IQueryable supports deferred execution and LINQ providers."
   },
   {
     "questionId": "cs_m_10",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does LINQ stand for?",
     "options": [
@@ -141,21 +121,16 @@
   },
   {
     "questionId": "cs_m_11",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword creates an anonymous method?",
-    "options": [
-      "delegate",
-      "lambda",
-      "func",
-      "var"
-    ],
+    "options": ["delegate", "lambda", "func", "var"],
     "answer": "delegate",
     "reason": "Anonymous methods can be created using delegate keyword."
   },
   {
     "questionId": "cs_m_12",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does async keyword indicate?",
     "options": [
@@ -169,49 +144,34 @@
   },
   {
     "questionId": "cs_m_13",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword waits for async task completion?",
-    "options": [
-      "wait",
-      "join",
-      "await",
-      "yield"
-    ],
+    "options": ["wait", "join", "await", "yield"],
     "answer": "await",
     "reason": "await asynchronously waits for task completion."
   },
   {
     "questionId": "cs_m_14",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What type does an async method usually return?",
-    "options": [
-      "void",
-      "Task",
-      "Thread",
-      "Action"
-    ],
+    "options": ["void", "Task", "Thread", "Action"],
     "answer": "Task",
     "reason": "Async methods typically return Task or Task<T>."
   },
   {
     "questionId": "cs_m_15",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which collection is thread-safe?",
-    "options": [
-      "List",
-      "Dictionary",
-      "ConcurrentDictionary",
-      "Array"
-    ],
+    "options": ["List", "Dictionary", "ConcurrentDictionary", "Array"],
     "answer": "ConcurrentDictionary",
     "reason": "ConcurrentDictionary supports thread-safe operations."
   },
   {
     "questionId": "cs_m_16",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does IDisposable interface provide?",
     "options": [
@@ -225,21 +185,16 @@
   },
   {
     "questionId": "cs_m_17",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword is used with IDisposable?",
-    "options": [
-      "using",
-      "try",
-      "lock",
-      "dispose"
-    ],
+    "options": ["using", "try", "lock", "dispose"],
     "answer": "using",
     "reason": "using ensures Dispose is called automatically."
   },
   {
     "questionId": "cs_m_18",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does the lock keyword do?",
     "options": [
@@ -253,21 +208,16 @@
   },
   {
     "questionId": "cs_m_19",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which type is immutable?",
-    "options": [
-      "String",
-      "StringBuilder",
-      "Array",
-      "List"
-    ],
+    "options": ["String", "StringBuilder", "Array", "List"],
     "answer": "String",
     "reason": "String objects cannot be modified after creation."
   },
   {
     "questionId": "cs_m_20",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does StringBuilder improve?",
     "options": [
@@ -281,21 +231,16 @@
   },
   {
     "questionId": "cs_m_21",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword is used to prevent a class from being inherited?",
-    "options": [
-      "sealed",
-      "static",
-      "readonly",
-      "private"
-    ],
+    "options": ["sealed", "static", "readonly", "private"],
     "answer": "sealed",
     "reason": "sealed prevents other classes from inheriting the class."
   },
   {
     "questionId": "cs_m_22",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does LINQ stand for?",
     "options": [
@@ -309,21 +254,16 @@
   },
   {
     "questionId": "cs_m_23",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which interface must be implemented to use foreach?",
-    "options": [
-      "IEnumerable",
-      "IEnumerator",
-      "IList",
-      "ICollection"
-    ],
+    "options": ["IEnumerable", "IEnumerator", "IList", "ICollection"],
     "answer": "IEnumerable",
     "reason": "foreach works with types implementing IEnumerable."
   },
   {
     "questionId": "cs_m_24",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is the purpose of the async keyword?",
     "options": [
@@ -337,21 +277,16 @@
   },
   {
     "questionId": "cs_m_25",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which type is used to handle asynchronous operations?",
-    "options": [
-      "Task",
-      "Thread",
-      "Delegate",
-      "Action"
-    ],
+    "options": ["Task", "Thread", "Delegate", "Action"],
     "answer": "Task",
     "reason": "Task represents an asynchronous operation."
   },
   {
     "questionId": "cs_m_26",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does the await keyword do?",
     "options": [
@@ -365,21 +300,16 @@
   },
   {
     "questionId": "cs_m_27",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which collection guarantees unique elements?",
-    "options": [
-      "HashSet",
-      "List",
-      "Array",
-      "Queue"
-    ],
+    "options": ["HashSet", "List", "Array", "Queue"],
     "answer": "HashSet",
     "reason": "HashSet does not allow duplicate values."
   },
   {
     "questionId": "cs_m_28",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is boxing in C#?",
     "options": [
@@ -393,7 +323,7 @@
   },
   {
     "questionId": "cs_m_29",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is unboxing?",
     "options": [
@@ -407,63 +337,43 @@
   },
   {
     "questionId": "cs_m_30",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword is used for dependency injection commonly?",
-    "options": [
-      "interface",
-      "static",
-      "sealed",
-      "struct"
-    ],
+    "options": ["interface", "static", "sealed", "struct"],
     "answer": "interface",
     "reason": "Interfaces enable loose coupling in DI."
   },
   {
     "questionId": "cs_m_31",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which access modifier allows access only within the same assembly?",
-    "options": [
-      "internal",
-      "protected",
-      "private",
-      "public"
-    ],
+    "options": ["internal", "protected", "private", "public"],
     "answer": "internal",
     "reason": "internal limits access to the same assembly."
   },
   {
     "questionId": "cs_m_32",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is the base class of all C# classes?",
-    "options": [
-      "Object",
-      "Base",
-      "Root",
-      "Class"
-    ],
+    "options": ["Object", "Base", "Root", "Class"],
     "answer": "Object",
     "reason": "System.Object is the root of all classes."
   },
   {
     "questionId": "cs_m_33",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which statement is used to handle exceptions?",
-    "options": [
-      "try-catch",
-      "if-else",
-      "switch",
-      "using"
-    ],
+    "options": ["try-catch", "if-else", "switch", "using"],
     "answer": "try-catch",
     "reason": "try-catch handles runtime exceptions."
   },
   {
     "questionId": "cs_m_34",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does IDisposable provide?",
     "options": [
@@ -477,21 +387,16 @@
   },
   {
     "questionId": "cs_m_35",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword ensures a resource is disposed?",
-    "options": [
-      "using",
-      "lock",
-      "await",
-      "finally"
-    ],
+    "options": ["using", "lock", "await", "finally"],
     "answer": "using",
     "reason": "using automatically calls Dispose()."
   },
   {
     "questionId": "cs_m_36",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is a delegate?",
     "options": [
@@ -505,21 +410,16 @@
   },
   {
     "questionId": "cs_m_37",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword creates an anonymous function?",
-    "options": [
-      "lambda",
-      "delegate",
-      "func",
-      "action"
-    ],
+    "options": ["lambda", "delegate", "func", "action"],
     "answer": "lambda",
     "reason": "Lambda expressions define anonymous functions."
   },
   {
     "questionId": "cs_m_38",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does the lock keyword do?",
     "options": [
@@ -533,35 +433,25 @@
   },
   {
     "questionId": "cs_m_39",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which collection is FIFO?",
-    "options": [
-      "Queue",
-      "Stack",
-      "List",
-      "Dictionary"
-    ],
+    "options": ["Queue", "Stack", "List", "Dictionary"],
     "answer": "Queue",
     "reason": "Queue follows First-In-First-Out order."
   },
   {
     "questionId": "cs_m_40",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which collection is LIFO?",
-    "options": [
-      "Stack",
-      "Queue",
-      "List",
-      "Set"
-    ],
+    "options": ["Stack", "Queue", "List", "Set"],
     "answer": "Stack",
     "reason": "Stack follows Last-In-First-Out order."
   },
   {
     "questionId": "cs_m_41",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does GC stand for?",
     "options": [
@@ -575,49 +465,34 @@
   },
   {
     "questionId": "cs_m_42",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which type stores key-value pairs?",
-    "options": [
-      "Dictionary",
-      "List",
-      "Queue",
-      "Stack"
-    ],
+    "options": ["Dictionary", "List", "Queue", "Stack"],
     "answer": "Dictionary",
     "reason": "Dictionary maps keys to values."
   },
   {
     "questionId": "cs_m_43",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword allows method overriding?",
-    "options": [
-      "virtual",
-      "static",
-      "sealed",
-      "private"
-    ],
+    "options": ["virtual", "static", "sealed", "private"],
     "answer": "virtual",
     "reason": "virtual allows derived classes to override methods."
   },
   {
     "questionId": "cs_m_44",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword is used to override a method?",
-    "options": [
-      "override",
-      "new",
-      "base",
-      "this"
-    ],
+    "options": ["override", "new", "base", "this"],
     "answer": "override",
     "reason": "override replaces base class method implementation."
   },
   {
     "questionId": "cs_m_45",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is polymorphism?",
     "options": [
@@ -631,119 +506,79 @@
   },
   {
     "questionId": "cs_m_46",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword hides base class implementation?",
-    "options": [
-      "new",
-      "override",
-      "virtual",
-      "base"
-    ],
+    "options": ["new", "override", "virtual", "base"],
     "answer": "new",
     "reason": "new hides base class members."
   },
   {
     "questionId": "cs_m_47",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is a struct?",
-    "options": [
-      "Value type",
-      "Reference type",
-      "Interface",
-      "Namespace"
-    ],
+    "options": ["Value type", "Reference type", "Interface", "Namespace"],
     "answer": "Value type",
     "reason": "struct is a value type stored on stack typically."
   },
   {
     "questionId": "cs_m_48",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which feature allows querying collections?",
-    "options": [
-      "LINQ",
-      "OOP",
-      "CLR",
-      "GC"
-    ],
+    "options": ["LINQ", "OOP", "CLR", "GC"],
     "answer": "LINQ",
     "reason": "LINQ enables SQL-like queries in C#."
   },
   {
     "questionId": "cs_m_49",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does Func<T> represent?",
-    "options": [
-      "Method returning a value",
-      "Void method",
-      "Thread",
-      "Class"
-    ],
+    "options": ["Method returning a value", "Void method", "Thread", "Class"],
     "answer": "Method returning a value",
     "reason": "Func delegates return a value."
   },
   {
     "questionId": "cs_m_50",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does Action<T> represent?",
-    "options": [
-      "Void-returning method",
-      "Constructor",
-      "Property",
-      "Class"
-    ],
+    "options": ["Void-returning method", "Constructor", "Property", "Class"],
     "answer": "Void-returning method",
     "reason": "Action delegates return void."
   },
   {
     "questionId": "cs_m_51",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword is used to call a base class constructor?",
-    "options": [
-      "base",
-      "this",
-      "super",
-      "parent"
-    ],
+    "options": ["base", "this", "super", "parent"],
     "answer": "base",
     "reason": "base is used to access base class members and constructors."
   },
   {
     "questionId": "cs_m_52",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does the this keyword refer to?",
-    "options": [
-      "Current instance",
-      "Base class",
-      "Static class",
-      "Namespace"
-    ],
+    "options": ["Current instance", "Base class", "Static class", "Namespace"],
     "answer": "Current instance",
     "reason": "this refers to the current object instance."
   },
   {
     "questionId": "cs_m_53",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which collection is best for fast lookups?",
-    "options": [
-      "Dictionary",
-      "List",
-      "Array",
-      "Queue"
-    ],
+    "options": ["Dictionary", "List", "Array", "Queue"],
     "answer": "Dictionary",
     "reason": "Dictionary provides O(1) average lookup time."
   },
   {
     "questionId": "cs_m_54",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is a nullable value type?",
     "options": [
@@ -757,21 +592,16 @@
   },
   {
     "questionId": "cs_m_55",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which symbol denotes a nullable type?",
-    "options": [
-      "?",
-      "!",
-      "#",
-      "$"
-    ],
+    "options": ["?", "!", "#", "$"],
     "answer": "?",
     "reason": "The ? symbol indicates a nullable value type."
   },
   {
     "questionId": "cs_m_56",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does the ?? operator do?",
     "options": [
@@ -785,21 +615,16 @@
   },
   {
     "questionId": "cs_m_57",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword marks a method as thread-safe?",
-    "options": [
-      "lock",
-      "async",
-      "await",
-      "sealed"
-    ],
+    "options": ["lock", "async", "await", "sealed"],
     "answer": "lock",
     "reason": "lock ensures mutual exclusion."
   },
   {
     "questionId": "cs_m_58",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is the purpose of Parallel.For?",
     "options": [
@@ -813,7 +638,7 @@
   },
   {
     "questionId": "cs_m_59",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which exception is thrown for invalid array index?",
     "options": [
@@ -827,21 +652,16 @@
   },
   {
     "questionId": "cs_m_60",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword ensures code runs even if exception occurs?",
-    "options": [
-      "finally",
-      "catch",
-      "throw",
-      "using"
-    ],
+    "options": ["finally", "catch", "throw", "using"],
     "answer": "finally",
     "reason": "finally executes regardless of exceptions."
   },
   {
     "questionId": "cs_m_61",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is reflection used for?",
     "options": [
@@ -855,21 +675,16 @@
   },
   {
     "questionId": "cs_m_62",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which attribute marks a method as obsolete?",
-    "options": [
-      "Obsolete",
-      "Deprecated",
-      "Old",
-      "Legacy"
-    ],
+    "options": ["Obsolete", "Deprecated", "Old", "Legacy"],
     "answer": "Obsolete",
     "reason": "Obsolete attribute warns about outdated members."
   },
   {
     "questionId": "cs_m_63",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does readonly prevent?",
     "options": [
@@ -883,49 +698,34 @@
   },
   {
     "questionId": "cs_m_64",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword allows late binding?",
-    "options": [
-      "dynamic",
-      "var",
-      "object",
-      "ref"
-    ],
+    "options": ["dynamic", "var", "object", "ref"],
     "answer": "dynamic",
     "reason": "dynamic defers type checking until runtime."
   },
   {
     "questionId": "cs_m_65",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which interface supports sorting?",
-    "options": [
-      "IComparable",
-      "IEnumerable",
-      "IDisposable",
-      "ICloneable"
-    ],
+    "options": ["IComparable", "IEnumerable", "IDisposable", "ICloneable"],
     "answer": "IComparable",
     "reason": "IComparable defines comparison logic."
   },
   {
     "questionId": "cs_m_66",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword passes argument by reference?",
-    "options": [
-      "ref",
-      "out",
-      "in",
-      "var"
-    ],
+    "options": ["ref", "out", "in", "var"],
     "answer": "ref",
     "reason": "ref passes arguments by reference."
   },
   {
     "questionId": "cs_m_67",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is the difference of out parameter?",
     "options": [
@@ -939,21 +739,16 @@
   },
   {
     "questionId": "cs_m_68",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword avoids boxing?",
-    "options": [
-      "generic",
-      "object",
-      "dynamic",
-      "var"
-    ],
+    "options": ["generic", "object", "dynamic", "var"],
     "answer": "generic",
     "reason": "Generics avoid boxing of value types."
   },
   {
     "questionId": "cs_m_69",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does ConfigureAwait(false) do?",
     "options": [
@@ -967,21 +762,16 @@
   },
   {
     "questionId": "cs_m_70",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which type is immutable?",
-    "options": [
-      "string",
-      "List",
-      "Array",
-      "Dictionary"
-    ],
+    "options": ["string", "List", "Array", "Dictionary"],
     "answer": "string",
     "reason": "String objects cannot be modified after creation."
   },
   {
     "questionId": "cs_m_71",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does Span<T> improve?",
     "options": [
@@ -995,21 +785,16 @@
   },
   {
     "questionId": "cs_m_72",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword defines a constant?",
-    "options": [
-      "const",
-      "readonly",
-      "static",
-      "fixed"
-    ],
+    "options": ["const", "readonly", "static", "fixed"],
     "answer": "const",
     "reason": "const defines compile-time constants."
   },
   {
     "questionId": "cs_m_73",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does the checked keyword do?",
     "options": [
@@ -1023,49 +808,34 @@
   },
   {
     "questionId": "cs_m_74",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword disables overflow checking?",
-    "options": [
-      "unchecked",
-      "unsafe",
-      "fixed",
-      "lock"
-    ],
+    "options": ["unchecked", "unsafe", "fixed", "lock"],
     "answer": "unchecked",
     "reason": "unchecked suppresses overflow exceptions."
   },
   {
     "questionId": "cs_m_75",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which pattern ensures a single instance?",
-    "options": [
-      "Singleton",
-      "Factory",
-      "Adapter",
-      "Observer"
-    ],
+    "options": ["Singleton", "Factory", "Adapter", "Observer"],
     "answer": "Singleton",
     "reason": "Singleton restricts class instantiation."
   },
   {
     "questionId": "cs_m_76",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which pattern creates objects?",
-    "options": [
-      "Factory",
-      "Decorator",
-      "Strategy",
-      "Facade"
-    ],
+    "options": ["Factory", "Decorator", "Strategy", "Facade"],
     "answer": "Factory",
     "reason": "Factory pattern abstracts object creation."
   },
   {
     "questionId": "cs_m_77",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does yield return do?",
     "options": [
@@ -1079,63 +849,43 @@
   },
   {
     "questionId": "cs_m_78",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which interface supports async enumeration?",
-    "options": [
-      "IAsyncEnumerable",
-      "IEnumerable",
-      "IEnumerator",
-      "IQueryable"
-    ],
+    "options": ["IAsyncEnumerable", "IEnumerable", "IEnumerator", "IQueryable"],
     "answer": "IAsyncEnumerable",
     "reason": "It enables async iteration."
   },
   {
     "questionId": "cs_m_79",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword enables unsafe code?",
-    "options": [
-      "unsafe",
-      "fixed",
-      "stackalloc",
-      "ref"
-    ],
+    "options": ["unsafe", "fixed", "stackalloc", "ref"],
     "answer": "unsafe",
     "reason": "unsafe allows pointer usage."
   },
   {
     "questionId": "cs_m_80",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which statement allocates memory on stack?",
-    "options": [
-      "stackalloc",
-      "new",
-      "malloc",
-      "alloc"
-    ],
+    "options": ["stackalloc", "new", "malloc", "alloc"],
     "answer": "stackalloc",
     "reason": "stackalloc allocates memory on stack."
   },
   {
     "questionId": "cs_m_81",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword restricts inheritance to same assembly?",
-    "options": [
-      "protected internal",
-      "private",
-      "sealed",
-      "internal"
-    ],
+    "options": ["protected internal", "private", "sealed", "internal"],
     "answer": "protected internal",
     "reason": "It allows access within assembly or derived types."
   },
   {
     "questionId": "cs_m_82",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does the record type provide?",
     "options": [
@@ -1149,21 +899,16 @@
   },
   {
     "questionId": "cs_m_83",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword initializes properties concisely?",
-    "options": [
-      "init",
-      "set",
-      "new",
-      "with"
-    ],
+    "options": ["init", "set", "new", "with"],
     "answer": "init",
     "reason": "init allows assignment only during initialization."
   },
   {
     "questionId": "cs_m_84",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does with expression do?",
     "options": [
@@ -1177,63 +922,43 @@
   },
   {
     "questionId": "cs_m_85",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which feature supports pattern matching?",
-    "options": [
-      "switch",
-      "if",
-      "foreach",
-      "while"
-    ],
+    "options": ["switch", "if", "foreach", "while"],
     "answer": "switch",
     "reason": "switch supports pattern matching in modern C#."
   },
   {
     "questionId": "cs_m_86",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which operator checks type safely?",
-    "options": [
-      "is",
-      "as",
-      "typeof",
-      "cast"
-    ],
+    "options": ["is", "as", "typeof", "cast"],
     "answer": "is",
     "reason": "is checks type compatibility."
   },
   {
     "questionId": "cs_m_87",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which operator performs safe casting?",
-    "options": [
-      "as",
-      "is",
-      "()",
-      "typeof"
-    ],
+    "options": ["as", "is", "()", "typeof"],
     "answer": "as",
     "reason": "as returns null if cast fails."
   },
   {
     "questionId": "cs_m_88",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword stops further overrides?",
-    "options": [
-      "sealed",
-      "private",
-      "static",
-      "readonly"
-    ],
+    "options": ["sealed", "private", "static", "readonly"],
     "answer": "sealed",
     "reason": "sealed prevents method overriding."
   },
   {
     "questionId": "cs_m_89",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What is the main benefit of async/await?",
     "options": [
@@ -1247,7 +972,7 @@
   },
   {
     "questionId": "cs_m_90",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which exception occurs when casting fails?",
     "options": [
@@ -1261,21 +986,16 @@
   },
   {
     "questionId": "cs_m_91",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which feature allows default interface methods?",
-    "options": [
-      "C# 8.0",
-      "C# 6.0",
-      "C# 5.0",
-      "C# 4.0"
-    ],
+    "options": ["C# 8.0", "C# 6.0", "C# 5.0", "C# 4.0"],
     "answer": "C# 8.0",
     "reason": "Default interface methods introduced in C# 8."
   },
   {
     "questionId": "cs_m_92",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "What does ValueTask optimize?",
     "options": [
@@ -1289,21 +1009,16 @@
   },
   {
     "questionId": "cs_m_93",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword is used for file handling?",
-    "options": [
-      "File",
-      "IO",
-      "Stream",
-      "Path"
-    ],
+    "options": ["File", "IO", "Stream", "Path"],
     "answer": "File",
     "reason": "File class provides file operations."
   },
   {
     "questionId": "cs_m_94",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which namespace contains LINQ?",
     "options": [
@@ -1317,7 +1032,7 @@
   },
   {
     "questionId": "cs_m_95",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which class handles JSON serialization?",
     "options": [
@@ -1331,71 +1046,46 @@
   },
   {
     "questionId": "cs_m_96",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which feature enables minimal APIs?",
-    "options": [
-      ".NET 6",
-      ".NET Framework",
-      ".NET Core 2",
-      ".NET 5"
-    ],
+    "options": [".NET 6", ".NET Framework", ".NET Core 2", ".NET 5"],
     "answer": ".NET 6",
     "reason": "Minimal APIs introduced in .NET 6."
   },
   {
     "questionId": "cs_m_97",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which keyword suppresses null warnings?",
-    "options": [
-      "!",
-      "?",
-      "#",
-      "$"
-    ],
+    "options": ["!", "?", "#", "$"],
     "answer": "!",
     "reason": "Null-forgiving operator suppresses warnings."
   },
   {
     "questionId": "cs_m_98",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which operator chains null checks?",
-    "options": [
-      "?.",
-      "??",
-      "!",
-      "::"
-    ],
+    "options": ["?.", "??", "!", "::"],
     "answer": "?.",
     "reason": "Null-conditional operator avoids null exceptions."
   },
   {
     "questionId": "cs_m_99",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which tool manages NuGet packages?",
-    "options": [
-      "dotnet CLI",
-      "MSBuild",
-      "Roslyn",
-      "CLR"
-    ],
+    "options": ["dotnet CLI", "MSBuild", "Roslyn", "CLR"],
     "answer": "dotnet CLI",
     "reason": "dotnet CLI manages packages and builds."
   },
   {
     "questionId": "cs_m_100",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "medium",
     "questionText": "Which runtime executes C# code?",
-    "options": [
-      "CLR",
-      "JVM",
-      "V8",
-      "LLVM"
-    ],
+    "options": ["CLR", "JVM", "V8", "LLVM"],
     "answer": "CLR",
     "reason": "CLR executes .NET applications."
   }

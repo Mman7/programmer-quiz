@@ -1,7 +1,7 @@
 [
   {
     "questionId": "cs_h_1",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the main responsibility of the CLR?",
     "options": [
@@ -15,7 +15,7 @@
   },
   {
     "questionId": "cs_h_2",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What causes a Gen 2 garbage collection?",
     "options": [
@@ -29,7 +29,7 @@
   },
   {
     "questionId": "cs_h_3",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What happens if a Task exception is never awaited?",
     "options": [
@@ -43,7 +43,7 @@
   },
   {
     "questionId": "cs_h_4",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does async keyword do internally?",
     "options": [
@@ -57,7 +57,7 @@
   },
   {
     "questionId": "cs_h_5",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which type is allocated on the heap?",
     "options": ["struct", "enum", "class", "int"],
@@ -66,7 +66,7 @@
   },
   {
     "questionId": "cs_h_6",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is boxing?",
     "options": [
@@ -80,7 +80,7 @@
   },
   {
     "questionId": "cs_h_7",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the main danger of async void?",
     "options": [
@@ -94,7 +94,7 @@
   },
   {
     "questionId": "cs_h_8",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which collection is thread-safe?",
     "options": [
@@ -108,7 +108,7 @@
   },
   {
     "questionId": "cs_h_9",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does volatile guarantee?",
     "options": [
@@ -122,7 +122,7 @@
   },
   {
     "questionId": "cs_h_10",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What happens when finalizer throws exception?",
     "options": ["Ignored", "App crash", "Logged", "GC retries"],
@@ -132,7 +132,7 @@
 
   {
     "questionId": "cs_h_11",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the Large Object Heap threshold?",
     "options": ["8KB", "16KB", "85KB", "128KB"],
@@ -141,7 +141,7 @@
   },
   {
     "questionId": "cs_h_12",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Why is LOH not compacted by default?",
     "options": [
@@ -155,7 +155,7 @@
   },
   {
     "questionId": "cs_h_13",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which keyword prevents inheritance?",
     "options": ["sealed", "static", "readonly", "const"],
@@ -164,7 +164,7 @@
   },
   {
     "questionId": "cs_h_14",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is Span<T> used for?",
     "options": ["Async", "Memory-safe slicing", "Threading", "Serialization"],
@@ -173,7 +173,7 @@
   },
   {
     "questionId": "cs_h_15",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Why can't Span<T> be stored on heap?",
     "options": ["Performance", "GC limitation", "Ref struct rule", "Security"],
@@ -183,7 +183,7 @@
 
   {
     "questionId": "cs_h_16",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What causes deadlock in async code?",
     "options": [
@@ -197,7 +197,7 @@
   },
   {
     "questionId": "cs_h_17",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which prevents context capture?",
     "options": ["await", "ConfigureAwait(false)", "Task.Run", "lock"],
@@ -206,7 +206,7 @@
   },
   {
     "questionId": "cs_h_18",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is IL?",
     "options": ["Bytecode", "Native code", "Assembly", "C++"],
@@ -215,7 +215,7 @@
   },
   {
     "questionId": "cs_h_19",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "When does JIT compilation occur?",
     "options": ["Build time", "Load time", "First execution", "Shutdown"],
@@ -224,7 +224,7 @@
   },
   {
     "questionId": "cs_h_20",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does unsafe keyword allow?",
     "options": ["Pointer arithmetic", "Faster GC", "Thread safety", "Inlining"],
@@ -234,7 +234,7 @@
 
   {
     "questionId": "cs_h_21",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is reflection mainly used for?",
     "options": [
@@ -249,7 +249,7 @@
 
   {
     "questionId": "cs_h_22",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Why is reflection slow?",
     "options": [
@@ -264,7 +264,7 @@
 
   {
     "questionId": "cs_h_23",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which breaks immutability?",
     "options": [
@@ -279,7 +279,7 @@
 
   {
     "questionId": "cs_h_24",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the main purpose of ValueTask?",
     "options": [
@@ -294,7 +294,7 @@
 
   {
     "questionId": "cs_h_25",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which LINQ operator executes immediately?",
     "options": ["Select", "Where", "ToList", "GroupBy"],
@@ -303,7 +303,7 @@
   },
   {
     "questionId": "cs_h_26",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does the lock keyword compile into?",
     "options": ["Mutex", "SpinLock", "Monitor.Enter/Exit", "Semaphore"],
@@ -312,7 +312,7 @@
   },
   {
     "questionId": "cs_h_27",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Why should locking on public objects be avoided?",
     "options": [
@@ -326,7 +326,7 @@
   },
   {
     "questionId": "cs_h_28",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the purpose of ThreadLocal<T>?",
     "options": [
@@ -340,7 +340,7 @@
   },
   {
     "questionId": "cs_h_29",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is a common cause of memory leaks in .NET?",
     "options": [
@@ -354,7 +354,7 @@
   },
   {
     "questionId": "cs_h_30",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does the fixed keyword do?",
     "options": [
@@ -368,7 +368,7 @@
   },
   {
     "questionId": "cs_h_31",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which interface enables deterministic cleanup?",
     "options": ["ICloneable", "IDisposable", "IAsyncEnumerable", "IEquatable"],
@@ -377,7 +377,7 @@
   },
   {
     "questionId": "cs_h_32",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What happens if Dispose is called multiple times?",
     "options": [
@@ -391,7 +391,7 @@
   },
   {
     "questionId": "cs_h_33",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Why is finalizer execution non-deterministic?",
     "options": [
@@ -405,7 +405,7 @@
   },
   {
     "questionId": "cs_h_34",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does GC.SuppressFinalize do?",
     "options": ["Stops GC", "Skips finalizer", "Deletes object", "Pins memory"],
@@ -414,7 +414,7 @@
   },
   {
     "questionId": "cs_h_35",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which async primitive supports cancellation?",
     "options": ["Thread", "Task", "CancellationToken", "Monitor"],
@@ -423,7 +423,7 @@
   },
   {
     "questionId": "cs_h_36",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the purpose of ExecutionContext?",
     "options": [
@@ -437,7 +437,7 @@
   },
   {
     "questionId": "cs_h_37",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which feature allows stack-only types?",
     "options": ["readonly struct", "ref struct", "struct", "record"],
@@ -446,7 +446,7 @@
   },
   {
     "questionId": "cs_h_38",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does the with keyword work with?",
     "options": ["class", "record", "struct", "interface"],
@@ -455,7 +455,7 @@
   },
   {
     "questionId": "cs_h_39",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Why are records useful?",
     "options": [
@@ -469,7 +469,7 @@
   },
   {
     "questionId": "cs_h_40",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the main cost of async/await?",
     "options": [
@@ -483,7 +483,7 @@
   },
   {
     "questionId": "cs_h_41",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which type avoids heap allocation?",
     "options": ["class", "record class", "struct", "object"],
@@ -492,7 +492,7 @@
   },
   {
     "questionId": "cs_h_42",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does ArrayPool<T> optimize?",
     "options": [
@@ -506,7 +506,7 @@
   },
   {
     "questionId": "cs_h_43",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does readonly struct guarantee?",
     "options": [
@@ -520,7 +520,7 @@
   },
   {
     "questionId": "cs_h_44",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is a common LINQ performance pitfall?",
     "options": [
@@ -534,7 +534,7 @@
   },
   {
     "questionId": "cs_h_45",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which tool analyzes IL code?",
     "options": ["dotnet-trace", "ILDASM", "PerfView", "BenchmarkDotNet"],
@@ -543,7 +543,7 @@
   },
   {
     "questionId": "cs_h_46",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the purpose of BenchmarkDotNet?",
     "options": [
@@ -557,7 +557,7 @@
   },
   {
     "questionId": "cs_h_47",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does tail-call optimization reduce?",
     "options": ["Heap usage", "Stack usage", "CPU cycles", "GC frequency"],
@@ -566,7 +566,7 @@
   },
   {
     "questionId": "cs_h_48",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which API forces full garbage collection?",
     "options": [
@@ -580,7 +580,7 @@
   },
   {
     "questionId": "cs_h_49",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Why is forcing GC discouraged?",
     "options": [
@@ -594,7 +594,7 @@
   },
   {
     "questionId": "cs_h_50",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does JIT tiered compilation do?",
     "options": [
@@ -608,7 +608,7 @@
   },
   {
     "questionId": "cs_h_51",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is a common cause of deadlocks in async/await code?",
     "options": [
@@ -622,7 +622,7 @@
   },
   {
     "questionId": "cs_h_52",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the main advantage of ValueTask over Task?",
     "options": [
@@ -636,7 +636,7 @@
   },
   {
     "questionId": "cs_h_53",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which method should be used to check object type at runtime safely?",
     "options": [
@@ -650,7 +650,7 @@
   },
   {
     "questionId": "cs_h_54",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which keyword prevents a class from being inherited?",
     "options": ["sealed", "static", "readonly", "abstract"],
@@ -659,7 +659,7 @@
   },
   {
     "questionId": "cs_h_55",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the purpose of the GCHandle type?",
     "options": [
@@ -673,7 +673,7 @@
   },
   {
     "questionId": "cs_h_56",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does the await keyword do in C#?",
     "options": [
@@ -687,7 +687,7 @@
   },
   {
     "questionId": "cs_h_57",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does the 'ref' modifier do in method parameters?",
     "options": [
@@ -701,7 +701,7 @@
   },
   {
     "questionId": "cs_h_58",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the main difference between struct and class?",
     "options": [
@@ -715,7 +715,7 @@
   },
   {
     "questionId": "cs_h_59",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which statement about Span<T> is true?",
     "options": [
@@ -729,7 +729,7 @@
   },
   {
     "questionId": "cs_h_60",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which type allows pinning objects to prevent GC relocation?",
     "options": ["object", "string", "GCHandle", "Span<T>"],
@@ -738,7 +738,7 @@
   },
   {
     "questionId": "cs_h_61",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which collection is optimized for multi-threaded reads and writes?",
     "options": [
@@ -752,7 +752,7 @@
   },
   {
     "questionId": "cs_h_62",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does the 'volatile' keyword guarantee?",
     "options": [
@@ -766,7 +766,7 @@
   },
   {
     "questionId": "cs_h_63",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which feature allows immutable objects with value-based equality?",
     "options": ["class", "record", "struct", "interface"],
@@ -775,7 +775,7 @@
   },
   {
     "questionId": "cs_h_64",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is a primary risk of using 'unsafe' code?",
     "options": [
@@ -789,7 +789,7 @@
   },
   {
     "questionId": "cs_h_65",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which type of delegate supports asynchronous invocation?",
     "options": ["Action", "Func", "MulticastDelegate", "AsyncCallback"],
@@ -798,7 +798,7 @@
   },
   {
     "questionId": "cs_h_66",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which method triggers garbage collection manually?",
     "options": [
@@ -812,7 +812,7 @@
   },
   {
     "questionId": "cs_h_67",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Why is forcing GC not recommended in production?",
     "options": [
@@ -826,7 +826,7 @@
   },
   {
     "questionId": "cs_h_68",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which keyword prevents a property from being modified after object initialization?",
     "options": ["readonly", "init", "const", "sealed"],
@@ -835,7 +835,7 @@
   },
   {
     "questionId": "cs_h_69",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which is the correct way to avoid repeated LINQ enumeration?",
     "options": [
@@ -849,7 +849,7 @@
   },
   {
     "questionId": "cs_h_70",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which type of collection avoids boxing with value types?",
     "options": [
@@ -863,7 +863,7 @@
   },
   {
     "questionId": "cs_h_71",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which method is used to flow execution context across async threads?",
     "options": ["Task.Run", "ExecutionContext.Run", "Thread.Start", "await"],
@@ -872,7 +872,7 @@
   },
   {
     "questionId": "cs_h_72",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which class provides pooled arrays to reduce GC pressure?",
     "options": ["ArrayPool<T>", "List<T>", "Memory<T>", "Span<T>"],
@@ -881,7 +881,7 @@
   },
   {
     "questionId": "cs_h_73",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which keyword ensures a method cannot be overridden?",
     "options": ["sealed", "virtual", "override", "abstract"],
@@ -890,7 +890,7 @@
   },
   {
     "questionId": "cs_h_74",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the main benefit of Span<T> over arrays?",
     "options": [
@@ -904,7 +904,7 @@
   },
   {
     "questionId": "cs_h_75",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which pattern ensures deterministic disposal of unmanaged resources?",
     "options": ["RAII", "Dispose pattern", "Singleton", "Observer"],
@@ -913,7 +913,7 @@
   },
   {
     "questionId": "cs_h_76",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the primary purpose of ConditionalWeakTable?",
     "options": [
@@ -927,7 +927,7 @@
   },
   {
     "questionId": "cs_h_77",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which type allows asynchronous iteration?",
     "options": [
@@ -941,7 +941,7 @@
   },
   {
     "questionId": "cs_h_78",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What does Lazy<T> do?",
     "options": [
@@ -955,7 +955,7 @@
   },
   {
     "questionId": "cs_h_79",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which is true about GC generations?",
     "options": [
@@ -969,7 +969,7 @@
   },
   {
     "questionId": "cs_h_80",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which feature allows stack-only asynchronous state?",
     "options": ["ValueTask", "Task", "AsyncStateMachine", "ref struct"],
@@ -978,7 +978,7 @@
   },
   {
     "questionId": "cs_h_81",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which operator checks for null and type at once?",
     "options": ["as", "is", "==", "typeof"],
@@ -987,7 +987,7 @@
   },
   {
     "questionId": "cs_h_82",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the main purpose of ImmutableArray<T>?",
     "options": [
@@ -1001,7 +1001,7 @@
   },
   {
     "questionId": "cs_h_83",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which feature avoids boxing of value types in collections?",
     "options": [
@@ -1015,7 +1015,7 @@
   },
   {
     "questionId": "cs_h_84",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which keyword enables pointer arithmetic?",
     "options": ["unsafe", "volatile", "fixed", "ref"],
@@ -1024,7 +1024,7 @@
   },
   {
     "questionId": "cs_h_85",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which statement about async void is true?",
     "options": [
@@ -1038,7 +1038,7 @@
   },
   {
     "questionId": "cs_h_86",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which C# feature allows runtime type inspection?",
     "options": ["Reflection", "Generics", "Delegates", "Structs"],
@@ -1047,7 +1047,7 @@
   },
   {
     "questionId": "cs_h_87",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which class provides thread-safe lazy initialization?",
     "options": ["Lazy<T>", "Task", "ValueTask", "Monitor"],
@@ -1056,7 +1056,7 @@
   },
   {
     "questionId": "cs_h_88",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which keyword allows a method to be asynchronously awaited?",
     "options": ["async", "await", "Task", "ref"],
@@ -1065,7 +1065,7 @@
   },
   {
     "questionId": "cs_h_89",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which interface supports asynchronous iteration?",
     "options": [
@@ -1079,7 +1079,7 @@
   },
   {
     "questionId": "cs_h_90",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which type of delegate is multicast by default?",
     "options": ["Action", "Func", "EventHandler", "MulticastDelegate"],
@@ -1088,7 +1088,7 @@
   },
   {
     "questionId": "cs_h_91",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the main benefit of ConditionalWeakTable?",
     "options": [
@@ -1102,7 +1102,7 @@
   },
   {
     "questionId": "cs_h_92",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which method blocks until pending finalizers complete?",
     "options": [
@@ -1116,7 +1116,7 @@
   },
   {
     "questionId": "cs_h_93",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which data type cannot be used with async/await directly?",
     "options": ["Task", "ValueTask", "void", "int"],
@@ -1125,7 +1125,7 @@
   },
   {
     "questionId": "cs_h_94",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which feature avoids memory copying for slicing arrays?",
     "options": ["Array.Copy", "Span<T>", "List<T>", "Memory<T>"],
@@ -1134,7 +1134,7 @@
   },
   {
     "questionId": "cs_h_95",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which pattern helps avoid resource leaks with unmanaged resources?",
     "options": ["Dispose pattern", "Singleton", "Observer", "Builder"],
@@ -1143,7 +1143,7 @@
   },
   {
     "questionId": "cs_h_96",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which C# feature allows structural equality for complex types?",
     "options": ["struct", "record", "class", "interface"],
@@ -1152,7 +1152,7 @@
   },
   {
     "questionId": "cs_h_97",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the main advantage of using ArrayPool<T>?",
     "options": [
@@ -1166,7 +1166,7 @@
   },
   {
     "questionId": "cs_h_98",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which statement about tail-call optimization is true?",
     "options": [
@@ -1180,7 +1180,7 @@
   },
   {
     "questionId": "cs_h_99",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "Which tool can disassemble C# IL code?",
     "options": ["dotnet-trace", "ILDASM", "BenchmarkDotNet", "PerfView"],
@@ -1189,7 +1189,7 @@
   },
   {
     "questionId": "cs_h_100",
-    "tag": "csharp",
+    "topic": "csharp",
     "difficulty": "hard",
     "questionText": "What is the purpose of ConfigureAwait(false)?",
     "options": [

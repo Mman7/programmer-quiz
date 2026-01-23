@@ -1,7 +1,7 @@
 [
   {
     "questionId": "web_h_1",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which HTTP status code represents 'Too Many Requests'?",
     "options": ["429", "403", "503", "400"],
@@ -10,7 +10,7 @@
   },
   {
     "questionId": "web_h_2",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which HTTP header prevents MIME type sniffing?",
     "options": [
@@ -24,7 +24,7 @@
   },
   {
     "questionId": "web_h_3",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which HTTP header prevents clickjacking attacks?",
     "options": [
@@ -38,7 +38,7 @@
   },
   {
     "questionId": "web_h_4",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which Content Security Policy directive restricts scripts to same origin?",
     "options": [
@@ -52,7 +52,7 @@
   },
   {
     "questionId": "web_h_5",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which JavaScript API allows memory-efficient data streaming?",
     "options": ["Streams API", "Fetch API", "Blob API", "XMLHttpRequest"],
@@ -61,7 +61,7 @@
   },
   {
     "questionId": "web_h_6",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which method cancels a readable stream?",
     "options": [
@@ -75,7 +75,7 @@
   },
   {
     "questionId": "web_h_7",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows off-main-thread JavaScript execution?",
     "options": [
@@ -89,7 +89,7 @@
   },
   {
     "questionId": "web_h_8",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which worker type can share memory between threads?",
     "options": [
@@ -103,7 +103,7 @@
   },
   {
     "questionId": "web_h_9",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows secure cross-origin messaging between frames?",
     "options": [
@@ -117,7 +117,7 @@
   },
   {
     "questionId": "web_h_10",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which JavaScript object allows creating atomic shared memory?",
     "options": ["SharedArrayBuffer", "ArrayBuffer", "Buffer", "Atomics"],
@@ -126,9 +126,9 @@
   },
   {
     "questionId": "web_h_11",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
-    "questionText": "Which API enforces secure context for powerful web features?",
+    "questionText": "Which API enforces secure context for powerful webdev features?",
     "options": [
       "Secure Contexts API",
       "Navigator API",
@@ -140,7 +140,7 @@
   },
   {
     "questionId": "web_h_12",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which JavaScript method creates a promise that resolves when multiple promises complete?",
     "options": [
@@ -154,7 +154,7 @@
   },
   {
     "questionId": "web_h_13",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which JavaScript method resolves when the first promise resolves or rejects?",
     "options": [
@@ -168,7 +168,7 @@
   },
   {
     "questionId": "web_h_14",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which JavaScript method resolves when the first fulfilled promise resolves?",
     "options": [
@@ -182,7 +182,7 @@
   },
   {
     "questionId": "web_h_15",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which JavaScript method returns results of all promises regardless of fulfillment?",
     "options": [
@@ -196,7 +196,7 @@
   },
   {
     "questionId": "web_h_16",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows efficient binary data transfer between main thread and worker?",
     "options": ["Transferable Objects", "ArrayBuffer", "Blob", "Buffer"],
@@ -205,7 +205,7 @@
   },
   {
     "questionId": "web_h_17",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API enables high-resolution timing in browsers?",
     "options": ["Performance API", "Date.now()", "Timing API", "Time API"],
@@ -214,7 +214,7 @@
   },
   {
     "questionId": "web_h_18",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API measures time between DOM events precisely?",
     "options": ["Performance API", "Event API", "Timing API", "Navigation API"],
@@ -223,7 +223,7 @@
   },
   {
     "questionId": "web_h_19",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which JavaScript API observes changes in DOM elements efficiently?",
     "options": [
@@ -237,7 +237,7 @@
   },
   {
     "questionId": "web_h_20",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API observes element visibility within viewport?",
     "options": [
@@ -251,7 +251,7 @@
   },
   {
     "questionId": "web_h_21",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API tracks element size changes efficiently?",
     "options": [
@@ -265,7 +265,7 @@
   },
   {
     "questionId": "web_h_22",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows precise control over audio rendering?",
     "options": ["Web Audio API", "Audio API", "Media API", "Sound API"],
@@ -274,7 +274,7 @@
   },
   {
     "questionId": "web_h_23",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which method schedules audio playback at precise time?",
     "options": [
@@ -288,7 +288,7 @@
   },
   {
     "questionId": "web_h_24",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows creating offline audio processing nodes?",
     "options": [
@@ -302,7 +302,7 @@
   },
   {
     "questionId": "web_h_25",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows real-time peer-to-peer communication in browser?",
     "options": ["WebRTC", "WebSocket", "RTCDataChannel", "PeerAPI"],
@@ -311,7 +311,7 @@
   },
   {
     "questionId": "web_h_26",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which WebRTC component carries arbitrary data between peers?",
     "options": [
@@ -325,7 +325,7 @@
   },
   {
     "questionId": "web_h_27",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which WebRTC object represents a connection between peers?",
     "options": [
@@ -339,7 +339,7 @@
   },
   {
     "questionId": "web_h_28",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which WebRTC component provides network candidates for connectivity?",
     "options": [
@@ -353,7 +353,7 @@
   },
   {
     "questionId": "web_h_29",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which JavaScript API allows inspecting network requests timing?",
     "options": [
@@ -367,7 +367,7 @@
   },
   {
     "questionId": "web_h_30",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows programmatic file system access in browser?",
     "options": ["File System Access API", "File API", "Blob API", "FS API"],
@@ -376,7 +376,7 @@
   },
   {
     "questionId": "web_h_31",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API enables efficient data storage with structured objects?",
     "options": ["IndexedDB", "localStorage", "SessionStorage", "Web SQL"],
@@ -385,7 +385,7 @@
   },
   {
     "questionId": "web_h_32",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which IndexedDB method opens a database asynchronously?",
     "options": [
@@ -399,7 +399,7 @@
   },
   {
     "questionId": "web_h_33",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API enables storage of large binary objects?",
     "options": ["Blob", "File", "ArrayBuffer", "Buffer"],
@@ -408,7 +408,7 @@
   },
   {
     "questionId": "web_h_34",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which method reads files as ArrayBuffer or text?",
     "options": [
@@ -422,7 +422,7 @@
   },
   {
     "questionId": "web_h_35",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API enables drag-and-drop of files to browser?",
     "options": ["DataTransfer API", "DragDrop API", "File API", "Input API"],
@@ -431,7 +431,7 @@
   },
   {
     "questionId": "web_h_36",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows rendering 2D graphics in canvas?",
     "options": ["Canvas 2D API", "WebGL", "SVG API", "Graphics API"],
@@ -440,7 +440,7 @@
   },
   {
     "questionId": "web_h_37",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows hardware-accelerated 3D graphics in browser?",
     "options": ["WebGL", "Canvas 2D", "SVG", "CSS 3D"],
@@ -449,7 +449,7 @@
   },
   {
     "questionId": "web_h_38",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which WebGL object represents a shader program?",
     "options": ["WebGLProgram", "WebGLShader", "Program", "Shader"],
@@ -458,7 +458,7 @@
   },
   {
     "questionId": "web_h_39",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which WebGL object stores vertex data on GPU?",
     "options": ["WebGLBuffer", "WebGLVertexArray", "Buffer", "VertexBuffer"],
@@ -467,7 +467,7 @@
   },
   {
     "questionId": "web_h_40",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API detects device orientation and motion events?",
     "options": [
@@ -481,7 +481,7 @@
   },
   {
     "questionId": "web_h_41",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API provides ambient light sensor data in browsers?",
     "options": [
@@ -495,7 +495,7 @@
   },
   {
     "questionId": "web_h_42",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API provides proximity detection in browser?",
     "options": [
@@ -509,7 +509,7 @@
   },
   {
     "questionId": "web_h_43",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows writing service workers for offline caching?",
     "options": [
@@ -523,7 +523,7 @@
   },
   {
     "questionId": "web_h_44",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which cache interface is accessible from service workers?",
     "options": ["Cache API", "IndexedDB", "LocalStorage", "SessionStorage"],
@@ -532,7 +532,7 @@
   },
   {
     "questionId": "web_h_45",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows push notifications in browser?",
     "options": [
@@ -546,7 +546,7 @@
   },
   {
     "questionId": "web_h_46",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows controlling how notifications are displayed?",
     "options": [
@@ -560,7 +560,7 @@
   },
   {
     "questionId": "web_h_47",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows reading battery status in browser?",
     "options": [
@@ -574,7 +574,7 @@
   },
   {
     "questionId": "web_h_48",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows access to the device’s geolocation?",
     "options": [
@@ -588,7 +588,7 @@
   },
   {
     "questionId": "web_h_49",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows detection of network connectivity changes?",
     "options": [
@@ -602,7 +602,7 @@
   },
   {
     "questionId": "web_h_50",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows reading clipboard contents asynchronously?",
     "options": [
@@ -616,7 +616,7 @@
   },
   {
     "questionId": "web_h_51",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows streaming media recording?",
     "options": [
@@ -630,7 +630,7 @@
   },
   {
     "questionId": "web_h_52",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows accessing camera and microphone?",
     "options": [
@@ -644,7 +644,7 @@
   },
   {
     "questionId": "web_h_53",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows enumeration of connected media devices?",
     "options": [
@@ -658,7 +658,7 @@
   },
   {
     "questionId": "web_h_54",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows controlling individual tracks in a MediaStream?",
     "options": [
@@ -672,7 +672,7 @@
   },
   {
     "questionId": "web_h_55",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows mixing multiple audio streams in browser?",
     "options": [
@@ -686,7 +686,7 @@
   },
   {
     "questionId": "web_h_56",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows low-latency audio processing in browsers?",
     "options": [
@@ -700,9 +700,9 @@
   },
   {
     "questionId": "web_h_57",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
-    "questionText": "Which API allows efficient image decoding in web workers?",
+    "questionText": "Which API allows efficient image decoding in webdev workers?",
     "options": [
       "createImageBitmap()",
       "Image.decode()",
@@ -714,7 +714,7 @@
   },
   {
     "questionId": "web_h_58",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows rendering canvas off the main thread?",
     "options": ["OffscreenCanvas", "Canvas API", "WebGL", "Web Workers"],
@@ -723,7 +723,7 @@
   },
   {
     "questionId": "web_h_59",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows converting canvas to a blob asynchronously?",
     "options": [
@@ -737,7 +737,7 @@
   },
   {
     "questionId": "web_h_60",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows efficient binary data transfer over network?",
     "options": [
@@ -751,7 +751,7 @@
   },
   {
     "questionId": "web_h_61",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows canceling fetch requests?",
     "options": [
@@ -765,7 +765,7 @@
   },
   {
     "questionId": "web_h_62",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows sending and receiving messages over TCP-like channel?",
     "options": ["WebSocket API", "Fetch API", "WebRTC", "Server-Sent Events"],
@@ -774,7 +774,7 @@
   },
   {
     "questionId": "web_h_63",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows one-way server-to-client streaming?",
     "options": ["Server-Sent Events", "WebSocket", "Fetch", "WebRTC"],
@@ -783,7 +783,7 @@
   },
   {
     "questionId": "web_h_64",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows detecting scroll position efficiently?",
     "options": [
@@ -797,7 +797,7 @@
   },
   {
     "questionId": "web_h_65",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows high-performance animation?",
     "options": [
@@ -811,7 +811,7 @@
   },
   {
     "questionId": "web_h_66",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows measuring paint, layout, and frame timings?",
     "options": [
@@ -825,7 +825,7 @@
   },
   {
     "questionId": "web_h_67",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows controlling page visibility?",
     "options": [
@@ -839,7 +839,7 @@
   },
   {
     "questionId": "web_h_68",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows secure cross-origin requests with credentials?",
     "options": [
@@ -853,7 +853,7 @@
   },
   {
     "questionId": "web_h_69",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which CORS header specifies allowed origins?",
     "options": [
@@ -867,7 +867,7 @@
   },
   {
     "questionId": "web_h_70",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which CORS header allows credentials in cross-origin requests?",
     "options": [
@@ -881,7 +881,7 @@
   },
   {
     "questionId": "web_h_71",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows performing cryptographic operations in browser?",
     "options": [
@@ -895,7 +895,7 @@
   },
   {
     "questionId": "web_h_72",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which method generates cryptographically secure random values?",
     "options": [
@@ -909,7 +909,7 @@
   },
   {
     "questionId": "web_h_73",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows hashing data in browser securely?",
     "options": [
@@ -923,7 +923,7 @@
   },
   {
     "questionId": "web_h_74",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows encrypting/decrypting data in browser?",
     "options": [
@@ -937,7 +937,7 @@
   },
   {
     "questionId": "web_h_75",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows generating asymmetric key pairs?",
     "options": [
@@ -951,7 +951,7 @@
   },
   {
     "questionId": "web_h_76",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows signing messages cryptographically?",
     "options": [
@@ -965,7 +965,7 @@
   },
   {
     "questionId": "web_h_77",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows verifying cryptographic signatures?",
     "options": [
@@ -979,7 +979,7 @@
   },
   {
     "questionId": "web_h_78",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows encoding/decoding base64 in browser?",
     "options": [
@@ -993,7 +993,7 @@
   },
   {
     "questionId": "web_h_79",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows generating UUID in browser?",
     "options": [
@@ -1007,7 +1007,7 @@
   },
   {
     "questionId": "web_h_80",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows detecting and responding to online/offline events?",
     "options": [
@@ -1021,7 +1021,7 @@
   },
   {
     "questionId": "web_h_81",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows detecting device orientation in 3D space?",
     "options": [
@@ -1035,7 +1035,7 @@
   },
   {
     "questionId": "web_h_82",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows detecting device motion including acceleration and rotation rate?",
     "options": [
@@ -1049,7 +1049,7 @@
   },
   {
     "questionId": "web_h_83",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows fine-grained sensor access using promises?",
     "options": [
@@ -1063,7 +1063,7 @@
   },
   {
     "questionId": "web_h_84",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows secure key storage in browser?",
     "options": [
@@ -1077,7 +1077,7 @@
   },
   {
     "questionId": "web_h_85",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows registering FIDO2 credentials?",
     "options": [
@@ -1091,7 +1091,7 @@
   },
   {
     "questionId": "web_h_86",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows asynchronous reading of large files in chunks?",
     "options": [
@@ -1105,7 +1105,7 @@
   },
   {
     "questionId": "web_h_87",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows secure sandboxed execution of untrusted code?",
     "options": [
@@ -1119,7 +1119,7 @@
   },
   {
     "questionId": "web_h_88",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows streaming large JSON over network efficiently?",
     "options": [
@@ -1133,7 +1133,7 @@
   },
   {
     "questionId": "web_h_89",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows handling HTTP/2 push in browser?",
     "options": [
@@ -1147,7 +1147,7 @@
   },
   {
     "questionId": "web_h_90",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows detecting battery charging change events?",
     "options": [
@@ -1161,7 +1161,7 @@
   },
   {
     "questionId": "web_h_91",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows fetching resources with retry and timeout logic?",
     "options": [
@@ -1175,7 +1175,7 @@
   },
   {
     "questionId": "web_h_92",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows encoding URL query parameters safely?",
     "options": [
@@ -1189,7 +1189,7 @@
   },
   {
     "questionId": "web_h_93",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows detecting keyboard visibility changes on mobile devices?",
     "options": [
@@ -1203,7 +1203,7 @@
   },
   {
     "questionId": "web_h_94",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows detecting changes in system color scheme?",
     "options": [
@@ -1217,7 +1217,7 @@
   },
   {
     "questionId": "web_h_95",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows requesting background sync when connection is restored?",
     "options": [
@@ -1231,7 +1231,7 @@
   },
   {
     "questionId": "web_h_96",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows storing credentials securely in the browser?",
     "options": [
@@ -1245,7 +1245,7 @@
   },
   {
     "questionId": "web_h_97",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API enables zero-copy data transfer between threads?",
     "options": [
@@ -1259,7 +1259,7 @@
   },
   {
     "questionId": "web_h_98",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows executing code at idle time to improve performance?",
     "options": [
@@ -1273,7 +1273,7 @@
   },
   {
     "questionId": "web_h_99",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows detecting long tasks that block the main thread?",
     "options": [
@@ -1287,7 +1287,7 @@
   },
   {
     "questionId": "web_h_100",
-    "topic": "web",
+    "topic": "webdev",
     "difficulty": "hard",
     "questionText": "Which API allows isolating cross-origin documents for high-performance features?",
     "options": [

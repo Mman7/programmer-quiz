@@ -1,7 +1,7 @@
 [
   {
     "questionId": "cpp_h_1",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "What is the main purpose of RAII in C++?",
     "options": [
@@ -15,7 +15,7 @@
   },
   {
     "questionId": "cpp_h_2",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "What happens if a destructor throws an exception during stack unwinding?",
     "options": [
@@ -29,7 +29,7 @@
   },
   {
     "questionId": "cpp_h_3",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "What does the 'mutable' keyword allow?",
     "options": [
@@ -43,7 +43,7 @@
   },
   {
     "questionId": "cpp_h_4",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "Why is deleting through a base pointer without virtual destructor dangerous?",
     "options": [
@@ -57,7 +57,7 @@
   },
   {
     "questionId": "cpp_h_5",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "What does std::move actually do?",
     "options": [
@@ -71,7 +71,7 @@
   },
   {
     "questionId": "cpp_h_6",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "Which rule governs special member function generation?",
     "options": [
@@ -85,7 +85,7 @@
   },
   {
     "questionId": "cpp_h_7",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "What is type erasure used for?",
     "options": [
@@ -99,7 +99,7 @@
   },
   {
     "questionId": "cpp_h_8",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "Why is std::vector not thread-safe?",
     "options": [
@@ -113,7 +113,7 @@
   },
   {
     "questionId": "cpp_h_9",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "What does the volatile keyword guarantee?",
     "options": [
@@ -127,7 +127,7 @@
   },
   {
     "questionId": "cpp_h_10",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "What is undefined behavior?",
     "options": [
@@ -141,7 +141,7 @@
   },
   {
     "questionId": "cpp_h_11",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "Why are iterators invalidated after vector reallocation?",
     "options": [
@@ -155,7 +155,7 @@
   },
   {
     "questionId": "cpp_h_12",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "What is the diamond problem?",
     "options": [
@@ -169,7 +169,7 @@
   },
   {
     "questionId": "cpp_h_13",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "What does constexpr enable?",
     "options": [
@@ -183,7 +183,7 @@
   },
   {
     "questionId": "cpp_h_14",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "Why is reinterpret_cast dangerous?",
     "options": [
@@ -197,7 +197,7 @@
   },
   {
     "questionId": "cpp_h_15",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "What is false sharing?",
     "options": [
@@ -211,7 +211,7 @@
   },
   {
     "questionId": "cpp_h_16",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "What problem does std::atomic solve?",
     "options": ["Deadlocks", "Data races", "Memory leaks", "Cache misses"],
@@ -220,7 +220,7 @@
   },
   {
     "questionId": "cpp_h_17",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "What is SFINAE?",
     "options": [
@@ -234,7 +234,7 @@
   },
   {
     "questionId": "cpp_h_18",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "Why are dangling references dangerous?",
     "options": [
@@ -248,7 +248,7 @@
   },
   {
     "questionId": "cpp_h_19",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "What does noexcept affect?",
     "options": [
@@ -262,7 +262,7 @@
   },
   {
     "questionId": "cpp_h_20",
-    "tag": "c++",
+    "topic": "c++",
     "difficulty": "hard",
     "questionText": "What is the main cost of virtual functions?",
     "options": [
@@ -275,8 +275,429 @@
     "reason": "Virtual dispatch introduces indirection and vtable storage."
   },
   {
+    "questionId": "cpp_h_21",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What does the C++ memory model define?",
+    "options": [
+      "Heap allocation strategy",
+      "Thread scheduling",
+      "Rules for atomic operations and visibility",
+      "Garbage collection"
+    ],
+    "answer": "Rules for atomic operations and visibility",
+    "reason": "The memory model specifies how operations are ordered across threads."
+  },
+  {
+    "questionId": "cpp_h_22",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "Why is std::unique_ptr non-copyable?",
+    "options": [
+      "Performance reasons",
+      "To enforce exclusive ownership",
+      "Memory alignment",
+      "Compiler limitation"
+    ],
+    "answer": "To enforce exclusive ownership",
+    "reason": "unique_ptr represents sole ownership of a resource."
+  },
+  {
+    "questionId": "cpp_h_23",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What is the effect of memory_order_relaxed?",
+    "options": [
+      "Sequential consistency",
+      "No ordering guarantees",
+      "Full memory fence",
+      "Thread blocking"
+    ],
+    "answer": "No ordering guarantees",
+    "reason": "It only guarantees atomicity, not ordering."
+  },
+  {
+    "questionId": "cpp_h_24",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What problem does the ABA issue relate to?",
+    "options": [
+      "Deadlocks",
+      "Lock-free algorithms",
+      "Virtual dispatch",
+      "Template recursion"
+    ],
+    "answer": "Lock-free algorithms",
+    "reason": "ABA occurs when a value changes and changes back unnoticed."
+  },
+  {
+    "questionId": "cpp_h_25",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "Why should base class destructors usually be virtual?",
+    "options": [
+      "Performance",
+      "Correct polymorphic deletion",
+      "Inlining",
+      "Memory layout"
+    ],
+    "answer": "Correct polymorphic deletion",
+    "reason": "Ensures derived destructors are invoked."
+  },
+  {
+    "questionId": "cpp_h_26",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What does std::launder address?",
+    "options": [
+      "Memory leaks",
+      "Pointer aliasing rules",
+      "Thread synchronization",
+      "Cache invalidation"
+    ],
+    "answer": "Pointer aliasing rules",
+    "reason": "It allows accessing objects created via placement new."
+  },
+  {
+    "questionId": "cpp_h_27",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "Why is std::shared_ptr slower than std::unique_ptr?",
+    "options": [
+      "Extra heap allocation",
+      "Reference counting overhead",
+      "Virtual dispatch",
+      "Larger object size"
+    ],
+    "answer": "Reference counting overhead",
+    "reason": "Atomic reference count updates add cost."
+  },
+  {
+    "questionId": "cpp_h_28",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What does alignment affect?",
+    "options": [
+      "Correctness only",
+      "Performance and correctness",
+      "Only memory size",
+      "Only compilation"
+    ],
+    "answer": "Performance and correctness",
+    "reason": "Misaligned access may be slower or undefined."
+  },
+  {
+    "questionId": "cpp_h_29",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What is ODR (One Definition Rule)?",
+    "options": [
+      "Single header rule",
+      "Only one definition across program",
+      "Inline enforcement",
+      "Template specialization rule"
+    ],
+    "answer": "Only one definition across program",
+    "reason": "Violating ODR leads to undefined behavior."
+  },
+  {
+    "questionId": "cpp_h_30",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "Why is std::vector preferred over raw arrays?",
+    "options": [
+      "Faster access",
+      "Automatic memory management",
+      "Thread safety",
+      "Stack allocation"
+    ],
+    "answer": "Automatic memory management",
+    "reason": "vector handles allocation, resizing, and destruction safely."
+  },
+
+  {
+    "questionId": "cpp_h_31",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What is strict aliasing?",
+    "options": [
+      "Pointer lifetime rule",
+      "Type-based aliasing rule",
+      "Const correctness",
+      "Template instantiation rule"
+    ],
+    "answer": "Type-based aliasing rule",
+    "reason": "Violating it allows compilers to optimize aggressively."
+  },
+  {
+    "questionId": "cpp_h_32",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What is the cost of false sharing?",
+    "options": [
+      "Increased cache coherence traffic",
+      "Extra heap usage",
+      "More system calls",
+      "Stack overflow"
+    ],
+    "answer": "Increased cache coherence traffic",
+    "reason": "Threads compete on the same cache line."
+  },
+  {
+    "questionId": "cpp_h_33",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "Why is placement new useful?",
+    "options": [
+      "Heap allocation",
+      "Manual memory control",
+      "Automatic GC",
+      "Thread safety"
+    ],
+    "answer": "Manual memory control",
+    "reason": "It constructs objects in pre-allocated memory."
+  },
+  {
+    "questionId": "cpp_h_34",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What does constexpr constructor enable?",
+    "options": [
+      "Runtime optimization",
+      "Compile-time object creation",
+      "Thread safety",
+      "Inlining"
+    ],
+    "answer": "Compile-time object creation",
+    "reason": "Allows objects to exist in constant expressions."
+  },
+  {
+    "questionId": "cpp_h_35",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "Why are data races undefined behavior?",
+    "options": [
+      "Compiler simplicity",
+      "Hardware dependency",
+      "Optimization freedom",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "reason": "Undefined behavior enables aggressive optimizations."
+  },
+
+  {
+    "questionId": "cpp_h_36",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of std::memory_order_acquire?",
+    "options": [
+      "Prevent reordering after load",
+      "Prevent reordering before store",
+      "Full memory fence",
+      "Atomic increment"
+    ],
+    "answer": "Prevent reordering after load",
+    "reason": "Acquire ensures subsequent reads see prior writes."
+  },
+  {
+    "questionId": "cpp_h_37",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What is cache locality?",
+    "options": [
+      "Thread scheduling",
+      "Memory alignment",
+      "Accessing nearby memory locations",
+      "Heap optimization"
+    ],
+    "answer": "Accessing nearby memory locations",
+    "reason": "Improves performance due to cache behavior."
+  },
+  {
+    "questionId": "cpp_h_38",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "Why is std::function slower than templates?",
+    "options": [
+      "Heap allocation",
+      "Type erasure overhead",
+      "Virtual dispatch",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "reason": "std::function uses type erasure internally."
+  },
+  {
+    "questionId": "cpp_h_39",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What is the primary risk of multiple inheritance?",
+    "options": [
+      "Memory leaks",
+      "Ambiguous base subobjects",
+      "Stack overflow",
+      "Slower compilation"
+    ],
+    "answer": "Ambiguous base subobjects",
+    "reason": "Diamond inheritance causes ambiguity."
+  },
+  {
+    "questionId": "cpp_h_40",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "Why is noexcept important for move constructors?",
+    "options": [
+      "Correctness",
+      "Container optimization",
+      "Thread safety",
+      "Inlining"
+    ],
+    "answer": "Container optimization",
+    "reason": "STL containers prefer noexcept moves."
+  },
+
+  {
+    "questionId": "cpp_h_41",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What does std::scoped_lock prevent?",
+    "options": ["Memory leaks", "Deadlocks", "Data races", "False sharing"],
+    "answer": "Deadlocks",
+    "reason": "It locks multiple mutexes safely."
+  },
+  {
+    "questionId": "cpp_h_42",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What is the cost of virtual inheritance?",
+    "options": [
+      "Extra indirection",
+      "Larger object size",
+      "More complex construction",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "reason": "Virtual bases add runtime overhead."
+  },
+
+  {
+    "questionId": "cpp_h_43",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "Why is memcpy unsafe for non-trivial types?",
+    "options": [
+      "Alignment issues",
+      "Breaks object invariants",
+      "Slower performance",
+      "Compiler error"
+    ],
+    "answer": "Breaks object invariants",
+    "reason": "Non-trivial types require constructors."
+  },
+
+  {
+    "questionId": "cpp_h_44",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What is the benefit of small object optimization?",
+    "options": [
+      "Avoid heap allocation",
+      "Faster compilation",
+      "Lower memory usage",
+      "Thread safety"
+    ],
+    "answer": "Avoid heap allocation",
+    "reason": "Small objects are stored inline."
+  },
+
+  {
+    "questionId": "cpp_h_45",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What does std::bit_cast require?",
+    "options": [
+      "Same size types",
+      "Same alignment",
+      "Same type",
+      "Inheritance"
+    ],
+    "answer": "Same size types",
+    "reason": "bit_cast copies raw representation safely."
+  },
+
+  {
+    "questionId": "cpp_h_46",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "Why is undefined behavior dangerous?",
+    "options": [
+      "Crashes only",
+      "Security vulnerabilities",
+      "Unpredictable execution",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "reason": "UB allows arbitrary compiler assumptions."
+  },
+
+  {
+    "questionId": "cpp_h_47",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What does std::span represent?",
+    "options": [
+      "Owning container",
+      "Non-owning view",
+      "Thread-safe array",
+      "Dynamic allocation"
+    ],
+    "answer": "Non-owning view",
+    "reason": "span provides bounds-safe access without ownership."
+  },
+
+  {
+    "questionId": "cpp_h_48",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "Why should destructors not throw?",
+    "options": [
+      "Performance",
+      "Stack unwinding termination",
+      "Inlining issues",
+      "Memory leaks"
+    ],
+    "answer": "Stack unwinding termination",
+    "reason": "Throwing causes std::terminate."
+  },
+
+  {
+    "questionId": "cpp_h_49",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "What does lock-free guarantee?",
+    "options": [
+      "No deadlocks",
+      "Progress without blocking",
+      "Wait-free execution",
+      "Thread priority"
+    ],
+    "answer": "Progress without blocking",
+    "reason": "Lock-free ensures at least one thread makes progress."
+  },
+
+  {
+    "questionId": "cpp_h_50",
+    "topic": "c++",
+    "difficulty": "hard",
+    "questionText": "Why is reinterpret_cast rarely recommended?",
+    "options": ["Slow", "Unsafe", "Verbose", "Deprecated"],
+    "answer": "Unsafe",
+    "reason": "It bypasses type safety."
+  },
+  {
     "questionId": "cpp_h_51",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is undefined behavior when accessing a vector out of bounds using operator[]?",
     "options": [
@@ -290,7 +711,7 @@
   },
   {
     "questionId": "cpp_h_52",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What happens if delete is used on memory allocated with malloc?",
     "options": [
@@ -304,7 +725,7 @@
   },
   {
     "questionId": "cpp_h_53",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What does the volatile keyword guarantee?",
     "options": [
@@ -318,7 +739,7 @@
   },
   {
     "questionId": "cpp_h_54",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which STL container guarantees iterator validity on insert?",
     "options": ["vector", "deque", "list", "unordered_map"],
@@ -327,7 +748,7 @@
   },
   {
     "questionId": "cpp_h_55",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is the result of deleting a base class pointer without virtual destructor?",
     "options": [
@@ -341,7 +762,7 @@
   },
   {
     "questionId": "cpp_h_56",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What does std::move actually do?",
     "options": [
@@ -355,7 +776,7 @@
   },
   {
     "questionId": "cpp_h_57",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which situation causes data race?",
     "options": [
@@ -369,7 +790,7 @@
   },
   {
     "questionId": "cpp_h_58",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is the main purpose of std::enable_if?",
     "options": [
@@ -383,7 +804,7 @@
   },
   {
     "questionId": "cpp_h_59",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What happens if a mutex is locked twice by the same thread?",
     "options": ["Safe", "Deadlock", "Exception", "Undefined behavior"],
@@ -392,7 +813,7 @@
   },
   {
     "questionId": "cpp_h_60",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which cast is safest for downcasting polymorphic types?",
     "options": [
@@ -406,7 +827,7 @@
   },
   {
     "questionId": "cpp_h_61",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is the lifetime of a temporary object bound to const reference?",
     "options": [
@@ -420,7 +841,7 @@
   },
   {
     "questionId": "cpp_h_62",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which container offers average O(1) lookup?",
     "options": ["map", "set", "unordered_map", "vector"],
@@ -429,7 +850,7 @@
   },
   {
     "questionId": "cpp_h_63",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What does noexcept affect?",
     "options": [
@@ -443,7 +864,7 @@
   },
   {
     "questionId": "cpp_h_64",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which causes undefined behavior?",
     "options": [
@@ -457,7 +878,7 @@
   },
   {
     "questionId": "cpp_h_65",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What does placement new do?",
     "options": [
@@ -471,7 +892,7 @@
   },
   {
     "questionId": "cpp_h_66",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is the rule of five?",
     "options": [
@@ -485,7 +906,7 @@
   },
   {
     "questionId": "cpp_h_67",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What happens if std::thread object is destroyed while joinable?",
     "options": [
@@ -499,7 +920,7 @@
   },
   {
     "questionId": "cpp_h_68",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is the purpose of std::launder?",
     "options": [
@@ -513,7 +934,7 @@
   },
   {
     "questionId": "cpp_h_69",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which operation invalidates vector iterators?",
     "options": ["push_back", "reserve", "clear", "All of above"],
@@ -522,7 +943,7 @@
   },
   {
     "questionId": "cpp_h_70",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is false sharing?",
     "options": [
@@ -536,7 +957,7 @@
   },
   {
     "questionId": "cpp_h_71",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What does std::atomic guarantee?",
     "options": [
@@ -550,7 +971,7 @@
   },
   {
     "questionId": "cpp_h_72",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which memory order is strongest?",
     "options": ["relaxed", "consume", "acquire", "seq_cst"],
@@ -559,7 +980,7 @@
   },
   {
     "questionId": "cpp_h_73",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What does inline keyword guarantee?",
     "options": [
@@ -573,7 +994,7 @@
   },
   {
     "questionId": "cpp_h_74",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which is UB?",
     "options": [
@@ -587,7 +1008,7 @@
   },
   {
     "questionId": "cpp_h_75",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What does std::future represent?",
     "options": ["Thread", "Deferred value", "Mutex", "Promise only"],
@@ -596,7 +1017,7 @@
   },
   {
     "questionId": "cpp_h_76",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which type trait checks inheritance?",
     "options": ["is_base_of", "is_convertible", "is_same", "is_polymorphic"],
@@ -605,7 +1026,7 @@
   },
   {
     "questionId": "cpp_h_77",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is strict aliasing rule?",
     "options": [
@@ -619,7 +1040,7 @@
   },
   {
     "questionId": "cpp_h_78",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which smart pointer allows shared ownership?",
     "options": ["unique_ptr", "shared_ptr", "weak_ptr", "auto_ptr"],
@@ -628,7 +1049,7 @@
   },
   {
     "questionId": "cpp_h_79",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What causes std::bad_alloc?",
     "options": [
@@ -642,7 +1063,7 @@
   },
   {
     "questionId": "cpp_h_80",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is ABI?",
     "options": [
@@ -656,7 +1077,7 @@
   },
   {
     "questionId": "cpp_h_81",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which feature enables compile-time computation?",
     "options": ["constexpr", "inline", "macro", "typedef"],
@@ -665,7 +1086,7 @@
   },
   {
     "questionId": "cpp_h_82",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What does std::weak_ptr prevent?",
     "options": [
@@ -679,7 +1100,7 @@
   },
   {
     "questionId": "cpp_h_83",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What happens when exception escapes destructor?",
     "options": ["Ignored", "Logged", "std::terminate", "Undefined behavior"],
@@ -688,7 +1109,7 @@
   },
   {
     "questionId": "cpp_h_84",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What does ODR stand for?",
     "options": [
@@ -702,7 +1123,7 @@
   },
   {
     "questionId": "cpp_h_85",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which is not lock-free guarantee?",
     "options": ["atomic<int>", "mutex", "atomic_flag", "atomic<bool>"],
@@ -711,7 +1132,7 @@
   },
   {
     "questionId": "cpp_h_86",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is type erasure used for?",
     "options": [
@@ -725,7 +1146,7 @@
   },
   {
     "questionId": "cpp_h_87",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which keyword enforces memory visibility between threads?",
     "options": ["volatile", "atomic", "mutable", "register"],
@@ -734,7 +1155,7 @@
   },
   {
     "questionId": "cpp_h_88",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is CRTP?",
     "options": [
@@ -748,7 +1169,7 @@
   },
   {
     "questionId": "cpp_h_89",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which container is cache-friendly?",
     "options": ["list", "map", "vector", "set"],
@@ -757,7 +1178,7 @@
   },
   {
     "questionId": "cpp_h_90",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is the purpose of alignas?",
     "options": [
@@ -771,7 +1192,7 @@
   },
   {
     "questionId": "cpp_h_91",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which causes stack unwinding?",
     "options": ["Return", "Throw exception", "Break", "Goto"],
@@ -780,7 +1201,7 @@
   },
   {
     "questionId": "cpp_h_92",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What does std::scoped_lock prevent?",
     "options": [
@@ -794,7 +1215,7 @@
   },
   {
     "questionId": "cpp_h_93",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is the main drawback of macros?",
     "options": ["Slow", "No type safety", "Memory leak", "Runtime cost"],
@@ -803,7 +1224,7 @@
   },
   {
     "questionId": "cpp_h_94",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which is UB?",
     "options": [
@@ -817,7 +1238,7 @@
   },
   {
     "questionId": "cpp_h_95",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is memory fence?",
     "options": [
@@ -831,7 +1252,7 @@
   },
   {
     "questionId": "cpp_h_96",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What does std::promise do?",
     "options": [
@@ -845,7 +1266,7 @@
   },
   {
     "questionId": "cpp_h_97",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "Which optimization may break strict aliasing?",
     "options": [
@@ -859,7 +1280,7 @@
   },
   {
     "questionId": "cpp_h_98",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What does std::byte represent?",
     "options": ["Character", "Raw memory", "Integer", "Boolean"],
@@ -868,7 +1289,7 @@
   },
   {
     "questionId": "cpp_h_99",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is the main cost of virtual functions?",
     "options": ["Memory", "Cache miss", "Indirect call", "Compilation time"],
@@ -877,7 +1298,7 @@
   },
   {
     "questionId": "cpp_h_100",
-    "tag": "cpp",
+    "topic": "cpp",
     "difficulty": "hard",
     "questionText": "What is undefined behavior sanitizer used for?",
     "options": ["Performance", "Detect UB", "Memory allocation", "Threading"],

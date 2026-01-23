@@ -1,7 +1,7 @@
 [
   {
     "questionId": "js_m_1",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What will the expression [] + {} evaluate to in JavaScript?",
     "options": ["[object Object]", "undefined", "{}", "An empty array"],
@@ -10,7 +10,7 @@
   },
   {
     "questionId": "js_m_2",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which keyword creates a block-scoped variable?",
     "options": ["var", "let", "const", "static"],
@@ -19,7 +19,7 @@
   },
   {
     "questionId": "js_m_3",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What does the 'bind' method do in JavaScript?",
     "options": [
@@ -33,7 +33,7 @@
   },
   {
     "questionId": "js_m_4",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method schedules a function to run after the current call stack clears?",
     "options": [
@@ -47,7 +47,7 @@
   },
   {
     "questionId": "js_m_5",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which operator can be used to provide a default value only when a variable is null or undefined?",
     "options": ["||", "&&", "??", "?:"],
@@ -56,7 +56,7 @@
   },
   {
     "questionId": "js_m_6",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which statement about arrow functions is true?",
     "options": [
@@ -70,7 +70,7 @@
   },
   {
     "questionId": "js_m_7",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What will typeof NaN return?",
     "options": ["NaN", "number", "undefined", "object"],
@@ -79,7 +79,7 @@
   },
   {
     "questionId": "js_m_8",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which array method does not mutate the original array?",
     "options": ["push()", "pop()", "splice()", "slice()"],
@@ -88,7 +88,7 @@
   },
   {
     "questionId": "js_m_9",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which object method converts an object into an array of key-value pairs?",
     "options": [
@@ -102,7 +102,7 @@
   },
   {
     "questionId": "js_m_10",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which of the following is NOT a JavaScript primitive type?",
     "options": ["string", "boolean", "object", "bigint"],
@@ -111,7 +111,7 @@
   },
   {
     "questionId": "js_m_11",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What will console.log(0.1 + 0.2 === 0.3) output?",
     "options": ["true", "false", "undefined", "Throws error"],
@@ -120,7 +120,7 @@
   },
   {
     "questionId": "js_m_12",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which keyword enables JavaScript strict mode?",
     "options": ["use mode", "\"strict mode\"", "\"use strict\"", "strict()"],
@@ -129,7 +129,7 @@
   },
   {
     "questionId": "js_m_13",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which statement best explains closure?",
     "options": [
@@ -143,7 +143,7 @@
   },
   {
     "questionId": "js_m_14",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method can be used to flatten a nested array?",
     "options": ["flat()", "flatten()", "collapse()", "reduceRight()"],
@@ -152,7 +152,7 @@
   },
   {
     "questionId": "js_m_15",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which operator spreads elements of an array or object?",
     "options": ["...", "=>", "::", "**"],
@@ -161,7 +161,7 @@
   },
   {
     "questionId": "js_m_16",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What is the default value of 'this' inside a function in strict mode?",
     "options": ["window", "globalThis", "undefined", "{}"],
@@ -170,7 +170,7 @@
   },
   {
     "questionId": "js_m_17",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which of the following methods returns a promise?",
     "options": [
@@ -184,7 +184,7 @@
   },
   {
     "questionId": "js_m_18",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which data structure preserves insertion order?",
     "options": ["Set", "Map", "Object", "WeakMap"],
@@ -193,7 +193,7 @@
   },
   {
     "questionId": "js_m_19",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method is used to determine if an array includes a given value?",
     "options": ["contains()", "includes()", "has()", "exists()"],
@@ -202,7 +202,7 @@
   },
   {
     "questionId": "js_m_20",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What will happen if you call a function before it is declared using function declaration?",
     "options": [
@@ -216,7 +216,7 @@
   },
   {
     "questionId": "js_m_21",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What does Object.freeze() do to an object?",
     "options": [
@@ -230,7 +230,7 @@
   },
   {
     "questionId": "js_m_22",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which statement about promises is true?",
     "options": [
@@ -244,7 +244,7 @@
   },
   {
     "questionId": "js_m_23",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which function converts a string to an integer?",
     "options": ["Number()", "parseInt()", "parseFloat()", "JSON.parse()"],
@@ -253,7 +253,7 @@
   },
   {
     "questionId": "js_m_24",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which operator returns the first truthy value?",
     "options": ["??", "&&", "||", "?:"],
@@ -262,7 +262,7 @@
   },
   {
     "questionId": "js_m_25",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which array method executes a reducer function on each element?",
     "options": ["map()", "reduce()", "filter()", "forEach()"],
@@ -271,7 +271,7 @@
   },
   {
     "questionId": "js_m_26",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What is the output of typeof function(){}?",
     "options": ["object", "function", "callable", "undefined"],
@@ -280,7 +280,7 @@
   },
   {
     "questionId": "js_m_27",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method can be used to handle both resolved and rejected promises?",
     "options": ["then()", "catch()", "finally()", "resolve()"],
@@ -289,7 +289,7 @@
   },
   {
     "questionId": "js_m_28",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which statement is true about var declarations?",
     "options": [
@@ -303,7 +303,7 @@
   },
   {
     "questionId": "js_m_29",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What will happen if you re-declare a variable using var?",
     "options": [
@@ -317,7 +317,7 @@
   },
   {
     "questionId": "js_m_30",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which object method creates a shallow copy of an object?",
     "options": [
@@ -331,7 +331,7 @@
   },
   {
     "questionId": "js_m_31",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What does Array.isArray() return?",
     "options": [
@@ -345,7 +345,7 @@
   },
   {
     "questionId": "js_m_32",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method stops Promise chains on error?",
     "options": ["catch()", "then()", "resolve()", "break()"],
@@ -354,7 +354,7 @@
   },
   {
     "questionId": "js_m_33",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What will be output: console.log([1, 2] == '1,2')?",
     "options": ["true", "false", "undefined", "Throws error"],
@@ -363,7 +363,7 @@
   },
   {
     "questionId": "js_m_34",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method converts JSON string into an object?",
     "options": [
@@ -377,7 +377,7 @@
   },
   {
     "questionId": "js_m_35",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which operation will NOT mutate the original array?",
     "options": ["splice()", "sort()", "reverse()", "map()"],
@@ -386,7 +386,7 @@
   },
   {
     "questionId": "js_m_36",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method returns an iterator for array values?",
     "options": ["entries()", "values()", "keys()", "iterator()"],
@@ -395,7 +395,7 @@
   },
   {
     "questionId": "js_m_37",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which operation can help prevent callback hell?",
     "options": ["More callbacks", "Synchronous functions", "Promises", "Loops"],
@@ -404,7 +404,7 @@
   },
   {
     "questionId": "js_m_38",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which function delays execution without blocking the main thread?",
     "options": ["sleep()", "pause()", "setTimeout()", "wait()"],
@@ -413,7 +413,7 @@
   },
   {
     "questionId": "js_m_39",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What will be the result of typeof []?",
     "options": ["array", "object", "list", "undefined"],
@@ -422,7 +422,7 @@
   },
   {
     "questionId": "js_m_40",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which built-in method returns an array of an object's own property names?",
     "options": [
@@ -434,254 +434,10 @@
     "answer": "Object.keys()",
     "reason": "Object.keys retrieves enumerable property names."
   },
-  {
-    "questionId": "js_m_21",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "What is the difference between shallow copy and deep copy in JavaScript?",
-    "options": [
-      "Shallow copy duplicates all nested objects",
-      "Deep copy copies only references",
-      "Shallow copy copies references of nested objects, deep copy copies full object structures",
-      "They are exactly the same"
-    ],
-    "answer": "Shallow copy copies references of nested objects, deep copy copies full object structures",
-    "reason": "Shallow copies only duplicate top-level properties; nested objects still reference the same memory."
-  },
-  {
-    "questionId": "js_m_22",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "Which method is best for removing duplicates from an array?",
-    "options": [
-      "Using a for-loop",
-      "Using JSON.stringify",
-      "Using new Set()",
-      "Using Array.pop()"
-    ],
-    "answer": "Using new Set()",
-    "reason": "Set automatically enforces unique values, making it ideal for deduplication."
-  },
-  {
-    "questionId": "js_m_23",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "What does the 'this' keyword refer to inside a regular function (non-arrow) by default?",
-    "options": [
-      "The function itself",
-      "The global object (or undefined in strict mode)",
-      "The parent object",
-      "The module"
-    ],
-    "answer": "The global object (or undefined in strict mode)",
-    "reason": "In regular functions, 'this' refers to the global object unless strict mode is enabled."
-  },
-  {
-    "questionId": "js_m_24",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "Which statement about closures is correct?",
-    "options": [
-      "Closures cannot access outer variables",
-      "Closures only work with arrow functions",
-      "Closures allow a function to remember variables from its parent scope",
-      "Closures are removed after the function returns"
-    ],
-    "answer": "Closures allow a function to remember variables from its parent scope",
-    "reason": "A closure captures variables from its lexical environment even after the parent function returns."
-  },
-  {
-    "questionId": "js_m_25",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "Which method is used to convert a string to a number safely?",
-    "options": ["parseInt()", "parseFloat()", "Number()", "All of the above"],
-    "answer": "All of the above",
-    "reason": "All listed methods can convert strings to numbers but behave differently."
-  },
-  {
-    "questionId": "js_m_26",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "What will Array.from('12345') produce?",
-    "options": [
-      "['12345']",
-      "[1,2,3,4,5]",
-      "['1','2','3','4','5']",
-      "An error"
-    ],
-    "answer": "['1','2','3','4','5']",
-    "reason": "Array.from() turns an iterable (string) into an array of characters."
-  },
-  {
-    "questionId": "js_m_27",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "Which array method does NOT mutate the original array?",
-    "options": ["splice", "sort", "reverse", "slice"],
-    "answer": "slice",
-    "reason": "slice returns a new array while the others modify the original."
-  },
-  {
-    "questionId": "js_m_28",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "What is the output of typeof NaN?",
-    "options": ["'number'", "'NaN'", "'undefined'", "'object'"],
-    "answer": "'number'",
-    "reason": "NaN is defined as a special numeric value."
-  },
-  {
-    "questionId": "js_m_29",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "Which method is used to merge two arrays?",
-    "options": ["Array.merge()", "concat()", "append()", "mix()"],
-    "answer": "concat()",
-    "reason": "concat() merges arrays into a new array."
-  },
-  {
-    "questionId": "js_m_30",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "How do you stop event bubbling?",
-    "options": [
-      "event.stop()",
-      "event.stopBubbling()",
-      "event.stopPropagation()",
-      "event.kill()"
-    ],
-    "answer": "event.stopPropagation()",
-    "reason": "stopPropagation prevents the event from bubbling to parent elements."
-  },
-  {
-    "questionId": "js_m_31",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "What does Array.reduce() return?",
-    "options": [
-      "A modified version of the original array",
-      "A single accumulated value",
-      "A filtered array",
-      "An array of the same length"
-    ],
-    "answer": "A single accumulated value",
-    "reason": "reduce iterates and accumulates values into one final result."
-  },
-  {
-    "questionId": "js_m_32",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "What is the default value of 'this' inside a class method?",
-    "options": [
-      "undefined",
-      "globalThis",
-      "The instance of the class",
-      "window"
-    ],
-    "answer": "The instance of the class",
-    "reason": "Class methods automatically bind this to the instance."
-  },
-  {
-    "questionId": "js_m_33",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "Which statement about async/await is true?",
-    "options": [
-      "await blocks the entire program",
-      "await pauses only the current async function",
-      "await is the same as setTimeout",
-      "await works in any function"
-    ],
-    "answer": "await pauses only the current async function",
-    "reason": "await suspends execution only inside its own async context."
-  },
-  {
-    "questionId": "js_m_34",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "Which operator checks value AND type equality?",
-    "options": ["==", "===", "!=", "="],
-    "answer": "===",
-    "reason": "=== compares both type and value without coercion."
-  },
-  {
-    "questionId": "js_m_35",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "What does Object.freeze() do?",
-    "options": [
-      "Prevents new properties from being added",
-      "Prevents properties from being modified",
-      "Prevents properties from being deleted",
-      "All of the above"
-    ],
-    "answer": "All of the above",
-    "reason": "freeze makes the object fully immutable."
-  },
-  {
-    "questionId": "js_m_36",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "Which array method returns the first element that matches a condition?",
-    "options": ["filter", "find", "map", "forEach"],
-    "answer": "find",
-    "reason": "find returns the first matching element, unlike filter which returns all matches."
-  },
-  {
-    "questionId": "js_m_37",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "What is event capturing?",
-    "options": [
-      "Events move from parent to child",
-      "Events move from child to parent",
-      "Events fire randomly",
-      "Events only fire once"
-    ],
-    "answer": "Events move from parent to child",
-    "reason": "Capturing happens from outer elements inward before bubbling occurs."
-  },
-  {
-    "questionId": "js_m_38",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "Which of these is a falsy value in JavaScript?",
-    "options": ["true", "'false'", "0", "'0'"],
-    "answer": "0",
-    "reason": "0, '', false, null, undefined, NaN are falsy."
-  },
-  {
-    "questionId": "js_m_39",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "How do you convert an array like [1,2,3] into '1-2-3'?",
-    "options": [
-      "array.toString('-')",
-      "array.join('-')",
-      "array.concat('-')",
-      "array.reduce()"
-    ],
-    "answer": "array.join('-')",
-    "reason": "join concatenates array items using the provided separator."
-  },
-  {
-    "questionId": "js_m_40",
-    "tag": "javascript",
-    "difficulty": "medium",
-    "questionText": "What does Promise.all() do?",
-    "options": [
-      "Runs promises sequentially",
-      "Returns the first resolved promise",
-      "Waits for all promises to resolve or any to reject",
-      "Runs only the fastest promise"
-    ],
-    "answer": "Waits for all promises to resolve or any to reject",
-    "reason": "Promise.all resolves only if all succeed, but rejects immediately on the first failure."
-  },
+
   {
     "questionId": "js_m_41",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which built-in method converts an object into an array of key-value pairs?",
     "options": [
@@ -695,7 +451,7 @@
   },
   {
     "questionId": "js_m_42",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What is the purpose of the 'finally' block in a try/catch?",
     "options": [
@@ -709,7 +465,7 @@
   },
   {
     "questionId": "js_m_43",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method creates a new array without modifying the original?",
     "options": ["splice()", "push()", "slice()", "sort()"],
@@ -718,7 +474,7 @@
   },
   {
     "questionId": "js_m_44",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which operator spreads the elements of an array?",
     "options": ["??", "...", "=>", "::"],
@@ -727,7 +483,7 @@
   },
   {
     "questionId": "js_m_45",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What will `[1, 2] == '1,2'` return?",
     "options": ["true", "false", "TypeError", "undefined"],
@@ -736,7 +492,7 @@
   },
   {
     "questionId": "js_m_46",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What does the 'map()' function return?",
     "options": [
@@ -750,7 +506,7 @@
   },
   {
     "questionId": "js_m_47",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What is the purpose of the 'bind()' method?",
     "options": [
@@ -764,7 +520,7 @@
   },
   {
     "questionId": "js_m_48",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which statement is true about arrow functions?",
     "options": [
@@ -778,7 +534,7 @@
   },
   {
     "questionId": "js_m_49",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which built-in method converts an array of key-value pairs into an object?",
     "options": [
@@ -792,7 +548,7 @@
   },
   {
     "questionId": "js_m_50",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which statement about promises is correct?",
     "options": [
@@ -806,7 +562,7 @@
   },
   {
     "questionId": "js_m_51",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What does 'typeof null' return?",
     "options": ["'null'", "'object'", "'undefined'", "'nil'"],
@@ -815,7 +571,7 @@
   },
   {
     "questionId": "js_m_52",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method checks if *every* element passes a condition?",
     "options": ["some()", "every()", "find()", "filter()"],
@@ -824,7 +580,7 @@
   },
   {
     "questionId": "js_m_53",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which object method prevents extensions to an object?",
     "options": [
@@ -838,7 +594,7 @@
   },
   {
     "questionId": "js_m_54",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What is the output of `[...new Set([1,1,2,3])]`?",
     "options": ["[1,1,2,3]", "[1,2,3]", "[2,3]", "[1,3]"],
@@ -847,7 +603,7 @@
   },
   {
     "questionId": "js_m_55",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method schedules a function after the current call stack clears?",
     "options": [
@@ -861,7 +617,7 @@
   },
   {
     "questionId": "js_m_56",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What is the order of execution for JavaScript event loop tasks?",
     "options": [
@@ -875,7 +631,7 @@
   },
   {
     "questionId": "js_m_57",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What does the spread operator do when applied to an object?",
     "options": [
@@ -889,7 +645,7 @@
   },
   {
     "questionId": "js_m_58",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method allows transforming both keys and values of an object?",
     "options": [
@@ -903,7 +659,7 @@
   },
   {
     "questionId": "js_m_59",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which keyword declares a block-scoped variable?",
     "options": ["var", "let", "static", "define"],
@@ -912,7 +668,7 @@
   },
   {
     "questionId": "js_m_60",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which array function can flatten nested arrays?",
     "options": ["flat()", "flatten()", "reduce()", "clean()"],
@@ -921,7 +677,7 @@
   },
   {
     "questionId": "js_m_61",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which statement about closures is true?",
     "options": [
@@ -935,7 +691,7 @@
   },
   {
     "questionId": "js_m_62",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which keyword stops further event propagation?",
     "options": [
@@ -949,7 +705,7 @@
   },
   {
     "questionId": "js_m_63",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which statement about async/await is correct?",
     "options": [
@@ -963,7 +719,7 @@
   },
   {
     "questionId": "js_m_64",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What does 'debounce' do?",
     "options": [
@@ -977,7 +733,7 @@
   },
   {
     "questionId": "js_m_65",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which DOM method selects the first matching element?",
     "options": [
@@ -991,7 +747,7 @@
   },
   {
     "questionId": "js_m_66",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which of these is NOT a primitive type in JavaScript?",
     "options": ["symbol", "boolean", "object", "bigint"],
@@ -1000,7 +756,7 @@
   },
   {
     "questionId": "js_m_67",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method merges two or more arrays?",
     "options": ["concat()", "merge()", "pushAll()", "extend()"],
@@ -1009,7 +765,7 @@
   },
   {
     "questionId": "js_m_68",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which value is returned when accessing a missing object property?",
     "options": ["null", "undefined", "false", "0"],
@@ -1018,7 +774,7 @@
   },
   {
     "questionId": "js_m_69",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method finds the first array element that matches a condition?",
     "options": ["filter()", "find()", "map()", "indexOf()"],
@@ -1027,7 +783,7 @@
   },
   {
     "questionId": "js_m_70",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which operator checks both value and type?",
     "options": ["==", "===", "=", "!="],
@@ -1036,7 +792,7 @@
   },
   {
     "questionId": "js_m_71",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which built-in method returns an iterator for object keys?",
     "options": [
@@ -1050,7 +806,7 @@
   },
   {
     "questionId": "js_m_72",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which Array method removes the last element?",
     "options": ["shift()", "pop()", "unshift()", "removeLast()"],
@@ -1059,7 +815,7 @@
   },
   {
     "questionId": "js_m_73",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What will be the output of: Boolean('false')?",
     "options": ["false", "true", "undefined", "Throws error"],
@@ -1068,7 +824,7 @@
   },
   {
     "questionId": "js_m_74",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which built-in function parses a floating-point number?",
     "options": ["parseFloat()", "parseInt()", "float()", "toFloat()"],
@@ -1077,7 +833,7 @@
   },
   {
     "questionId": "js_m_75",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What is the purpose of event.preventDefault()?",
     "options": [
@@ -1091,7 +847,7 @@
   },
   {
     "questionId": "js_m_76",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which statement is true about 'this' in JavaScript?",
     "options": [
@@ -1105,7 +861,7 @@
   },
   {
     "questionId": "js_m_77",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method checks if at least one array element matches a condition?",
     "options": ["every()", "some()", "filter()", "map()"],
@@ -1114,7 +870,7 @@
   },
   {
     "questionId": "js_m_78",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which array method changes the original array?",
     "options": ["slice()", "map()", "filter()", "splice()"],
@@ -1123,7 +879,7 @@
   },
   {
     "questionId": "js_m_79",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What does the optional chaining operator (?.) do?",
     "options": [
@@ -1137,7 +893,7 @@
   },
   {
     "questionId": "js_m_80",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method returns the index of the first matched element?",
     "options": ["find()", "filter()", "findIndex()", "index()"],
@@ -1146,7 +902,7 @@
   },
   {
     "questionId": "js_m_81",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which JavaScript feature allows functions to be treated as variables?",
     "options": [
@@ -1160,7 +916,7 @@
   },
   {
     "questionId": "js_m_82",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which statement about the 'reduce()' method is true?",
     "options": [
@@ -1174,7 +930,7 @@
   },
   {
     "questionId": "js_m_83",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which keyword is used to create a class in JavaScript?",
     "options": ["struct", "object", "class", "type"],
@@ -1183,7 +939,7 @@
   },
   {
     "questionId": "js_m_84",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which statement best describes hoisting?",
     "options": [
@@ -1197,7 +953,7 @@
   },
   {
     "questionId": "js_m_85",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which collection type stores unique values only?",
     "options": ["Array", "Set", "Map", "Object"],
@@ -1206,7 +962,7 @@
   },
   {
     "questionId": "js_m_86",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method adds an element to the beginning of an array?",
     "options": ["push()", "prepend()", "unshift()", "addStart()"],
@@ -1215,7 +971,7 @@
   },
   {
     "questionId": "js_m_87",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which statement describes a pure function?",
     "options": [
@@ -1229,7 +985,7 @@
   },
   {
     "questionId": "js_m_88",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What is the output of `[1, 2].map(parseInt)`?",
     "options": ["[1, 2]", "[1, NaN]", "[NaN, NaN]", "[1, 1]"],
@@ -1238,7 +994,7 @@
   },
   {
     "questionId": "js_m_89",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "What is the purpose of JSON.stringify()?",
     "options": [
@@ -1252,7 +1008,7 @@
   },
   {
     "questionId": "js_m_90",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which value is considered falsy?",
     "options": ["[]", "{}", "0", "'0'"],
@@ -1261,7 +1017,7 @@
   },
   {
     "questionId": "js_m_91",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method converts a string into an array?",
     "options": ["split()", "break()", "slice()", "divide()"],
@@ -1270,7 +1026,7 @@
   },
   {
     "questionId": "js_m_92",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which operator provides a default value when the left side is null or undefined?",
     "options": ["||", "??", "&&", "::"],
@@ -1279,7 +1035,7 @@
   },
   {
     "questionId": "js_m_93",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which method removes the first element from an array?",
     "options": ["shift()", "pop()", "removeStart()", "delete()"],
@@ -1288,7 +1044,7 @@
   },
   {
     "questionId": "js_m_94",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which built-in method delays execution until the next microtask?",
     "options": [
@@ -1302,7 +1058,7 @@
   },
   {
     "questionId": "js_m_95",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "In JavaScript, functions without return statements return:",
     "options": ["null", "undefined", "0", "false"],
@@ -1311,7 +1067,7 @@
   },
   {
     "questionId": "js_m_96",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which statement best describes shallow comparison?",
     "options": [
@@ -1325,7 +1081,7 @@
   },
   {
     "questionId": "js_m_97",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which object method freezes an object completely?",
     "options": [
@@ -1339,7 +1095,7 @@
   },
   {
     "questionId": "js_m_98",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which built-in method checks if a value is NaN?",
     "options": ["Number.isNaN()", "isNull()", "Number.check()", "Math.isnan()"],
@@ -1348,7 +1104,7 @@
   },
   {
     "questionId": "js_m_99",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which statement about promises is true?",
     "options": [
@@ -1362,7 +1118,7 @@
   },
   {
     "questionId": "js_m_100",
-    "tag": "javascript",
+    "topic": "javascript",
     "difficulty": "medium",
     "questionText": "Which feature is used to group related code into reusable units?",
     "options": ["Closures", "Modules", "Promise chains", "Scopes"],

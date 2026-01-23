@@ -1,6 +1,7 @@
 export interface QuizQuestion {
   questionId: string;
-  tag: string;
+  difficulty: string;
+  topic: string;
   questionText: string;
   options: string[];
   answer?: string;

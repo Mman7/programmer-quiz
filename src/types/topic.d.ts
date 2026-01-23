@@ -1,6 +1,9 @@
-type Topic = {
+export type Topic = {
   name: TopicType;
   difficulty: string;
 };
 
-export default Topic;
+export type RequestAnswer = {
+  questionId: string;
+  topic: Topic;
+};

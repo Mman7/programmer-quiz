@@ -1,15 +1,8 @@
-export interface QuizQuestion extends QuestionWithoutAnswer {
+export interface QuizQuestion {
   questionId: string;
   tag: string;
   questionText: string;
   options: string[];
-  answer: string;
-  reason: string;
-}
-
-export interface QuestionWithoutAnswer {
-  questionId: string;
-  tag: string;
-  questionText: string;
-  options: string[];
+  answer?: string;
+  reason?: string;
 }

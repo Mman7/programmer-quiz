@@ -1,6 +1,6 @@
 "use client";
 
-import Topic from "@/src/types/topic";
+import { Topic } from "@/src/types/topic";
 import { usePathname } from "next/navigation";
 import RemovableTopicBadge from "../topicBadge/removableTopicBadge";
 import TopicBadge from "../topicBadge/topicBadge";

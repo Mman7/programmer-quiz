@@ -1,8 +1,8 @@
 "use client";
 
 import { create } from "zustand";
-import Topic from "../types/topic";
 import { persist } from "zustand/middleware";
+import { Topic } from "../types/topic";
 
 interface TopicsState {
   topics: Topic[];

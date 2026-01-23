@@ -1,7 +1,7 @@
 "use client";
 
-import Topic from "@/src/types/topic";
 import { useDifficultyModal } from "@/src/store/useDifficultyModalStore";
+import { Topic } from "@/src/types/topic";
 
 interface SelectDifficultyModalProps {
   chooseFn: (topic: Topic) => void;

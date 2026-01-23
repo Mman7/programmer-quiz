@@ -3,7 +3,7 @@ import { useMounted } from "@/src/hooks/useMounted";
 import { ModelName, useConfirmModal } from "@/src/store/useComfirmModalStore";
 import { useQuizGame } from "@/src/store/useQuizGameStore";
 import { useQuizOption } from "@/src/store/useSelectedTopicsStore";
-import Topic from "@/src/types/topic";
+import { Topic } from "@/src/types/topic";
 import { useEffect } from "react";
 
 export default function RemovableTopicBadge({ topic }: { topic: Topic }) {

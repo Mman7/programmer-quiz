@@ -11,6 +11,7 @@ export default function StartGameModal() {
 
   const startHandler = () => {
     router.push("/quiz");
+    closeModal();
   };
 
   const checkOptionValid = () => {

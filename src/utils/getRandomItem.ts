@@ -1,4 +1,4 @@
-import { TopicMap } from "../app/api/random_quiz/route";
+import { TopicMap } from "../app/api/random-quiz/route";
 import { QuizQuestion, QuestionWithoutAnswer } from "../types/quizQuestion";
 import { getKeyByValue } from "@enum/topicTypes";
 import Topic from "../types/topic";

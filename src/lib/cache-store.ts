@@ -5,6 +5,7 @@ export interface TopicMap {
 }
 
 // Data imports for different difficulty levels and topics
+// ! DOUBLE CHECK PATH
 const cpp_easy: QuizQuestion[] = require("@/src/data/cpp_easy.json");
 const cpp_medium: QuizQuestion[] = require("@/src/data/cpp_medium.json");
 const cpp_hard: QuizQuestion[] = require("@/src/data/cpp_hard.json");
@@ -19,7 +20,7 @@ const software_medium: QuizQuestion[] = require("@/src/data/softwaredev_medium.j
 const software_hard: QuizQuestion[] = require("@/src/data/softwaredev_hard.json");
 const webdev_easy: QuizQuestion[] = require("@/src/data/webdev_easy.json");
 const webdev_medium: QuizQuestion[] = require("@/src/data/webdev_medium.json");
-const webdev_hard: QuizQuestion[] = require("@/src/data/webdev_easy.json");
+const webdev_hard: QuizQuestion[] = require("@/src/data/webdev_hard.json");
 
 // Maps for efficient question lookup by ID
 const cppEasyMap: Map<string, QuizQuestion> = new Map(
@@ -71,20 +72,20 @@ const webdevHardMap: Map<string, QuizQuestion> = new Map(
  * Each topic map is structured as { [topicName]: Map<questionId, QuizQuestion> }
  * Topic names should match the TopicType enum keys for consistency
  */
-export const allTopic: TopicMap[] = [
-  { cpp_easy: cppEasyMap },
-  { cpp_medium: cppMediumMap },
-  { cpp_hard: cppHardMap },
-  { js_easy: jsEasyMap },
-  { js_medium: jsMediumMap },
-  { js_hard: jsHardMap },
-  { csharp_easy: csharpEasyMap },
-  { csharp_medium: csharpMediumMap },
-  { csharp_hard: csharpHardMap },
-  { software_easy: softwareEasyMap },
-  { software_medium: softwareMediumMap },
-  { software_hard: softwareHardMap },
-  { webdev_easy: webdevEasyMap },
-  { webdev_medium: webdevMediumMap },
-  { webdev_hard: webdevHardMap },
-];
+export const allTopic: TopicMap = {
+  cpp_easy: cppEasyMap,
+  cpp_medium: cppMediumMap,
+  cpp_hard: cppHardMap,
+  js_easy: jsEasyMap,
+  js_medium: jsMediumMap,
+  js_hard: jsHardMap,
+  csharp_easy: csharpEasyMap,
+  csharp_medium: csharpMediumMap,
+  csharp_hard: csharpHardMap,
+  software_easy: softwareEasyMap,
+  software_medium: softwareMediumMap,
+  software_hard: softwareHardMap,
+  webdev_easy: webdevEasyMap,
+  webdev_medium: webdevMediumMap,
+  webdev_hard: webdevHardMap,
+};

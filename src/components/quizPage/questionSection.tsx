@@ -1,14 +1,13 @@
-import { QuestionWithoutAnswer, QuizQuestion } from "@/src/types/quizQuestion";
+import { QuizQuestion } from "@/src/types/quizQuestion";
 import { useParams, useRouter } from "next/navigation";
 import { useState } from "react";
 import QuestionOptions from "./questionOptions";
 
 interface QuestionSectionProps {
-  question: QuestionWithoutAnswer | QuizQuestion;
+  question: QuizQuestion;
 }
 
 export default function QuestionSection({ question }: QuestionSectionProps) {
-  const isOptionLessThan5Character: boolean = question.options[0].length < 5;
   const [selectedAnswer, setSetselectedAnswer] = useState<string>("");
   const [reason, setReason] = useState<string>("");
   const [answer, setAnswer] = useState<string>("");
@@ -26,7 +25,7 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
   };
 
   return (
-    <div className="m-auto p-3">
+    <div className="m-auto w-full p-3">
       <h1 className="p-2.5 text-center text-3xl font-bold">Quiz Game</h1>
       <section className="rounded-xl bg-white/50 p-6 backdrop-blur-md">
         <h1 className="mb-6 text-2xl font-medium text-shadow-gray-600">

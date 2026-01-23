@@ -1,4 +1,4 @@
-import { QuizQuestion, QuestionWithoutAnswer } from "../types/quizQuestion";
+import { QuizQuestion } from "../types/quizQuestion";
 import { TopicMap } from "../lib/cache-store";
 import { Topic } from "../types/topic";
 import { getKeyByValue } from "../enum/topicTypes";
@@ -53,7 +53,7 @@ export const combineMapInArray = (arrayOfMap: any) => {
 export const getRandomQuestion = (
   selectedQuestionMap: Map<string, QuizQuestion>,
   max?: number,
-): QuestionWithoutAnswer[] => {
+): QuizQuestion[] => {
   const keys = Array.from(selectedQuestionMap.keys());
   const randomKeys: string[] = [];
 
@@ -81,9 +81,7 @@ export const getRandomQuestion = (
   return removeAnswerQuestions;
 };
 
-export const removeAnswerAndReason = (
-  question: QuizQuestion,
-): QuestionWithoutAnswer => {
+export const removeAnswerAndReason = (question: QuizQuestion): QuizQuestion => {
   const { answer, reason, ...rest } = question;
   return { ...rest };
 };

@@ -16,7 +16,7 @@ export default function Searchbar() {
       topic.toLowerCase().includes(value.toLowerCase()),
     ).slice(0, 5);
     setSearchList(filtered);
-  }, 300);
+  }, 200);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;

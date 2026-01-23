@@ -16,20 +16,25 @@ export default function QuestionOptions({
   selectedAnswer,
   setSetselectedAnswer,
 }: QuestionOptionsProps) {
-  const isOptionLessThan5Character: boolean = question.options[0].length < 5;
-  const btnBlockStyle = isOptionLessThan5Character && "p-6 ";
+  const isOptionLessThan3Character: boolean = question.options[0].length < 3;
+  const btnBlockStyle = isOptionLessThan3Character && "p-6";
+  const selected = (option: string) =>
+    selectedAnswer === option && "bg-primary! text-white! scale-105";
+  const correctAnswer =
+    answer === selectedAnswer && "green-300 text-shadow-gray-700!";
 
   const handleSelected = (option: string) => {
     setSetselectedAnswer(option);
   };
+
   return (
     <section
-      className={`flex flex-col space-y-3 rounded-xl bg-white/60 p-6 ${isOptionLessThan5Character && "grid grid-cols-2 grid-rows-2 gap-6"}`}
+      className={`flex flex-col space-y-3 rounded-xl p-3 ${isOptionLessThan3Character && "grid grid-cols-2 grid-rows-2 gap-6"}`}
     >
       {question.options.map((option: string, index: number) => (
         <button
           onClick={() => handleSelected(option)}
-          className={`${answer === selectedAnswer && "green-300 text-shadow-gray-700!"} ${btnBlockStyle} ${selectedAnswer === option && "bg-info scale-105"} btn btn-neutral w-full border-0 bg-gray-600 text-xl transition-all! duration-100! hover:scale-105 hover:animate-pulse`}
+          className={`${correctAnswer} ${btnBlockStyle} ${selected(option)} h-full w-full rounded-lg border-0 bg-gray-600 p-3 text-lg font-medium text-white/90 hover:scale-105 hover:cursor-pointer hover:bg-gray-500 hover:text-white`}
           key={option}
         >
           {indexOrder[index]} {option}

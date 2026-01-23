@@ -9,7 +9,7 @@ interface TopicsState {
   numberOfQuiz: number;
   setQuizNumber: (value: number) => void;
   addTopic: (newTopic: Topic) => void;
-  removeAll: () => void;
+  clearTopic: () => void;
   removeTopic: (topicToRemove: Topic) => void;
 }
 
@@ -24,7 +24,7 @@ const useQuizOptionStore = create<TopicsState>()(
           const updatedTopics = cleanDuplicates(topics, newTopic);
           return { topics: updatedTopics };
         }),
-      removeAll: () => {
+      clearTopic: () => {
         set(() => ({ topics: [] }));
       },
       removeTopic: (topicToRemove: Topic) => {
@@ -58,6 +58,6 @@ export const useQuizOption = () => {
     topics: quizState.topics,
     addTopic: quizState.addTopic,
     removeTopic: quizState.removeTopic,
-    removeAll: quizState.removeAll,
+    clearTopic: quizState.clearTopic,
   };
 };

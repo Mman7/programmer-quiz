@@ -1,14 +1,14 @@
 import { QuizQuestion } from "../types/quizQuestion";
 import { TopicMap } from "../lib/cache-store";
 import { Topic } from "../types/topic";
-import { getKeyByValue } from "../enum/topicTypes";
+import { getKeyByValue, getValueByKey } from "../enum/topicTypes";
 
 interface filterOutTopicProps {
   selectedTopics: Topic[];
   allTopic: TopicMap;
 }
 // combine name to get same key as TopicType enum
-const combineNameWithDifficulty = (name: string, difficulty: string) =>
+export const combineNameWithDifficulty = (name: string, difficulty: string) =>
   `${name}_${difficulty}`;
 
 const renamedTopicsList = (array: Topic[]): string[] => {
@@ -38,7 +38,6 @@ export const filterOutTopic = ({
     }),
   );
   const getItem = newList.map((item) => [allTopic[item]]);
-  console.log(allTopicKey);
   return getItem; // find the common in all topic and selected topic
 };
 
@@ -48,6 +47,15 @@ export const combineMapInArray = (arrayOfMap: any) => {
   );
   const combinedMap = new Map(combineMap.flatMap((m: any) => [...m]));
   return combinedMap;
+};
+
+const removeAnswerAndReason = (question: QuizQuestion): QuizQuestion => {
+  const { answer, reason, ...rest } = question;
+  return { ...rest };
+};
+
+const returnTopicName = (key: string) => {
+  return getValueByKey(key);
 };
 
 export const getRandomQuestion = (
@@ -70,18 +78,18 @@ export const getRandomQuestion = (
     randomKeys.push(availableKeys.splice(randomIndex, 1)[0]);
   }
 
-  const randomQuestion = randomKeys
+  const randomQuestion: QuizQuestion[] = randomKeys
     .map((key) => selectedQuestionMap.get(key))
     .filter((item) => item !== undefined);
+  const removeAnswerQuestions = randomQuestion.map((item: QuizQuestion) => {
+    return removeAnswerAndReason(item);
+  });
 
-  const removeAnswerQuestions = randomQuestion.map((item: QuizQuestion) =>
-    removeAnswerAndReason(item),
-  );
-
-  return removeAnswerQuestions;
-};
-
-export const removeAnswerAndReason = (question: QuizQuestion): QuizQuestion => {
-  const { answer, reason, ...rest } = question;
-  return { ...rest };
+  const newList = removeAnswerQuestions.map((item) => {
+    return {
+      ...item,
+      topic: returnTopicName(item.topic),
+    };
+  });
+  return newList;
 };

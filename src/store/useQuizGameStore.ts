@@ -5,8 +5,8 @@ import { persist } from "zustand/middleware";
 // Whole app state
 interface useQuizGameState {
   questions: (QuizQuestion | QuestionWithoutAnswer)[];
-  currentQuestionIndex: number;
-  setCurrentQuestionIndex: (index: number) => void;
+  lastQuestionIndex: number;
+  setLastQuestionIndex: (index: number) => void;
   setQuestion: (question: QuestionWithoutAnswer[]) => void;
   clearQuestion: () => void;
   updateQuestionFromArray: (
@@ -20,9 +20,9 @@ const useQuizGameStore = create<useQuizGameState>()(
     (set) => {
       return {
         questions: [],
-        currentQuestionIndex: 0,
-        setCurrentQuestionIndex: (index: number) =>
-          set((state) => ({ currentQuestionIndex: index })),
+        lastQuestionIndex: 0,
+        setLastQuestionIndex: (index: number) =>
+          set((state) => ({ lastQuestionIndex: index })),
         setQuestion: (newQuestionList: QuestionWithoutAnswer[]) =>
           set((state) => ({ questions: newQuestionList })),
         clearQuestion: () => set({ questions: [] }),
@@ -67,8 +67,8 @@ export const useQuizGame = () => {
   const quiz = useQuizGameStore((state) => state);
   return {
     questions: quiz.questions,
-    currentQuestionIndex: quiz.currentQuestionIndex,
-    setCurrentQuestionIndex: quiz.setCurrentQuestionIndex,
+    lastQuestionIndex: quiz.lastQuestionIndex,
+    setLastQuestionIndex: quiz.setLastQuestionIndex,
     setQuestion: quiz.setQuestion,
     clearQuestion: quiz.clearQuestion,
     updateQuestionFromArray: quiz.updateQuestionFromArray,

@@ -1,5 +1,485 @@
 [
   {
+    "questionId": "web_h_1",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which HTTP status code represents 'Too Many Requests'?",
+    "options": ["429", "403", "503", "400"],
+    "answer": "429",
+    "reason": "429 is the standard HTTP status code for rate limiting."
+  },
+  {
+    "questionId": "web_h_2",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which HTTP header prevents MIME type sniffing?",
+    "options": [
+      "X-Content-Type-Options",
+      "Content-Security-Policy",
+      "X-Frame-Options",
+      "Strict-Transport-Security"
+    ],
+    "answer": "X-Content-Type-Options",
+    "reason": "Setting X-Content-Type-Options: nosniff prevents browsers from MIME sniffing."
+  },
+  {
+    "questionId": "web_h_3",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which HTTP header prevents clickjacking attacks?",
+    "options": [
+      "X-Frame-Options",
+      "Content-Security-Policy",
+      "Referrer-Policy",
+      "Strict-Transport-Security"
+    ],
+    "answer": "X-Frame-Options",
+    "reason": "X-Frame-Options denies rendering pages in iframes from other domains."
+  },
+  {
+    "questionId": "web_h_4",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which Content Security Policy directive restricts scripts to same origin?",
+    "options": [
+      "script-src 'self'",
+      "default-src 'self'",
+      "connect-src 'self'",
+      "style-src 'self'"
+    ],
+    "answer": "script-src 'self'",
+    "reason": "script-src 'self' ensures only scripts from same origin are executed."
+  },
+  {
+    "questionId": "web_h_5",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which JavaScript API allows memory-efficient data streaming?",
+    "options": ["Streams API", "Fetch API", "Blob API", "XMLHttpRequest"],
+    "answer": "Streams API",
+    "reason": "Streams API allows reading/writing data in chunks without loading entire content into memory."
+  },
+  {
+    "questionId": "web_h_6",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which method cancels a readable stream?",
+    "options": [
+      "readable.cancel()",
+      "stream.stop()",
+      "stream.abort()",
+      "readable.close()"
+    ],
+    "answer": "readable.cancel()",
+    "reason": "readable.cancel() signals that the stream is no longer needed and releases resources."
+  },
+  {
+    "questionId": "web_h_7",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows off-main-thread JavaScript execution?",
+    "options": [
+      "Web Workers",
+      "Service Workers",
+      "Shared Workers",
+      "Audio Worklet"
+    ],
+    "answer": "Web Workers",
+    "reason": "Web Workers run scripts on background threads to avoid blocking the main UI thread."
+  },
+  {
+    "questionId": "web_h_8",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which worker type can share memory between threads?",
+    "options": [
+      "SharedWorker",
+      "Dedicated Worker",
+      "Service Worker",
+      "Audio Worklet"
+    ],
+    "answer": "SharedWorker",
+    "reason": "SharedWorker allows multiple scripts to share a single worker and communicate via SharedArrayBuffer."
+  },
+  {
+    "questionId": "web_h_9",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows secure cross-origin messaging between frames?",
+    "options": [
+      "postMessage()",
+      "sendMessage()",
+      "crossMessage()",
+      "messageChannel()"
+    ],
+    "answer": "postMessage()",
+    "reason": "postMessage allows safe cross-origin communication between windows, iframes, or workers."
+  },
+  {
+    "questionId": "web_h_10",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which JavaScript object allows creating atomic shared memory?",
+    "options": ["SharedArrayBuffer", "ArrayBuffer", "Buffer", "Atomics"],
+    "answer": "SharedArrayBuffer",
+    "reason": "SharedArrayBuffer enables memory sharing across threads; Atomics provides thread-safe operations."
+  },
+  {
+    "questionId": "web_h_11",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API enforces secure context for powerful web features?",
+    "options": [
+      "Secure Contexts API",
+      "Navigator API",
+      "Window API",
+      "Content Security API"
+    ],
+    "answer": "Secure Contexts API",
+    "reason": "Secure contexts (HTTPS or localhost) are required for features like SharedArrayBuffer and Geolocation."
+  },
+  {
+    "questionId": "web_h_12",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which JavaScript method creates a promise that resolves when multiple promises complete?",
+    "options": [
+      "Promise.all()",
+      "Promise.race()",
+      "Promise.any()",
+      "Promise.resolve()"
+    ],
+    "answer": "Promise.all()",
+    "reason": "Promise.all waits for all input promises to settle and resolves with their results."
+  },
+  {
+    "questionId": "web_h_13",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which JavaScript method resolves when the first promise resolves or rejects?",
+    "options": [
+      "Promise.race()",
+      "Promise.all()",
+      "Promise.any()",
+      "Promise.allSettled()"
+    ],
+    "answer": "Promise.race()",
+    "reason": "Promise.race returns a promise that settles as soon as any input promise settles."
+  },
+  {
+    "questionId": "web_h_14",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which JavaScript method resolves when the first fulfilled promise resolves?",
+    "options": [
+      "Promise.any()",
+      "Promise.all()",
+      "Promise.race()",
+      "Promise.allSettled()"
+    ],
+    "answer": "Promise.any()",
+    "reason": "Promise.any resolves when the first promise fulfills, ignoring rejections."
+  },
+  {
+    "questionId": "web_h_15",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which JavaScript method returns results of all promises regardless of fulfillment?",
+    "options": [
+      "Promise.allSettled()",
+      "Promise.all()",
+      "Promise.race()",
+      "Promise.any()"
+    ],
+    "answer": "Promise.allSettled()",
+    "reason": "Promise.allSettled returns an array with status and value/reason for each promise."
+  },
+  {
+    "questionId": "web_h_16",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows efficient binary data transfer between main thread and worker?",
+    "options": ["Transferable Objects", "ArrayBuffer", "Blob", "Buffer"],
+    "answer": "Transferable Objects",
+    "reason": "Transferable objects move memory ownership instead of copying, improving performance."
+  },
+  {
+    "questionId": "web_h_17",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API enables high-resolution timing in browsers?",
+    "options": ["Performance API", "Date.now()", "Timing API", "Time API"],
+    "answer": "Performance API",
+    "reason": "Performance.now() provides high-resolution timestamps for precise measurements."
+  },
+  {
+    "questionId": "web_h_18",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API measures time between DOM events precisely?",
+    "options": ["Performance API", "Event API", "Timing API", "Navigation API"],
+    "answer": "Performance API",
+    "reason": "Performance API allows marking and measuring durations between events accurately."
+  },
+  {
+    "questionId": "web_h_19",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which JavaScript API observes changes in DOM elements efficiently?",
+    "options": [
+      "MutationObserver",
+      "DOMObserver",
+      "ResizeObserver",
+      "IntersectionObserver"
+    ],
+    "answer": "MutationObserver",
+    "reason": "MutationObserver notifies when DOM nodes are added, removed, or changed."
+  },
+  {
+    "questionId": "web_h_20",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API observes element visibility within viewport?",
+    "options": [
+      "IntersectionObserver",
+      "MutationObserver",
+      "ResizeObserver",
+      "ViewportObserver"
+    ],
+    "answer": "IntersectionObserver",
+    "reason": "IntersectionObserver detects when an element enters or leaves the viewport."
+  },
+  {
+    "questionId": "web_h_21",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API tracks element size changes efficiently?",
+    "options": [
+      "ResizeObserver",
+      "MutationObserver",
+      "IntersectionObserver",
+      "ViewportObserver"
+    ],
+    "answer": "ResizeObserver",
+    "reason": "ResizeObserver fires callbacks when an element's content rectangle changes."
+  },
+  {
+    "questionId": "web_h_22",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows precise control over audio rendering?",
+    "options": ["Web Audio API", "Audio API", "Media API", "Sound API"],
+    "answer": "Web Audio API",
+    "reason": "Web Audio API provides advanced audio processing, filters, and spatial sound."
+  },
+  {
+    "questionId": "web_h_23",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which method schedules audio playback at precise time?",
+    "options": [
+      "audioContext.currentTime",
+      "audio.start()",
+      "playAt()",
+      "audio.play()"
+    ],
+    "answer": "audioContext.currentTime",
+    "reason": "AudioContext allows scheduling playback at exact timestamps."
+  },
+  {
+    "questionId": "web_h_24",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows creating offline audio processing nodes?",
+    "options": [
+      "Audio Worklet",
+      "Web Audio API",
+      "Offline Audio API",
+      "AudioNode API"
+    ],
+    "answer": "Audio Worklet",
+    "reason": "Audio Worklet runs custom audio processing code off the main thread."
+  },
+  {
+    "questionId": "web_h_25",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows real-time peer-to-peer communication in browser?",
+    "options": ["WebRTC", "WebSocket", "RTCDataChannel", "PeerAPI"],
+    "answer": "WebRTC",
+    "reason": "WebRTC provides audio, video, and data channels for real-time P2P communication."
+  },
+  {
+    "questionId": "web_h_26",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which WebRTC component carries arbitrary data between peers?",
+    "options": [
+      "RTCDataChannel",
+      "MediaStream",
+      "RTCPeerConnection",
+      "RTCSessionDescription"
+    ],
+    "answer": "RTCDataChannel",
+    "reason": "RTCDataChannel enables sending text or binary data over peer-to-peer connections."
+  },
+  {
+    "questionId": "web_h_27",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which WebRTC object represents a connection between peers?",
+    "options": [
+      "RTCPeerConnection",
+      "MediaStream",
+      "RTCDataChannel",
+      "RTCIceCandidate"
+    ],
+    "answer": "RTCPeerConnection",
+    "reason": "RTCPeerConnection manages ICE candidates, signaling, and media streams."
+  },
+  {
+    "questionId": "web_h_28",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which WebRTC component provides network candidates for connectivity?",
+    "options": [
+      "RTCIceCandidate",
+      "RTCPeerConnection",
+      "RTCDataChannel",
+      "MediaStream"
+    ],
+    "answer": "RTCIceCandidate",
+    "reason": "RTCIceCandidate represents possible network paths for peer-to-peer connection."
+  },
+  {
+    "questionId": "web_h_29",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which JavaScript API allows inspecting network requests timing?",
+    "options": [
+      "Resource Timing API",
+      "Network API",
+      "Performance API",
+      "Timing API"
+    ],
+    "answer": "Resource Timing API",
+    "reason": "Resource Timing API provides detailed metrics for network request and response times."
+  },
+  {
+    "questionId": "web_h_30",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows programmatic file system access in browser?",
+    "options": ["File System Access API", "File API", "Blob API", "FS API"],
+    "answer": "File System Access API",
+    "reason": "Enables reading and writing files on user’s local machine with permission."
+  },
+  {
+    "questionId": "web_h_31",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API enables efficient data storage with structured objects?",
+    "options": ["IndexedDB", "localStorage", "SessionStorage", "Web SQL"],
+    "answer": "IndexedDB",
+    "reason": "IndexedDB stores complex structured data in key-value pairs asynchronously."
+  },
+  {
+    "questionId": "web_h_32",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which IndexedDB method opens a database asynchronously?",
+    "options": [
+      "indexedDB.open()",
+      "indexedDB.create()",
+      "indexedDB.connect()",
+      "indexedDB.init()"
+    ],
+    "answer": "indexedDB.open()",
+    "reason": "indexedDB.open opens a database, triggering onsuccess or onupgradeneeded events."
+  },
+  {
+    "questionId": "web_h_33",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API enables storage of large binary objects?",
+    "options": ["Blob", "File", "ArrayBuffer", "Buffer"],
+    "answer": "Blob",
+    "reason": "Blob represents immutable raw binary data suitable for storage or network transfer."
+  },
+  {
+    "questionId": "web_h_34",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which method reads files as ArrayBuffer or text?",
+    "options": [
+      "FileReader.readAsArrayBuffer/readAsText",
+      "Blob.read()",
+      "File.read()",
+      "FileReader.read()"
+    ],
+    "answer": "FileReader.readAsArrayBuffer/readAsText",
+    "reason": "FileReader reads local files asynchronously into memory in desired format."
+  },
+  {
+    "questionId": "web_h_35",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API enables drag-and-drop of files to browser?",
+    "options": ["DataTransfer API", "DragDrop API", "File API", "Input API"],
+    "answer": "DataTransfer API",
+    "reason": "Drag-and-drop events provide file data via DataTransfer object."
+  },
+  {
+    "questionId": "web_h_36",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows rendering 2D graphics in canvas?",
+    "options": ["Canvas 2D API", "WebGL", "SVG API", "Graphics API"],
+    "answer": "Canvas 2D API",
+    "reason": "Canvas 2D provides drawing functions for shapes, images, and text in 2D context."
+  },
+  {
+    "questionId": "web_h_37",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API allows hardware-accelerated 3D graphics in browser?",
+    "options": ["WebGL", "Canvas 2D", "SVG", "CSS 3D"],
+    "answer": "WebGL",
+    "reason": "WebGL uses GPU to render 3D graphics in a canvas context."
+  },
+  {
+    "questionId": "web_h_38",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which WebGL object represents a shader program?",
+    "options": ["WebGLProgram", "WebGLShader", "Program", "Shader"],
+    "answer": "WebGLProgram",
+    "reason": "WebGLProgram links vertex and fragment shaders for rendering pipeline."
+  },
+  {
+    "questionId": "web_h_39",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which WebGL object stores vertex data on GPU?",
+    "options": ["WebGLBuffer", "WebGLVertexArray", "Buffer", "VertexBuffer"],
+    "answer": "WebGLBuffer",
+    "reason": "WebGLBuffer holds vertex or index data for GPU processing."
+  },
+  {
+    "questionId": "web_h_40",
+    "topic": "web",
+    "difficulty": "hard",
+    "questionText": "Which API detects device orientation and motion events?",
+    "options": [
+      "DeviceMotion and DeviceOrientation API",
+      "Motion API",
+      "Orientation API",
+      "Sensors API"
+    ],
+    "answer": "DeviceMotion and DeviceOrientation API",
+    "reason": "Provides acceleration, rotation rate, and orientation data from device sensors."
+  },
+  {
     "questionId": "web_h_41",
     "topic": "web",
     "difficulty": "hard",

@@ -1,13 +1,13 @@
 import { create } from "zustand";
-import { QuestionWithoutAnswer, QuizQuestion } from "../types/quizQuestion";
+import { QuizQuestion } from "../types/quizQuestion";
 import { persist } from "zustand/middleware";
 
 // Whole app state
 interface useQuizGameState {
-  questions: (QuizQuestion | QuestionWithoutAnswer)[];
+  questions: QuizQuestion[];
   lastQuestionIndex: number;
   setLastQuestionIndex: (index: number) => void;
-  setQuestion: (question: QuestionWithoutAnswer[]) => void;
+  setQuestion: (question: QuizQuestion[]) => void;
   clearQuestion: () => void;
   updateQuestionFromArray: (
     quizQuestion: QuizQuestion,
@@ -23,7 +23,7 @@ const useQuizGameStore = create<useQuizGameState>()(
         lastQuestionIndex: 0,
         setLastQuestionIndex: (index: number) =>
           set((state) => ({ lastQuestionIndex: index })),
-        setQuestion: (newQuestionList: QuestionWithoutAnswer[]) =>
+        setQuestion: (newQuestionList: QuizQuestion[]) =>
           set((state) => ({ questions: newQuestionList })),
         clearQuestion: () => set({ questions: [] }),
         // Can updated with a question by providing a new question
@@ -48,7 +48,7 @@ const useQuizGameStore = create<useQuizGameState>()(
 );
 
 interface replaceQuestionProps {
-  questions: QuizQuestion[] | QuestionWithoutAnswer[];
+  questions: QuizQuestion[];
   quizQuestion: QuizQuestion;
   indexInQuestion: number;
 }

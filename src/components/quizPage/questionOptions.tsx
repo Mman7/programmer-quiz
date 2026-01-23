@@ -1,10 +1,10 @@
-import { QuestionWithoutAnswer, QuizQuestion } from "@/src/types/quizQuestion";
+import { QuizQuestion } from "@/src/types/quizQuestion";
 import { useState } from "react";
 
 const indexOrder: string[] = ["A.", "B.", "C.", "D."];
 
 interface QuestionOptionsProps {
-  question: QuizQuestion | QuestionWithoutAnswer;
+  question: QuizQuestion;
   answer: string;
   selectedAnswer: string;
   setSetselectedAnswer: (option: string) => void;
@@ -19,7 +19,7 @@ export default function QuestionOptions({
   const isOptionLessThan3Character: boolean = question.options[0].length < 3;
   const btnBlockStyle = isOptionLessThan3Character && "p-6";
   const selected = (option: string) =>
-    selectedAnswer === option && "bg-primary! text-white! scale-105";
+    selectedAnswer === option && "bg-info! text-white! scale-105";
   const correctAnswer =
     answer === selectedAnswer && "green-300 text-shadow-gray-700!";
 

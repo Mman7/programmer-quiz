@@ -1,27 +1,22 @@
 import { color } from "@/src/enum/topicBadgeColor";
-import { useMounted } from "@/src/hooks/useMounted";
 import { ModelName, useConfirmModal } from "@/src/store/useComfirmModalStore";
 import { useQuizGame } from "@/src/store/useQuizGameStore";
 import { useQuizOption } from "@/src/store/useSelectedTopicsStore";
 import { Topic } from "@/src/types/topic";
-import { useEffect } from "react";
 
 export default function RemovableTopicBadge({ topic }: { topic: Topic }) {
   const { removeTopic } = useQuizOption();
   const { questions } = useQuizGame();
   const { setModalName } = useConfirmModal();
-  const mounted = useMounted();
 
-  const showConfirmModal = (topic: Topic) => {
+  const showConfirmModal = () => {
     setModalName(ModelName.removeTopicModal);
   };
-
-  useEffect(() => {}, [mounted]);
 
   return (
     <button
       onClick={() =>
-        questions.length > 0 ? showConfirmModal(topic) : removeTopic(topic)
+        questions.length > 0 ? showConfirmModal() : removeTopic(topic)
       }
       className={`btn btn-outline group transition-all duration-75 ${color[topic.difficulty]}`}
     >

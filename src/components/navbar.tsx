@@ -33,7 +33,7 @@ export default function Navbar() {
               <FontAwesomeIcon icon={faBars} />
             </label>
             <button
-              className="btn btn-outline btn-success group font-bold"
+              className="btn btn-outline btn-success group mx-2 font-bold sm:hidden"
               onClick={() => handleBack()}
             >
               <FontAwesomeIcon

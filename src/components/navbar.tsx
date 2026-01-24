@@ -2,6 +2,7 @@
 
 import {
   faArrowRotateRight,
+  faBackward,
   faBars,
   faRightToBracket,
 } from "@fortawesome/free-solid-svg-icons";
@@ -13,15 +14,35 @@ import { useQuizGame } from "../store/useQuizGameStore";
 export default function Navbar() {
   const pathname = usePathname();
   const isQuizPage = pathname == "/quiz" || pathname.startsWith("/quiz/");
+  const router = useRouter();
+
+  const handleBack = () => {
+    router.replace("/");
+  };
 
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
         <input id="my-drawer-1" type="checkbox" className="drawer-toggle" />
         <div className="dropdown">
-          <label htmlFor="my-drawer-3" className="btn drawer-button lg:hidden">
-            <FontAwesomeIcon icon={faBars} />
-          </label>
+          <div>
+            <label
+              htmlFor="my-drawer-3"
+              className="btn drawer-button lg:hidden"
+            >
+              <FontAwesomeIcon icon={faBars} />
+            </label>
+            <button
+              className="btn btn-outline btn-success group font-bold"
+              onClick={() => handleBack()}
+            >
+              <FontAwesomeIcon
+                className="opacity-100 group-hover:opacity-100 sm:opacity-0"
+                icon={faBackward}
+              />
+              <h1 className="-ml-5 hidden group-hover:m-0 sm:block">Back</h1>
+            </button>
+          </div>
         </div>
       </div>
       <div className="navbar-center">
@@ -39,8 +60,9 @@ function ContinueButton() {
   const router = useRouter();
 
   const handleContinueGame = () => {
-    router.push(`/quiz/${lastQuestionIndex}`);
+    router.push(`/quiz/${lastQuestionIndex + 1}`);
   };
+
   return (
     questions.length > 1 && (
       <button

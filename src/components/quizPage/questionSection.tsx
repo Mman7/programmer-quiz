@@ -1,5 +1,5 @@
 import { QuizQuestion } from "@/src/types/quizQuestion";
-import { useParams } from "next/navigation";
+import { useParams, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import QuestionOptions from "./questionOptions";
 import TopicBadge from "../topicBadge/topicBadge";
@@ -19,8 +19,9 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
   const [reason, setReason] = useState<string>("");
   const [answer, setAnswer] = useState<string | null>(null);
   const [isSubmit, setIsSubmit] = useState<boolean>(false);
-  const { updateQuestionFromArray } = useQuizGame();
+  const { updateQuestionFromArray, questions } = useQuizGame();
   const params = useParams();
+  const router = useRouter();
   const id = Number(params.id);
 
   const topic: Topic = {
@@ -93,7 +94,17 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
           Check Answer!
         </button>
       </section>
-      <NavigationButton isSubmit={isSubmit} />
+      {isSubmit && id == questions.length - 1 && (
+        <button
+          onClick={() => router.push("/")}
+          className={`${isSubmit && "visible"} btn btn-secondary btn-outline btn-block invisible mt-3 flex-1`}
+        >
+          Back To Home Page
+        </button>
+      )}
+      {isSubmit && id !== questions.length - 1 && (
+        <NavigationButton isSubmit={isSubmit} />
+      )}
     </div>
   );
 }

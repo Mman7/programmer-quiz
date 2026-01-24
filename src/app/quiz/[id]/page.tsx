@@ -17,7 +17,7 @@ export default function QuestionPage() {
 
   useEffect(() => {
     // Load question from zustand
-    setQuestion(questions[id]);
+    setQuestion(questions[id - 1]);
     setLastQuestionIndex(id);
   }, [mounted]);
 

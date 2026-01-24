@@ -19,7 +19,7 @@ export function SettingOpion() {
         step={10}
         title="Must be between be 10 to 30"
       />
-      <p className="validator-hint">Must be between be 1 to 30</p>
+      <p className="validator-hint">Must be between be 10 to 30</p>
       <section>
         <h2 className="font-medium text-gray-600">Topics includes</h2>
         <TopicOptions />

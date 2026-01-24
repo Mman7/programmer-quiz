@@ -3,23 +3,23 @@ import { TopicMap } from "../lib/cache-store";
 import { Topic } from "../types/topic";
 import { getKeyByValue, getValueByKey } from "../enum/topicTypes";
 
-interface filterOutTopicProps {
+interface FilterOutTopicProps {
   selectedTopics: Topic[];
   allTopic: TopicMap;
 }
-// combine name to get same key as TopicType enum
+
+// Combine name to get same key as TopicType enum
 export const combineNameWithDifficulty = (name: string, difficulty: string) =>
   `${name}_${difficulty}`;
 
 const renamedTopicsList = (array: Topic[]): string[] => {
-  const newList = array.map((item: Topic) => {
+  return array.map((item: Topic) => {
     const topicKey = getKeyByValue(item.name);
     if (topicKey === undefined) {
       throw new Error(`Topic key not found for topic name: ${item.name}`);
     }
     return combineNameWithDifficulty(topicKey, item.difficulty);
   });
-  return newList;
 };
 
 /**
@@ -28,16 +28,14 @@ const renamedTopicsList = (array: Topic[]): string[] => {
 export const filterOutTopic = ({
   selectedTopics,
   allTopic,
-}: filterOutTopicProps) => {
+}: FilterOutTopicProps) => {
   // All topics can only access with specific name like "js_easy, webdev_easy"
   const topicsList: string[] = renamedTopicsList(selectedTopics);
-  const allTopicKey = Object.keys(allTopic);
-  const newList = allTopicKey.filter((item) =>
-    topicsList.some((b) => {
-      return item === b;
-    }),
+  const allTopicKeys = Object.keys(allTopic);
+  const filteredKeys = allTopicKeys.filter((item) =>
+    topicsList.some((b) => item === b),
   );
-  const getItem = newList.map((item) => [allTopic[item]]);
+  const getItem = filteredKeys.map((item) => [allTopic[item]]);
   return getItem; // find the common in all topic and selected topic
 };
 
@@ -81,6 +79,7 @@ export const getRandomQuestion = (
   const randomQuestion: QuizQuestion[] = randomKeys
     .map((key) => selectedQuestionMap.get(key))
     .filter((item) => item !== undefined);
+
   const removeAnswerQuestions = randomQuestion.map((item: QuizQuestion) => {
     return removeAnswerAndReason(item);
   });

@@ -5,7 +5,7 @@ const indexOrder: string[] = ["A.", "B.", "C.", "D."];
 interface QuestionOptionsProps {
   question: QuizQuestion;
   isSubmit: boolean;
-  answer: string | null;
+  answer: string | undefined;
   selectedAnswer: string;
   setSetselectedAnswer: (option: string) => void;
 }
@@ -42,7 +42,7 @@ export default function QuestionOptions({
       {question.options.map((option: string, index: number) => (
         <button
           onClick={() => handleSelected(option)}
-          className={`${getOptionStyle(option)} ${btnBlockStyle} relative h-full w-full rounded-lg border-0 bg-gray-600 p-3 text-lg font-medium text-white/90 hover:scale-105 hover:cursor-pointer hover:bg-gray-500 hover:text-white`}
+          className={`${getOptionStyle(option)} ${btnBlockStyle} relative h-full w-full rounded-lg border-0 bg-gray-600 p-2 text-lg font-medium text-white/90 hover:scale-105 hover:cursor-pointer hover:bg-gray-500 hover:text-white`}
           key={option}
         >
           <span className="mr-2 text-gray-100">{indexOrder[index]}</span>{" "}

@@ -9,6 +9,7 @@ import { Answer, RequestAnswer } from "@/src/types/answer";
 import { useQuizGame } from "@/src/store/useQuizGameStore";
 import CheckCorrect from "./showCorrect";
 import NavigationButton from "./navigationButton";
+import { useMounted } from "@/src/hooks/useMounted";
 
 interface QuestionSectionProps {
   question: QuizQuestion;
@@ -16,8 +17,8 @@ interface QuestionSectionProps {
 
 export default function QuestionSection({ question }: QuestionSectionProps) {
   const [selectedAnswer, setSetselectedAnswer] = useState<string>("");
-  const [reason, setReason] = useState<string>("");
-  const [answer, setAnswer] = useState<string | null>(null);
+  const [reason, setReason] = useState<string | undefined>("");
+  const [answer, setAnswer] = useState<string | undefined>(undefined);
   const [isSubmit, setIsSubmit] = useState<boolean>(false);
   const { updateQuestionFromArray, questions } = useQuizGame();
   const params = useParams();
@@ -46,7 +47,7 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
       answer: response.answer,
     };
 
-    updateQuestionFromArray(newQuestion, id);
+    updateQuestionFromArray(newQuestion, id - 1);
     setAnswer(response.answer);
     setReason(response.reason);
     setIsSubmit(true);
@@ -54,20 +55,25 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
 
   // Load previous data
   useEffect(() => {
-    if (question.answer) setAnswer(question.answer);
-    if (question.userAnswer) setSetselectedAnswer(question.userAnswer);
-    if (question.userAnswer) setIsSubmit(true);
-    if (question.reason) setReason(question.reason);
+    if (questions[id].answer === undefined) return;
+    if (questions[id].answer !== undefined) setAnswer(question.answer);
+    if (questions[id].userAnswer !== undefined)
+      setSetselectedAnswer(questions[id].userAnswer);
+    if (questions[id].answer !== undefined) setIsSubmit(true);
+    if (questions[id].reason !== undefined) setReason(questions[id].reason);
   }, []);
+
+  //TODO do a page show result and correct answer percent rate
+  // use detail tag and summary tag
 
   return (
     <div className="m-auto w-full p-3">
-      <h1 className="p-2.5 text-center text-3xl font-bold">Quiz Game</h1>
       <section className="w-full flex-col rounded-xl bg-white/40 p-6 backdrop-blur-md">
-        <h1 className="mb-2 text-2xl font-medium text-shadow-gray-600">
-          {id}. {question.questionText}
+        <h1 className="mb-2 text-sm font-medium text-shadow-gray-600 lg:text-2xl">
+          {id}. {question.questionText}{" "}
+          <TopicBadge topic={topic} className="max-w-30" />
         </h1>
-        <TopicBadge topic={topic} className="max-w-30" />
+
         <QuestionOptions
           isSubmit={isSubmit}
           answer={answer}
@@ -88,7 +94,7 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
           </p>
         </h2>
         <button
-          onClick={() => (selectedAnswer !== "" ? submitAnswer() : "")}
+          onClick={() => selectedAnswer !== "" && submitAnswer()}
           className={`btn ${selectedAnswer !== "" && "btn-info"} ${selectedAnswer === "" && "cursor-not-allowed"} ${isSubmit && "bg-sky-400 text-gray-800"} btn-outline mt-3 w-full`}
         >
           Check Answer!
@@ -102,9 +108,11 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
           Back To Home Page
         </button>
       )}
-      {isSubmit && id !== questions.length - 1 && (
+      <section
+        className={`${isSubmit && id !== questions.length - 1 && "visible!"} invisible`}
+      >
         <NavigationButton isSubmit={isSubmit} />
-      )}
+      </section>
     </div>
   );
 }

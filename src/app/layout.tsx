@@ -16,6 +16,7 @@ export const metadata: Metadata = {
     "programming quiz",
     "code challenge",
   ],
+  metadataBase: new URL("https://quiz-this.netlify.app/"),
   authors: [{ name: "Eric Man" }],
   creator: "Eric Man",
   publisher: "QuizThis",
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://quizthis.com",
+    url: "https://quiz-this.netlify.app/",
     title: "QuizThis - Programming Quiz Platform",
     description:
       "Test your programming skills with QuizThis - a challenging quiz platform for developers",
@@ -57,11 +58,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="">
-      <body>
+      <body className="scrollbar scrollbar-thumb-blue-500! scrollbar-track-gray-200!">
         <Navbar />
-        <div className="drawer lg:drawer-open">
+        <div className="drawer lg:drawer-open overflow-x-hidden bg-gray-300">
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-          <div className="drawer-content flex h-[calc(100vh-4rem)] flex-col justify-center overflow-hidden bg-[url('/img/bg.jpg')] bg-cover bg-center">
+          <div className="drawer-content flex h-[calc(100vh-4rem)] flex-col justify-center bg-[url('/img/bg.jpg')] bg-cover bg-center">
             {children}
           </div>
           {/* calculate the height of the drawer side prevent overflow */}

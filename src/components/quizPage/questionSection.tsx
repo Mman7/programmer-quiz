@@ -9,7 +9,6 @@ import { Answer, RequestAnswer } from "@/src/types/answer";
 import { useQuizGame } from "@/src/store/useQuizGameStore";
 import CheckCorrect from "./showCorrect";
 import NavigationButton from "./navigationButton";
-import { useMounted } from "@/src/hooks/useMounted";
 
 interface QuestionSectionProps {
   question: QuizQuestion;

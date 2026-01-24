@@ -49,6 +49,13 @@ export default function Sidebar() {
             <SelectedTopic topic={item} key={index} />
           ))}
         </section>
+        <a
+          target="_blank"
+          href="https://github.com/Mman7"
+          className="btn btn-soft btn-info mt-auto"
+        >
+          By EricMan
+        </a>
       </div>
     </>
   );

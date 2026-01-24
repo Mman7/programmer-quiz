@@ -13,12 +13,12 @@ export default function QuestionPage() {
   const { questions, setLastQuestionIndex } = useQuizGame();
   const mounted = useMounted();
   const params = useParams();
-  const id = Number(params.id);
+  const id: number = Number(params.id);
 
   useEffect(() => {
     // Load question from zustand
     setQuestion(questions[id - 1]);
-    setLastQuestionIndex(id);
+    setLastQuestionIndex(id - 1);
   }, [mounted]);
 
   if (question === undefined) {

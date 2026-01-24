@@ -30,6 +30,7 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
   };
 
   const submitAnswer = async () => {
+    if (answer) return;
     const request: RequestAnswer = {
       questionId: question.questionId,
       topic: { difficulty: question.difficulty, name: question.topic },
@@ -64,8 +65,8 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
 
   return (
     <div className="m-auto w-full p-3">
-      <section className="w-full flex-col rounded-xl bg-white/40 p-6 backdrop-blur-md">
-        <h1 className="mb-2 text-xl font-medium text-shadow-gray-600 lg:text-2xl">
+      <section className="w-full flex-col rounded-xl bg-white/10 p-6 backdrop-blur-xl">
+        <h1 className="mb-2 text-xl font-medium lg:text-2xl">
           <span>{id}. </span>
           <span className="mr-2">{question.questionText}</span>
           <TopicBadge topic={topic} />
@@ -83,11 +84,11 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
           isSubmit={isSubmit}
         />
         <h2
-          className={`${isSubmit && "block!"} my-2 hidden rounded-lg bg-white/60 p-4 font-medium`}
+          className={`${isSubmit && "block!"} my-2 hidden rounded-lg bg-white/10 p-4 font-medium`}
         >
           <p className="text-lg">
             <span className="mr-2">Reason:</span>
-            {reason}
+            <span className="text-gray-50">{reason}</span>
           </p>
         </h2>
         <button

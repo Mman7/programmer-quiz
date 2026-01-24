@@ -20,10 +20,8 @@ export default function RemovableTopicBadge({ topic }: { topic: Topic }) {
       }
       className={`btn btn-outline group transition-all duration-75 ${color[topic.difficulty]}`}
     >
-      <h1 className="-mr-3 group-hover:mr-0">{topic.name}</h1>
-      <h1 className="invisible transition-all duration-75! group-hover:visible">
-        X
-      </h1>
+      <h1 className="">{topic.name}</h1>
+      <h1 className="transition-all duration-75!">X</h1>
     </button>
   );
 }

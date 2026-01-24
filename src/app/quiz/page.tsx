@@ -1,5 +1,4 @@
 "use client";
-import InfiniteLoading from "@/src/components/infiniteLoading";
 import { useMounted } from "@/src/hooks/useMounted";
 import { useQuizGame } from "@/src/store/useQuizGameStore";
 import { useQuizOption } from "@/src/store/useSelectedTopicsStore";

@@ -99,10 +99,10 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
       </section>
       {isSubmit && id == questions.length && (
         <button
-          onClick={() => router.push("/")}
+          onClick={() => router.push("/results")}
           className={`${isSubmit && "visible"} btn btn-secondary btn-outline btn-block invisible mt-3 mb-3 flex-1`}
         >
-          Back To Home Page
+          Results
         </button>
       )}
 

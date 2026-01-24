@@ -4,6 +4,8 @@ import { SettingOpion } from "./settingOptions";
 import { useQuizOption } from "@/src/store/useSelectedTopicsStore";
 import { useRouter } from "next/navigation";
 
+const questionNumber = [10, 20, 30];
+
 export default function StartGameModal() {
   const { status, closeModal } = useStartModal();
   const router = useRouter();
@@ -15,7 +17,12 @@ export default function StartGameModal() {
   };
 
   const checkOptionValid = () => {
-    if (numberOfQuiz !== 0 && topics.length !== 0) return true;
+    if (
+      numberOfQuiz !== 0 &&
+      topics.length !== 0 &&
+      questionNumber.includes(numberOfQuiz)
+    )
+      return true;
   };
 
   return (

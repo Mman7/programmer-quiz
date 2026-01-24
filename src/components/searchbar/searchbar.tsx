@@ -9,23 +9,32 @@ export default function Searchbar() {
   const [inputValue, setInputValue] = useState<string>("");
   const [searchList, setSearchList] = useState<string[]>([]);
 
-  const debounced = useDebouncedCallback((value) => {
-    const filtered: string[] = topicValueOnly
-      .filter((topic) => topic.toLowerCase().includes(value.toLowerCase()))
-      .slice(0, 5);
-    setSearchList(filtered);
-  }, 200);
+  const debounced = useDebouncedCallback((callback: () => void) => {
+    callback();
+  }, 250);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const value = e.target.value;
 
-    if (value === "") {
-      setSearchList([]);
-      setInputValue(value);
-      return;
-    }
+    debounced(() => {
+      const filtered: string[] = topicValueOnly
+        .filter((topic) => topic.toLowerCase().includes(value.toLowerCase()))
+        .slice(0, 5);
+      setSearchList(filtered);
+    });
     setInputValue(value);
-    debounced(value);
+  };
+
+  const showSuggestion = () => {
+    debounced(() => {
+      setSearchList([...topicValueOnly]);
+    });
+  };
+
+  const onBlur = () => {
+    debounced(() => {
+      setSearchList([]);
+    });
   };
 
   return (
@@ -50,6 +59,8 @@ export default function Searchbar() {
         <input
           type="search"
           value={inputValue}
+          onFocus={() => showSuggestion()}
+          onBlur={() => onBlur()}
           onChange={(e) => handleChange(e)}
           required
           placeholder="What topics do you like? ( webdev / c# )"
@@ -57,7 +68,7 @@ export default function Searchbar() {
         />
       </label>
       {searchList.length !== 0 && (
-        <section className="absolute top-full left-0 z-10 flex w-full flex-col divide-y divide-sky-100 rounded-lg bg-white/30 p-1 backdrop-blur-md">
+        <section className="absolute top-full left-0 z-10 flex w-full flex-col rounded-lg bg-white/10 p-1 backdrop-blur-lg">
           {searchList.map((item: string, index: number) => (
             <DifficultyOption key={item} item={item} />
           ))}

@@ -5,6 +5,7 @@ import {
   faBars,
   faRightToBracket,
 } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ModelName, useConfirmModal } from "../store/useComfirmModalStore";
 import { usePathname, useRouter } from "next/navigation";
@@ -25,7 +26,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className="navbar-center">
-        <h1 className="text-xl font-medium text-black">Programmer Quiz</h1>
+        <h1 className="text-warning text-2xl font-bold">Quiz This</h1>
       </div>
       <div className="navbar-end">
         {isQuizPage ? <RestartButton /> : <ContinueButton />}

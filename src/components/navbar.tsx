@@ -5,7 +5,6 @@ import {
   faBars,
   faRightToBracket,
 } from "@fortawesome/free-solid-svg-icons";
-import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ModelName, useConfirmModal } from "../store/useComfirmModalStore";
 import { usePathname, useRouter } from "next/navigation";

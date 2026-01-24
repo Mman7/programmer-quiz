@@ -70,7 +70,7 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
     <div className="m-auto w-full p-3">
       <section className="w-full flex-col rounded-xl bg-white/40 p-6 backdrop-blur-md">
         <h1 className="mb-2 text-sm font-medium text-shadow-gray-600 lg:text-2xl">
-          {id}. {question.questionText}{" "}
+          {id}. <span className="mr-2">{question.questionText}</span>{" "}
           <TopicBadge topic={topic} className="max-w-30" />
         </h1>
 

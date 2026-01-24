@@ -52,25 +52,22 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
     setReason(response.reason);
     setIsSubmit(true);
   };
-
   // Load previous data
   useEffect(() => {
-    if (questions[id].answer === undefined) return;
-    if (questions[id].answer !== undefined) setAnswer(question.answer);
-    if (questions[id].userAnswer !== undefined)
-      setSetselectedAnswer(questions[id].userAnswer);
-    if (questions[id].answer !== undefined) setIsSubmit(true);
-    if (questions[id].reason !== undefined) setReason(questions[id].reason);
+    if (questions[id - 1].answer === undefined) return;
+    if (questions[id - 1].answer !== undefined) setAnswer(question.answer);
+    if (questions[id - 1].userAnswer !== undefined)
+      setSetselectedAnswer(questions[id - 1].userAnswer as string);
+    if (questions[id - 1].answer !== undefined) setIsSubmit(true);
+    if (questions[id - 1].reason !== undefined)
+      setReason(questions[id - 1].reason);
   }, []);
-
-  //TODO do a page show result and correct answer percent rate
-  // use detail tag and summary tag
 
   return (
     <div className="m-auto w-full p-3">
       <section className="w-full flex-col rounded-xl bg-white/40 p-6 backdrop-blur-md">
         <h1 className="mb-2 text-xl font-medium text-shadow-gray-600 lg:text-2xl">
-          <span>{id}.</span>
+          <span>{id}. </span>
           <span className="mr-2">{question.questionText}</span>
           <TopicBadge topic={topic} />
         </h1>
@@ -101,19 +98,16 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
           Check Answer!
         </button>
       </section>
-      {isSubmit && id == questions.length - 1 && (
+      {isSubmit && id == questions.length && (
         <button
           onClick={() => router.push("/")}
-          className={`${isSubmit && "visible"} btn btn-secondary btn-outline btn-block invisible mt-3 flex-1`}
+          className={`${isSubmit && "visible"} btn btn-secondary btn-outline btn-block invisible mt-3 mb-3 flex-1`}
         >
           Back To Home Page
         </button>
       )}
-      <section
-        className={`${isSubmit && id !== questions.length - 1 && "visible!"} invisible`}
-      >
-        <NavigationButton isSubmit={isSubmit} />
-      </section>
+
+      <NavigationButton isSubmit={isSubmit} />
     </div>
   );
 }

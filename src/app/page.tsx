@@ -6,7 +6,7 @@ import StartQuizButton from "../components/startQuizButton";
 export default function Home() {
   return (
     <div className="m-auto w-3/4 max-w-2xl">
-      <div className="m-auto mb-8 size-64 rounded-4xl bg-white">
+      <div className="m-auto mb-8 size-64 rounded-4xl bg-white/10 backdrop-blur-2xl">
         <Image
           className="m-auto"
           src="/img/logo.png"

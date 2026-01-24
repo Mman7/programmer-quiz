@@ -57,12 +57,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="">
-      <body className="scrollbar scrollbar-thumb-blue-500! scrollbar-track-gray-200!">
+    <html lang="en" data-theme="night">
+      <body className="scrollbar scrollbar-thumb-blue-500! scrollbar-track-gray-200! animated-background bg-cover bg-center">
         <Navbar />
-        <div className="drawer lg:drawer-open overflow-x-hidden bg-gray-300">
+        <div className="drawer lg:drawer-open overflow-x-hidden">
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-          <div className="drawer-content flex h-[calc(100vh-4rem)] flex-col justify-center bg-[url('/img/bg.jpg')] bg-cover bg-center pt-3">
+          <div className="drawer-content flex h-[calc(100vh-4rem)] flex-col justify-center pt-3">
             {children}
           </div>
           {/* calculate the height of the drawer side prevent overflow */}

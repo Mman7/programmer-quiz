@@ -28,7 +28,7 @@ export default function Sidebar() {
       ></label>
       <div className="menu bg-base-100 flex min-h-full w-80 p-4">
         <section className="flex items-center justify-between">
-          <h1 className="mb-3 text-xl font-bold text-black">Topics includes</h1>
+          <h1 className="mb-3 text-xl font-bold">Topics includes</h1>
           {!isQuizPage && (
             <button
               onClick={() =>
@@ -44,7 +44,7 @@ export default function Sidebar() {
             </button>
           )}
         </section>
-        <section className="my-1 flex flex-row flex-wrap gap-3 rounded-xl bg-gray-100/50 p-3">
+        <section className="my-1 flex flex-row flex-wrap gap-3 rounded-xl bg-gray-50/10 p-3">
           {topics.map((item, index) => (
             <SelectedTopic topic={item} key={index} />
           ))}

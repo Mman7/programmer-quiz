@@ -6,7 +6,7 @@ export function SettingOpion() {
 
   return (
     <div className="mx-2 my-2.5">
-      <h2 className="font-medium text-gray-600">Number of quiz</h2>
+      <h2 className="font-medium text-gray-400">Number of quiz</h2>
       <input
         type="number"
         className="input validator"
@@ -21,7 +21,7 @@ export function SettingOpion() {
       />
       <p className="validator-hint">Must be between be 10 to 30</p>
       <section>
-        <h2 className="font-medium text-gray-600">Topics includes</h2>
+        <h2 className="mb-1 font-medium text-gray-400">Topics includes</h2>
         <TopicOptions />
       </section>
     </div>
@@ -36,7 +36,7 @@ export default function TopicOptions() {
         Please select some topics
       </h2>
       <section
-        className={`invisible my-1 flex flex-row flex-wrap gap-3 rounded-xl bg-gray-100/50 p-3 ${topics.length > 0 && "visible"}`}
+        className={`invisible my-1 flex flex-row flex-wrap gap-3 rounded-xl bg-gray-100/10 p-3 ${topics.length > 0 && "visible"}`}
       >
         {topics.map((item, index) => (
           <SelectedTopic topic={item} key={index} />

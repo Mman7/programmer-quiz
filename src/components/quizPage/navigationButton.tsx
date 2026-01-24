@@ -16,7 +16,7 @@ export default function NavigationButton({ isSubmit }: { isSubmit: boolean }) {
   };
 
   return (
-    <div className="flex gap-3">
+    <div className="mt-3 flex gap-3">
       <button
         onClick={() => handleGoBack()}
         className={`${isSubmit && "visible"} ${id === 1 && "hidden"} btn btn-secondary btn-outline invisible flex-1 backdrop-blur-2xl`}

@@ -26,7 +26,7 @@ export default function ComfirmModal({
       id="my_modal_3"
       className="modal"
     >
-      <div className="modal-box">
+      <div className="modal-box bg-white/5 backdrop-blur-xl">
         <h3 className="mb-4 text-lg font-bold">{title}</h3>
         <p>{description}</p>
 

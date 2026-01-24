@@ -27,7 +27,7 @@ export default function StartGameModal() {
 
   return (
     <dialog id="my_modal_3" open={status} className="modal">
-      <div className="modal-box">
+      <div className="modal-box bg-white/5 backdrop-blur-3xl">
         <form method="dialog">
           {/* if there is a button in form, it will close the modal */}
           <button
@@ -37,8 +37,8 @@ export default function StartGameModal() {
             ✕
           </button>
         </form>
-        <h3 className="text-lg font-bold">Hold Up!</h3>
-        <p className="text-gray-400">Customize some settings</p>
+        <h3 className="text-xl font-bold">Hold Up!</h3>
+        <p className="text-gray-00">Customize some settings</p>
         <SettingOpion />
         <button
           disabled={!checkOptionValid()}

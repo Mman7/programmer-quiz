@@ -2,7 +2,7 @@ import { faBackward } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRouter } from "next/navigation";
 
-export default function GoBackButton() {
+export default function GoBackButton({ className }: { className?: string }) {
   const router = useRouter();
   function handleBack(): void {
     router.push("/");
@@ -10,7 +10,7 @@ export default function GoBackButton() {
 
   return (
     <button
-      className="btn btn-outlinex btn-success group mx-3 hidden font-bold sm:flex"
+      className={`${className} btn btn-outlinex btn-success group mx-3 hidden font-bold sm:flex`}
       onClick={() => handleBack()}
     >
       <FontAwesomeIcon

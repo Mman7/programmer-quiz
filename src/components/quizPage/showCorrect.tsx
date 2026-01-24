@@ -15,7 +15,7 @@ export default function CheckCorrect({
 }: checkCorrectProps) {
   return (
     <h1
-      className={`${isSubmit && "visible"} ${isCorrect ? "text-green-300" : "text-red-400"} invisible my-2 rounded-lg bg-white/60 p-4 font-bold`}
+      className={`${isSubmit && "visible"} ${isCorrect ? "text-green-300" : "text-red-400"} invisible my-2 rounded-lg bg-white/10 p-4 font-bold`}
     >
       {isCorrect ? (
         <>

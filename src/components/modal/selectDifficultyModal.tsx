@@ -22,7 +22,7 @@ export default function SelectDifficultyModal({
 
   return (
     <dialog open={modalOpenStatus} id="my_modal_3" className="modal">
-      <div className="modal-box">
+      <div className="modal-box bg-white/10 backdrop-blur-2xl">
         <form method="dialog">
           {/*  close the modal */}
           <button

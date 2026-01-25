@@ -29,17 +29,17 @@ export default function Sidebar() {
       ></label>
       <div className="menu bg-base-100 flex min-h-full w-80 p-4">
         <section className="flex items-center justify-between">
-          <h1 className="mb-3 text-xl font-bold">Topics includes</h1>
+          <h1 className="text-xl font-bold">Topics includes</h1>
           {!isQuizPage && (
             <button
               onClick={() =>
                 questions.length > 0 ? showConfirmModal() : clearTopic()
               }
-              className="btn btn-ghost btn-circle border-0 hover:bg-gray-200"
+              className="btn btn-ghost btn-circle border-0 hover:bg-gray-200/15"
             >
               <FontAwesomeIcon
                 size="xl"
-                className="text-black"
+                className="text-white"
                 icon={faTrash}
               />
             </button>

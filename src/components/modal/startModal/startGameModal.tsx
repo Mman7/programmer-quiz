@@ -3,16 +3,19 @@ import { useStartModal } from "@/src/store/useStartModalStore";
 import { SettingOpion } from "./settingOptions";
 import { useQuizOption } from "@/src/store/useSelectedTopicsStore";
 import { useRouter } from "next/navigation";
+import { useQuizGame } from "@/src/store/useQuizGameStore";
 
 const questionNumber = [10, 20, 30];
 
 export default function StartGameModal() {
-  const { status, closeModal } = useStartModal();
   const router = useRouter();
+  const { status, closeModal } = useStartModal();
+  const { clearQuestion } = useQuizGame();
   const { numberOfQuiz, topics } = useQuizOption();
 
   const startHandler = () => {
     router.push("/quiz");
+    clearQuestion();
     closeModal();
   };
 

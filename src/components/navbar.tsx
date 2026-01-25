@@ -14,6 +14,7 @@ import { useQuizGame } from "../store/useQuizGameStore";
 export default function Navbar() {
   const pathname = usePathname();
   const isQuizPage = pathname == "/quiz" || pathname.startsWith("/quiz/");
+  const notHomePage = pathname !== "/";
   const router = useRouter();
 
   const handleBack = () => {
@@ -32,16 +33,18 @@ export default function Navbar() {
             >
               <FontAwesomeIcon icon={faBars} />
             </label>
-            <button
-              className="btn btn-outline btn-success group mx-2 font-bold sm:hidden"
-              onClick={() => handleBack()}
-            >
-              <FontAwesomeIcon
-                className="opacity-100 group-hover:opacity-100 sm:opacity-0"
-                icon={faBackward}
-              />
-              <h1 className="-ml-5 hidden group-hover:m-0 sm:block">Back</h1>
-            </button>
+            {notHomePage && (
+              <button
+                className="btn btn-outline btn-success group mx-2 font-bold sm:hidden"
+                onClick={() => handleBack()}
+              >
+                <FontAwesomeIcon
+                  className="opacity-100 group-hover:opacity-100 sm:opacity-0"
+                  icon={faBackward}
+                />
+                <h1 className="-ml-5 hidden group-hover:m-0 sm:block">Back</h1>
+              </button>
+            )}
           </div>
         </div>
       </div>

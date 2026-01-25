@@ -42,11 +42,14 @@ export default function DataChart({ className, dataIn7Days }: DataChartProps) {
     return item.correctQuiz;
   });
 
+  // ... other options
+
   const data = {
     labels: labels,
     datasets: [
       {
         label: "Recent Data",
+
         data: dataValues,
         backgroundColor: [
           "rgba(255, 99, 132, 0.2)",
@@ -72,9 +75,38 @@ export default function DataChart({ className, dataIn7Days }: DataChartProps) {
     ],
   };
 
+  const options = {
+    responsive: true,
+    plugins: {
+      legend: {
+        labels: {
+          // Change legend label color to red
+          color: "white",
+        },
+      },
+    },
+    scales: {
+      x: {
+        ticks: {
+          color: "white",
+        },
+      },
+      y: {
+        ticks: {
+          color: "white",
+        },
+      },
+    },
+    //   maintainAspectRatio: false,
+
+    elements: {
+      line: { borderWidth: 2 },
+    },
+  };
+
   return (
     <div className={`p-4 ${className}`}>
-      <Bar data={data} />
+      <Bar data={data} options={options} />
     </div>
   );
 }

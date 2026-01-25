@@ -25,10 +25,19 @@ interface DataChartProps {
 }
 
 export default function DataChart({ className, dataIn7Days }: DataChartProps) {
-  const labels: string[] = dataIn7Days.map((item) => {
-    const weekend = item.date.toLocaleDateString("en-US", { weekday: "long" });
-    return `${item.date.getDate()} (${weekend})`;
+  const labels: string[] = dataIn7Days.map((item: DataWithDate) => {
+    const newDate = new Date(item.date);
+    const formatted: string = newDate.toLocaleDateString("en-GB", {
+      day: "2-digit",
+      month: "short",
+      year: "numeric",
+    });
+    const week: string = newDate.toLocaleDateString("en-US", {
+      weekday: "long",
+    });
+    return `${formatted} (${week})`;
   });
+
   const dataValues: number[] = dataIn7Days.map((item) => {
     return item.correctQuiz;
   });

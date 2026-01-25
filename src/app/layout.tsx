@@ -62,7 +62,7 @@ export default function RootLayout({
         <Navbar />
         <div className="drawer lg:drawer-open overflow-x-hidden">
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
-          <div className="drawer-content flex h-[calc(100vh-4rem)] flex-col justify-center pt-3">
+          <div className="drawer-content h-[calc(100vh-4rem)] p-4 pt-3">
             {children}
           </div>
           {/* calculate the height of the drawer side prevent overflow */}

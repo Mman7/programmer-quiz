@@ -19,7 +19,7 @@ export default function QuizPage() {
 
   useEffect(() => {
     if (mounted) fetchQuiz({ quiz }).then((quiz) => setQuestion(quiz));
-    // router.push("/quiz/1");
+    router.push("/quiz/1");
   }, [mounted]);
 
   return (

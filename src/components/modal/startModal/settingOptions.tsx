@@ -1,24 +1,34 @@
 import { useQuizOption } from "@/src/store/useSelectedTopicsStore";
 import SelectedTopic from "../../sidebar/selectedTopic";
 
+const questionNumber = [
+  { number: 10, color: "btn-success" },
+  { number: 20, color: "btn-warning" },
+  { number: 30, color: "btn-error" },
+];
+
 export function SettingOpion() {
   const { setQuizNumber, numberOfQuiz } = useQuizOption();
 
+  const handleClick = (e: any) => {
+    setQuizNumber(parseInt(e.target.value));
+  };
+
   return (
     <div className="mx-2 my-2.5">
-      <h2 className="font-medium text-gray-400">Number of quiz</h2>
-      <input
-        type="number"
-        className="input validator"
-        required
-        value={numberOfQuiz}
-        onChange={(e) => setQuizNumber(parseInt(e.target.value))}
-        placeholder="Type a number between 10 to 30"
-        min="10"
-        max="30"
-        step={10}
-        title="Must be between be 10 to 30"
-      />
+      <h2 className="mb-1 font-medium text-gray-400">Number of quiz</h2>
+      <section className="flex gap-3">
+        {questionNumber.map((item) => (
+          <button
+            key={item.number}
+            value={item.number}
+            onClick={(e) => handleClick(e)}
+            className={`btn btn-outline ${item.color} ${numberOfQuiz == item.number && "btn-active"} `}
+          >
+            {item.number}
+          </button>
+        ))}
+      </section>
       <p className="validator-hint">Must be between be 10 to 30</p>
       <section>
         <h2 className="mb-1 font-medium text-gray-400">Topics includes</h2>

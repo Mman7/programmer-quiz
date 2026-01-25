@@ -7,6 +7,7 @@ import { faTrash } from "@fortawesome/free-solid-svg-icons";
 import { usePathname } from "next/navigation";
 import { useQuizGame } from "@/src/store/useQuizGameStore";
 import { ModelName, useConfirmModal } from "@/src/store/useComfirmModalStore";
+import Link from "next/link";
 
 export default function Sidebar() {
   const { topics, clearTopic } = useQuizOption();
@@ -49,6 +50,19 @@ export default function Sidebar() {
             <SelectedTopic topic={item} key={index} />
           ))}
         </section>
+        <ul className="menu bg-base-200 min-h-full w-full">
+          <li className="p-1 text-lg">
+            <Link href={"/"}>Home</Link>
+          </li>
+          <li className="p-1 text-lg">
+            <Link href={"/analysis"}>Analysis</Link>
+          </li>
+          {questions.length > 1 && (
+            <li className="p-1 text-lg">
+              <Link href={"/results"}>Last results</Link>
+            </li>
+          )}
+        </ul>
         <a
           target="_blank"
           href="https://github.com/Mman7"

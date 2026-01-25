@@ -6,7 +6,6 @@ import { useData } from "@/src/store/useDataStore";
 
 export default function AnalysisPage() {
   const { dataIn7Days } = useData();
-  console.log(dataIn7Days);
   return (
     <div className="m-auto w-full p-4">
       <GoBackButton className="mb-4 block" />

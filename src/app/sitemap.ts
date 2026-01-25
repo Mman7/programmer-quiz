@@ -15,7 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: "https://yourdomain.com/results",
+      url: "https://quiz-this.netlify.app/results",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.7,

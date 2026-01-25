@@ -9,6 +9,7 @@ import { Answer, RequestAnswer } from "@/src/types/answer";
 import { useQuizGame } from "@/src/store/useQuizGameStore";
 import CheckCorrect from "./showCorrect";
 import NavigationButton from "./navigationButton";
+import { useData } from "@/src/store/useDataStore";
 
 interface QuestionSectionProps {
   question: QuizQuestion;
@@ -19,7 +20,14 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
   const [reason, setReason] = useState<string | undefined>("");
   const [answer, setAnswer] = useState<string | undefined>(undefined);
   const [isSubmit, setIsSubmit] = useState<boolean>(false);
-  const { updateQuestionFromArray, questions } = useQuizGame();
+  const {
+    updateQuestionFromArray,
+    questions,
+    isLastGameDataSaved,
+    setisLastGameDataSaved,
+  } = useQuizGame();
+  const { addCorrectQuiz, updateTodayData } = useData();
+
   const params = useParams();
   const router = useRouter();
   const id = Number(params.id);
@@ -51,7 +59,26 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
     setAnswer(response.answer);
     setReason(response.reason);
     setIsSubmit(true);
+    if (id === questions.length) handleIsCompleted();
   };
+
+  const handleIsCompleted = () => {
+    if (isLastGameDataSaved) return;
+
+    const correctAnswers: number = questions.filter(
+      (question) =>
+        question.userAnswer !== undefined &&
+        question.userAnswer === question.answer,
+    ).length;
+    updateTodayData(correctAnswers);
+    addCorrectQuiz(correctAnswers);
+    setisLastGameDataSaved(true);
+  };
+
+  const toResultsPage = () => {
+    router.push("/results");
+  };
+
   // Load previous data
   useEffect(() => {
     if (questions[id - 1].answer === undefined) return;
@@ -100,7 +127,7 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
       </section>
       {isSubmit && id == questions.length && (
         <button
-          onClick={() => router.push("/results")}
+          onClick={() => toResultsPage()}
           className={`${isSubmit && "visible"} btn btn-secondary btn-outline btn-block invisible mt-3 mb-3 flex-1`}
         >
           Results

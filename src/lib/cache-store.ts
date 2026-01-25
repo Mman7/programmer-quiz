@@ -21,6 +21,12 @@ const software_hard: QuizQuestion[] = require("@/src/data/softwaredev_hard.json"
 const webdev_easy: QuizQuestion[] = require("@/src/data/webdev_easy.json");
 const webdev_medium: QuizQuestion[] = require("@/src/data/webdev_medium.json");
 const webdev_hard: QuizQuestion[] = require("@/src/data/webdev_hard.json");
+const react_easy: QuizQuestion[] = require("@/src/data/react_easy.json");
+const react_medium: QuizQuestion[] = require("@/src/data/react_medium.json");
+const react_hard: QuizQuestion[] = require("@/src/data/react_hard.json");
+const typescript_easy: QuizQuestion[] = require("@/src/data/typescript_easy.json");
+const typescript_medium: QuizQuestion[] = require("@/src/data/typescript_medium.json");
+const typescript_hard: QuizQuestion[] = require("@/src/data/typescript_hard.json");
 
 // Maps for efficient question lookup by ID
 const cppEasyMap: Map<string, QuizQuestion> = new Map(
@@ -66,6 +72,24 @@ const webdevMediumMap: Map<string, QuizQuestion> = new Map(
 const webdevHardMap: Map<string, QuizQuestion> = new Map(
   webdev_hard.map((item) => [item.questionId, item]),
 );
+const reactEasyMap: Map<string, QuizQuestion> = new Map(
+  react_easy.map((item) => [item.questionId, item]),
+);
+const reactMediumMap: Map<string, QuizQuestion> = new Map(
+  react_medium.map((item) => [item.questionId, item]),
+);
+const reactHardMap: Map<string, QuizQuestion> = new Map(
+  react_hard.map((item) => [item.questionId, item]),
+);
+const typescriptEasyMap: Map<string, QuizQuestion> = new Map(
+  typescript_easy.map((item) => [item.questionId, item]),
+);
+const typescriptMediumMap: Map<string, QuizQuestion> = new Map(
+  typescript_medium.map((item) => [item.questionId, item]),
+);
+const typescriptHardMap: Map<string, QuizQuestion> = new Map(
+  typescript_hard.map((item) => [item.questionId, item]),
+);
 
 /**
  * Collection of all topic maps organized by subject and difficulty level
@@ -88,4 +112,10 @@ export const allTopic: TopicMap = {
   webdev_easy: webdevEasyMap,
   webdev_medium: webdevMediumMap,
   webdev_hard: webdevHardMap,
+  react_easy: reactEasyMap,
+  react_medium: reactMediumMap,
+  react_hard: reactHardMap,
+  typescript_easy: typescriptEasyMap,
+  typescript_medium: typescriptMediumMap,
+  typescript_hard: typescriptHardMap,
 };

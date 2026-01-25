@@ -1,0 +1,1404 @@
+[
+  {
+    "questionId": "react_h_1",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the main advantage of React Concurrent Mode?",
+    "options": [
+      "Improved UI responsiveness",
+      "Smaller bundle size",
+      "Automatic state management",
+      "Simplified JSX syntax"
+    ],
+    "answer": "Improved UI responsiveness",
+    "reason": "Concurrent Mode allows React to interrupt and prioritize updates for better UX."
+  },
+  {
+    "questionId": "react_h_2",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the primary purpose of useTransition?",
+    "options": [
+      "Mark updates as low priority",
+      "Handle state immutably",
+      "Cache computed values",
+      "Replace useEffect"
+    ],
+    "answer": "Mark updates as low priority",
+    "reason": "useTransition helps defer non-urgent updates, keeping the UI responsive."
+  },
+  {
+    "questionId": "react_h_3",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why should useMemo and useCallback be used carefully?",
+    "options": [
+      "They add complexity and memory overhead",
+      "They always prevent re-renders",
+      "They replace context",
+      "They optimize CSS"
+    ],
+    "answer": "They add complexity and memory overhead",
+    "reason": "Overusing memoization can hurt performance and readability."
+  },
+  {
+    "questionId": "react_h_4",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the difference between useEffect and useLayoutEffect?",
+    "options": [
+      "useLayoutEffect runs before paint, useEffect after",
+      "useEffect blocks rendering, useLayoutEffect does not",
+      "Both are identical",
+      "useLayoutEffect is for SSR only"
+    ],
+    "answer": "useLayoutEffect runs before paint, useEffect after",
+    "reason": "useLayoutEffect blocks browser painting until executed."
+  },
+  {
+    "questionId": "react_h_5",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is hydration mismatch in SSR?",
+    "options": [
+      "Server HTML differs from client render",
+      "Hooks execute incorrectly",
+      "State is lost",
+      "CSS fails to apply"
+    ],
+    "answer": "Server HTML differs from client render",
+    "reason": "Hydration requires the server-rendered HTML to match client-rendered content."
+  },
+  {
+    "questionId": "react_h_6",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How do React Portals affect event bubbling?",
+    "options": [
+      "Events bubble to React tree, not DOM hierarchy",
+      "Events do not bubble",
+      "Events always reach body",
+      "They block events"
+    ],
+    "answer": "Events bubble to React tree, not DOM hierarchy",
+    "reason": "Portals maintain React event bubbling but may escape DOM parents."
+  },
+  {
+    "questionId": "react_h_7",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is a stale closure and how can it affect hooks?",
+    "options": [
+      "Closure captures old state, causing bugs",
+      "Closure causes memory leaks",
+      "Closure blocks render",
+      "Closure prevents hydration"
+    ],
+    "answer": "Closure captures old state, causing bugs",
+    "reason": "Functions inside hooks may capture outdated state if dependencies are missing."
+  },
+  {
+    "questionId": "react_h_8",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How does React Fiber improve rendering?",
+    "options": [
+      "Allows interruptible and incremental rendering",
+      "Minifies JSX",
+      "Optimizes CSS",
+      "Handles server-side routing"
+    ],
+    "answer": "Allows interruptible and incremental rendering",
+    "reason": "Fiber architecture enables Concurrent Mode and time-slicing."
+  },
+  {
+    "questionId": "react_h_9",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "When should useReducer be preferred over useState?",
+    "options": [
+      "Complex state transitions",
+      "For simple counters",
+      "Always for performance",
+      "For uncontrolled inputs"
+    ],
+    "answer": "Complex state transitions",
+    "reason": "useReducer centralizes and structures state updates."
+  },
+  {
+    "questionId": "react_h_10",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What are the downsides of overusing Context API?",
+    "options": [
+      "Causes unnecessary re-renders",
+      "Breaks JSX syntax",
+      "Prevents hooks from running",
+      "Blocks hydration"
+    ],
+    "answer": "Causes unnecessary re-renders",
+    "reason": "Updating context triggers all consuming components to re-render."
+  },
+  {
+    "questionId": "react_h_11",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of useDeferredValue?",
+    "options": [
+      "Delay expensive value updates",
+      "Delay render entirely",
+      "Cache state",
+      "Replace useEffect"
+    ],
+    "answer": "Delay expensive value updates",
+    "reason": "useDeferredValue helps keep UI responsive by deferring less urgent updates."
+  },
+  {
+    "questionId": "react_h_12",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the difference between client-side and server-side hydration?",
+    "options": [
+      "Server renders HTML, client attaches events",
+      "Client renders HTML only",
+      "SSR disables hooks",
+      "Hydration re-fetches CSS"
+    ],
+    "answer": "Server renders HTML, client attaches events",
+    "reason": "Hydration makes static server HTML interactive in the browser."
+  },
+  {
+    "questionId": "react_h_13",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why should keys be stable across renders?",
+    "options": [
+      "Preserve component identity",
+      "Improve CSS styling",
+      "Optimize effects",
+      "Enable SSR only"
+    ],
+    "answer": "Preserve component identity",
+    "reason": "Stable keys allow React to reconcile elements without remounting unnecessarily."
+  },
+  {
+    "questionId": "react_h_14",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How does useTransition differ from useDeferredValue?",
+    "options": [
+      "useTransition marks updates, useDeferredValue defers value",
+      "They are identical",
+      "useDeferredValue blocks UI",
+      "useTransition caches state"
+    ],
+    "answer": "useTransition marks updates, useDeferredValue defers value",
+    "reason": "useTransition manages priority; useDeferredValue defers computation of a value."
+  },
+  {
+    "questionId": "react_h_15",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of startTransition?",
+    "options": [
+      "Mark updates as low priority",
+      "Force render immediately",
+      "Memoize hooks",
+      "Attach refs"
+    ],
+    "answer": "Mark updates as low priority",
+    "reason": "startTransition helps keep urgent UI updates fast while deferring others."
+  },
+  {
+    "questionId": "react_h_16",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why is memoization sometimes harmful?",
+    "options": [
+      "Adds memory overhead and complexity",
+      "Breaks hooks",
+      "Prevents hydration",
+      "Slows JSX compilation"
+    ],
+    "answer": "Adds memory overhead and complexity",
+    "reason": "Overuse of useMemo/useCallback can increase memory usage and reduce readability."
+  },
+  {
+    "questionId": "react_h_17",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the difference between React.memo and useMemo?",
+    "options": [
+      "React.memo memoizes components, useMemo memoizes values",
+      "They are identical",
+      "useMemo memoizes components",
+      "React.memo caches state"
+    ],
+    "answer": "React.memo memoizes components, useMemo memoizes values",
+    "reason": "React.memo wraps components; useMemo returns memoized computation."
+  },
+  {
+    "questionId": "react_h_18",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of useImperativeHandle?",
+    "options": [
+      "Expose custom ref methods from child",
+      "Share state globally",
+      "Optimize memoization",
+      "Replace useEffect"
+    ],
+    "answer": "Expose custom ref methods from child",
+    "reason": "It allows parent components to call functions inside children."
+  },
+  {
+    "questionId": "react_h_19",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the main benefit of Error Boundaries?",
+    "options": [
+      "Catch render-time errors and prevent crash",
+      "Catch async errors",
+      "Cache state",
+      "Optimize re-renders"
+    ],
+    "answer": "Catch render-time errors and prevent crash",
+    "reason": "Error Boundaries catch errors in child component trees."
+  },
+  {
+    "questionId": "react_h_20",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why might inline functions in JSX cause performance issues?",
+    "options": [
+      "They create new references on each render",
+      "They break hydration",
+      "They are illegal",
+      "They prevent memoization entirely"
+    ],
+    "answer": "They create new references on each render",
+    "reason": "New function references break memoization and cause unnecessary re-renders."
+  },
+
+  {
+    "questionId": "react_h_21",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What problem does prop drilling solve when using Context?",
+    "options": [
+      "Avoids passing props through multiple levels",
+      "Replaces hooks",
+      "Prevents SSR",
+      "Optimizes CSS"
+    ],
+    "answer": "Avoids passing props through multiple levels",
+    "reason": "Context allows children to access state without intermediate props."
+  },
+  {
+    "questionId": "react_h_22",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is a common mistake when using useEffect with async functions?",
+    "options": [
+      "Defining the effect function as async directly",
+      "Using dependencies",
+      "Using cleanup",
+      "Running effect once"
+    ],
+    "answer": "Defining the effect function as async directly",
+    "reason": "Effect functions cannot be async; wrap async logic inside."
+  },
+  {
+    "questionId": "react_h_23",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the difference between useEffect cleanup and useLayoutEffect cleanup?",
+    "options": [
+      "useLayoutEffect cleanup runs before paint, useEffect after",
+      "They are identical",
+      "useEffect cleanup blocks UI",
+      "useLayoutEffect cleanup runs only once"
+    ],
+    "answer": "useLayoutEffect cleanup runs before paint, useEffect after",
+    "reason": "useLayoutEffect is synchronous with DOM updates; useEffect runs asynchronously."
+  },
+  {
+    "questionId": "react_h_24",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why should derived state from props be avoided?",
+    "options": [
+      "Can cause inconsistencies",
+      "Breaks SSR",
+      "Prevents hydration",
+      "Always causes crashes"
+    ],
+    "answer": "Can cause inconsistencies",
+    "reason": "Derived state may go out of sync with the source of truth."
+  },
+  {
+    "questionId": "react_h_25",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What does useReducer with lazy initialization help with?",
+    "options": [
+      "Avoid expensive state computation on every render",
+      "Share state globally",
+      "Replace context",
+      "Prevent SSR mismatch"
+    ],
+    "answer": "Avoid expensive state computation on every render",
+    "reason": "Lazy initialization delays computation until first render."
+  },
+
+  {
+    "questionId": "react_h_26",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the effect of state batching in React 18?",
+    "options": [
+      "Groups multiple state updates into a single render",
+      "Prevents re-renders",
+      "Caches state globally",
+      "Blocks hydration"
+    ],
+    "answer": "Groups multiple state updates into a single render",
+    "reason": "Automatic batching improves performance by reducing renders."
+  },
+  {
+    "questionId": "react_h_27",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is a stale prop problem in useEffect?",
+    "options": [
+      "Effect captures outdated prop value",
+      "Effect fails to run",
+      "Effect runs twice",
+      "Effect blocks rendering"
+    ],
+    "answer": "Effect captures outdated prop value",
+    "reason": "Without dependencies, effect closures use old values."
+  },
+  {
+    "questionId": "react_h_28",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why is SSR beneficial for SEO?",
+    "options": [
+      "HTML is fully rendered on server for crawlers",
+      "Faster JS execution",
+      "Better CSS",
+      "Hooks run on server"
+    ],
+    "answer": "HTML is fully rendered on server for crawlers",
+    "reason": "Search engines see fully rendered HTML."
+  },
+  {
+    "questionId": "react_h_29",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the main difference between hydration and CSR?",
+    "options": [
+      "Hydration attaches events to SSR HTML, CSR renders from scratch",
+      "CSR runs hooks on server",
+      "Hydration blocks UI",
+      "CSR is for caching"
+    ],
+    "answer": "Hydration attaches events to SSR HTML, CSR renders from scratch",
+    "reason": "Hydration makes static HTML interactive."
+  },
+  {
+    "questionId": "react_h_30",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why use forwardRef with functional components?",
+    "options": [
+      "Expose child DOM nodes or methods to parent",
+      "Optimize memoization",
+      "Handle async effects",
+      "Replace useEffect"
+    ],
+    "answer": "Expose child DOM nodes or methods to parent",
+    "reason": "forwardRef allows parent access to child refs without breaking encapsulation."
+  },
+  {
+    "questionId": "react_h_31",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the advantage of lazy loading components with React.lazy?",
+    "options": [
+      "Reduces initial bundle size",
+      "Prevents hydration",
+      "Avoids using hooks",
+      "Blocks rendering"
+    ],
+    "answer": "Reduces initial bundle size",
+    "reason": "React.lazy allows dynamic imports for code splitting."
+  },
+  {
+    "questionId": "react_h_32",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the role of Suspense when lazy loading components?",
+    "options": [
+      "Show fallback UI while loading",
+      "Prevent re-render",
+      "Force hydration",
+      "Optimize state updates"
+    ],
+    "answer": "Show fallback UI while loading",
+    "reason": "Suspense provides a placeholder until the lazy component loads."
+  },
+  {
+    "questionId": "react_h_33",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the benefit of splitting large components into smaller ones?",
+    "options": [
+      "Better maintainability and performance",
+      "Avoid SSR",
+      "Disable hooks",
+      "Optimize CSS only"
+    ],
+    "answer": "Better maintainability and performance",
+    "reason": "Smaller components improve readability and can be lazily loaded."
+  },
+  {
+    "questionId": "react_h_34",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the effect of React.memo on a component?",
+    "options": [
+      "Prevents unnecessary re-renders if props don't change",
+      "Caches state globally",
+      "Blocks effects",
+      "Optimizes hydration"
+    ],
+    "answer": "Prevents unnecessary re-renders if props don't change",
+    "reason": "React.memo does a shallow comparison of props to skip renders."
+  },
+  {
+    "questionId": "react_h_35",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is a potential pitfall of using React.memo with objects as props?",
+    "options": [
+      "New object references trigger re-renders",
+      "Objects cannot be props",
+      "Breaks hooks",
+      "Prevents hydration"
+    ],
+    "answer": "New object references trigger re-renders",
+    "reason": "Shallow comparison sees new object references as changed."
+  },
+  {
+    "questionId": "react_h_36",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What does useCallback do?",
+    "options": [
+      "Memoizes a function to preserve reference",
+      "Caches state values",
+      "Delays effects",
+      "Prevents hydration"
+    ],
+    "answer": "Memoizes a function to preserve reference",
+    "reason": "useCallback returns a memoized function that keeps its reference between renders."
+  },
+  {
+    "questionId": "react_h_37",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of useMemo?",
+    "options": [
+      "Memoize expensive computations",
+      "Delay rendering",
+      "Force re-render",
+      "Attach refs"
+    ],
+    "answer": "Memoize expensive computations",
+    "reason": "useMemo caches a computed value between renders for performance."
+  },
+  {
+    "questionId": "react_h_38",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What does useImperativeHandle achieve in conjunction with forwardRef?",
+    "options": [
+      "Exposes selected methods to parent component",
+      "Shares context globally",
+      "Prevents re-render",
+      "Blocks hydration"
+    ],
+    "answer": "Exposes selected methods to parent component",
+    "reason": "It customizes the ref object exposed by a child component."
+  },
+  {
+    "questionId": "react_h_39",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How does useLayoutEffect differ from useEffect in timing?",
+    "options": [
+      "Runs synchronously before paint",
+      "Runs asynchronously after paint",
+      "Never runs on server",
+      "Blocks hooks"
+    ],
+    "answer": "Runs synchronously before paint",
+    "reason": "useLayoutEffect executes before the browser paints the screen."
+  },
+  {
+    "questionId": "react_h_40",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why should derived state from props be avoided?",
+    "options": [
+      "It can go out of sync",
+      "Prevents hydration",
+      "Blocks hooks",
+      "Always causes errors"
+    ],
+    "answer": "It can go out of sync",
+    "reason": "Derived state duplicates source of truth, risking inconsistency."
+  },
+  {
+    "questionId": "react_h_41",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is a common cause of stale closure bugs in hooks?",
+    "options": [
+      "Missing dependencies in useEffect or useCallback",
+      "Using useState",
+      "Using JSX fragments",
+      "Using Context"
+    ],
+    "answer": "Missing dependencies in useEffect or useCallback",
+    "reason": "Closures capture outdated values if dependencies are not listed."
+  },
+  {
+    "questionId": "react_h_42",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of useReducer with lazy initialization?",
+    "options": [
+      "Avoid expensive computation on initial render",
+      "Cache global state",
+      "Replace useEffect",
+      "Force hydration"
+    ],
+    "answer": "Avoid expensive computation on initial render",
+    "reason": "Lazy initialization delays computation until the first render."
+  },
+  {
+    "questionId": "react_h_43",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why does React batch state updates in React 18?",
+    "options": [
+      "To improve performance by reducing renders",
+      "To prevent hydration",
+      "To avoid using hooks",
+      "To optimize CSS"
+    ],
+    "answer": "To improve performance by reducing renders",
+    "reason": "Batched updates combine multiple state changes into a single render."
+  },
+  {
+    "questionId": "react_h_44",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the effect of changing keys on a list of components?",
+    "options": [
+      "Remounts components, losing local state",
+      "Preserves state",
+      "Prevents rendering",
+      "Blocks hydration"
+    ],
+    "answer": "Remounts components, losing local state",
+    "reason": "Keys define component identity; changing them triggers remounts."
+  },
+  {
+    "questionId": "react_h_45",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What problem do React Portals solve?",
+    "options": [
+      "Render children outside parent DOM hierarchy",
+      "Improve memoization",
+      "Cache state globally",
+      "Prevent hydration"
+    ],
+    "answer": "Render children outside parent DOM hierarchy",
+    "reason": "Portals allow rendering into a different part of the DOM tree."
+  },
+  {
+    "questionId": "react_h_46",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How does concurrent rendering improve user experience?",
+    "options": [
+      "Allows React to interrupt and prioritize updates",
+      "Prevents hydration",
+      "Blocks effects",
+      "Memoizes state automatically"
+    ],
+    "answer": "Allows React to interrupt and prioritize updates",
+    "reason": "Time-slicing enables more responsive UI."
+  },
+  {
+    "questionId": "react_h_47",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is lazy hydration?",
+    "options": [
+      "Delay attaching event listeners to SSR content",
+      "Lazy load CSS",
+      "Delay state updates",
+      "Memoize DOM"
+    ],
+    "answer": "Delay attaching event listeners to SSR content",
+    "reason": "Improves initial responsiveness of server-rendered pages."
+  },
+  {
+    "questionId": "react_h_48",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How do Error Boundaries handle asynchronous errors?",
+    "options": [
+      "They do not catch async errors",
+      "They catch all async errors",
+      "They catch promises only",
+      "They log errors silently"
+    ],
+    "answer": "They do not catch async errors",
+    "reason": "Error Boundaries only catch render-time errors, not async or event errors."
+  },
+  {
+    "questionId": "react_h_49",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the difference between client-side rendering (CSR) and server-side rendering (SSR)?",
+    "options": [
+      "CSR renders in browser, SSR pre-renders HTML on server",
+      "CSR uses hooks only, SSR uses classes",
+      "CSR is faster always",
+      "SSR does not use React"
+    ],
+    "answer": "CSR renders in browser, SSR pre-renders HTML on server",
+    "reason": "SSR improves initial load and SEO, CSR renders dynamically on client."
+  },
+  {
+    "questionId": "react_h_50",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why is hydration mismatch an important SSR concern?",
+    "options": [
+      "Server-rendered HTML differs from client render",
+      "Hooks fail silently",
+      "CSS breaks",
+      "State is lost permanently"
+    ],
+    "answer": "Server-rendered HTML differs from client render",
+    "reason": "Mismatch can cause React to throw warnings or remount unnecessarily."
+  },
+  {
+    "questionId": "react_h_51",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the benefit of batching state updates in React 18?",
+    "options": [
+      "Reduces unnecessary renders and improves performance",
+      "Prevents hydration",
+      "Forces synchronous updates",
+      "Disables hooks"
+    ],
+    "answer": "Reduces unnecessary renders and improves performance",
+    "reason": "React 18 batches multiple state updates into a single render to optimize performance."
+  },
+  {
+    "questionId": "react_h_52",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why might useMemo be overused and cause issues?",
+    "options": [
+      "Adds memory overhead and increases complexity",
+      "Blocks rendering",
+      "Prevents hydration",
+      "Breaks Context API"
+    ],
+    "answer": "Adds memory overhead and increases complexity",
+    "reason": "Overusing useMemo for trivial computations can degrade performance."
+  },
+  {
+    "questionId": "react_h_53",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What problem does React.memo solve?",
+    "options": [
+      "Prevents unnecessary re-renders of functional components",
+      "Caches state globally",
+      "Prevents hydration errors",
+      "Blocks hooks execution"
+    ],
+    "answer": "Prevents unnecessary re-renders of functional components",
+    "reason": "React.memo does a shallow comparison of props to skip rendering."
+  },
+  {
+    "questionId": "react_h_54",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why should functions in JSX be memoized with useCallback?",
+    "options": [
+      "To preserve function reference and avoid unnecessary re-renders",
+      "To force state updates",
+      "To block hydration",
+      "To cache DOM nodes"
+    ],
+    "answer": "To preserve function reference and avoid unnecessary re-renders",
+    "reason": "New function references break memoization of child components."
+  },
+  {
+    "questionId": "react_h_55",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How does useDeferredValue improve performance in concurrent mode?",
+    "options": [
+      "Defers non-urgent updates to keep UI responsive",
+      "Blocks render until value is ready",
+      "Caches state globally",
+      "Prevents hydration"
+    ],
+    "answer": "Defers non-urgent updates to keep UI responsive",
+    "reason": "useDeferredValue delays rendering of less important values."
+  },
+  {
+    "questionId": "react_h_56",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the difference between startTransition and useDeferredValue?",
+    "options": [
+      "startTransition marks updates, useDeferredValue defers values",
+      "They are identical",
+      "useDeferredValue blocks UI, startTransition caches state",
+      "startTransition replaces useEffect"
+    ],
+    "answer": "startTransition marks updates, useDeferredValue defers values",
+    "reason": "startTransition indicates low-priority updates, useDeferredValue defers value rendering."
+  },
+  {
+    "questionId": "react_h_57",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is a stale closure problem in hooks?",
+    "options": [
+      "A hook captures outdated state or props",
+      "A hook prevents re-render",
+      "A hook blocks hydration",
+      "A hook caches global state"
+    ],
+    "answer": "A hook captures outdated state or props",
+    "reason": "Closures in hooks retain old values if dependencies are not correctly set."
+  },
+  {
+    "questionId": "react_h_58",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the advantage of using useReducer over useState?",
+    "options": [
+      "Better for complex state transitions",
+      "Always faster",
+      "Blocks re-render",
+      "Prevents hydration"
+    ],
+    "answer": "Better for complex state transitions",
+    "reason": "useReducer centralizes state updates and is easier to scale for complex logic."
+  },
+  {
+    "questionId": "react_h_59",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How does forwardRef help in functional components?",
+    "options": [
+      "Exposes child DOM nodes or methods to parent",
+      "Caches state globally",
+      "Prevents re-renders",
+      "Blocks hydration"
+    ],
+    "answer": "Exposes child DOM nodes or methods to parent",
+    "reason": "forwardRef allows parent components to access child DOM elements."
+  },
+  {
+    "questionId": "react_h_60",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why should Error Boundaries not be used for async errors?",
+    "options": [
+      "They only catch render-time errors",
+      "They catch all errors",
+      "They prevent hydration",
+      "They block state updates"
+    ],
+    "answer": "They only catch render-time errors",
+    "reason": "Error Boundaries do not catch errors in event handlers or async operations."
+  },
+  {
+    "questionId": "react_h_61",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is lazy hydration in SSR?",
+    "options": [
+      "Delaying attaching event listeners to SSR content",
+      "Deferring state updates",
+      "Caching DOM nodes",
+      "Memoizing components"
+    ],
+    "answer": "Delaying attaching event listeners to SSR content",
+    "reason": "Improves perceived performance and responsiveness."
+  },
+  {
+    "questionId": "react_h_62",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the main benefit of using Suspense for data fetching?",
+    "options": [
+      "Automatically shows fallback UI while data loads",
+      "Blocks state updates",
+      "Prevents hydration",
+      "Replaces hooks"
+    ],
+    "answer": "Automatically shows fallback UI while data loads",
+    "reason": "Suspense lets you declaratively handle loading states for async data."
+  },
+  {
+    "questionId": "react_h_63",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why is hydration mismatch a problem in SSR?",
+    "options": [
+      "Client-rendered HTML differs from server HTML",
+      "Hooks fail silently",
+      "CSS breaks",
+      "State is lost permanently"
+    ],
+    "answer": "Client-rendered HTML differs from server HTML",
+    "reason": "React may remount components or show warnings if the HTML does not match."
+  },
+  {
+    "questionId": "react_h_64",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why should keys be stable in lists?",
+    "options": [
+      "To preserve component identity and state",
+      "To optimize CSS",
+      "To force hydration",
+      "To block hooks"
+    ],
+    "answer": "To preserve component identity and state",
+    "reason": "Changing keys causes React to remount components unnecessarily."
+  },
+  {
+    "questionId": "react_h_65",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is a common pitfall when using context for performance?",
+    "options": [
+      "Frequent updates cause all consumers to re-render",
+      "Context prevents re-render",
+      "Context blocks hydration",
+      "Context replaces hooks"
+    ],
+    "answer": "Frequent updates cause all consumers to re-render",
+    "reason": "Every context update triggers re-render of all consuming components."
+  },
+  {
+    "questionId": "react_h_66",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the difference between useLayoutEffect and useEffect regarding SSR?",
+    "options": [
+      "useLayoutEffect warns when used on server",
+      "useEffect never runs",
+      "Both run identically",
+      "useLayoutEffect caches state"
+    ],
+    "answer": "useLayoutEffect warns when used on server",
+    "reason": "useLayoutEffect is synchronous with DOM and cannot run on server."
+  },
+  {
+    "questionId": "react_h_67",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why is state derived from props often discouraged?",
+    "options": [
+      "Can go out of sync and cause bugs",
+      "Prevents hooks",
+      "Blocks hydration",
+      "Always breaks components"
+    ],
+    "answer": "Can go out of sync and cause bugs",
+    "reason": "Derived state duplicates the source of truth, risking inconsistency."
+  },
+  {
+    "questionId": "react_h_68",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How does concurrent rendering affect long-running state updates?",
+    "options": [
+      "React can pause and resume updates to keep UI responsive",
+      "Blocks all updates",
+      "Caches state globally",
+      "Prevents hydration"
+    ],
+    "answer": "React can pause and resume updates to keep UI responsive",
+    "reason": "Time-slicing allows React to split rendering work into chunks."
+  },
+  {
+    "questionId": "react_h_69",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the effect of having new object literals as props with React.memo?",
+    "options": [
+      "Triggers re-renders due to shallow comparison",
+      "Prevents rendering",
+      "Blocks hooks",
+      "Breaks hydration"
+    ],
+    "answer": "Triggers re-renders due to shallow comparison",
+    "reason": "Each new object reference is considered changed by shallow comparison."
+  },
+  {
+    "questionId": "react_h_70",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why should inline arrow functions in JSX be avoided in performance-critical components?",
+    "options": [
+      "They create new function references every render",
+      "They block hydration",
+      "They break SSR",
+      "They replace hooks"
+    ],
+    "answer": "They create new function references every render",
+    "reason": "New function references can prevent memoized components from skipping re-renders."
+  },
+  {
+    "questionId": "react_h_71",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is a key advantage of Suspense for data fetching?",
+    "options": [
+      "Shows fallback UI automatically while waiting for data",
+      "Blocks all renders",
+      "Caches state globally",
+      "Prevents hydration"
+    ],
+    "answer": "Shows fallback UI automatically while waiting for data",
+    "reason": "Suspense allows declarative loading states for async data."
+  },
+  {
+    "questionId": "react_h_72",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why is using useReducer preferred for complex state logic?",
+    "options": [
+      "Centralizes updates and makes logic predictable",
+      "Always faster than useState",
+      "Prevents hydration issues",
+      "Blocks re-rendering"
+    ],
+    "answer": "Centralizes updates and makes logic predictable",
+    "reason": "useReducer organizes state transitions for complex scenarios."
+  },
+  {
+    "questionId": "react_h_73",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is a common cause of stale closure bugs in hooks?",
+    "options": [
+      "Missing dependencies in useEffect or useCallback",
+      "Using useState",
+      "Using Context incorrectly",
+      "Using JSX fragments"
+    ],
+    "answer": "Missing dependencies in useEffect or useCallback",
+    "reason": "Closures capture old values if dependencies are incomplete."
+  },
+  {
+    "questionId": "react_h_74",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What does forwardRef enable in functional components?",
+    "options": [
+      "Allows parent components to access child refs or DOM nodes",
+      "Caches state globally",
+      "Blocks re-rendering",
+      "Prevents hydration"
+    ],
+    "answer": "Allows parent components to access child refs or DOM nodes",
+    "reason": "forwardRef passes refs through child components."
+  },
+  {
+    "questionId": "react_h_75",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why should derived state from props generally be avoided?",
+    "options": [
+      "Can go out of sync with source of truth",
+      "Prevents SSR",
+      "Blocks hooks",
+      "Always causes errors"
+    ],
+    "answer": "Can go out of sync with source of truth",
+    "reason": "Derived state duplicates data and may lead to inconsistencies."
+  },
+  {
+    "questionId": "react_h_76",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the main benefit of lazy hydration?",
+    "options": [
+      "Improves perceived performance by delaying attaching event listeners",
+      "Caches state globally",
+      "Blocks re-render",
+      "Prevents hooks from executing"
+    ],
+    "answer": "Improves perceived performance by delaying attaching event listeners",
+    "reason": "Lazy hydration allows the page to become interactive faster."
+  },
+  {
+    "questionId": "react_h_77",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How does concurrent rendering improve UI responsiveness?",
+    "options": [
+      "React can pause and resume updates to prioritize important work",
+      "Blocks all updates",
+      "Prevents re-rendering",
+      "Caches state globally"
+    ],
+    "answer": "React can pause and resume updates to prioritize important work",
+    "reason": "Time-slicing lets React interrupt low-priority renders for urgent updates."
+  },
+  {
+    "questionId": "react_h_78",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why might using new object literals as props break React.memo?",
+    "options": [
+      "Shallow comparison sees new references as changed",
+      "Blocks rendering",
+      "Prevents hydration",
+      "Breaks Context API"
+    ],
+    "answer": "Shallow comparison sees new references as changed",
+    "reason": "React.memo only does shallow prop comparison; new objects trigger re-renders."
+  },
+  {
+    "questionId": "react_h_79",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is a key limitation of Error Boundaries?",
+    "options": [
+      "They cannot catch async or event handler errors",
+      "They catch all errors",
+      "They block hydration",
+      "They prevent state updates"
+    ],
+    "answer": "They cannot catch async or event handler errors",
+    "reason": "Error Boundaries only catch render-time errors in child components."
+  },
+  {
+    "questionId": "react_h_80",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How does Suspense integrate with code-splitting?",
+    "options": [
+      "Provides a fallback UI while lazy-loaded components load",
+      "Blocks all renders until code is loaded",
+      "Prevents hydration",
+      "Caches global state"
+    ],
+    "answer": "Provides a fallback UI while lazy-loaded components load",
+    "reason": "Suspense works with React.lazy to show placeholders during code loading."
+  },
+  {
+    "questionId": "react_h_81",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of startTransition?",
+    "options": [
+      "Marks updates as low priority to keep UI responsive",
+      "Force renders immediately",
+      "Caches state globally",
+      "Blocks hydration"
+    ],
+    "answer": "Marks updates as low priority to keep UI responsive",
+    "reason": "startTransition lets React know certain updates are not urgent."
+  },
+  {
+    "questionId": "react_h_82",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why should inline arrow functions in JSX be avoided in performance-critical components?",
+    "options": [
+      "They create new function references every render",
+      "Block hydration",
+      "Break SSR",
+      "Replace hooks"
+    ],
+    "answer": "They create new function references every render",
+    "reason": "New references break memoization and cause extra re-renders."
+  },
+  {
+    "questionId": "react_h_83",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the effect of changing keys in a list of components?",
+    "options": [
+      "Remounts components and loses local state",
+      "Preserves state",
+      "Blocks re-render",
+      "Prevents hydration"
+    ],
+    "answer": "Remounts components and loses local state",
+    "reason": "Keys define identity; changing them forces remounts."
+  },
+  {
+    "questionId": "react_h_84",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How does React Fiber architecture improve rendering?",
+    "options": [
+      "Allows interruptible and incremental rendering",
+      "Blocks hydration",
+      "Caches state globally",
+      "Prevents re-rendering"
+    ],
+    "answer": "Allows interruptible and incremental rendering",
+    "reason": "Fiber enables time-slicing and prioritization of updates."
+  },
+  {
+    "questionId": "react_h_85",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why might derived state from props lead to bugs?",
+    "options": [
+      "It may become inconsistent with original props",
+      "Blocks hydration",
+      "Prevents SSR",
+      "Always crashes the app"
+    ],
+    "answer": "It may become inconsistent with original props",
+    "reason": "Duplicating state from props risks desynchronization."
+  },
+  {
+    "questionId": "react_h_86",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How does useImperativeHandle help with refs?",
+    "options": [
+      "Allows child to expose controlled methods to parent",
+      "Caches state globally",
+      "Blocks hydration",
+      "Prevents re-rendering"
+    ],
+    "answer": "Allows child to expose controlled methods to parent",
+    "reason": "It customizes the ref object exposed to the parent."
+  },
+  {
+    "questionId": "react_h_87",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why is hydration mismatch a common SSR issue?",
+    "options": [
+      "Server-rendered HTML differs from client render",
+      "Hooks fail silently",
+      "CSS breaks",
+      "State is lost"
+    ],
+    "answer": "Server-rendered HTML differs from client render",
+    "reason": "React expects client HTML to match SSR HTML to attach events correctly."
+  },
+  {
+    "questionId": "react_h_88",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is a stale prop problem in hooks?",
+    "options": [
+      "Effect captures outdated prop values due to missing dependencies",
+      "Effect never runs",
+      "Effect blocks rendering",
+      "Effect prevents hydration"
+    ],
+    "answer": "Effect captures outdated prop values due to missing dependencies",
+    "reason": "Missing dependencies cause hooks to use old values."
+  },
+  {
+    "questionId": "react_h_89",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How do React Portals affect event bubbling?",
+    "options": [
+      "Events bubble to React tree, not DOM hierarchy",
+      "Events stop completely",
+      "Events always reach body",
+      "They block events"
+    ],
+    "answer": "Events bubble to React tree, not DOM hierarchy",
+    "reason": "Portals preserve React event propagation even outside parent DOM."
+  },
+  {
+    "questionId": "react_h_90",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why is useLayoutEffect sometimes needed over useEffect?",
+    "options": [
+      "To read layout and synchronously modify DOM before paint",
+      "To delay effect asynchronously",
+      "To block hydration",
+      "To cache state globally"
+    ],
+    "answer": "To read layout and synchronously modify DOM before paint",
+    "reason": "useLayoutEffect runs before paint and is used for measurements or DOM manipulations."
+  },
+  {
+    "questionId": "react_h_91",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of lazy loading React components?",
+    "options": [
+      "Reduces initial bundle size and improves performance",
+      "Prevents hydration",
+      "Blocks all renders",
+      "Caches state globally"
+    ],
+    "answer": "Reduces initial bundle size and improves performance",
+    "reason": "Lazy loading dynamically imports components to split code."
+  },
+  {
+    "questionId": "react_h_92",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What does Suspense do when combined with lazy components?",
+    "options": [
+      "Displays fallback until the lazy component loads",
+      "Blocks all updates",
+      "Prevents hydration",
+      "Caches state globally"
+    ],
+    "answer": "Displays fallback until the lazy component loads",
+    "reason": "Suspense provides a declarative way to handle loading states."
+  },
+  {
+    "questionId": "react_h_93",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What issue does using inline objects as props with memoized components cause?",
+    "options": [
+      "Triggers re-renders due to new references",
+      "Prevents rendering",
+      "Blocks hydration",
+      "Breaks SSR"
+    ],
+    "answer": "Triggers re-renders due to new references",
+    "reason": "Shallow comparison detects object reference changes as updates."
+  },
+  {
+    "questionId": "react_h_94",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How can concurrent rendering help prevent janky animations?",
+    "options": [
+      "Splits work into small chunks allowing high-priority updates",
+      "Blocks all renders",
+      "Caches state globally",
+      "Prevents hydration"
+    ],
+    "answer": "Splits work into small chunks allowing high-priority updates",
+    "reason": "Time-slicing allows React to prioritize smooth UI updates."
+  },
+  {
+    "questionId": "react_h_95",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why is React Fiber important for Concurrent Mode?",
+    "options": [
+      "Enables interruptible and incremental rendering",
+      "Blocks hydration",
+      "Caches state globally",
+      "Prevents re-rendering"
+    ],
+    "answer": "Enables interruptible and incremental rendering",
+    "reason": "Fiber architecture allows React to pause and resume work efficiently."
+  },
+  {
+    "questionId": "react_h_96",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is a pitfall of overusing useMemo or useCallback?",
+    "options": [
+      "Adds complexity and memory overhead",
+      "Blocks hydration",
+      "Prevents rendering",
+      "Breaks SSR"
+    ],
+    "answer": "Adds complexity and memory overhead",
+    "reason": "Overusing memoization can hurt performance and readability."
+  },
+  {
+    "questionId": "react_h_97",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why are stable keys important in dynamic lists?",
+    "options": [
+      "Preserves component state across renders",
+      "Blocks hydration",
+      "Caches state globally",
+      "Prevents re-rendering"
+    ],
+    "answer": "Preserves component state across renders",
+    "reason": "Changing keys forces remounting and loss of state."
+  },
+  {
+    "questionId": "react_h_98",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "How does useDeferredValue differ from startTransition?",
+    "options": [
+      "Defers value updates; startTransition marks low-priority updates",
+      "They are identical",
+      "startTransition blocks UI",
+      "useDeferredValue caches state globally"
+    ],
+    "answer": "Defers value updates; startTransition marks low-priority updates",
+    "reason": "useDeferredValue delays value rendering; startTransition marks updates as non-urgent."
+  },
+  {
+    "questionId": "react_h_99",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "What is a common SSR hydration warning cause?",
+    "options": [
+      "Client-rendered HTML differs from server-rendered HTML",
+      "Hooks fail silently",
+      "CSS fails to apply",
+      "State is lost permanently"
+    ],
+    "answer": "Client-rendered HTML differs from server-rendered HTML",
+    "reason": "React requires HTML consistency for hydration to attach event listeners."
+  },
+  {
+    "questionId": "react_h_100",
+    "topic": "react",
+    "difficulty": "hard",
+    "questionText": "Why might using context for frequently updated state harm performance?",
+    "options": [
+      "Triggers re-render of all consuming components",
+      "Blocks hydration",
+      "Prevents re-rendering",
+      "Breaks hooks"
+    ],
+    "answer": "Triggers re-render of all consuming components",
+    "reason": "Context updates propagate to all consumers, even if they do not need the new value."
+  }
+]

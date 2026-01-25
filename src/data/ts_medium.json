@@ -1,0 +1,1395 @@
+[
+  {
+    "questionId": "ts_m_1",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of the `unknown` type in TypeScript?",
+    "options": [
+      "A safer alternative to any",
+      "A replacement for null",
+      "A type for private variables",
+      "A type only for errors"
+    ],
+    "answer": "A safer alternative to any",
+    "reason": "`unknown` requires type checking before usage, unlike `any`."
+  },
+  {
+    "questionId": "ts_m_2",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does the `as const` assertion do?",
+    "options": [
+      "Makes values immutable and literal",
+      "Converts types at runtime",
+      "Freezes objects only",
+      "Marks variables as private"
+    ],
+    "answer": "Makes values immutable and literal",
+    "reason": "`as const` narrows types to their literal values and readonly."
+  },
+  {
+    "questionId": "ts_m_3",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is the main use of union types?",
+    "options": [
+      "Allow multiple possible types",
+      "Merge interfaces",
+      "Improve performance",
+      "Prevent null values"
+    ],
+    "answer": "Allow multiple possible types",
+    "reason": "Union types allow variables to hold values of different specified types."
+  },
+  {
+    "questionId": "ts_m_4",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "Which operator is used for type narrowing?",
+    "options": ["typeof", "new", "delete", "void"],
+    "answer": "typeof",
+    "reason": "`typeof` helps narrow types during runtime checks."
+  },
+  {
+    "questionId": "ts_m_5",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does the `never` type represent?",
+    "options": [
+      "A value that never occurs",
+      "A null value",
+      "Any possible value",
+      "An optional value"
+    ],
+    "answer": "A value that never occurs",
+    "reason": "`never` is used for functions that never return or unreachable code."
+  },
+
+  {
+    "questionId": "ts_m_6",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of interfaces in TypeScript?",
+    "options": [
+      "Define object structure",
+      "Create runtime classes",
+      "Improve execution speed",
+      "Handle async logic"
+    ],
+    "answer": "Define object structure",
+    "reason": "Interfaces describe the shape of objects at compile time."
+  },
+  {
+    "questionId": "ts_m_7",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does optional chaining (`?.`) prevent?",
+    "options": [
+      "Runtime errors from null or undefined",
+      "Type mismatches",
+      "Compilation errors",
+      "Memory leaks"
+    ],
+    "answer": "Runtime errors from null or undefined",
+    "reason": "Optional chaining safely accesses nested properties."
+  },
+  {
+    "questionId": "ts_m_8",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is a tuple in TypeScript?",
+    "options": [
+      "An array with fixed types and length",
+      "A dynamic object",
+      "A readonly map",
+      "A function return type"
+    ],
+    "answer": "An array with fixed types and length",
+    "reason": "Tuples enforce both order and type of elements."
+  },
+  {
+    "questionId": "ts_m_9",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "Which keyword is used to define a type alias?",
+    "options": ["type", "alias", "define", "interface"],
+    "answer": "type",
+    "reason": "The `type` keyword creates custom type aliases."
+  },
+  {
+    "questionId": "ts_m_10",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is structural typing?",
+    "options": [
+      "Type compatibility based on structure",
+      "Typing based on class names",
+      "Runtime type checking",
+      "Manual casting only"
+    ],
+    "answer": "Type compatibility based on structure",
+    "reason": "TypeScript compares types by shape, not by name."
+  },
+
+  {
+    "questionId": "ts_m_11",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `readonly` do in TypeScript?",
+    "options": [
+      "Prevents reassignment",
+      "Prevents access",
+      "Creates constants only",
+      "Locks runtime values"
+    ],
+    "answer": "Prevents reassignment",
+    "reason": "`readonly` stops properties from being modified."
+  },
+  {
+    "questionId": "ts_m_12",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of generics?",
+    "options": [
+      "Create reusable type-safe components",
+      "Improve runtime speed",
+      "Replace interfaces",
+      "Avoid compilation"
+    ],
+    "answer": "Create reusable type-safe components",
+    "reason": "Generics allow types to be passed as parameters."
+  },
+  {
+    "questionId": "ts_m_13",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "Which keyword enforces exhaustive checks in switch statements?",
+    "options": ["never", "void", "unknown", "any"],
+    "answer": "never",
+    "reason": "`never` ensures all cases are handled."
+  },
+  {
+    "questionId": "ts_m_14",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `keyof` produce?",
+    "options": [
+      "A union of object keys",
+      "An array of values",
+      "A runtime map",
+      "A string type only"
+    ],
+    "answer": "A union of object keys",
+    "reason": "`keyof` extracts property names as a union."
+  },
+  {
+    "questionId": "ts_m_15",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is declaration merging?",
+    "options": [
+      "Combining multiple declarations",
+      "Replacing interfaces",
+      "Runtime inheritance",
+      "File bundling"
+    ],
+    "answer": "Combining multiple declarations",
+    "reason": "TypeScript can merge interfaces and namespaces."
+  },
+
+  {
+    "questionId": "ts_m_16",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `Partial<T>` do?",
+    "options": [
+      "Makes all properties optional",
+      "Removes properties",
+      "Freezes objects",
+      "Creates readonly types"
+    ],
+    "answer": "Makes all properties optional",
+    "reason": "`Partial` transforms all properties into optional ones."
+  },
+  {
+    "questionId": "ts_m_17",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is the use of `Record<K, T>`?",
+    "options": [
+      "Map keys to a specific type",
+      "Create arrays",
+      "Extend interfaces",
+      "Define enums"
+    ],
+    "answer": "Map keys to a specific type",
+    "reason": "`Record` defines an object type with specified keys and values."
+  },
+  {
+    "questionId": "ts_m_18",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "Which config option disables type checking?",
+    "options": ["skipLibCheck", "noEmit", "strict", "isolatedModules"],
+    "answer": "skipLibCheck",
+    "reason": "It skips type checking for declaration files."
+  },
+  {
+    "questionId": "ts_m_19",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `strict` mode enable?",
+    "options": [
+      "All strict type checks",
+      "Only runtime validation",
+      "Faster compilation",
+      "JS output only"
+    ],
+    "answer": "All strict type checks",
+    "reason": "`strict` enables a group of strict compiler options."
+  },
+  {
+    "questionId": "ts_m_20",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is function overloading?",
+    "options": [
+      "Multiple function signatures",
+      "Multiple implementations",
+      "Async execution",
+      "Recursive calls"
+    ],
+    "answer": "Multiple function signatures",
+    "reason": "TypeScript allows multiple call signatures for a function."
+  },
+  {
+    "questionId": "ts_m_21",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does the `Exclude<T, U>` utility type do?",
+    "options": [
+      "Removes types in U from T",
+      "Combines two types",
+      "Makes properties optional",
+      "Extracts common types"
+    ],
+    "answer": "Removes types in U from T",
+    "reason": "`Exclude` removes from T all types that are assignable to U."
+  },
+  {
+    "questionId": "ts_m_22",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does the `Extract<T, U>` utility type do?",
+    "options": [
+      "Keeps types in T that are assignable to U",
+      "Removes optional properties",
+      "Creates intersection types",
+      "Extracts object keys"
+    ],
+    "answer": "Keeps types in T that are assignable to U",
+    "reason": "`Extract` keeps only the overlapping types between T and U."
+  },
+  {
+    "questionId": "ts_m_23",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is an intersection type?",
+    "options": [
+      "A type combining multiple types",
+      "A runtime type",
+      "A union replacement",
+      "A nullable type"
+    ],
+    "answer": "A type combining multiple types",
+    "reason": "Intersection types combine properties of multiple types using `&`."
+  },
+  {
+    "questionId": "ts_m_24",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does the `implements` keyword do?",
+    "options": [
+      "Ensures a class follows an interface",
+      "Extends a class",
+      "Creates inheritance",
+      "Defines generics"
+    ],
+    "answer": "Ensures a class follows an interface",
+    "reason": "`implements` enforces that a class matches an interface structure."
+  },
+  {
+    "questionId": "ts_m_25",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is the main use of enums?",
+    "options": [
+      "Define named constant values",
+      "Improve performance",
+      "Create classes",
+      "Handle async logic"
+    ],
+    "answer": "Define named constant values",
+    "reason": "Enums group related constant values under a name."
+  },
+
+  {
+    "questionId": "ts_m_26",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `readonly` do in tuple types?",
+    "options": [
+      "Prevents modification of elements",
+      "Prevents access",
+      "Locks runtime memory",
+      "Converts to const"
+    ],
+    "answer": "Prevents modification of elements",
+    "reason": "Readonly tuples cannot have their elements changed."
+  },
+  {
+    "questionId": "ts_m_27",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is the difference between `interface` and `type`?",
+    "options": [
+      "Interfaces can be merged",
+      "Types are faster",
+      "Interfaces support unions",
+      "Types support classes"
+    ],
+    "answer": "Interfaces can be merged",
+    "reason": "Interfaces support declaration merging, while type aliases do not."
+  },
+  {
+    "questionId": "ts_m_28",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `non-null assertion (!) ` do?",
+    "options": [
+      "Tells compiler value is not null",
+      "Removes null at runtime",
+      "Creates optional values",
+      "Casts to any"
+    ],
+    "answer": "Tells compiler value is not null",
+    "reason": "The `!` operator bypasses null and undefined checks."
+  },
+  {
+    "questionId": "ts_m_29",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `noImplicitAny` enforce?",
+    "options": [
+      "Disallows implicit any types",
+      "Disallows null",
+      "Forces strict mode",
+      "Prevents runtime errors"
+    ],
+    "answer": "Disallows implicit any types",
+    "reason": "Variables must have explicit types if inference fails."
+  },
+  {
+    "questionId": "ts_m_30",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does the `satisfies` operator ensure?",
+    "options": [
+      "Type conformity without narrowing",
+      "Runtime validation",
+      "Implicit casting",
+      "Type merging"
+    ],
+    "answer": "Type conformity without narrowing",
+    "reason": "`satisfies` checks structure without changing inferred types."
+  },
+
+  {
+    "questionId": "ts_m_31",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `ReturnType<T>` extract?",
+    "options": [
+      "Function return type",
+      "Function parameters",
+      "Promise values",
+      "Class properties"
+    ],
+    "answer": "Function return type",
+    "reason": "`ReturnType` extracts the return type of a function."
+  },
+  {
+    "questionId": "ts_m_32",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `Parameters<T>` extract?",
+    "options": [
+      "Function parameter types",
+      "Return types",
+      "Generic types",
+      "Class arguments"
+    ],
+    "answer": "Function parameter types",
+    "reason": "`Parameters` extracts a tuple of parameter types."
+  },
+  {
+    "questionId": "ts_m_33",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `Awaited<T>` do?",
+    "options": [
+      "Extracts resolved Promise type",
+      "Creates async functions",
+      "Handles callbacks",
+      "Blocks execution"
+    ],
+    "answer": "Extracts resolved Promise type",
+    "reason": "`Awaited` unwraps Promise-like values."
+  },
+  {
+    "questionId": "ts_m_34",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is a discriminated union?",
+    "options": [
+      "Union with a common literal field",
+      "Merged interfaces",
+      "Generic union",
+      "Optional union"
+    ],
+    "answer": "Union with a common literal field",
+    "reason": "A shared literal property allows safe type narrowing."
+  },
+  {
+    "questionId": "ts_m_35",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `never` help detect in functions?",
+    "options": [
+      "Unreachable code",
+      "Async issues",
+      "Runtime errors",
+      "Optional values"
+    ],
+    "answer": "Unreachable code",
+    "reason": "`never` ensures all cases are handled."
+  },
+
+  {
+    "questionId": "ts_m_36",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `Omit<T, K>` do?",
+    "options": [
+      "Removes keys K from type T",
+      "Adds optional keys",
+      "Freezes objects",
+      "Extracts properties"
+    ],
+    "answer": "Removes keys K from type T",
+    "reason": "`Omit` excludes specified properties from a type."
+  },
+  {
+    "questionId": "ts_m_37",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `Pick<T, K>` do?",
+    "options": [
+      "Selects specific keys from T",
+      "Removes keys",
+      "Creates unions",
+      "Maps values"
+    ],
+    "answer": "Selects specific keys from T",
+    "reason": "`Pick` creates a type with only selected properties."
+  },
+  {
+    "questionId": "ts_m_38",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is type inference?",
+    "options": [
+      "Automatic type detection",
+      "Runtime casting",
+      "Manual typing",
+      "Type erasure"
+    ],
+    "answer": "Automatic type detection",
+    "reason": "TypeScript infers types when not explicitly defined."
+  },
+  {
+    "questionId": "ts_m_39",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `noUncheckedIndexedAccess` do?",
+    "options": [
+      "Adds undefined to index access",
+      "Removes array bounds",
+      "Improves speed",
+      "Disables checks"
+    ],
+    "answer": "Adds undefined to index access",
+    "reason": "Index access may return undefined if out of bounds."
+  },
+  {
+    "questionId": "ts_m_40",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `as` keyword do?",
+    "options": [
+      "Performs type assertion",
+      "Converts runtime value",
+      "Creates generics",
+      "Checks nullability"
+    ],
+    "answer": "Performs type assertion",
+    "reason": "`as` tells the compiler how to treat a value."
+  },
+
+  {
+    "questionId": "ts_m_41",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `strictNullChecks` enforce?",
+    "options": [
+      "Null must be explicitly handled",
+      "Null is removed",
+      "Null is any",
+      "Null is never"
+    ],
+    "answer": "Null must be explicitly handled",
+    "reason": "Null and undefined are not assignable by default."
+  },
+  {
+    "questionId": "ts_m_42",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is a mapped type?",
+    "options": [
+      "A type created by mapping over keys",
+      "A runtime map",
+      "A class decorator",
+      "An enum"
+    ],
+    "answer": "A type created by mapping over keys",
+    "reason": "Mapped types transform existing types."
+  },
+  {
+    "questionId": "ts_m_43",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `readonly` in mapped types do?",
+    "options": [
+      "Prevents reassignment of properties",
+      "Locks runtime memory",
+      "Creates constants",
+      "Removes setters"
+    ],
+    "answer": "Prevents reassignment of properties",
+    "reason": "Readonly mapped types make properties immutable."
+  },
+  {
+    "questionId": "ts_m_44",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of `tsconfig.json`?",
+    "options": [
+      "Configure TypeScript compiler",
+      "Bundle JavaScript",
+      "Run tests",
+      "Manage packages"
+    ],
+    "answer": "Configure TypeScript compiler",
+    "reason": "`tsconfig.json` defines compiler options."
+  },
+  {
+    "questionId": "ts_m_45",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `isolatedModules` ensure?",
+    "options": [
+      "Each file can be transpiled independently",
+      "Better runtime speed",
+      "Shared global types",
+      "Merged modules"
+    ],
+    "answer": "Each file can be transpiled independently",
+    "reason": "Required for tools like Babel."
+  },
+
+  {
+    "questionId": "ts_m_46",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is declaration file (`.d.ts`) used for?",
+    "options": [
+      "Describe existing JS types",
+      "Compile TS faster",
+      "Store runtime code",
+      "Define enums"
+    ],
+    "answer": "Describe existing JS types",
+    "reason": "Declaration files provide type info for JavaScript."
+  },
+  {
+    "questionId": "ts_m_47",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `esModuleInterop` help with?",
+    "options": [
+      "CommonJS and ES module compatibility",
+      "Tree shaking",
+      "Async imports",
+      "Runtime performance"
+    ],
+    "answer": "CommonJS and ES module compatibility",
+    "reason": "It improves default import behavior."
+  },
+  {
+    "questionId": "ts_m_48",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `unknown` require before usage?",
+    "options": [
+      "Type checking",
+      "Casting to any",
+      "Runtime parsing",
+      "Null removal"
+    ],
+    "answer": "Type checking",
+    "reason": "`unknown` must be narrowed before use."
+  },
+  {
+    "questionId": "ts_m_49",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is type narrowing?",
+    "options": [
+      "Reducing a type to a specific subtype",
+      "Merging types",
+      "Creating unions",
+      "Removing null"
+    ],
+    "answer": "Reducing a type to a specific subtype",
+    "reason": "Narrowing improves type safety in control flow."
+  },
+  {
+    "questionId": "ts_m_50",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `instanceof` help with?",
+    "options": [
+      "Class-based type narrowing",
+      "Runtime conversion",
+      "Interface checking",
+      "Generic inference"
+    ],
+    "answer": "Class-based type narrowing",
+    "reason": "`instanceof` narrows types for class instances."
+  },
+
+  {
+    "questionId": "ts_m_51",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `abstract` keyword do?",
+    "options": [
+      "Prevents direct instantiation",
+      "Hides methods",
+      "Freezes classes",
+      "Creates interfaces"
+    ],
+    "answer": "Prevents direct instantiation",
+    "reason": "Abstract classes cannot be instantiated directly."
+  },
+  {
+    "questionId": "ts_m_52",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is method overloading?",
+    "options": [
+      "Multiple method signatures",
+      "Multiple implementations",
+      "Async methods",
+      "Recursive methods"
+    ],
+    "answer": "Multiple method signatures",
+    "reason": "Overloading provides multiple call signatures."
+  },
+  {
+    "questionId": "ts_m_53",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `private` keyword do?",
+    "options": [
+      "Restricts access within class",
+      "Restricts file access",
+      "Prevents override",
+      "Makes readonly"
+    ],
+    "answer": "Restricts access within class",
+    "reason": "Private members are only accessible inside the class."
+  },
+  {
+    "questionId": "ts_m_54",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `protected` keyword allow?",
+    "options": [
+      "Access in class and subclasses",
+      "Global access",
+      "Module access only",
+      "Runtime access"
+    ],
+    "answer": "Access in class and subclasses",
+    "reason": "`protected` allows subclass access."
+  },
+  {
+    "questionId": "ts_m_55",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `public` keyword mean?",
+    "options": [
+      "Accessible everywhere",
+      "Accessible only in class",
+      "Accessible in module",
+      "Read-only access"
+    ],
+    "answer": "Accessible everywhere",
+    "reason": "`public` is the default accessibility."
+  },
+
+  {
+    "questionId": "ts_m_56",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `readonly` constructor parameter do?",
+    "options": [
+      "Creates and assigns property",
+      "Locks runtime memory",
+      "Removes setter",
+      "Creates constant"
+    ],
+    "answer": "Creates and assigns property",
+    "reason": "Readonly parameters become class properties."
+  },
+  {
+    "questionId": "ts_m_57",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `strictFunctionTypes` enforce?",
+    "options": [
+      "Safer function parameter checks",
+      "Faster runtime",
+      "Async validation",
+      "Return type checks"
+    ],
+    "answer": "Safer function parameter checks",
+    "reason": "It enforces contravariance for function parameters."
+  },
+  {
+    "questionId": "ts_m_58",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is covariance in TypeScript?",
+    "options": [
+      "Assigning subtype to supertype",
+      "Assigning supertype to subtype",
+      "Runtime casting",
+      "Type erasure"
+    ],
+    "answer": "Assigning subtype to supertype",
+    "reason": "Covariance allows substituting narrower types."
+  },
+  {
+    "questionId": "ts_m_59",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `--noEmit` do?",
+    "options": [
+      "Prevents JavaScript output",
+      "Disables type checking",
+      "Improves speed",
+      "Skips files"
+    ],
+    "answer": "Prevents JavaScript output",
+    "reason": "Compilation runs without emitting JS."
+  },
+  {
+    "questionId": "ts_m_60",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `target` option control?",
+    "options": [
+      "Output JavaScript version",
+      "Module system",
+      "Type strictness",
+      "Runtime engine"
+    ],
+    "answer": "Output JavaScript version",
+    "reason": "It defines the JS version to compile to."
+  },
+
+  {
+    "questionId": "ts_m_61",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `moduleResolution` define?",
+    "options": [
+      "How modules are resolved",
+      "How code is bundled",
+      "Runtime imports",
+      "Tree shaking"
+    ],
+    "answer": "How modules are resolved",
+    "reason": "Controls how TypeScript finds imported modules."
+  },
+  {
+    "questionId": "ts_m_62",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `baseUrl` help with?",
+    "options": [
+      "Absolute import paths",
+      "Runtime routing",
+      "API base paths",
+      "Env variables"
+    ],
+    "answer": "Absolute import paths",
+    "reason": "`baseUrl` simplifies module imports."
+  },
+  {
+    "questionId": "ts_m_63",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `paths` option do?",
+    "options": [
+      "Create import aliases",
+      "Define runtime routes",
+      "Map APIs",
+      "Load assets"
+    ],
+    "answer": "Create import aliases",
+    "reason": "`paths` maps module import aliases."
+  },
+  {
+    "questionId": "ts_m_64",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `lib` option include?",
+    "options": [
+      "Built-in type definitions",
+      "Third-party packages",
+      "Runtime libraries",
+      "Polyfills only"
+    ],
+    "answer": "Built-in type definitions",
+    "reason": "Defines available built-in APIs."
+  },
+  {
+    "questionId": "ts_m_65",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `downlevelIteration` enable?",
+    "options": [
+      "Iterable support in older JS",
+      "Async iteration",
+      "Better performance",
+      "Module merging"
+    ],
+    "answer": "Iterable support in older JS",
+    "reason": "Enables correct iteration when targeting older JS."
+  },
+
+  {
+    "questionId": "ts_m_66",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is a type guard?",
+    "options": [
+      "A function that narrows types",
+      "A runtime validator",
+      "A compiler flag",
+      "An interface"
+    ],
+    "answer": "A function that narrows types",
+    "reason": "Type guards refine types in conditional blocks."
+  },
+  {
+    "questionId": "ts_m_67",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `is` keyword do in functions?",
+    "options": [
+      "Defines custom type guards",
+      "Creates interfaces",
+      "Casts types",
+      "Checks runtime values"
+    ],
+    "answer": "Defines custom type guards",
+    "reason": "`is` tells the compiler how to narrow types."
+  },
+  {
+    "questionId": "ts_m_68",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `this` parameter type do?",
+    "options": [
+      "Defines type of this context",
+      "Binds runtime this",
+      "Locks scope",
+      "Creates generics"
+    ],
+    "answer": "Defines type of this context",
+    "reason": "It enforces correct `this` usage."
+  },
+  {
+    "questionId": "ts_m_69",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is contextual typing?",
+    "options": [
+      "Inferring types from usage context",
+      "Runtime typing",
+      "Explicit annotation",
+      "Type casting"
+    ],
+    "answer": "Inferring types from usage context",
+    "reason": "TypeScript infers types based on context."
+  },
+  {
+    "questionId": "ts_m_70",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `void` represent?",
+    "options": ["No return value", "Null value", "Any value", "Undefined only"],
+    "answer": "No return value",
+    "reason": "`void` indicates absence of return value."
+  },
+
+  {
+    "questionId": "ts_m_71",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `never` return type indicate?",
+    "options": [
+      "Function never completes",
+      "Returns undefined",
+      "Returns null",
+      "Throws optional error"
+    ],
+    "answer": "Function never completes",
+    "reason": "Used for infinite loops or thrown errors."
+  },
+  {
+    "questionId": "ts_m_72",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of `strictBindCallApply`?",
+    "options": [
+      "Stricter typing for call/apply",
+      "Runtime binding",
+      "Async validation",
+      "Function overloading"
+    ],
+    "answer": "Stricter typing for call/apply",
+    "reason": "Ensures correct argument types."
+  },
+  {
+    "questionId": "ts_m_73",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `useDefineForClassFields` affect?",
+    "options": [
+      "Class field initialization semantics",
+      "Access modifiers",
+      "Constructor behavior",
+      "Inheritance"
+    ],
+    "answer": "Class field initialization semantics",
+    "reason": "Aligns output with JavaScript standards."
+  },
+  {
+    "questionId": "ts_m_74",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `exactOptionalPropertyTypes` enforce?",
+    "options": [
+      "Optional does not include undefined",
+      "Optional always undefined",
+      "Optional is any",
+      "Optional is never"
+    ],
+    "answer": "Optional does not include undefined",
+    "reason": "Optional properties are not automatically undefined."
+  },
+  {
+    "questionId": "ts_m_75",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is type erasure?",
+    "options": [
+      "Types removed at runtime",
+      "Runtime type checks",
+      "Compiler errors",
+      "Type inference"
+    ],
+    "answer": "Types removed at runtime",
+    "reason": "TypeScript types do not exist in JS output."
+  },
+
+  {
+    "questionId": "ts_m_76",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `preserveConstEnums` do?",
+    "options": [
+      "Keeps enums in output",
+      "Removes enums",
+      "Inlines enums",
+      "Freezes enums"
+    ],
+    "answer": "Keeps enums in output",
+    "reason": "Prevents const enums from being erased."
+  },
+  {
+    "questionId": "ts_m_77",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `forceConsistentCasingInFileNames` prevent?",
+    "options": [
+      "Case mismatch issues",
+      "Runtime crashes",
+      "Module duplication",
+      "File deletion"
+    ],
+    "answer": "Case mismatch issues",
+    "reason": "Ensures import casing consistency."
+  },
+  {
+    "questionId": "ts_m_78",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is the benefit of strict mode?",
+    "options": [
+      "Improved type safety",
+      "Smaller bundles",
+      "Faster runtime",
+      "Auto refactoring"
+    ],
+    "answer": "Improved type safety",
+    "reason": "Strict mode catches more errors at compile time."
+  },
+  {
+    "questionId": "ts_m_79",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `jsx` option control?",
+    "options": [
+      "JSX transform behavior",
+      "React version",
+      "Runtime JSX",
+      "DOM access"
+    ],
+    "answer": "JSX transform behavior",
+    "reason": "Controls how JSX is compiled."
+  },
+  {
+    "questionId": "ts_m_80",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `resolveJsonModule` allow?",
+    "options": [
+      "Importing JSON files",
+      "Parsing JSON runtime",
+      "Validating JSON",
+      "Bundling JSON"
+    ],
+    "answer": "Importing JSON files",
+    "reason": "Allows JSON imports with typing."
+  },
+
+  {
+    "questionId": "ts_m_81",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is module augmentation?",
+    "options": [
+      "Extending existing modules",
+      "Replacing modules",
+      "Bundling modules",
+      "Lazy loading"
+    ],
+    "answer": "Extending existing modules",
+    "reason": "Adds types to existing modules."
+  },
+  {
+    "questionId": "ts_m_82",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `declare` keyword do?",
+    "options": [
+      "Declares existing variables",
+      "Creates runtime code",
+      "Exports modules",
+      "Locks scope"
+    ],
+    "answer": "Declares existing variables",
+    "reason": "`declare` is used for ambient declarations."
+  },
+  {
+    "questionId": "ts_m_83",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is an ambient module?",
+    "options": [
+      "Module without implementation",
+      "Runtime module",
+      "Dynamic import",
+      "Lazy module"
+    ],
+    "answer": "Module without implementation",
+    "reason": "Ambient modules describe external code."
+  },
+  {
+    "questionId": "ts_m_84",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `--watch` mode do?",
+    "options": [
+      "Recompiles on file changes",
+      "Runs tests",
+      "Bundles code",
+      "Optimizes output"
+    ],
+    "answer": "Recompiles on file changes",
+    "reason": "Watch mode monitors file updates."
+  },
+  {
+    "questionId": "ts_m_85",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `incremental` compilation do?",
+    "options": [
+      "Speeds up subsequent builds",
+      "Improves runtime speed",
+      "Reduces bundle size",
+      "Removes errors"
+    ],
+    "answer": "Speeds up subsequent builds",
+    "reason": "Stores build info for faster recompilation."
+  },
+
+  {
+    "questionId": "ts_m_86",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of `composite` projects?",
+    "options": [
+      "Enable project references",
+      "Bundle projects",
+      "Merge outputs",
+      "Compile JS only"
+    ],
+    "answer": "Enable project references",
+    "reason": "Used in large multi-project setups."
+  },
+  {
+    "questionId": "ts_m_87",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `rootDir` specify?",
+    "options": [
+      "Source code root",
+      "Output directory",
+      "Config location",
+      "Module path"
+    ],
+    "answer": "Source code root",
+    "reason": "Defines the root of input files."
+  },
+  {
+    "questionId": "ts_m_88",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `outDir` specify?",
+    "options": [
+      "Compiled output directory",
+      "Source directory",
+      "Assets folder",
+      "Config folder"
+    ],
+    "answer": "Compiled output directory",
+    "reason": "JS output files go to this directory."
+  },
+  {
+    "questionId": "ts_m_89",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `sourceMap` enable?",
+    "options": [
+      "Debugging TS in browser",
+      "Runtime type checks",
+      "Tree shaking",
+      "Minification"
+    ],
+    "answer": "Debugging TS in browser",
+    "reason": "Maps compiled JS back to TS."
+  },
+  {
+    "questionId": "ts_m_90",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `inlineSourceMap` do?",
+    "options": [
+      "Embeds source maps in JS",
+      "Removes maps",
+      "Optimizes builds",
+      "Bundles code"
+    ],
+    "answer": "Embeds source maps in JS",
+    "reason": "Source maps are inlined in output."
+  },
+
+  {
+    "questionId": "ts_m_91",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `noFallthroughCasesInSwitch` prevent?",
+    "options": [
+      "Accidental switch fallthrough",
+      "Runtime errors",
+      "Unreachable code",
+      "Type errors"
+    ],
+    "answer": "Accidental switch fallthrough",
+    "reason": "Ensures explicit case handling."
+  },
+  {
+    "questionId": "ts_m_92",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `useUnknownInCatchVariables` do?",
+    "options": [
+      "Types catch errors as unknown",
+      "Catches all errors",
+      "Ignores errors",
+      "Converts to any"
+    ],
+    "answer": "Types catch errors as unknown",
+    "reason": "Improves error handling safety."
+  },
+  {
+    "questionId": "ts_m_93",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is the main benefit of generics?",
+    "options": [
+      "Type safety with reusability",
+      "Runtime performance",
+      "Simpler syntax",
+      "Shorter code"
+    ],
+    "answer": "Type safety with reusability",
+    "reason": "Generics prevent type duplication."
+  },
+  {
+    "questionId": "ts_m_94",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `extends` do in generics?",
+    "options": [
+      "Adds constraints",
+      "Creates inheritance",
+      "Merges types",
+      "Defines defaults"
+    ],
+    "answer": "Adds constraints",
+    "reason": "`extends` limits allowed generic types."
+  },
+  {
+    "questionId": "ts_m_95",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does default generic type do?",
+    "options": [
+      "Provides fallback type",
+      "Forces type",
+      "Removes constraints",
+      "Creates unions"
+    ],
+    "answer": "Provides fallback type",
+    "reason": "Defaults are used when no type is provided."
+  },
+
+  {
+    "questionId": "ts_m_96",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `infer` keyword do?",
+    "options": [
+      "Infers type in conditional types",
+      "Creates generics",
+      "Casts runtime values",
+      "Defines interfaces"
+    ],
+    "answer": "Infers type in conditional types",
+    "reason": "`infer` extracts types within conditions."
+  },
+  {
+    "questionId": "ts_m_97",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is a conditional type?",
+    "options": [
+      "Type based on condition",
+      "Runtime condition",
+      "Boolean type",
+      "Optional type"
+    ],
+    "answer": "Type based on condition",
+    "reason": "Conditional types use `extends ? :` syntax."
+  },
+  {
+    "questionId": "ts_m_98",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What does `--strict` include?",
+    "options": [
+      "Multiple strict flags",
+      "Runtime validation",
+      "Optimized output",
+      "JS checks"
+    ],
+    "answer": "Multiple strict flags",
+    "reason": "`strict` enables several strict options."
+  },
+  {
+    "questionId": "ts_m_99",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "What is the goal of TypeScript?",
+    "options": [
+      "Catch errors at compile time",
+      "Replace JavaScript",
+      "Improve runtime speed",
+      "Remove bugs completely"
+    ],
+    "answer": "Catch errors at compile time",
+    "reason": "TypeScript improves reliability via static typing."
+  },
+  {
+    "questionId": "ts_m_100",
+    "topic": "typescript",
+    "difficulty": "medium",
+    "questionText": "Why is TypeScript popular in large projects?",
+    "options": [
+      "Better maintainability and safety",
+      "Faster execution",
+      "Smaller bundles",
+      "No learning curve"
+    ],
+    "answer": "Better maintainability and safety",
+    "reason": "Strong typing scales well in large codebases."
+  }
+]

@@ -1,0 +1,1181 @@
+[
+  {
+    "questionId": "react_e_1",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is React?",
+    "options": [
+      "A JavaScript library for building UI",
+      "A database",
+      "A backend framework",
+      "A CSS library"
+    ],
+    "answer": "A JavaScript library for building UI",
+    "reason": "React is a JavaScript library used to build user interfaces."
+  },
+  {
+    "questionId": "react_e_2",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Who developed React?",
+    "options": ["Facebook", "Google", "Microsoft", "Twitter"],
+    "answer": "Facebook",
+    "reason": "React was developed by Facebook."
+  },
+  {
+    "questionId": "react_e_3",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is JSX?",
+    "options": [
+      "A syntax extension for JavaScript",
+      "A CSS framework",
+      "A database language",
+      "A template engine"
+    ],
+    "answer": "A syntax extension for JavaScript",
+    "reason": "JSX allows writing HTML-like syntax in JavaScript."
+  },
+  {
+    "questionId": "react_e_4",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does JSX compile to?",
+    "options": ["JavaScript", "HTML", "CSS", "JSON"],
+    "answer": "JavaScript",
+    "reason": "JSX is compiled into JavaScript function calls."
+  },
+  {
+    "questionId": "react_e_5",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is a React component?",
+    "options": [
+      "Reusable UI piece",
+      "A database table",
+      "A CSS class",
+      "A server"
+    ],
+    "answer": "Reusable UI piece",
+    "reason": "Components are reusable building blocks in React."
+  },
+
+  {
+    "questionId": "react_e_6",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Which function creates a React component?",
+    "options": [
+      "Function or class",
+      "Only class",
+      "Only arrow function",
+      "Only object"
+    ],
+    "answer": "Function or class",
+    "reason": "React components can be functions or classes."
+  },
+  {
+    "questionId": "react_e_7",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is the default export of React?",
+    "options": ["React", "Component", "JSX", "useState"],
+    "answer": "React",
+    "reason": "The React object is the default export."
+  },
+  {
+    "questionId": "react_e_8",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What hook is used for state?",
+    "options": ["useState", "useEffect", "useRef", "useMemo"],
+    "answer": "useState",
+    "reason": "useState is used to manage component state."
+  },
+  {
+    "questionId": "react_e_9",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What hook runs side effects?",
+    "options": ["useEffect", "useState", "useRef", "useCallback"],
+    "answer": "useEffect",
+    "reason": "useEffect handles side effects."
+  },
+  {
+    "questionId": "react_e_10",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does useEffect run after?",
+    "options": ["Render", "Compilation", "Build", "Import"],
+    "answer": "Render",
+    "reason": "useEffect runs after the component renders."
+  },
+
+  {
+    "questionId": "react_e_11",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is props?",
+    "options": [
+      "Data passed to components",
+      "Component state",
+      "CSS styles",
+      "Hooks"
+    ],
+    "answer": "Data passed to components",
+    "reason": "Props are inputs passed from parent to child."
+  },
+  {
+    "questionId": "react_e_12",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Are props mutable?",
+    "options": ["No", "Yes", "Sometimes", "Only in class"],
+    "answer": "No",
+    "reason": "Props are read-only."
+  },
+  {
+    "questionId": "react_e_13",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is state?",
+    "options": [
+      "Component data that can change",
+      "External API",
+      "CSS style",
+      "JS module"
+    ],
+    "answer": "Component data that can change",
+    "reason": "State represents mutable data inside a component."
+  },
+  {
+    "questionId": "react_e_14",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What keyword returns JSX?",
+    "options": ["return", "render", "output", "export"],
+    "answer": "return",
+    "reason": "Components return JSX using return."
+  },
+  {
+    "questionId": "react_e_15",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What must a React component return?",
+    "options": ["JSX or null", "HTML only", "CSS", "JSON"],
+    "answer": "JSX or null",
+    "reason": "Components render JSX or null."
+  },
+
+  {
+    "questionId": "react_e_16",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does ReactDOM do?",
+    "options": [
+      "Renders React to DOM",
+      "Manages state",
+      "Handles routing",
+      "Fetches data"
+    ],
+    "answer": "Renders React to DOM",
+    "reason": "ReactDOM connects React to the browser DOM."
+  },
+  {
+    "questionId": "react_e_17",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is the virtual DOM?",
+    "options": [
+      "In-memory UI representation",
+      "Real DOM copy",
+      "Browser API",
+      "Database"
+    ],
+    "answer": "In-memory UI representation",
+    "reason": "Virtual DOM improves rendering performance."
+  },
+  {
+    "questionId": "react_e_18",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Why does React use virtual DOM?",
+    "options": [
+      "Better performance",
+      "Smaller files",
+      "Better SEO",
+      "Easier CSS"
+    ],
+    "answer": "Better performance",
+    "reason": "It minimizes expensive DOM operations."
+  },
+  {
+    "questionId": "react_e_19",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What attribute is used for lists?",
+    "options": ["key", "id", "index", "name"],
+    "answer": "key",
+    "reason": "Keys help React identify list items."
+  },
+  {
+    "questionId": "react_e_20",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Keys in React lists should be?",
+    "options": ["Unique", "Random", "Indexes only", "Optional"],
+    "answer": "Unique",
+    "reason": "Unique keys help React track changes."
+  },
+
+  {
+    "questionId": "react_e_21",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What hook is used for refs?",
+    "options": ["useRef", "useState", "useEffect", "useMemo"],
+    "answer": "useRef",
+    "reason": "useRef stores mutable references."
+  },
+  {
+    "questionId": "react_e_22",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does useRef persist across?",
+    "options": ["Renders", "Builds", "Imports", "Unmount"],
+    "answer": "Renders",
+    "reason": "useRef value persists between renders."
+  },
+  {
+    "questionId": "react_e_23",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is conditional rendering?",
+    "options": ["Render based on condition", "Lazy loading", "SSR", "Styling"],
+    "answer": "Render based on condition",
+    "reason": "Components render differently based on conditions."
+  },
+  {
+    "questionId": "react_e_24",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Which operator is common in JSX conditions?",
+    "options": ["&&", "++", "**", "::"],
+    "answer": "&&",
+    "reason": "Logical AND is commonly used."
+  },
+  {
+    "questionId": "react_e_25",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does fragment do?",
+    "options": [
+      "Group elements without extra DOM",
+      "Create div",
+      "Add styles",
+      "Add state"
+    ],
+    "answer": "Group elements without extra DOM",
+    "reason": "Fragments avoid unnecessary wrapper nodes."
+  },
+
+  {
+    "questionId": "react_e_26",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "How do you write a fragment?",
+    "options": ["<> </>", "<div>", "<span>", "<section>"],
+    "answer": "<> </>",
+    "reason": "Short syntax for React Fragment."
+  },
+  {
+    "questionId": "react_e_27",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is lifting state up?",
+    "options": [
+      "Moving state to parent",
+      "Deleting state",
+      "Duplicating state",
+      "Global state"
+    ],
+    "answer": "Moving state to parent",
+    "reason": "Used to share state between components."
+  },
+  {
+    "questionId": "react_e_28",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "React components must start with?",
+    "options": ["Capital letter", "Lowercase", "Number", "Symbol"],
+    "answer": "Capital letter",
+    "reason": "React treats lowercase as HTML tags."
+  },
+  {
+    "questionId": "react_e_29",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is controlled input?",
+    "options": [
+      "Input controlled by state",
+      "Read-only input",
+      "Disabled input",
+      "HTML only"
+    ],
+    "answer": "Input controlled by state",
+    "reason": "Value is managed by React state."
+  },
+  {
+    "questionId": "react_e_30",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What event handles input change?",
+    "options": ["onChange", "onClick", "onSubmit", "onHover"],
+    "answer": "onChange",
+    "reason": "onChange updates input state."
+  },
+
+  {
+    "questionId": "react_e_31",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does onClick handle?",
+    "options": [
+      "Click events",
+      "Hover events",
+      "Submit events",
+      "Focus events"
+    ],
+    "answer": "Click events",
+    "reason": "onClick responds to user clicks."
+  },
+  {
+    "questionId": "react_e_32",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is SPA?",
+    "options": [
+      "Single Page Application",
+      "Server Page App",
+      "Static Page App",
+      "Simple Program App"
+    ],
+    "answer": "Single Page Application",
+    "reason": "React is commonly used to build SPAs."
+  },
+  {
+    "questionId": "react_e_33",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is React Router used for?",
+    "options": ["Navigation", "State management", "Styling", "Testing"],
+    "answer": "Navigation",
+    "reason": "React Router handles routing."
+  },
+  {
+    "questionId": "react_e_34",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Which hook memoizes values?",
+    "options": ["useMemo", "useRef", "useEffect", "useState"],
+    "answer": "useMemo",
+    "reason": "useMemo optimizes expensive calculations."
+  },
+  {
+    "questionId": "react_e_35",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Which hook memoizes functions?",
+    "options": ["useCallback", "useMemo", "useRef", "useState"],
+    "answer": "useCallback",
+    "reason": "useCallback prevents function recreation."
+  },
+
+  {
+    "questionId": "react_e_36",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does React StrictMode do?",
+    "options": [
+      "Highlights potential issues",
+      "Optimizes performance",
+      "Adds styling",
+      "Handles routing"
+    ],
+    "answer": "Highlights potential issues",
+    "reason": "StrictMode helps find problems early."
+  },
+  {
+    "questionId": "react_e_37",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Does StrictMode run in production?",
+    "options": ["No", "Yes", "Sometimes", "Only SSR"],
+    "answer": "No",
+    "reason": "StrictMode only affects development."
+  },
+  {
+    "questionId": "react_e_38",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is default export?",
+    "options": [
+      "Primary exported value",
+      "Multiple exports",
+      "Private export",
+      "Internal value"
+    ],
+    "answer": "Primary exported value",
+    "reason": "Default export is imported without braces."
+  },
+  {
+    "questionId": "react_e_39",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does useEffect dependency array do?",
+    "options": [
+      "Controls when effect runs",
+      "Stores state",
+      "Handles cleanup",
+      "Optimizes JSX"
+    ],
+    "answer": "Controls when effect runs",
+    "reason": "Dependencies decide re-execution."
+  },
+  {
+    "questionId": "react_e_40",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Empty dependency array means?",
+    "options": [
+      "Run once on mount",
+      "Run every render",
+      "Never run",
+      "Run on unmount"
+    ],
+    "answer": "Run once on mount",
+    "reason": "It behaves like componentDidMount."
+  },
+
+  {
+    "questionId": "react_e_41",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What cleans up effects?",
+    "options": ["Return function", "useCleanup", "useRef", "Destructor"],
+    "answer": "Return function",
+    "reason": "Returned function runs on cleanup."
+  },
+  {
+    "questionId": "react_e_42",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is unmounting?",
+    "options": [
+      "Removing component from DOM",
+      "Adding component",
+      "Updating props",
+      "Re-rendering"
+    ],
+    "answer": "Removing component from DOM",
+    "reason": "Unmounting removes the component."
+  },
+  {
+    "questionId": "react_e_43",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Can hooks be used in loops?",
+    "options": ["No", "Yes", "Sometimes", "Only useState"],
+    "answer": "No",
+    "reason": "Hooks must follow rules."
+  },
+  {
+    "questionId": "react_e_44",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Hooks must be called where?",
+    "options": [
+      "Top level",
+      "Inside loops",
+      "Inside conditions",
+      "Inside classes"
+    ],
+    "answer": "Top level",
+    "reason": "Ensures consistent hook order."
+  },
+  {
+    "questionId": "react_e_45",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Can hooks be used in class components?",
+    "options": ["No", "Yes", "Sometimes", "Only useEffect"],
+    "answer": "No",
+    "reason": "Hooks are for function components."
+  },
+
+  {
+    "questionId": "react_e_46",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is hydration?",
+    "options": [
+      "Attaching JS to HTML",
+      "Rendering CSS",
+      "Fetching data",
+      "Bundling code"
+    ],
+    "answer": "Attaching JS to HTML",
+    "reason": "Hydration activates server-rendered HTML."
+  },
+  {
+    "questionId": "react_e_47",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does React.lazy do?",
+    "options": [
+      "Lazy load components",
+      "Lazy load CSS",
+      "Delay state",
+      "Pause rendering"
+    ],
+    "answer": "Lazy load components",
+    "reason": "Improves performance by code splitting."
+  },
+  {
+    "questionId": "react_e_48",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What wraps lazy components?",
+    "options": ["Suspense", "Fragment", "Provider", "StrictMode"],
+    "answer": "Suspense",
+    "reason": "Suspense handles loading state."
+  },
+  {
+    "questionId": "react_e_49",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is context used for?",
+    "options": ["Global data sharing", "Routing", "Styling", "Testing"],
+    "answer": "Global data sharing",
+    "reason": "Context avoids prop drilling."
+  },
+  {
+    "questionId": "react_e_50",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What creates context?",
+    "options": ["createContext", "useContext", "ContextAPI", "new Context"],
+    "answer": "createContext",
+    "reason": "createContext initializes context."
+  },
+
+  {
+    "questionId": "react_e_51",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What hook consumes context?",
+    "options": ["useContext", "useState", "useEffect", "useMemo"],
+    "answer": "useContext",
+    "reason": "useContext accesses context value."
+  },
+  {
+    "questionId": "react_e_52",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is prop drilling?",
+    "options": [
+      "Passing props deeply",
+      "Deleting props",
+      "Duplicating props",
+      "Filtering props"
+    ],
+    "answer": "Passing props deeply",
+    "reason": "Props passed through many levels."
+  },
+  {
+    "questionId": "react_e_53",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is a provider?",
+    "options": [
+      "Supplies context value",
+      "Consumes context",
+      "Handles routing",
+      "Stores state"
+    ],
+    "answer": "Supplies context value",
+    "reason": "Provider makes data available."
+  },
+  {
+    "questionId": "react_e_54",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does React.memo do?",
+    "options": [
+      "Prevents unnecessary re-renders",
+      "Stores state",
+      "Handles effects",
+      "Adds caching"
+    ],
+    "answer": "Prevents unnecessary re-renders",
+    "reason": "Memoizes component output."
+  },
+  {
+    "questionId": "react_e_55",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What triggers a re-render?",
+    "options": ["State or props change", "CSS change", "Console log", "Import"],
+    "answer": "State or props change",
+    "reason": "Re-render happens on data change."
+  },
+
+  {
+    "questionId": "react_e_56",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is synthetic event?",
+    "options": [
+      "Cross-browser wrapper",
+      "Native DOM event",
+      "Custom event",
+      "Async event"
+    ],
+    "answer": "Cross-browser wrapper",
+    "reason": "React normalizes browser events."
+  },
+  {
+    "questionId": "react_e_57",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is reconciliation?",
+    "options": [
+      "Diffing virtual DOM",
+      "Cleaning state",
+      "Unmounting components",
+      "Hydration"
+    ],
+    "answer": "Diffing virtual DOM",
+    "reason": "React compares changes efficiently."
+  },
+  {
+    "questionId": "react_e_58",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is create-react-app?",
+    "options": [
+      "Project scaffolding tool",
+      "UI library",
+      "State manager",
+      "Router"
+    ],
+    "answer": "Project scaffolding tool",
+    "reason": "CRA sets up React projects quickly."
+  },
+  {
+    "questionId": "react_e_59",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is Vite commonly used for?",
+    "options": [
+      "Fast React development",
+      "State management",
+      "Styling",
+      "Testing"
+    ],
+    "answer": "Fast React development",
+    "reason": "Vite offers fast dev server."
+  },
+  {
+    "questionId": "react_e_60",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does npm stand for?",
+    "options": [
+      "Node Package Manager",
+      "New Package Mode",
+      "Network Program Manager",
+      "Node Process Module"
+    ],
+    "answer": "Node Package Manager",
+    "reason": "npm manages JavaScript packages."
+  },
+
+  {
+    "questionId": "react_e_61",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What file usually starts a React app?",
+    "options": ["index.js", "app.css", "main.html", "server.js"],
+    "answer": "index.js",
+    "reason": "index.js mounts the app."
+  },
+  {
+    "questionId": "react_e_62",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is App component?",
+    "options": ["Root component", "Utility component", "Hook", "Context"],
+    "answer": "Root component",
+    "reason": "App is usually the main component."
+  },
+  {
+    "questionId": "react_e_63",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does export do?",
+    "options": [
+      "Makes code reusable",
+      "Runs code",
+      "Deletes code",
+      "Compiles code"
+    ],
+    "answer": "Makes code reusable",
+    "reason": "Export allows importing elsewhere."
+  },
+  {
+    "questionId": "react_e_64",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does import do?",
+    "options": [
+      "Brings code into file",
+      "Runs server",
+      "Bundles app",
+      "Deletes module"
+    ],
+    "answer": "Brings code into file",
+    "reason": "Import accesses exported code."
+  },
+  {
+    "questionId": "react_e_65",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does className replace?",
+    "options": ["class", "id", "style", "name"],
+    "answer": "class",
+    "reason": "class is reserved in JavaScript."
+  },
+
+  {
+    "questionId": "react_e_66",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does inline style accept?",
+    "options": ["Object", "String", "Array", "Number"],
+    "answer": "Object",
+    "reason": "Inline styles are JS objects."
+  },
+  {
+    "questionId": "react_e_67",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What casing is used for inline CSS?",
+    "options": ["camelCase", "kebab-case", "snake_case", "PascalCase"],
+    "answer": "camelCase",
+    "reason": "JS uses camelCase for style keys."
+  },
+  {
+    "questionId": "react_e_68",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is children prop?",
+    "options": ["Nested content", "State value", "CSS children", "Hook"],
+    "answer": "Nested content",
+    "reason": "children represents nested JSX."
+  },
+  {
+    "questionId": "react_e_69",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Can React render arrays?",
+    "options": ["Yes", "No", "Only strings", "Only numbers"],
+    "answer": "Yes",
+    "reason": "Arrays of elements can be rendered."
+  },
+  {
+    "questionId": "react_e_70",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does map do in JSX?",
+    "options": ["Render lists", "Filter state", "Sort props", "Bind events"],
+    "answer": "Render lists",
+    "reason": "map is commonly used for lists."
+  },
+
+  {
+    "questionId": "react_e_71",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What happens when state updates?",
+    "options": [
+      "Component re-renders",
+      "App reloads",
+      "DOM resets",
+      "Build restarts"
+    ],
+    "answer": "Component re-renders",
+    "reason": "React updates UI on state change."
+  },
+  {
+    "questionId": "react_e_72",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does setState do?",
+    "options": [
+      "Updates state",
+      "Deletes state",
+      "Reads props",
+      "Creates context"
+    ],
+    "answer": "Updates state",
+    "reason": "State updates trigger re-render."
+  },
+  {
+    "questionId": "react_e_73",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Is state update synchronous?",
+    "options": ["No", "Yes", "Always", "Only hooks"],
+    "answer": "No",
+    "reason": "State updates are asynchronous."
+  },
+  {
+    "questionId": "react_e_74",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does batching mean?",
+    "options": [
+      "Grouping state updates",
+      "Bundling code",
+      "Lazy loading",
+      "Memoization"
+    ],
+    "answer": "Grouping state updates",
+    "reason": "React batches updates for performance."
+  },
+  {
+    "questionId": "react_e_75",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is React primarily used for?",
+    "options": ["Building UIs", "Databases", "Servers", "DevOps"],
+    "answer": "Building UIs",
+    "reason": "React focuses on UI development."
+  },
+
+  {
+    "questionId": "react_e_76",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is one-way data flow?",
+    "options": [
+      "Parent to child",
+      "Child to parent",
+      "Bidirectional",
+      "Circular"
+    ],
+    "answer": "Parent to child",
+    "reason": "Data flows down in React."
+  },
+  {
+    "questionId": "react_e_77",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Can child modify props?",
+    "options": ["No", "Yes", "Sometimes", "Only classes"],
+    "answer": "No",
+    "reason": "Props are immutable."
+  },
+  {
+    "questionId": "react_e_78",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What tool inspects React components?",
+    "options": [
+      "React DevTools",
+      "Redux DevTools",
+      "Chrome Inspector",
+      "Node Inspector"
+    ],
+    "answer": "React DevTools",
+    "reason": "DevTools help debug React."
+  },
+  {
+    "questionId": "react_e_79",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does npm start usually do?",
+    "options": ["Runs dev server", "Builds app", "Deploys app", "Runs tests"],
+    "answer": "Runs dev server",
+    "reason": "Starts development environment."
+  },
+  {
+    "questionId": "react_e_80",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does npm build usually do?",
+    "options": [
+      "Creates production build",
+      "Runs dev",
+      "Installs packages",
+      "Tests code"
+    ],
+    "answer": "Creates production build",
+    "reason": "Build outputs optimized files."
+  },
+
+  {
+    "questionId": "react_e_81",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is Next.js?",
+    "options": ["React framework", "CSS framework", "Database", "Testing tool"],
+    "answer": "React framework",
+    "reason": "Next.js builds on React."
+  },
+  {
+    "questionId": "react_e_82",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does SSR stand for?",
+    "options": [
+      "Server Side Rendering",
+      "Single State Rendering",
+      "Static Style Rendering",
+      "Shared Script Runtime"
+    ],
+    "answer": "Server Side Rendering",
+    "reason": "SSR renders HTML on server."
+  },
+  {
+    "questionId": "react_e_83",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is CSR?",
+    "options": [
+      "Client Side Rendering",
+      "Component Style Rendering",
+      "Compiled Script Runtime",
+      "Custom State Rendering"
+    ],
+    "answer": "Client Side Rendering",
+    "reason": "Rendering happens in browser."
+  },
+  {
+    "questionId": "react_e_84",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is static generation?",
+    "options": [
+      "Build-time rendering",
+      "Runtime rendering",
+      "Client rendering",
+      "Lazy rendering"
+    ],
+    "answer": "Build-time rendering",
+    "reason": "Pages generated at build time."
+  },
+  {
+    "questionId": "react_e_85",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is hydration used for?",
+    "options": [
+      "Activate server-rendered HTML",
+      "Style pages",
+      "Fetch data",
+      "Bundle code"
+    ],
+    "answer": "Activate server-rendered HTML",
+    "reason": "Hydration attaches event listeners."
+  },
+
+  {
+    "questionId": "react_e_86",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does React encourage?",
+    "options": [
+      "Component-based architecture",
+      "Monolithic design",
+      "Global state everywhere",
+      "Inline HTML"
+    ],
+    "answer": "Component-based architecture",
+    "reason": "Components improve reuse."
+  },
+  {
+    "questionId": "react_e_87",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is composition?",
+    "options": [
+      "Building UI from components",
+      "Using inheritance",
+      "Global styling",
+      "State duplication"
+    ],
+    "answer": "Building UI from components",
+    "reason": "React favors composition."
+  },
+  {
+    "questionId": "react_e_88",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is React version 18 feature?",
+    "options": [
+      "Concurrent rendering",
+      "Class-only components",
+      "jQuery support",
+      "XML templates"
+    ],
+    "answer": "Concurrent rendering",
+    "reason": "React 18 introduced concurrency."
+  },
+  {
+    "questionId": "react_e_89",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What hook starts with use?",
+    "options": ["All hooks", "Only state", "Only effect", "Only custom"],
+    "answer": "All hooks",
+    "reason": "Hook naming convention."
+  },
+  {
+    "questionId": "react_e_90",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is a custom hook?",
+    "options": [
+      "Reusable hook logic",
+      "Built-in hook",
+      "Class method",
+      "Context provider"
+    ],
+    "answer": "Reusable hook logic",
+    "reason": "Custom hooks share logic."
+  },
+
+  {
+    "questionId": "react_e_91",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Can hooks call other hooks?",
+    "options": ["Yes", "No", "Only useState", "Only useEffect"],
+    "answer": "Yes",
+    "reason": "Hooks can compose."
+  },
+  {
+    "questionId": "react_e_92",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is useEffect cleanup for?",
+    "options": [
+      "Prevent memory leaks",
+      "Add styles",
+      "Update state",
+      "Render JSX"
+    ],
+    "answer": "Prevent memory leaks",
+    "reason": "Cleanup removes listeners."
+  },
+  {
+    "questionId": "react_e_93",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does React test library focus on?",
+    "options": [
+      "User behavior",
+      "Implementation details",
+      "Internal state",
+      "DOM internals"
+    ],
+    "answer": "User behavior",
+    "reason": "Tests mimic real usage."
+  },
+  {
+    "questionId": "react_e_94",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is Jest commonly used for?",
+    "options": ["Testing", "Routing", "Styling", "State management"],
+    "answer": "Testing",
+    "reason": "Jest is a testing framework."
+  },
+  {
+    "questionId": "react_e_95",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does npm install do?",
+    "options": [
+      "Installs dependencies",
+      "Runs app",
+      "Builds project",
+      "Deletes node_modules"
+    ],
+    "answer": "Installs dependencies",
+    "reason": "It downloads packages."
+  },
+
+  {
+    "questionId": "react_e_96",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What folder stores dependencies?",
+    "options": ["node_modules", "src", "public", "dist"],
+    "answer": "node_modules",
+    "reason": "Dependencies live in node_modules."
+  },
+  {
+    "questionId": "react_e_97",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does public folder contain?",
+    "options": ["Static assets", "Components", "Hooks", "Config"],
+    "answer": "Static assets",
+    "reason": "Public files are served as-is."
+  },
+  {
+    "questionId": "react_e_98",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What does src folder contain?",
+    "options": [
+      "Application code",
+      "Build output",
+      "Node packages",
+      "Config only"
+    ],
+    "answer": "Application code",
+    "reason": "Source code lives in src."
+  },
+  {
+    "questionId": "react_e_99",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "Why use React?",
+    "options": [
+      "Reusable and maintainable UI",
+      "Faster internet",
+      "No JavaScript needed",
+      "Automatic backend"
+    ],
+    "answer": "Reusable and maintainable UI",
+    "reason": "React improves UI development."
+  },
+  {
+    "questionId": "react_e_100",
+    "topic": "react",
+    "difficulty": "easy",
+    "questionText": "What is the main idea of React?",
+    "options": [
+      "Build UI with components",
+      "Write HTML only",
+      "Avoid JavaScript",
+      "Use global variables"
+    ],
+    "answer": "Build UI with components",
+    "reason": "Component-based design is core to React."
+  }
+]

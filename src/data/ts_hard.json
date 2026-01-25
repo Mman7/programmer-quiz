@@ -1,0 +1,1386 @@
+[
+  {
+    "questionId": "ts_h_1",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does a conditional type do in TypeScript?",
+    "options": [
+      "Chooses a type based on a condition",
+      "Executes runtime conditions",
+      "Creates union types only",
+      "Removes null values"
+    ],
+    "answer": "Chooses a type based on a condition",
+    "reason": "Conditional types use `T extends U ? X : Y` syntax."
+  },
+  {
+    "questionId": "ts_h_2",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does the `infer` keyword allow?",
+    "options": [
+      "Extract types within conditional types",
+      "Infer runtime values",
+      "Create generics",
+      "Cast types implicitly"
+    ],
+    "answer": "Extract types within conditional types",
+    "reason": "`infer` captures types inside conditional branches."
+  },
+  {
+    "questionId": "ts_h_3",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is distributive conditional types behavior?",
+    "options": [
+      "Conditional types applied to each union member",
+      "Conditions applied once",
+      "Runtime distribution",
+      "Mapped type behavior"
+    ],
+    "answer": "Conditional types applied to each union member",
+    "reason": "Union types are distributed when used directly in conditionals."
+  },
+  {
+    "questionId": "ts_h_4",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "How do you prevent distributive conditional types?",
+    "options": [
+      "Wrap type in tuple",
+      "Use intersection types",
+      "Use keyof",
+      "Use infer"
+    ],
+    "answer": "Wrap type in tuple",
+    "reason": "Wrapping prevents union distribution."
+  },
+  {
+    "questionId": "ts_h_5",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `infer R` commonly extract?",
+    "options": [
+      "Return types",
+      "Parameter names",
+      "Runtime values",
+      "Class fields"
+    ],
+    "answer": "Return types",
+    "reason": "`infer R` is often used to capture return types."
+  },
+
+  {
+    "questionId": "ts_h_6",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is a recursive conditional type?",
+    "options": [
+      "A type that references itself",
+      "A runtime recursive function",
+      "A mapped type",
+      "A union reducer"
+    ],
+    "answer": "A type that references itself",
+    "reason": "Recursive types allow deep transformations."
+  },
+  {
+    "questionId": "ts_h_7",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `Awaited<T>` solve?",
+    "options": [
+      "Nested Promise unwrapping",
+      "Async execution",
+      "Promise creation",
+      "Callback typing"
+    ],
+    "answer": "Nested Promise unwrapping",
+    "reason": "`Awaited` recursively unwraps Promise-like types."
+  },
+  {
+    "questionId": "ts_h_8",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why are variadic tuple types useful?",
+    "options": [
+      "Manipulate tuple parameters",
+      "Improve runtime speed",
+      "Replace arrays",
+      "Avoid generics"
+    ],
+    "answer": "Manipulate tuple parameters",
+    "reason": "They allow flexible tuple inference."
+  },
+  {
+    "questionId": "ts_h_9",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `as const` enable at type level?",
+    "options": [
+      "Literal inference",
+      "Runtime immutability",
+      "Memory locking",
+      "Enum creation"
+    ],
+    "answer": "Literal inference",
+    "reason": "`as const` narrows values to literal types."
+  },
+  {
+    "questionId": "ts_h_10",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does key remapping in mapped types allow?",
+    "options": [
+      "Rename keys dynamically",
+      "Change runtime keys",
+      "Remove generics",
+      "Merge interfaces"
+    ],
+    "answer": "Rename keys dynamically",
+    "reason": "Key remapping uses `as` in mapped types."
+  },
+
+  {
+    "questionId": "ts_h_11",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What problem does `satisfies` solve?",
+    "options": [
+      "Type checking without losing inference",
+      "Runtime validation",
+      "Type casting",
+      "Union merging"
+    ],
+    "answer": "Type checking without losing inference",
+    "reason": "`satisfies` enforces shape while preserving inferred types."
+  },
+  {
+    "questionId": "ts_h_12",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why is `unknown` safer than `any`?",
+    "options": [
+      "Requires narrowing before use",
+      "Runs runtime checks",
+      "Is immutable",
+      "Improves performance"
+    ],
+    "answer": "Requires narrowing before use",
+    "reason": "`unknown` enforces explicit checks."
+  },
+  {
+    "questionId": "ts_h_13",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is a type-level function?",
+    "options": [
+      "Type that transforms other types",
+      "Runtime function",
+      "Decorator",
+      "Interface"
+    ],
+    "answer": "Type that transforms other types",
+    "reason": "Conditional and mapped types act like functions."
+  },
+  {
+    "questionId": "ts_h_14",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `never` indicate in exhaustive checks?",
+    "options": [
+      "Unhandled case",
+      "Null value",
+      "Optional branch",
+      "Default case"
+    ],
+    "answer": "Unhandled case",
+    "reason": "`never` ensures all variants are covered."
+  },
+  {
+    "questionId": "ts_h_15",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why are discriminated unions powerful?",
+    "options": [
+      "Enable safe narrowing",
+      "Improve runtime speed",
+      "Reduce bundle size",
+      "Avoid interfaces"
+    ],
+    "answer": "Enable safe narrowing",
+    "reason": "Shared literal fields allow precise control flow."
+  },
+
+  {
+    "questionId": "ts_h_16",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `extends` do in generic constraints?",
+    "options": [
+      "Restricts allowable types",
+      "Creates inheritance",
+      "Merges unions",
+      "Defines defaults"
+    ],
+    "answer": "Restricts allowable types",
+    "reason": "Constraints limit generic inputs."
+  },
+  {
+    "questionId": "ts_h_17",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is higher-kinded types status in TypeScript?",
+    "options": [
+      "Not natively supported",
+      "Fully supported",
+      "Runtime feature",
+      "Deprecated"
+    ],
+    "answer": "Not natively supported",
+    "reason": "They require workarounds."
+  },
+  {
+    "questionId": "ts_h_18",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `keyof any` evaluate to?",
+    "options": [
+      "string | number | symbol",
+      "string only",
+      "number only",
+      "symbol only"
+    ],
+    "answer": "string | number | symbol",
+    "reason": "Those are valid JS object keys."
+  },
+  {
+    "questionId": "ts_h_19",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is the danger of excessive type recursion?",
+    "options": [
+      "Compiler performance issues",
+      "Runtime crashes",
+      "Memory leaks",
+      "Wrong JS output"
+    ],
+    "answer": "Compiler performance issues",
+    "reason": "Deep recursion can hit instantiation limits."
+  },
+  {
+    "questionId": "ts_h_20",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `--noUncheckedIndexedAccess` change?",
+    "options": [
+      "Index access returns possibly undefined",
+      "Removes bounds checks",
+      "Improves speed",
+      "Disables arrays"
+    ],
+    "answer": "Index access returns possibly undefined",
+    "reason": "Improves safety for indexed access."
+  },
+
+  {
+    "questionId": "ts_h_21",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why is TypeScript considered structurally typed?",
+    "options": [
+      "Compatibility based on shape",
+      "Based on class names",
+      "Based on runtime checks",
+      "Based on inheritance"
+    ],
+    "answer": "Compatibility based on shape",
+    "reason": "Types match if their structure matches."
+  },
+  {
+    "questionId": "ts_h_22",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is variance in type systems?",
+    "options": [
+      "Relationship between subtypes",
+      "Runtime variance",
+      "Generic defaults",
+      "Union behavior"
+    ],
+    "answer": "Relationship between subtypes",
+    "reason": "Includes covariance and contravariance."
+  },
+  {
+    "questionId": "ts_h_23",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why are function parameters contravariant?",
+    "options": [
+      "To maintain type safety",
+      "To simplify syntax",
+      "For performance",
+      "For inference"
+    ],
+    "answer": "To maintain type safety",
+    "reason": "Prevents unsafe substitutions."
+  },
+  {
+    "questionId": "ts_h_24",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `strictFunctionTypes` affect?",
+    "options": [
+      "Function parameter variance",
+      "Return type inference",
+      "Async typing",
+      "Overloads"
+    ],
+    "answer": "Function parameter variance",
+    "reason": "Enforces safer assignments."
+  },
+  {
+    "questionId": "ts_h_25",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is type erasure?",
+    "options": [
+      "Removal of types at runtime",
+      "Runtime validation",
+      "Compilation failure",
+      "Type inference"
+    ],
+    "answer": "Removal of types at runtime",
+    "reason": "Types exist only at compile time."
+  },
+
+  {
+    "questionId": "ts_h_26",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is the limitation of interfaces vs types?",
+    "options": [
+      "Interfaces cannot represent unions",
+      "Interfaces are slower",
+      "Interfaces lack generics",
+      "Interfaces cannot be merged"
+    ],
+    "answer": "Interfaces cannot represent unions",
+    "reason": "Union types require `type` aliases."
+  },
+  {
+    "questionId": "ts_h_27",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why is `never` useful in conditional types?",
+    "options": [
+      "Eliminate impossible branches",
+      "Improve runtime speed",
+      "Replace null",
+      "Create defaults"
+    ],
+    "answer": "Eliminate impossible branches",
+    "reason": "`never` removes invalid cases."
+  },
+  {
+    "questionId": "ts_h_28",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `Exclude` do with unions?",
+    "options": [
+      "Removes matching members",
+      "Adds members",
+      "Flattens unions",
+      "Sorts unions"
+    ],
+    "answer": "Removes matching members",
+    "reason": "`Exclude` filters union types."
+  },
+  {
+    "questionId": "ts_h_29",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `Extract` do with unions?",
+    "options": [
+      "Keeps matching members",
+      "Removes members",
+      "Reorders union",
+      "Flattens types"
+    ],
+    "answer": "Keeps matching members",
+    "reason": "`Extract` selects overlapping types."
+  },
+  {
+    "questionId": "ts_h_30",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is a phantom type?",
+    "options": [
+      "Type used only at compile time",
+      "Runtime wrapper",
+      "Decorator",
+      "Enum"
+    ],
+    "answer": "Type used only at compile time",
+    "reason": "Phantom types add extra constraints."
+  },
+
+  {
+    "questionId": "ts_h_31",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `as unknown as T` indicate?",
+    "options": [
+      "Unsafe double assertion",
+      "Safe conversion",
+      "Runtime validation",
+      "Generic inference"
+    ],
+    "answer": "Unsafe double assertion",
+    "reason": "Bypasses the type system."
+  },
+  {
+    "questionId": "ts_h_32",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is the downside of `any`?",
+    "options": [
+      "Disables type safety",
+      "Slower runtime",
+      "Larger bundles",
+      "Syntax errors"
+    ],
+    "answer": "Disables type safety",
+    "reason": "`any` bypasses compile-time checks."
+  },
+  {
+    "questionId": "ts_h_33",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does module augmentation allow?",
+    "options": [
+      "Extend existing module types",
+      "Replace modules",
+      "Lazy load modules",
+      "Compile faster"
+    ],
+    "answer": "Extend existing module types",
+    "reason": "Used to add typings to libraries."
+  },
+  {
+    "questionId": "ts_h_34",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is declaration merging?",
+    "options": [
+      "Combining multiple declarations",
+      "Replacing types",
+      "Runtime inheritance",
+      "Generic expansion"
+    ],
+    "answer": "Combining multiple declarations",
+    "reason": "Supported by interfaces and namespaces."
+  },
+  {
+    "questionId": "ts_h_35",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why are mapped types considered powerful?",
+    "options": [
+      "Transform types systematically",
+      "Improve runtime speed",
+      "Reduce code size",
+      "Avoid interfaces"
+    ],
+    "answer": "Transform types systematically",
+    "reason": "They enable reusable transformations."
+  },
+
+  {
+    "questionId": "ts_h_36",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `readonly` do in mapped types?",
+    "options": [
+      "Prevents reassignment",
+      "Freezes runtime objects",
+      "Creates const enums",
+      "Locks memory"
+    ],
+    "answer": "Prevents reassignment",
+    "reason": "Readonly is compile-time only."
+  },
+  {
+    "questionId": "ts_h_37",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `-?` modifier do in mapped types?",
+    "options": [
+      "Removes optional flag",
+      "Adds optional flag",
+      "Removes readonly",
+      "Adds readonly"
+    ],
+    "answer": "Removes optional flag",
+    "reason": "`-?` makes properties required."
+  },
+  {
+    "questionId": "ts_h_38",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `+readonly` do in mapped types?",
+    "options": [
+      "Adds readonly modifier",
+      "Removes readonly",
+      "Locks runtime value",
+      "Creates constant"
+    ],
+    "answer": "Adds readonly modifier",
+    "reason": "Explicit modifier control."
+  },
+  {
+    "questionId": "ts_h_39",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is template literal types used for?",
+    "options": [
+      "String-based type construction",
+      "Runtime templates",
+      "HTML rendering",
+      "Regex"
+    ],
+    "answer": "String-based type construction",
+    "reason": "Enables powerful string manipulation."
+  },
+  {
+    "questionId": "ts_h_40",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `${infer T}` extract?",
+    "options": ["Substring type", "Runtime string", "Enum value", "Key type"],
+    "answer": "Substring type",
+    "reason": "Used in template literal inference."
+  },
+
+  {
+    "questionId": "ts_h_41",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why are literal types important?",
+    "options": [
+      "Enable precise typing",
+      "Improve runtime speed",
+      "Reduce code",
+      "Avoid generics"
+    ],
+    "answer": "Enable precise typing",
+    "reason": "They constrain values exactly."
+  },
+  {
+    "questionId": "ts_h_42",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `never[]` represent?",
+    "options": [
+      "Array that can never have elements",
+      "Empty array",
+      "Any array",
+      "Null array"
+    ],
+    "answer": "Array that can never have elements",
+    "reason": "No value satisfies `never`."
+  },
+  {
+    "questionId": "ts_h_43",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is a branded type?",
+    "options": [
+      "Nominal typing workaround",
+      "Runtime branding",
+      "Enum alias",
+      "Decorator"
+    ],
+    "answer": "Nominal typing workaround",
+    "reason": "Adds phantom fields for distinction."
+  },
+  {
+    "questionId": "ts_h_44",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why does TypeScript lack true nominal typing?",
+    "options": [
+      "Uses structural typing",
+      "Runtime limitations",
+      "Performance reasons",
+      "JS constraints"
+    ],
+    "answer": "Uses structural typing",
+    "reason": "Compatibility is shape-based."
+  },
+  {
+    "questionId": "ts_h_45",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of `unique symbol`?",
+    "options": [
+      "Create nominal-like keys",
+      "Improve performance",
+      "Runtime symbols",
+      "Enum replacement"
+    ],
+    "answer": "Create nominal-like keys",
+    "reason": "Each `unique symbol` is distinct."
+  },
+
+  {
+    "questionId": "ts_h_46",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `keyof unknown` evaluate to?",
+    "options": ["never", "string", "any", "unknown"],
+    "answer": "never",
+    "reason": "Unknown has no known keys."
+  },
+  {
+    "questionId": "ts_h_47",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why is `object` different from `{}`?",
+    "options": [
+      "`{}` allows primitives",
+      "`object` does not",
+      "They are identical",
+      "Runtime difference"
+    ],
+    "answer": "`{}` allows primitives",
+    "reason": "`{}` is too permissive."
+  },
+  {
+    "questionId": "ts_h_48",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `Function` type represent?",
+    "options": [
+      "Any callable function",
+      "Typed function only",
+      "Arrow functions",
+      "Methods"
+    ],
+    "answer": "Any callable function",
+    "reason": "`Function` is very broad."
+  },
+  {
+    "questionId": "ts_h_49",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why is `Function` discouraged?",
+    "options": [
+      "Lacks type safety",
+      "Slower runtime",
+      "Syntax errors",
+      "Deprecated"
+    ],
+    "answer": "Lacks type safety",
+    "reason": "Prefer explicit call signatures."
+  },
+  {
+    "questionId": "ts_h_50",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `this` parameter enforce?",
+    "options": [
+      "Correct this context",
+      "Runtime binding",
+      "Scope locking",
+      "Generic inference"
+    ],
+    "answer": "Correct this context",
+    "reason": "Compile-time only check."
+  },
+
+  {
+    "questionId": "ts_h_51",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `never` extend to?",
+    "options": ["All types", "No types", "Only itself", "Any"],
+    "answer": "All types",
+    "reason": "`never` is bottom type."
+  },
+  {
+    "questionId": "ts_h_52",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `unknown` extend to?",
+    "options": ["Only unknown and any", "All types", "Never", "Object"],
+    "answer": "Only unknown and any",
+    "reason": "Unknown is top type."
+  },
+  {
+    "questionId": "ts_h_53",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why is `any` both top and bottom?",
+    "options": [
+      "It bypasses type system",
+      "It is union of all",
+      "Runtime type",
+      "Legacy behavior"
+    ],
+    "answer": "It bypasses type system",
+    "reason": "`any` disables checks both ways."
+  },
+  {
+    "questionId": "ts_h_54",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is a top type?",
+    "options": [
+      "Type assignable from all others",
+      "Type assignable to none",
+      "Union type",
+      "Generic"
+    ],
+    "answer": "Type assignable from all others",
+    "reason": "`unknown` is the true top type."
+  },
+  {
+    "questionId": "ts_h_55",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is a bottom type?",
+    "options": [
+      "Type assignable to all",
+      "Type assignable from all",
+      "Union type",
+      "Nullable type"
+    ],
+    "answer": "Type assignable to all",
+    "reason": "`never` is the bottom type."
+  },
+
+  {
+    "questionId": "ts_h_56",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why does TypeScript limit recursive types?",
+    "options": [
+      "Prevent infinite compilation",
+      "Runtime stack overflow",
+      "Memory leaks",
+      "JS limits"
+    ],
+    "answer": "Prevent infinite compilation",
+    "reason": "Compiler safety guard."
+  },
+  {
+    "questionId": "ts_h_57",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `--exactOptionalPropertyTypes` change?",
+    "options": [
+      "Optional ≠ undefined",
+      "Optional = undefined",
+      "Optional removed",
+      "Optional is any"
+    ],
+    "answer": "Optional ≠ undefined",
+    "reason": "Improves strictness."
+  },
+  {
+    "questionId": "ts_h_58",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is the risk of type assertions?",
+    "options": [
+      "Unsound typing",
+      "Runtime slowdown",
+      "Compilation failure",
+      "Syntax errors"
+    ],
+    "answer": "Unsound typing",
+    "reason": "Assertions can lie to compiler."
+  },
+  {
+    "questionId": "ts_h_59",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why prefer type guards over assertions?",
+    "options": [
+      "Safer narrowing",
+      "Shorter code",
+      "Better runtime",
+      "Less syntax"
+    ],
+    "answer": "Safer narrowing",
+    "reason": "Type guards preserve soundness."
+  },
+  {
+    "questionId": "ts_h_60",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `asserts value is T` do?",
+    "options": [
+      "Defines assertion functions",
+      "Casts type",
+      "Runtime validation",
+      "Generic inference"
+    ],
+    "answer": "Defines assertion functions",
+    "reason": "Used for advanced narrowing."
+  },
+
+  {
+    "questionId": "ts_h_61",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is control flow analysis?",
+    "options": [
+      "Type narrowing via code paths",
+      "Runtime execution",
+      "Flow control",
+      "Async handling"
+    ],
+    "answer": "Type narrowing via code paths",
+    "reason": "Compiler tracks variable states."
+  },
+  {
+    "questionId": "ts_h_62",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why is `null` separate from `object`?",
+    "options": [
+      "Historical JS quirk",
+      "Performance",
+      "Memory",
+      "Design choice"
+    ],
+    "answer": "Historical JS quirk",
+    "reason": "`typeof null === 'object'` bug."
+  },
+  {
+    "questionId": "ts_h_63",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `useUnknownInCatchVariables` improve?",
+    "options": [
+      "Error safety",
+      "Runtime handling",
+      "Async behavior",
+      "Stack traces"
+    ],
+    "answer": "Error safety",
+    "reason": "Forces narrowing of caught errors."
+  },
+  {
+    "questionId": "ts_h_64",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is a declaration file?",
+    "options": [
+      "Type-only description",
+      "Runtime module",
+      "Compiled output",
+      "Config file"
+    ],
+    "answer": "Type-only description",
+    "reason": ".d.ts files contain no JS."
+  },
+  {
+    "questionId": "ts_h_65",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why avoid enums in libraries?",
+    "options": [
+      "Emit runtime code",
+      "Slow performance",
+      "Bad inference",
+      "Deprecated"
+    ],
+    "answer": "Emit runtime code",
+    "reason": "Union literals are often better."
+  },
+
+  {
+    "questionId": "ts_h_66",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `const enum` change?",
+    "options": [
+      "Inlines values",
+      "Creates runtime object",
+      "Improves inference",
+      "Adds safety"
+    ],
+    "answer": "Inlines values",
+    "reason": "Removed during compilation."
+  },
+  {
+    "questionId": "ts_h_67",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is the downside of `const enum`?",
+    "options": [
+      "Incompatible with isolatedModules",
+      "Runtime cost",
+      "Bad inference",
+      "Syntax complexity"
+    ],
+    "answer": "Incompatible with isolatedModules",
+    "reason": "Requires full TS compilation."
+  },
+  {
+    "questionId": "ts_h_68",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why is TypeScript unsound by design?",
+    "options": [
+      "To stay compatible with JavaScript",
+      "Compiler limitation",
+      "Performance reasons",
+      "Legacy"
+    ],
+    "answer": "To stay compatible with JavaScript",
+    "reason": "Pragmatic trade-offs."
+  },
+  {
+    "questionId": "ts_h_69",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is soundness in type systems?",
+    "options": [
+      "No runtime type errors",
+      "Fast compilation",
+      "Small bundles",
+      "Strict syntax"
+    ],
+    "answer": "No runtime type errors",
+    "reason": "Fully safe type system."
+  },
+  {
+    "questionId": "ts_h_70",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is completeness in type systems?",
+    "options": [
+      "Ability to express all valid programs",
+      "Runtime coverage",
+      "Syntax richness",
+      "Library support"
+    ],
+    "answer": "Ability to express all valid programs",
+    "reason": "Often conflicts with soundness."
+  },
+
+  {
+    "questionId": "ts_h_71",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why does TS prefer inference over annotation?",
+    "options": [
+      "Reduce redundancy",
+      "Faster runtime",
+      "Better JS output",
+      "Smaller types"
+    ],
+    "answer": "Reduce redundancy",
+    "reason": "Inference improves DX."
+  },
+  {
+    "questionId": "ts_h_72",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `as never` indicate?",
+    "options": [
+      "Impossible state",
+      "Null state",
+      "Optional branch",
+      "Default case"
+    ],
+    "answer": "Impossible state",
+    "reason": "Used in exhaustive checks."
+  },
+  {
+    "questionId": "ts_h_73",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `unknown extends T` check?",
+    "options": [
+      "Whether T is top type",
+      "Runtime compatibility",
+      "Nullability",
+      "Key existence"
+    ],
+    "answer": "Whether T is top type",
+    "reason": "Used in advanced checks."
+  },
+  {
+    "questionId": "ts_h_74",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `T extends never` indicate?",
+    "options": ["T is empty union", "T is any", "T is unknown", "T is object"],
+    "answer": "T is empty union",
+    "reason": "Never distributes over unions."
+  },
+  {
+    "questionId": "ts_h_75",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is a zero-cost abstraction in TS?",
+    "options": [
+      "Types erased at runtime",
+      "Faster runtime",
+      "Smaller JS",
+      "Inlining"
+    ],
+    "answer": "Types erased at runtime",
+    "reason": "No runtime overhead."
+  },
+
+  {
+    "questionId": "ts_h_76",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why does TS not support runtime reflection?",
+    "options": [
+      "JS lacks type info",
+      "Performance",
+      "Security",
+      "Design choice"
+    ],
+    "answer": "JS lacks type info",
+    "reason": "Types are erased."
+  },
+  {
+    "questionId": "ts_h_77",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is a nominal typing workaround?",
+    "options": ["Branding", "Enums", "Classes", "Interfaces"],
+    "answer": "Branding",
+    "reason": "Uses phantom fields."
+  },
+  {
+    "questionId": "ts_h_78",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why is structural typing flexible?",
+    "options": [
+      "Allows duck typing",
+      "Improves runtime",
+      "Reduces syntax",
+      "Avoids generics"
+    ],
+    "answer": "Allows duck typing",
+    "reason": "Shape-based compatibility."
+  },
+  {
+    "questionId": "ts_h_79",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `as const satisfies` pattern achieve?",
+    "options": [
+      "Strict checking + literal inference",
+      "Runtime validation",
+      "Enum replacement",
+      "Type casting"
+    ],
+    "answer": "Strict checking + literal inference",
+    "reason": "Best of both worlds."
+  },
+  {
+    "questionId": "ts_h_80",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why is TypeScript not a sound type system?",
+    "options": [
+      "JS interop trade-offs",
+      "Compiler bugs",
+      "Missing features",
+      "Runtime checks"
+    ],
+    "answer": "JS interop trade-offs",
+    "reason": "Pragmatic design."
+  },
+
+  {
+    "questionId": "ts_h_81",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is the biggest strength of TypeScript?",
+    "options": [
+      "Static analysis on JS",
+      "Runtime safety",
+      "Performance",
+      "Memory control"
+    ],
+    "answer": "Static analysis on JS",
+    "reason": "Catches bugs early."
+  },
+  {
+    "questionId": "ts_h_82",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is the biggest weakness of TypeScript?",
+    "options": [
+      "No runtime guarantees",
+      "Slow compilation",
+      "Large output",
+      "Complex syntax"
+    ],
+    "answer": "No runtime guarantees",
+    "reason": "Types are erased."
+  },
+  {
+    "questionId": "ts_h_83",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why do large projects benefit most from TS?",
+    "options": [
+      "Scalability and refactoring safety",
+      "Faster runtime",
+      "Smaller bundles",
+      "Easier syntax"
+    ],
+    "answer": "Scalability and refactoring safety",
+    "reason": "Types scale with codebase."
+  },
+  {
+    "questionId": "ts_h_84",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is the trade-off of advanced type gymnastics?",
+    "options": [
+      "Complexity and compile time",
+      "Runtime errors",
+      "JS size",
+      "Memory leaks"
+    ],
+    "answer": "Complexity and compile time",
+    "reason": "Harder to maintain."
+  },
+  {
+    "questionId": "ts_h_85",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "When should you avoid complex conditional types?",
+    "options": [
+      "When readability suffers",
+      "When performance matters",
+      "Always",
+      "Never"
+    ],
+    "answer": "When readability suffers",
+    "reason": "Maintainability matters."
+  },
+
+  {
+    "questionId": "ts_h_86",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is the role of tsserver?",
+    "options": [
+      "Language service for editors",
+      "Runtime engine",
+      "Bundler",
+      "Compiler only"
+    ],
+    "answer": "Language service for editors",
+    "reason": "Provides IntelliSense."
+  },
+  {
+    "questionId": "ts_h_87",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why can TS types feel slow in IDEs?",
+    "options": [
+      "Complex type computation",
+      "Runtime execution",
+      "Large JS output",
+      "Memory leaks"
+    ],
+    "answer": "Complex type computation",
+    "reason": "Type evaluation is expensive."
+  },
+  {
+    "questionId": "ts_h_88",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `skipLibCheck` trade off?",
+    "options": [
+      "Safety for speed",
+      "Runtime correctness",
+      "JS output",
+      "Inference"
+    ],
+    "answer": "Safety for speed",
+    "reason": "Skips checking .d.ts files."
+  },
+  {
+    "questionId": "ts_h_89",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why do many libraries ship .d.ts files?",
+    "options": [
+      "Provide typing without TS source",
+      "Improve runtime",
+      "Reduce bundle",
+      "Add metadata"
+    ],
+    "answer": "Provide typing without TS source",
+    "reason": "JS libs can be typed."
+  },
+  {
+    "questionId": "ts_h_90",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `isolatedModules` restrict?",
+    "options": [
+      "Cross-file type dependencies",
+      "Generics",
+      "Enums",
+      "Interfaces"
+    ],
+    "answer": "Cross-file type dependencies",
+    "reason": "Each file must be standalone."
+  },
+
+  {
+    "questionId": "ts_h_91",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why is Babel limited compared to tsc?",
+    "options": ["No type checking", "Slower", "Larger output", "Old syntax"],
+    "answer": "No type checking",
+    "reason": "Babel strips types only."
+  },
+  {
+    "questionId": "ts_h_92",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of project references?",
+    "options": [
+      "Scale large codebases",
+      "Runtime linking",
+      "Bundle splitting",
+      "Lazy loading"
+    ],
+    "answer": "Scale large codebases",
+    "reason": "Improves build performance."
+  },
+  {
+    "questionId": "ts_h_93",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What does `composite` enable?",
+    "options": [
+      "Project references",
+      "Runtime linking",
+      "Faster JS",
+      "Tree shaking"
+    ],
+    "answer": "Project references",
+    "reason": "Required for references."
+  },
+  {
+    "questionId": "ts_h_94",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why is TypeScript not a superset of all JS behavior?",
+    "options": [
+      "Some JS patterns are unsafe",
+      "Performance",
+      "Syntax limits",
+      "Runtime issues"
+    ],
+    "answer": "Some JS patterns are unsafe",
+    "reason": "Type system rejects unsafe code."
+  },
+  {
+    "questionId": "ts_h_95",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is the role of control flow narrowing?",
+    "options": [
+      "Refine variable types",
+      "Execute logic",
+      "Handle async",
+      "Optimize JS"
+    ],
+    "answer": "Refine variable types",
+    "reason": "Based on branches."
+  },
+
+  {
+    "questionId": "ts_h_96",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "Why does TS allow unsound casts?",
+    "options": [
+      "Developer escape hatch",
+      "Compiler bug",
+      "Legacy JS",
+      "Performance"
+    ],
+    "answer": "Developer escape hatch",
+    "reason": "Pragmatic flexibility."
+  },
+  {
+    "questionId": "ts_h_97",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is the purpose of assertion functions?",
+    "options": [
+      "Guarantee types after runtime checks",
+      "Cast values",
+      "Improve inference",
+      "Replace guards"
+    ],
+    "answer": "Guarantee types after runtime checks",
+    "reason": "Bridge runtime and compile-time."
+  },
+  {
+    "questionId": "ts_h_98",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What is the biggest risk of type gymnastics?",
+    "options": [
+      "Reduced maintainability",
+      "Runtime errors",
+      "JS size",
+      "Security issues"
+    ],
+    "answer": "Reduced maintainability",
+    "reason": "Overly clever types hurt teams."
+  },
+  {
+    "questionId": "ts_h_99",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What mindset is best for advanced TypeScript?",
+    "options": [
+      "Balance safety and clarity",
+      "Maximize strictness",
+      "Avoid inference",
+      "Use any"
+    ],
+    "answer": "Balance safety and clarity",
+    "reason": "Maintainable correctness matters."
+  },
+  {
+    "questionId": "ts_h_100",
+    "topic": "typescript",
+    "difficulty": "hard",
+    "questionText": "What defines mastery of TypeScript?",
+    "options": [
+      "Understanding type system trade-offs",
+      "Knowing all syntax",
+      "Avoiding JS",
+      "Using only strict mode"
+    ],
+    "answer": "Understanding type system trade-offs",
+    "reason": "TypeScript is about pragmatic safety."
+  }
+]

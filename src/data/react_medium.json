@@ -1,0 +1,1280 @@
+[
+  {
+    "questionId": "react_m_1",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What problem does the virtual DOM solve in React?",
+    "options": [
+      "Reduce direct DOM manipulation",
+      "Improve CSS performance",
+      "Replace browser DOM",
+      "Enable SSR"
+    ],
+    "answer": "Reduce direct DOM manipulation",
+    "reason": "Virtual DOM minimizes expensive direct DOM updates."
+  },
+  {
+    "questionId": "react_m_2",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "When does a React component re-render?",
+    "options": [
+      "When state or props change",
+      "On every function call",
+      "Only on page refresh",
+      "When CSS changes"
+    ],
+    "answer": "When state or props change",
+    "reason": "React re-renders components when state or props update."
+  },
+  {
+    "questionId": "react_m_3",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "Why should keys be unique in lists?",
+    "options": [
+      "Help React identify elements",
+      "Improve CSS rendering",
+      "Prevent memory leaks",
+      "Enable hooks"
+    ],
+    "answer": "Help React identify elements",
+    "reason": "Keys help React track element changes efficiently."
+  },
+  {
+    "questionId": "react_m_4",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of useEffect?",
+    "options": [
+      "Handle side effects",
+      "Manage CSS",
+      "Replace lifecycle methods only",
+      "Create global state"
+    ],
+    "answer": "Handle side effects",
+    "reason": "useEffect manages side effects like data fetching."
+  },
+  {
+    "questionId": "react_m_5",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What happens if dependency array is empty in useEffect?",
+    "options": [
+      "Runs once after mount",
+      "Runs on every render",
+      "Never runs",
+      "Runs before render"
+    ],
+    "answer": "Runs once after mount",
+    "reason": "Empty dependency array triggers effect only once."
+  },
+
+  {
+    "questionId": "react_m_6",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is lifting state up?",
+    "options": [
+      "Moving state to a common parent",
+      "Using Redux",
+      "Removing state",
+      "Using refs"
+    ],
+    "answer": "Moving state to a common parent",
+    "reason": "It allows multiple components to share the same state."
+  },
+  {
+    "questionId": "react_m_7",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "Why should state not be mutated directly?",
+    "options": [
+      "React cannot detect changes",
+      "It breaks JavaScript",
+      "It causes runtime errors",
+      "It slows rendering"
+    ],
+    "answer": "React cannot detect changes",
+    "reason": "Direct mutation prevents React from triggering re-renders."
+  },
+  {
+    "questionId": "react_m_8",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does useMemo do?",
+    "options": [
+      "Memoizes computed values",
+      "Memoizes components",
+      "Handles side effects",
+      "Manages refs"
+    ],
+    "answer": "Memoizes computed values",
+    "reason": "useMemo prevents expensive recalculations."
+  },
+  {
+    "questionId": "react_m_9",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of useCallback?",
+    "options": [
+      "Memoize functions",
+      "Create refs",
+      "Replace useEffect",
+      "Handle async calls"
+    ],
+    "answer": "Memoize functions",
+    "reason": "useCallback avoids unnecessary function recreation."
+  },
+  {
+    "questionId": "react_m_10",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does React.memo do?",
+    "options": [
+      "Prevents unnecessary re-renders",
+      "Memoizes hooks",
+      "Caches API calls",
+      "Improves routing"
+    ],
+    "answer": "Prevents unnecessary re-renders",
+    "reason": "React.memo memoizes functional components."
+  },
+
+  {
+    "questionId": "react_m_11",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is a controlled component?",
+    "options": [
+      "Form element controlled by state",
+      "Component without state",
+      "Component using refs only",
+      "Pure component"
+    ],
+    "answer": "Form element controlled by state",
+    "reason": "Controlled components sync input value with state."
+  },
+  {
+    "questionId": "react_m_12",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is an uncontrolled component?",
+    "options": [
+      "Form handled by DOM",
+      "Component without props",
+      "Component without JSX",
+      "Component without hooks"
+    ],
+    "answer": "Form handled by DOM",
+    "reason": "Uncontrolled components rely on the DOM for values."
+  },
+  {
+    "questionId": "react_m_13",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "Why are hooks restricted to top-level calls?",
+    "options": [
+      "Ensure consistent call order",
+      "Improve performance",
+      "Avoid async issues",
+      "Enable SSR"
+    ],
+    "answer": "Ensure consistent call order",
+    "reason": "Hooks rely on call order to map state correctly."
+  },
+  {
+    "questionId": "react_m_14",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does useRef persist across renders?",
+    "options": ["Mutable values", "Props", "Computed state", "Effects"],
+    "answer": "Mutable values",
+    "reason": "useRef holds values without causing re-renders."
+  },
+  {
+    "questionId": "react_m_15",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is reconciliation?",
+    "options": [
+      "React diffing process",
+      "CSS update process",
+      "JSX compilation",
+      "State initialization"
+    ],
+    "answer": "React diffing process",
+    "reason": "Reconciliation determines what changes to apply to the DOM."
+  },
+
+  {
+    "questionId": "react_m_16",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "Why should indexes not be used as keys?",
+    "options": [
+      "Can cause rendering bugs",
+      "Not supported",
+      "Slow performance",
+      "Breaks hooks"
+    ],
+    "answer": "Can cause rendering bugs",
+    "reason": "Indexes break element identity when list order changes."
+  },
+  {
+    "questionId": "react_m_17",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is context mainly used for?",
+    "options": [
+      "Avoid prop drilling",
+      "Replace Redux",
+      "Manage local state",
+      "Handle effects"
+    ],
+    "answer": "Avoid prop drilling",
+    "reason": "Context shares data without passing props deeply."
+  },
+  {
+    "questionId": "react_m_18",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What triggers cleanup in useEffect?",
+    "options": [
+      "Component unmount or dependency change",
+      "Every render",
+      "Only errors",
+      "Manual call"
+    ],
+    "answer": "Component unmount or dependency change",
+    "reason": "Cleanup runs before effect re-executes or unmounts."
+  },
+  {
+    "questionId": "react_m_19",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is React StrictMode used for?",
+    "options": [
+      "Highlight potential problems",
+      "Improve performance",
+      "Enable production mode",
+      "Disable warnings"
+    ],
+    "answer": "Highlight potential problems",
+    "reason": "StrictMode helps detect unsafe patterns."
+  },
+  {
+    "questionId": "react_m_20",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is batching in React?",
+    "options": [
+      "Grouping state updates",
+      "Bundling components",
+      "Optimizing CSS",
+      "Caching requests"
+    ],
+    "answer": "Grouping state updates",
+    "reason": "Batching improves rendering performance."
+  },
+  {
+    "questionId": "react_m_21",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is React.lazy used for?",
+    "options": [
+      "Code splitting components",
+      "Lazy state updates",
+      "Lazy hooks execution",
+      "Lazy rendering DOM"
+    ],
+    "answer": "Code splitting components",
+    "reason": "React.lazy enables dynamic import for components."
+  },
+  {
+    "questionId": "react_m_22",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What must wrap a lazy-loaded component?",
+    "options": ["Suspense", "ErrorBoundary", "Fragment", "StrictMode"],
+    "answer": "Suspense",
+    "reason": "Suspense provides a fallback while loading."
+  },
+  {
+    "questionId": "react_m_23",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of fallback in Suspense?",
+    "options": [
+      "UI while loading",
+      "Error handling",
+      "State reset",
+      "Re-render trigger"
+    ],
+    "answer": "UI while loading",
+    "reason": "Fallback UI is shown during async loading."
+  },
+  {
+    "questionId": "react_m_24",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is an Error Boundary?",
+    "options": [
+      "Component catching render errors",
+      "Hook for errors",
+      "Network error handler",
+      "Promise wrapper"
+    ],
+    "answer": "Component catching render errors",
+    "reason": "Error Boundaries catch errors in child components."
+  },
+  {
+    "questionId": "react_m_25",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "Which lifecycle is used for Error Boundaries?",
+    "options": [
+      "componentDidCatch",
+      "componentDidMount",
+      "shouldComponentUpdate",
+      "useEffect"
+    ],
+    "answer": "componentDidCatch",
+    "reason": "componentDidCatch handles rendering errors."
+  },
+
+  {
+    "questionId": "react_m_26",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does forwardRef allow?",
+    "options": [
+      "Passing refs to child components",
+      "Sharing state",
+      "Avoid re-render",
+      "Create portals"
+    ],
+    "answer": "Passing refs to child components",
+    "reason": "forwardRef exposes child DOM refs."
+  },
+  {
+    "questionId": "react_m_27",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What problem do React Portals solve?",
+    "options": [
+      "Render outside DOM hierarchy",
+      "Improve routing",
+      "Handle state",
+      "Optimize rendering"
+    ],
+    "answer": "Render outside DOM hierarchy",
+    "reason": "Portals render children outside parent DOM tree."
+  },
+  {
+    "questionId": "react_m_28",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is the default behavior of setState?",
+    "options": ["Asynchronous", "Synchronous", "Blocking", "Deferred only"],
+    "answer": "Asynchronous",
+    "reason": "State updates are batched asynchronously."
+  },
+  {
+    "questionId": "react_m_29",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "Why use functional updates in setState?",
+    "options": [
+      "Access previous state safely",
+      "Improve CSS",
+      "Avoid hooks",
+      "Speed rendering"
+    ],
+    "answer": "Access previous state safely",
+    "reason": "Functional updates prevent stale state."
+  },
+  {
+    "questionId": "react_m_30",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is prop drilling?",
+    "options": [
+      "Passing props deeply",
+      "Passing refs",
+      "Prop validation",
+      "Prop mutation"
+    ],
+    "answer": "Passing props deeply",
+    "reason": "Prop drilling passes props through many layers."
+  },
+
+  {
+    "questionId": "react_m_31",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What hook replaces componentDidMount?",
+    "options": ["useEffect", "useMemo", "useRef", "useCallback"],
+    "answer": "useEffect",
+    "reason": "useEffect runs after component mount."
+  },
+  {
+    "questionId": "react_m_32",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What causes infinite re-render?",
+    "options": [
+      "State update during render",
+      "Using props",
+      "Using refs",
+      "Using memo"
+    ],
+    "answer": "State update during render",
+    "reason": "State updates trigger re-renders endlessly."
+  },
+  {
+    "questionId": "react_m_33",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does useLayoutEffect differ from useEffect?",
+    "options": [
+      "Runs before paint",
+      "Runs async",
+      "Runs on server",
+      "Runs once"
+    ],
+    "answer": "Runs before paint",
+    "reason": "useLayoutEffect blocks paint until executed."
+  },
+  {
+    "questionId": "react_m_34",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "When should useLayoutEffect be avoided?",
+    "options": [
+      "When blocking UI",
+      "When using state",
+      "When using props",
+      "When fetching data"
+    ],
+    "answer": "When blocking UI",
+    "reason": "It can cause performance issues."
+  },
+  {
+    "questionId": "react_m_35",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does useImperativeHandle do?",
+    "options": [
+      "Expose custom ref methods",
+      "Handle effects",
+      "Share context",
+      "Memoize refs"
+    ],
+    "answer": "Expose custom ref methods",
+    "reason": "It customizes values exposed by refs."
+  },
+
+  {
+    "questionId": "react_m_36",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is hydration in React?",
+    "options": [
+      "Attach events to SSR HTML",
+      "Load CSS",
+      "Rebuild DOM",
+      "Compile JSX"
+    ],
+    "answer": "Attach events to SSR HTML",
+    "reason": "Hydration makes static HTML interactive."
+  },
+  {
+    "questionId": "react_m_37",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What happens if keys change between renders?",
+    "options": [
+      "Component remounts",
+      "State preserved",
+      "No effect",
+      "Error thrown"
+    ],
+    "answer": "Component remounts",
+    "reason": "Keys define component identity."
+  },
+  {
+    "questionId": "react_m_38",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does shallow comparison mean?",
+    "options": [
+      "Compare references only",
+      "Deep object comparison",
+      "JSON stringify",
+      "Recursive check"
+    ],
+    "answer": "Compare references only",
+    "reason": "Shallow compare checks top-level references."
+  },
+  {
+    "questionId": "react_m_39",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What hook is commonly used for debouncing?",
+    "options": ["useEffect", "useState", "useRef", "useCallback"],
+    "answer": "useEffect",
+    "reason": "useEffect manages timers for debounce."
+  },
+  {
+    "questionId": "react_m_40",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does StrictMode do in development?",
+    "options": [
+      "Double invokes functions",
+      "Optimize production",
+      "Disable hooks",
+      "Cache state"
+    ],
+    "answer": "Double invokes functions",
+    "reason": "It helps detect side effects."
+  },
+
+  {
+    "questionId": "react_m_41",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "Can Error Boundaries catch async errors?",
+    "options": ["No", "Yes always", "Only promises", "Only fetch"],
+    "answer": "No",
+    "reason": "They catch render-time errors only."
+  },
+  {
+    "questionId": "react_m_42",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is render props pattern?",
+    "options": [
+      "Function as child",
+      "JSX fragment",
+      "Higher-order hook",
+      "Portal pattern"
+    ],
+    "answer": "Function as child",
+    "reason": "Render props share logic via functions."
+  },
+  {
+    "questionId": "react_m_43",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is a Higher-Order Component?",
+    "options": [
+      "Function returning a component",
+      "Component returning function",
+      "Hook wrapper",
+      "Context provider"
+    ],
+    "answer": "Function returning a component",
+    "reason": "HOC enhances components."
+  },
+  {
+    "questionId": "react_m_44",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "Why are HOCs less popular now?",
+    "options": [
+      "Hooks replaced them",
+      "They are slow",
+      "They break JSX",
+      "They are deprecated"
+    ],
+    "answer": "Hooks replaced them",
+    "reason": "Hooks offer cleaner reuse logic."
+  },
+  {
+    "questionId": "react_m_45",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What causes unnecessary re-renders?",
+    "options": [
+      "New object references",
+      "Using JSX",
+      "Using hooks",
+      "Using state"
+    ],
+    "answer": "New object references",
+    "reason": "New references break memoization."
+  },
+
+  {
+    "questionId": "react_m_46",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does children prop represent?",
+    "options": ["Nested JSX", "Child state", "DOM nodes only", "Hooks"],
+    "answer": "Nested JSX",
+    "reason": "children contains nested components."
+  },
+  {
+    "questionId": "react_m_47",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is conditional rendering?",
+    "options": [
+      "Render based on condition",
+      "Render async",
+      "Lazy render",
+      "Memo render"
+    ],
+    "answer": "Render based on condition",
+    "reason": "JS conditions control JSX rendering."
+  },
+  {
+    "questionId": "react_m_48",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is state colocation?",
+    "options": [
+      "Keep state near usage",
+      "Global state",
+      "Duplicate state",
+      "Lift state always"
+    ],
+    "answer": "Keep state near usage",
+    "reason": "Improves maintainability."
+  },
+  {
+    "questionId": "react_m_49",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does automatic batching improve?",
+    "options": ["Performance", "Debugging", "Typing", "CSS"],
+    "answer": "Performance",
+    "reason": "Batching reduces renders."
+  },
+  {
+    "questionId": "react_m_50",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is concurrent rendering?",
+    "options": [
+      "Interruptible rendering",
+      "Parallel threads",
+      "Async hooks",
+      "SSR only"
+    ],
+    "answer": "Interruptible rendering",
+    "reason": "React can pause and resume work."
+  },
+
+  {
+    "questionId": "react_m_51",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What hook helps defer non-urgent updates?",
+    "options": ["useTransition", "useMemo", "useRef", "useEffect"],
+    "answer": "useTransition",
+    "reason": "It marks updates as low priority."
+  },
+  {
+    "questionId": "react_m_52",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does useDeferredValue do?",
+    "options": [
+      "Delay value updates",
+      "Delay rendering",
+      "Cache values",
+      "Block UI"
+    ],
+    "answer": "Delay value updates",
+    "reason": "It improves responsiveness."
+  },
+  {
+    "questionId": "react_m_53",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is React Fiber?",
+    "options": [
+      "Reconciliation engine",
+      "DOM API",
+      "CSS engine",
+      "JS compiler"
+    ],
+    "answer": "Reconciliation engine",
+    "reason": "Fiber enables concurrent features."
+  },
+  {
+    "questionId": "react_m_54",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of Fragment?",
+    "options": [
+      "Group elements without DOM",
+      "Improve performance",
+      "Create portals",
+      "Memoize JSX"
+    ],
+    "answer": "Group elements without DOM",
+    "reason": "Fragments avoid extra nodes."
+  },
+  {
+    "questionId": "react_m_55",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "Why avoid inline functions in JSX?",
+    "options": [
+      "Cause re-renders",
+      "Syntax error",
+      "Not supported",
+      "Break hooks"
+    ],
+    "answer": "Cause re-renders",
+    "reason": "They create new references each render."
+  },
+
+  {
+    "questionId": "react_m_56",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does reconciliation rely on?",
+    "options": ["Keys and element type", "CSS selectors", "State only", "Refs"],
+    "answer": "Keys and element type",
+    "reason": "Identity determines reuse."
+  },
+  {
+    "questionId": "react_m_57",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is a pure component?",
+    "options": [
+      "Shallow prop comparison",
+      "No state",
+      "No props",
+      "Stateless only"
+    ],
+    "answer": "Shallow prop comparison",
+    "reason": "Pure components skip unnecessary renders."
+  },
+  {
+    "questionId": "react_m_58",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is JSX compiled into?",
+    "options": ["React.createElement", "HTML", "DOM nodes", "JSON"],
+    "answer": "React.createElement",
+    "reason": "JSX is syntactic sugar."
+  },
+  {
+    "questionId": "react_m_59",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is synthetic event?",
+    "options": [
+      "Cross-browser wrapper",
+      "Native DOM event",
+      "Async event",
+      "Custom hook"
+    ],
+    "answer": "Cross-browser wrapper",
+    "reason": "React normalizes events."
+  },
+  {
+    "questionId": "react_m_60",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does preventDefault do?",
+    "options": [
+      "Stops default browser behavior",
+      "Stops rendering",
+      "Stops state",
+      "Stops bubbling"
+    ],
+    "answer": "Stops default browser behavior",
+    "reason": "It cancels native behavior."
+  },
+
+  {
+    "questionId": "react_m_61",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does stopPropagation do?",
+    "options": [
+      "Stops event bubbling",
+      "Stops render",
+      "Stops default",
+      "Stops hooks"
+    ],
+    "answer": "Stops event bubbling",
+    "reason": "It prevents event propagation."
+  },
+  {
+    "questionId": "react_m_62",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is memoization mainly for?",
+    "options": ["Performance optimization", "Styling", "State sync", "Routing"],
+    "answer": "Performance optimization",
+    "reason": "It avoids repeated computation."
+  },
+  {
+    "questionId": "react_m_63",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "When does useEffect cleanup run?",
+    "options": [
+      "Before next effect",
+      "After render",
+      "On state set",
+      "On mount only"
+    ],
+    "answer": "Before next effect",
+    "reason": "Cleanup runs before re-execution."
+  },
+  {
+    "questionId": "react_m_64",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does useContext return?",
+    "options": ["Context value", "Provider", "Consumer", "Reducer"],
+    "answer": "Context value",
+    "reason": "useContext reads nearest provider."
+  },
+  {
+    "questionId": "react_m_65",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is the cost of overusing Context?",
+    "options": [
+      "Unnecessary re-renders",
+      "Memory leaks",
+      "Hook errors",
+      "JS errors"
+    ],
+    "answer": "Unnecessary re-renders",
+    "reason": "Context updates re-render consumers."
+  },
+
+  {
+    "questionId": "react_m_66",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is the default behavior of useEffect dependencies?",
+    "options": [
+      "Runs on change",
+      "Runs once",
+      "Runs never",
+      "Runs before render"
+    ],
+    "answer": "Runs on change",
+    "reason": "Effect runs when deps change."
+  },
+  {
+    "questionId": "react_m_67",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is stale closure?",
+    "options": [
+      "Old state reference",
+      "Memory leak",
+      "Unmount error",
+      "DOM bug"
+    ],
+    "answer": "Old state reference",
+    "reason": "Closures capture outdated values."
+  },
+  {
+    "questionId": "react_m_68",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "How to fix stale closure?",
+    "options": ["Dependency array", "Use memo", "Use fragment", "Use portal"],
+    "answer": "Dependency array",
+    "reason": "Deps ensure fresh values."
+  },
+  {
+    "questionId": "react_m_69",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is useReducer best for?",
+    "options": ["Complex state logic", "Styling", "Data fetch", "Refs"],
+    "answer": "Complex state logic",
+    "reason": "Reducer centralizes state updates."
+  },
+  {
+    "questionId": "react_m_70",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does dispatch do?",
+    "options": [
+      "Send action",
+      "Set state directly",
+      "Call effect",
+      "Update props"
+    ],
+    "answer": "Send action",
+    "reason": "Dispatch triggers reducer."
+  },
+
+  {
+    "questionId": "react_m_71",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is derived state?",
+    "options": [
+      "State from props",
+      "Global state",
+      "Async state",
+      "Local state"
+    ],
+    "answer": "State from props",
+    "reason": "Derived state duplicates source of truth."
+  },
+  {
+    "questionId": "react_m_72",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "Why avoid derived state?",
+    "options": [
+      "Causes inconsistency",
+      "Not supported",
+      "Slows rendering",
+      "Breaks hooks"
+    ],
+    "answer": "Causes inconsistency",
+    "reason": "It can go out of sync."
+  },
+  {
+    "questionId": "react_m_73",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is SSR benefit?",
+    "options": ["Faster first paint", "Better CSS", "Less JS", "No hydration"],
+    "answer": "Faster first paint",
+    "reason": "SSR improves perceived performance."
+  },
+  {
+    "questionId": "react_m_74",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is CSR?",
+    "options": [
+      "Client-side rendering",
+      "Component-side render",
+      "Cached server render",
+      "Concurrent render"
+    ],
+    "answer": "Client-side rendering",
+    "reason": "Rendering happens in browser."
+  },
+  {
+    "questionId": "react_m_75",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What causes hydration mismatch?",
+    "options": [
+      "Different server/client output",
+      "CSS mismatch",
+      "Hook order",
+      "State update"
+    ],
+    "answer": "Different server/client output",
+    "reason": "HTML must match exactly."
+  },
+
+  {
+    "questionId": "react_m_76",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is tree shaking?",
+    "options": [
+      "Remove unused code",
+      "Optimize CSS",
+      "Bundle images",
+      "Cache data"
+    ],
+    "answer": "Remove unused code",
+    "reason": "It reduces bundle size."
+  },
+  {
+    "questionId": "react_m_77",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What affects bundle size most?",
+    "options": ["Dependencies", "JSX", "Hooks", "CSS modules"],
+    "answer": "Dependencies",
+    "reason": "Libraries add bundle weight."
+  },
+  {
+    "questionId": "react_m_78",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is code splitting?",
+    "options": [
+      "Load code on demand",
+      "Split components",
+      "Split state",
+      "Split CSS"
+    ],
+    "answer": "Load code on demand",
+    "reason": "Improves initial load."
+  },
+  {
+    "questionId": "react_m_79",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What tool analyzes bundle size?",
+    "options": ["Webpack Bundle Analyzer", "ESLint", "Prettier", "Babel"],
+    "answer": "Webpack Bundle Analyzer",
+    "reason": "It visualizes bundle content."
+  },
+  {
+    "questionId": "react_m_80",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is lazy hydration?",
+    "options": [
+      "Delay hydration",
+      "Delay render",
+      "Delay state",
+      "Delay props"
+    ],
+    "answer": "Delay hydration",
+    "reason": "Improves initial responsiveness."
+  },
+
+  {
+    "questionId": "react_m_81",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is ref forwarding commonly used for?",
+    "options": [
+      "Reusable UI components",
+      "State sharing",
+      "Context access",
+      "Event handling"
+    ],
+    "answer": "Reusable UI components",
+    "reason": "It exposes internal DOM refs."
+  },
+  {
+    "questionId": "react_m_82",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is the role of useEffect return?",
+    "options": ["Cleanup logic", "Async result", "Render JSX", "Update state"],
+    "answer": "Cleanup logic",
+    "reason": "Returned function cleans side effects."
+  },
+  {
+    "questionId": "react_m_83",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What causes memory leaks in React?",
+    "options": ["Uncleared effects", "JSX usage", "Props passing", "Keys"],
+    "answer": "Uncleared effects",
+    "reason": "Listeners/timers persist after unmount."
+  },
+  {
+    "questionId": "react_m_84",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is controlled vs uncontrolled difference?",
+    "options": [
+      "State vs DOM",
+      "Hooks vs class",
+      "Props vs state",
+      "Async vs sync"
+    ],
+    "answer": "State vs DOM",
+    "reason": "Controlled uses React state."
+  },
+  {
+    "questionId": "react_m_85",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is the benefit of custom hooks?",
+    "options": ["Logic reuse", "UI reuse", "Faster render", "Global state"],
+    "answer": "Logic reuse",
+    "reason": "Hooks extract shared logic."
+  },
+
+  {
+    "questionId": "react_m_86",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What must custom hooks start with?",
+    "options": ["use", "hook", "with", "react"],
+    "answer": "use",
+    "reason": "Naming convention enables hook rules."
+  },
+  {
+    "questionId": "react_m_87",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does ESLint hooks rule enforce?",
+    "options": [
+      "Correct hook usage",
+      "Style rules",
+      "Type safety",
+      "Build size"
+    ],
+    "answer": "Correct hook usage",
+    "reason": "It prevents hook misuse."
+  },
+  {
+    "questionId": "react_m_88",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is a side effect?",
+    "options": [
+      "External interaction",
+      "JSX render",
+      "State update",
+      "Prop pass"
+    ],
+    "answer": "External interaction",
+    "reason": "Side effects affect outside world."
+  },
+  {
+    "questionId": "react_m_89",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "Which hook handles subscriptions?",
+    "options": ["useEffect", "useMemo", "useState", "useRef"],
+    "answer": "useEffect",
+    "reason": "Subscriptions are side effects."
+  },
+  {
+    "questionId": "react_m_90",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is the downside of excessive memoization?",
+    "options": ["Complexity", "Memory leak", "Hook errors", "Slower JSX"],
+    "answer": "Complexity",
+    "reason": "Over-optimization hurts readability."
+  },
+
+  {
+    "questionId": "react_m_91",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does React prioritize rendering for?",
+    "options": [
+      "User interaction",
+      "Background tasks",
+      "Network calls",
+      "Timers"
+    ],
+    "answer": "User interaction",
+    "reason": "Concurrency improves UX."
+  },
+  {
+    "questionId": "react_m_92",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is time slicing?",
+    "options": ["Split render work", "Split state", "Split hooks", "Split DOM"],
+    "answer": "Split render work",
+    "reason": "Keeps UI responsive."
+  },
+  {
+    "questionId": "react_m_93",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does startTransition do?",
+    "options": [
+      "Mark non-urgent updates",
+      "Start animation",
+      "Start effect",
+      "Start fetch"
+    ],
+    "answer": "Mark non-urgent updates",
+    "reason": "It lowers update priority."
+  },
+  {
+    "questionId": "react_m_94",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is the goal of concurrent features?",
+    "options": ["Better responsiveness", "Less code", "More hooks", "SSR only"],
+    "answer": "Better responsiveness",
+    "reason": "Concurrency improves UX."
+  },
+  {
+    "questionId": "react_m_95",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What happens when component unmounts?",
+    "options": [
+      "Cleanup runs",
+      "State persists",
+      "Effect reruns",
+      "Props reset"
+    ],
+    "answer": "Cleanup runs",
+    "reason": "useEffect cleanup executes."
+  },
+
+  {
+    "questionId": "react_m_96",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is reconciliation optimization based on?",
+    "options": ["Stable keys", "Hook order", "CSS order", "State count"],
+    "answer": "Stable keys",
+    "reason": "Stable identity improves diffing."
+  },
+  {
+    "questionId": "react_m_97",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What does React DevTools help with?",
+    "options": ["Debug components", "Compile JSX", "Optimize CSS", "Bundle JS"],
+    "answer": "Debug components",
+    "reason": "DevTools inspect state and props."
+  },
+  {
+    "questionId": "react_m_98",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is the role of keys in reconciliation?",
+    "options": [
+      "Preserve component identity",
+      "Style elements",
+      "Control state",
+      "Optimize hooks"
+    ],
+    "answer": "Preserve component identity",
+    "reason": "Keys map elements across renders."
+  },
+  {
+    "questionId": "react_m_99",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is the most common React performance issue?",
+    "options": [
+      "Unnecessary re-renders",
+      "JSX syntax",
+      "Hooks usage",
+      "CSS styles"
+    ],
+    "answer": "Unnecessary re-renders",
+    "reason": "They waste render cycles."
+  },
+  {
+    "questionId": "react_m_100",
+    "topic": "react",
+    "difficulty": "medium",
+    "questionText": "What is the main principle behind React design?",
+    "options": [
+      "Declarative UI",
+      "Imperative DOM",
+      "Manual updates",
+      "Global state"
+    ],
+    "answer": "Declarative UI",
+    "reason": "React focuses on describing UI state."
+  }
+]

@@ -4,6 +4,8 @@ export const TopicType = new Map([
   ["cpp", "C++"],
   ["webdev", "Web Dev"],
   ["software", "Software"],
+  ["react", "React"],
+  ["typescript", "Typescript"],
 ]);
 
 const TopicTypeReverse = new Map([...TopicType].map(([k, v]) => [v, k]));

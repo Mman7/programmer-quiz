@@ -1,0 +1,961 @@
+[
+  {
+    "questionId": "ts_e_1",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which TypeScript type is used to represent a string value?",
+    "options": ["string", "String", "text", "char"],
+    "answer": "string",
+    "reason": "The 'string' type represents textual data in TypeScript."
+  },
+  {
+    "questionId": "ts_e_2",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which type is used to represent numbers in TypeScript?",
+    "options": ["number", "int", "float", "double"],
+    "answer": "number",
+    "reason": "TypeScript uses 'number' for all numeric values."
+  },
+  {
+    "questionId": "ts_e_3",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used to define a variable in TypeScript?",
+    "options": ["let", "var", "const", "All of the above"],
+    "answer": "All of the above",
+    "reason": "TypeScript supports var, let, and const."
+  },
+  {
+    "questionId": "ts_e_4",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which type represents true or false values?",
+    "options": ["boolean", "bool", "Boolean", "binary"],
+    "answer": "boolean",
+    "reason": "The 'boolean' type represents true or false."
+  },
+  {
+    "questionId": "ts_e_5",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which symbol is used to specify a type in TypeScript?",
+    "options": [":", "=>", "=", "@"],
+    "answer": ":",
+    "reason": "A colon is used to annotate types."
+  },
+  {
+    "questionId": "ts_e_6",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which type allows any value without type checking?",
+    "options": ["any", "unknown", "void", "never"],
+    "answer": "any",
+    "reason": "The 'any' type disables type checking."
+  },
+  {
+    "questionId": "ts_e_7",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used to define a function?",
+    "options": ["function", "fn", "def", "func"],
+    "answer": "function",
+    "reason": "Functions are declared using the 'function' keyword."
+  },
+  {
+    "questionId": "ts_e_8",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which type represents an array of numbers?",
+    "options": ["number[]", "array<number>", "numbers[]", "num[]"],
+    "answer": "number[]",
+    "reason": "number[] is the common syntax for numeric arrays."
+  },
+  {
+    "questionId": "ts_e_9",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used to export a variable or function?",
+    "options": ["export", "share", "public", "send"],
+    "answer": "export",
+    "reason": "The 'export' keyword exposes members outside the module."
+  },
+  {
+    "questionId": "ts_e_10",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used to import a module?",
+    "options": ["import", "include", "require", "using"],
+    "answer": "import",
+    "reason": "TypeScript uses ES module syntax with 'import'."
+  },
+
+  {
+    "questionId": "ts_e_11",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which type represents no return value from a function?",
+    "options": ["void", "null", "undefined", "never"],
+    "answer": "void",
+    "reason": "Functions returning nothing use the 'void' type."
+  },
+  {
+    "questionId": "ts_e_12",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines a constant variable?",
+    "options": ["const", "let", "var", "static"],
+    "answer": "const",
+    "reason": "const variables cannot be reassigned."
+  },
+  {
+    "questionId": "ts_e_13",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which type represents a fixed set of values?",
+    "options": ["enum", "tuple", "union", "array"],
+    "answer": "enum",
+    "reason": "Enums define a collection of named constants."
+  },
+  {
+    "questionId": "ts_e_14",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which type combines multiple types into one?",
+    "options": ["union", "enum", "tuple", "any"],
+    "answer": "union",
+    "reason": "Union types allow multiple possible types."
+  },
+  {
+    "questionId": "ts_e_15",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which operator is used for type assertions?",
+    "options": ["as", "is", "typeof", "instanceof"],
+    "answer": "as",
+    "reason": "Type assertions commonly use the 'as' keyword."
+  },
+
+  {
+    "questionId": "ts_e_16",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines a class?",
+    "options": ["class", "object", "struct", "model"],
+    "answer": "class",
+    "reason": "Classes are defined using the 'class' keyword."
+  },
+  {
+    "questionId": "ts_e_17",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which access modifier allows access everywhere?",
+    "options": ["public", "private", "protected", "internal"],
+    "answer": "public",
+    "reason": "Public members are accessible from anywhere."
+  },
+  {
+    "questionId": "ts_e_18",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which access modifier restricts access to the same class only?",
+    "options": ["private", "public", "protected", "static"],
+    "answer": "private",
+    "reason": "Private members are accessible only inside the class."
+  },
+  {
+    "questionId": "ts_e_19",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword creates an interface?",
+    "options": ["interface", "type", "class", "struct"],
+    "answer": "interface",
+    "reason": "Interfaces define object shapes in TypeScript."
+  },
+  {
+    "questionId": "ts_e_20",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used to implement an interface?",
+    "options": ["implements", "extends", "inherits", "uses"],
+    "answer": "implements",
+    "reason": "Classes use 'implements' to follow an interface."
+  },
+  {
+    "questionId": "ts_e_21",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used for class inheritance?",
+    "options": ["extends", "implements", "inherits", "super"],
+    "answer": "extends",
+    "reason": "The 'extends' keyword allows a class to inherit from another class."
+  },
+  {
+    "questionId": "ts_e_22",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword refers to the parent class?",
+    "options": ["super", "this", "parent", "base"],
+    "answer": "super",
+    "reason": "'super' is used to access parent class members."
+  },
+  {
+    "questionId": "ts_e_23",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which type represents an array with fixed length and types?",
+    "options": ["tuple", "array", "enum", "union"],
+    "answer": "tuple",
+    "reason": "Tuples define fixed-length arrays with specific types."
+  },
+  {
+    "questionId": "ts_e_24",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which type represents an object with key-value pairs?",
+    "options": ["object", "map", "record", "any"],
+    "answer": "object",
+    "reason": "The 'object' type represents non-primitive values."
+  },
+  {
+    "questionId": "ts_e_25",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which utility type creates an object type with specific keys and values?",
+    "options": ["Record", "Partial", "Pick", "Omit"],
+    "answer": "Record",
+    "reason": "Record<K, T> maps keys to a specific type."
+  },
+
+  {
+    "questionId": "ts_e_26",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which utility type makes all properties optional?",
+    "options": ["Partial", "Readonly", "Pick", "Omit"],
+    "answer": "Partial",
+    "reason": "Partial<T> converts all properties to optional."
+  },
+  {
+    "questionId": "ts_e_27",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which utility type makes properties read-only?",
+    "options": ["Readonly", "Partial", "Pick", "Omit"],
+    "answer": "Readonly",
+    "reason": "Readonly<T> prevents property modification."
+  },
+  {
+    "questionId": "ts_e_28",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which utility type selects specific properties from a type?",
+    "options": ["Pick", "Omit", "Partial", "Record"],
+    "answer": "Pick",
+    "reason": "Pick<T, K> selects a subset of properties."
+  },
+  {
+    "questionId": "ts_e_29",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which utility type removes specific properties from a type?",
+    "options": ["Omit", "Pick", "Partial", "Readonly"],
+    "answer": "Omit",
+    "reason": "Omit<T, K> removes selected properties."
+  },
+  {
+    "questionId": "ts_e_30",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines a generic type parameter?",
+    "options": ["<T>", "<G>", "<Type>", "<Generic>"],
+    "answer": "<T>",
+    "reason": "Generics commonly use <T> as a type placeholder."
+  },
+
+  {
+    "questionId": "ts_e_31",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which operator checks a variable's runtime type?",
+    "options": ["typeof", "instanceof", "as", "is"],
+    "answer": "typeof",
+    "reason": "'typeof' checks primitive types at runtime."
+  },
+  {
+    "questionId": "ts_e_32",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which operator checks if an object is an instance of a class?",
+    "options": ["instanceof", "typeof", "as", "in"],
+    "answer": "instanceof",
+    "reason": "'instanceof' checks class inheritance."
+  },
+  {
+    "questionId": "ts_e_33",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword narrows a type using a custom function?",
+    "options": ["is", "as", "typeof", "instanceof"],
+    "answer": "is",
+    "reason": "Type predicates use the 'is' keyword."
+  },
+  {
+    "questionId": "ts_e_34",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which type represents a value that never occurs?",
+    "options": ["never", "void", "null", "undefined"],
+    "answer": "never",
+    "reason": "'never' represents unreachable code paths."
+  },
+  {
+    "questionId": "ts_e_35",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which type represents a value that may be undefined or null?",
+    "options": ["union", "any", "never", "void"],
+    "answer": "union",
+    "reason": "Union types allow multiple possible values."
+  },
+
+  {
+    "questionId": "ts_e_36",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which configuration file controls TypeScript compiler options?",
+    "options": ["tsconfig.json", "package.json", "config.ts", "ts.json"],
+    "answer": "tsconfig.json",
+    "reason": "tsconfig.json defines TypeScript compiler settings."
+  },
+  {
+    "questionId": "ts_e_37",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which option enables strict type checking?",
+    "options": ["strict", "safe", "types", "check"],
+    "answer": "strict",
+    "reason": "The 'strict' option enables all strict checks."
+  },
+  {
+    "questionId": "ts_e_38",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which option prevents implicit any types?",
+    "options": [
+      "noImplicitAny",
+      "strictNullChecks",
+      "alwaysStrict",
+      "allowAny"
+    ],
+    "answer": "noImplicitAny",
+    "reason": "This option disallows implicit 'any' types."
+  },
+  {
+    "questionId": "ts_e_39",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which option enforces null and undefined checks?",
+    "options": ["strictNullChecks", "noImplicitAny", "strict", "nullSafe"],
+    "answer": "strictNullChecks",
+    "reason": "It enforces safer handling of null and undefined."
+  },
+  {
+    "questionId": "ts_e_40",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword exports a type-only definition?",
+    "options": ["export type", "export", "type export", "export interface"],
+    "answer": "export type",
+    "reason": "'export type' is used for type-only exports."
+  },
+
+  {
+    "questionId": "ts_e_41",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword imports only types?",
+    "options": ["import type", "import", "type import", "require"],
+    "answer": "import type",
+    "reason": "'import type' avoids runtime imports."
+  },
+
+  {
+    "questionId": "ts_e_42",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which feature allows optional object properties?",
+    "options": ["Optional modifier (?)", "Union types", "Any type", "Enums"],
+    "answer": "Optional modifier (?)",
+    "reason": "The '?' marks properties as optional."
+  },
+
+  {
+    "questionId": "ts_e_43",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which syntax defines an optional parameter?",
+    "options": ["param?: type", "param: type?", "param??", "optional param"],
+    "answer": "param?: type",
+    "reason": "Optional parameters use '?' after the name."
+  },
+
+  {
+    "questionId": "ts_e_44",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which operator provides a default value if null or undefined?",
+    "options": ["??", "||", "&&", "?:"],
+    "answer": "??",
+    "reason": "The nullish coalescing operator handles null or undefined."
+  },
+
+  {
+    "questionId": "ts_e_45",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which operator safely accesses nested properties?",
+    "options": ["?.", ".", "??", "!"],
+    "answer": "?.",
+    "reason": "Optional chaining prevents runtime errors."
+  },
+
+  {
+    "questionId": "ts_e_46",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword disables strict null checks for a variable?",
+    "options": ["!", "?", "as", "any"],
+    "answer": "!",
+    "reason": "The non-null assertion operator tells TS the value exists."
+  },
+
+  {
+    "questionId": "ts_e_47",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which type describes a function signature?",
+    "options": ["Function type", "Interface", "Class", "Enum"],
+    "answer": "Function type",
+    "reason": "Function types define parameter and return types."
+  },
+
+  {
+    "questionId": "ts_e_48",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used to declare a namespace?",
+    "options": ["namespace", "module", "package", "scope"],
+    "answer": "namespace",
+    "reason": "Namespaces group related code."
+  },
+
+  {
+    "questionId": "ts_e_49",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which feature allows reusing types across files?",
+    "options": ["Exports and imports", "Namespaces", "Any type", "Enums"],
+    "answer": "Exports and imports",
+    "reason": "Modules allow sharing types between files."
+  },
+
+  {
+    "questionId": "ts_e_50",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which TypeScript feature improves JavaScript code safety?",
+    "options": [
+      "Static typing",
+      "Runtime compilation",
+      "Garbage collection",
+      "JIT optimization"
+    ],
+    "answer": "Static typing",
+    "reason": "Static typing catches errors at compile time."
+  },
+  {
+    "questionId": "ts_e_51",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which TypeScript type represents a function that returns a number?",
+    "options": ["() => number", "number()", "function number", "fn(): number"],
+    "answer": "() => number",
+    "reason": "Function types specify parameters and return type using arrow syntax."
+  },
+  {
+    "questionId": "ts_e_52",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used to declare an abstract class?",
+    "options": ["abstract", "virtual", "base", "interface"],
+    "answer": "abstract",
+    "reason": "Abstract classes are declared using the 'abstract' keyword."
+  },
+  {
+    "questionId": "ts_e_53",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used to declare an abstract method?",
+    "options": ["abstract", "virtual", "override", "method"],
+    "answer": "abstract",
+    "reason": "Abstract methods must be implemented by subclasses."
+  },
+  {
+    "questionId": "ts_e_54",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword prevents a class from being extended?",
+    "options": ["final", "sealed", "private", "None of the above"],
+    "answer": "None of the above",
+    "reason": "TypeScript does not have a keyword to prevent inheritance."
+  },
+  {
+    "questionId": "ts_e_55",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword marks a class property as immutable?",
+    "options": ["readonly", "const", "static", "private"],
+    "answer": "readonly",
+    "reason": "Readonly properties cannot be reassigned after initialization."
+  },
+
+  {
+    "questionId": "ts_e_56",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines a static class member?",
+    "options": ["static", "this", "public", "global"],
+    "answer": "static",
+    "reason": "Static members belong to the class itself."
+  },
+  {
+    "questionId": "ts_e_57",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which feature allows a class to have multiple constructor signatures?",
+    "options": [
+      "Constructor overloads",
+      "Method overrides",
+      "Union types",
+      "Interfaces"
+    ],
+    "answer": "Constructor overloads",
+    "reason": "TypeScript supports constructor overload signatures."
+  },
+  {
+    "questionId": "ts_e_58",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which syntax defines a readonly array?",
+    "options": [
+      "readonly number[]",
+      "const number[]",
+      "immutable[]",
+      "fixed[]"
+    ],
+    "answer": "readonly number[]",
+    "reason": "Readonly arrays prevent modification of elements."
+  },
+  {
+    "questionId": "ts_e_59",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which utility type extracts the return type of a function?",
+    "options": ["ReturnType", "Parameters", "Pick", "Extract"],
+    "answer": "ReturnType",
+    "reason": "ReturnType<T> gets the return type of a function."
+  },
+  {
+    "questionId": "ts_e_60",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which utility type extracts parameter types of a function?",
+    "options": ["Parameters", "ReturnType", "Partial", "Pick"],
+    "answer": "Parameters",
+    "reason": "Parameters<T> extracts a tuple of parameter types."
+  },
+
+  {
+    "questionId": "ts_e_61",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which utility type removes null and undefined from a type?",
+    "options": ["NonNullable", "Exclude", "Extract", "Omit"],
+    "answer": "NonNullable",
+    "reason": "NonNullable<T> removes null and undefined."
+  },
+  {
+    "questionId": "ts_e_62",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which utility type excludes types from a union?",
+    "options": ["Exclude", "Extract", "Pick", "Omit"],
+    "answer": "Exclude",
+    "reason": "Exclude<T, U> removes U from T."
+  },
+  {
+    "questionId": "ts_e_63",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which utility type extracts matching types from a union?",
+    "options": ["Extract", "Exclude", "Pick", "Omit"],
+    "answer": "Extract",
+    "reason": "Extract<T, U> keeps matching members."
+  },
+  {
+    "questionId": "ts_e_64",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which type represents an unknown value safer than 'any'?",
+    "options": ["unknown", "any", "never", "void"],
+    "answer": "unknown",
+    "reason": "Unknown requires type checking before usage."
+  },
+  {
+    "questionId": "ts_e_65",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used to narrow an unknown type?",
+    "options": ["typeof", "as", "is", "any"],
+    "answer": "typeof",
+    "reason": "Type guards narrow unknown values."
+  },
+
+  {
+    "questionId": "ts_e_66",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which file extension contains compiled TypeScript output?",
+    "options": [".js", ".ts", ".json", ".map"],
+    "answer": ".js",
+    "reason": "TypeScript compiles into JavaScript files."
+  },
+  {
+    "questionId": "ts_e_67",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which command compiles a TypeScript file?",
+    "options": ["tsc", "npm run", "node", "ts-node"],
+    "answer": "tsc",
+    "reason": "The TypeScript compiler is invoked using 'tsc'."
+  },
+  {
+    "questionId": "ts_e_68",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which flag enables source map generation?",
+    "options": ["sourceMap", "map", "debug", "trace"],
+    "answer": "sourceMap",
+    "reason": "Source maps map JS output back to TS code."
+  },
+  {
+    "questionId": "ts_e_69",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which feature allows checking JavaScript files with TypeScript?",
+    "options": ["allowJs", "checkJs", "strict", "noEmit"],
+    "answer": "allowJs",
+    "reason": "allowJs enables JS file compilation."
+  },
+  {
+    "questionId": "ts_e_70",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which option prevents emitting output files?",
+    "options": ["noEmit", "emitNone", "skipEmit", "disableEmit"],
+    "answer": "noEmit",
+    "reason": "noEmit disables JS file generation."
+  },
+
+  {
+    "questionId": "ts_e_71",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which feature allows gradual typing in TypeScript?",
+    "options": ["Any type", "Strict mode", "Enums", "Interfaces"],
+    "answer": "Any type",
+    "reason": "The 'any' type allows gradual adoption."
+  },
+  {
+    "questionId": "ts_e_72",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which feature improves IDE autocomplete?",
+    "options": [
+      "Type annotations",
+      "Runtime checks",
+      "Minification",
+      "Bundling"
+    ],
+    "answer": "Type annotations",
+    "reason": "Type information improves editor tooling."
+  },
+  {
+    "questionId": "ts_e_73",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used to define a type alias?",
+    "options": ["type", "interface", "alias", "typedef"],
+    "answer": "type",
+    "reason": "Type aliases are declared using the 'type' keyword."
+  },
+  {
+    "questionId": "ts_e_74",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword merges multiple interface declarations?",
+    "options": ["interface", "type", "merge", "extend"],
+    "answer": "interface",
+    "reason": "Interfaces support declaration merging."
+  },
+  {
+    "questionId": "ts_e_75",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which syntax extends an interface?",
+    "options": ["extends", "implements", "inherits", "merge"],
+    "answer": "extends",
+    "reason": "Interfaces extend others using 'extends'."
+  },
+
+  {
+    "questionId": "ts_e_76",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which type allows combining object shapes?",
+    "options": ["Intersection", "Union", "Tuple", "Enum"],
+    "answer": "Intersection",
+    "reason": "Intersection types combine multiple types."
+  },
+  {
+    "questionId": "ts_e_77",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which symbol represents intersection types?",
+    "options": ["&", "|", "+", "*"],
+    "answer": "&",
+    "reason": "Intersection types use the '&' operator."
+  },
+  {
+    "questionId": "ts_e_78",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which symbol represents union types?",
+    "options": ["|", "&", "||", "+"],
+    "answer": "|",
+    "reason": "Union types use the '|' operator."
+  },
+  {
+    "questionId": "ts_e_79",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword checks property existence?",
+    "options": ["in", "has", "exists", "of"],
+    "answer": "in",
+    "reason": "The 'in' operator checks property existence."
+  },
+  {
+    "questionId": "ts_e_80",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which operator asserts a value is not null?",
+    "options": ["!", "??", "?.", "as"],
+    "answer": "!",
+    "reason": "The non-null assertion operator tells TS a value exists."
+  },
+
+  {
+    "questionId": "ts_e_81",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which feature allows describing object shapes?",
+    "options": ["Interface", "Enum", "Class", "Namespace"],
+    "answer": "Interface",
+    "reason": "Interfaces define object structures."
+  },
+  {
+    "questionId": "ts_e_82",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which feature enables function overloading?",
+    "options": ["Multiple signatures", "Union types", "Generics", "Any type"],
+    "answer": "Multiple signatures",
+    "reason": "Function overloading uses multiple signatures."
+  },
+  {
+    "questionId": "ts_e_83",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which keyword enforces strict mode in JavaScript output?",
+    "options": ["alwaysStrict", "useStrict", "strict", "enforce"],
+    "answer": "alwaysStrict",
+    "reason": "alwaysStrict emits 'use strict' in JS output."
+  },
+  {
+    "questionId": "ts_e_84",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which feature allows ignoring type errors temporarily?",
+    "options": ["@ts-ignore", "@ignore", "@skip", "@disable"],
+    "answer": "@ts-ignore",
+    "reason": "This directive suppresses the next line's error."
+  },
+  {
+    "questionId": "ts_e_85",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which directive expects an error on the next line?",
+    "options": ["@ts-expect-error", "@ts-ignore", "@expect", "@error"],
+    "answer": "@ts-expect-error",
+    "reason": "It ensures an error must exist."
+  },
+
+  {
+    "questionId": "ts_e_86",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which feature allows importing JSON files?",
+    "options": ["resolveJsonModule", "jsonImport", "allowJson", "importJson"],
+    "answer": "resolveJsonModule",
+    "reason": "This option enables JSON imports."
+  },
+  {
+    "questionId": "ts_e_87",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which option controls output directory?",
+    "options": ["outDir", "rootDir", "baseUrl", "paths"],
+    "answer": "outDir",
+    "reason": "outDir specifies compiled file output location."
+  },
+  {
+    "questionId": "ts_e_88",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which option controls source file root?",
+    "options": ["rootDir", "outDir", "baseUrl", "paths"],
+    "answer": "rootDir",
+    "reason": "rootDir defines the input file directory."
+  },
+  {
+    "questionId": "ts_e_89",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which option allows path aliases?",
+    "options": ["paths", "alias", "map", "resolve"],
+    "answer": "paths",
+    "reason": "paths enables module path mapping."
+  },
+  {
+    "questionId": "ts_e_90",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which option defines module resolution base path?",
+    "options": ["baseUrl", "paths", "rootDir", "outDir"],
+    "answer": "baseUrl",
+    "reason": "baseUrl sets the base path for module resolution."
+  },
+
+  {
+    "questionId": "ts_e_91",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which feature improves code safety without runtime cost?",
+    "options": ["Static typing", "Runtime checks", "Assertions", "Exceptions"],
+    "answer": "Static typing",
+    "reason": "TypeScript types are erased at runtime."
+  },
+  {
+    "questionId": "ts_e_92",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which TypeScript feature exists only at compile time?",
+    "options": ["Types", "Classes", "Functions", "Objects"],
+    "answer": "Types",
+    "reason": "Types are removed during compilation."
+  },
+  {
+    "questionId": "ts_e_93",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which file usually defines project dependencies?",
+    "options": ["package.json", "tsconfig.json", "node.json", "deps.json"],
+    "answer": "package.json",
+    "reason": "Dependencies are listed in package.json."
+  },
+  {
+    "questionId": "ts_e_94",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which tool runs TypeScript directly without compiling?",
+    "options": ["ts-node", "node", "tsc", "npm"],
+    "answer": "ts-node",
+    "reason": "ts-node executes TS files directly."
+  },
+  {
+    "questionId": "ts_e_95",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which environment commonly uses TypeScript?",
+    "options": [
+      "Web development",
+      "Only backend",
+      "Only mobile",
+      "Only desktop"
+    ],
+    "answer": "Web development",
+    "reason": "TypeScript is widely used in web apps."
+  },
+
+  {
+    "questionId": "ts_e_96",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which framework heavily uses TypeScript?",
+    "options": ["Angular", "jQuery", "Backbone", "Ember"],
+    "answer": "Angular",
+    "reason": "Angular is built with TypeScript."
+  },
+  {
+    "questionId": "ts_e_97",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which library provides TypeScript definitions?",
+    "options": ["@types", "typed-js", "ts-lib", "definitely"],
+    "answer": "@types",
+    "reason": "@types packages provide type definitions."
+  },
+  {
+    "questionId": "ts_e_98",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which file extension contains TypeScript declaration files?",
+    "options": [".d.ts", ".ts", ".js", ".map"],
+    "answer": ".d.ts",
+    "reason": "Declaration files describe type information."
+  },
+  {
+    "questionId": "ts_e_99",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "Which feature allows sharing type definitions only?",
+    "options": ["Declaration files", "Namespaces", "Enums", "Classes"],
+    "answer": "Declaration files",
+    "reason": ".d.ts files share type information."
+  },
+  {
+    "questionId": "ts_e_100",
+    "topic": "typescript",
+    "difficulty": "easy",
+    "questionText": "What is the main purpose of TypeScript?",
+    "options": [
+      "Add static typing to JavaScript",
+      "Replace JavaScript",
+      "Improve runtime speed",
+      "Compile to binary"
+    ],
+    "answer": "Add static typing to JavaScript",
+    "reason": "TypeScript enhances JavaScript with static typing."
+  }
+]

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     "programming quiz",
     "code challenge",
   ],
-  verification: { google: "google832ba5fceffc14b9.html" },
+  verification: { google: "-gl0BvrHtfs3sAb4cnAF7JxOka_1zvoJTTIWCEADsec" },
   metadataBase: new URL("https://quiz-this.netlify.app/"),
   authors: [{ name: "Eric Man" }],
   creator: "Eric Man",

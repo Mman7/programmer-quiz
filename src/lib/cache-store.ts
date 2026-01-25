@@ -24,9 +24,9 @@ const webdev_hard: QuizQuestion[] = require("@/src/data/webdev_hard.json");
 const react_easy: QuizQuestion[] = require("@/src/data/react_easy.json");
 const react_medium: QuizQuestion[] = require("@/src/data/react_medium.json");
 const react_hard: QuizQuestion[] = require("@/src/data/react_hard.json");
-const typescript_easy: QuizQuestion[] = require("@/src/data/typescript_easy.json");
-const typescript_medium: QuizQuestion[] = require("@/src/data/typescript_medium.json");
-const typescript_hard: QuizQuestion[] = require("@/src/data/typescript_hard.json");
+const typescript_easy: QuizQuestion[] = require("@/src/data/ts_easy.json");
+const typescript_medium: QuizQuestion[] = require("@/src/data/ts_medium.json");
+const typescript_hard: QuizQuestion[] = require("@/src/data/ts_hard.json");
 
 // Maps for efficient question lookup by ID
 const cppEasyMap: Map<string, QuizQuestion> = new Map(

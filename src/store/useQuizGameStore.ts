@@ -6,6 +6,8 @@ import { persist } from "zustand/middleware";
 interface useQuizGameState {
   questions: QuizQuestion[];
   lastQuestionIndex: number;
+  isLastGameDataSaved: boolean;
+  setLastGameDataSaved: (value: boolean) => void;
   setLastQuestionIndex: (index: number) => void;
   setQuestion: (question: QuizQuestion[]) => void;
   clearQuestion: () => void;
@@ -21,11 +23,17 @@ const useQuizGameStore = create<useQuizGameState>()(
       return {
         questions: [],
         lastQuestionIndex: 0,
+        isLastGameDataSaved: false,
         setLastQuestionIndex: (index: number) =>
           set((state) => ({ lastQuestionIndex: index })),
+        setLastGameDataSaved: (value: boolean) =>
+          set({ isLastGameDataSaved: value }),
         setQuestion: (newQuestionList: QuizQuestion[]) =>
           set((state) => ({ questions: newQuestionList })),
-        clearQuestion: () => set({ questions: [] }),
+        clearQuestion: () =>
+          set(() => {
+            return { questions: [], isLastGameDataSaved: false };
+          }),
         // Can updated with a question by providing a new question
         // this can be updated with answer/reason
         updateQuestionFromArray: (
@@ -72,5 +80,7 @@ export const useQuizGame = () => {
     setQuestion: quiz.setQuestion,
     clearQuestion: quiz.clearQuestion,
     updateQuestionFromArray: quiz.updateQuestionFromArray,
+    isLastGameDataSaved: quiz.isLastGameDataSaved,
+    setisLastGameDataSaved: quiz.setLastGameDataSaved,
   };
 };

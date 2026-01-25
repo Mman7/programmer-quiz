@@ -29,7 +29,6 @@ export function SettingOpion() {
           </button>
         ))}
       </section>
-      <p className="validator-hint">Must be between be 10 to 30</p>
       <section>
         <h2 className="mb-1 font-medium text-gray-400">Topics includes</h2>
         <TopicOptions />

@@ -27,7 +27,7 @@ export default function Searchbar() {
 
   const showSuggestion = () => {
     debounced(() => {
-      setSearchList([...topicValueOnly]);
+      setSearchList([...topicValueOnly].slice(0, 6));
     });
   };
 

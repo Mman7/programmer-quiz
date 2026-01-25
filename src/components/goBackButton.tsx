@@ -10,7 +10,7 @@ export default function GoBackButton({ className }: { className?: string }) {
 
   return (
     <button
-      className={`${className} btn btn-outlinex btn-success group mx-3 hidden font-bold sm:flex`}
+      className={`${className} btn btn-outline btn-success group mx-3 hidden font-bold sm:flex`}
       onClick={() => handleBack()}
     >
       <FontAwesomeIcon

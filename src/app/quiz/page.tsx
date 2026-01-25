@@ -19,11 +19,11 @@ export default function QuizPage() {
 
   useEffect(() => {
     if (mounted) fetchQuiz({ quiz }).then((quiz) => setQuestion(quiz));
-    router.push("/quiz/1");
+    // router.push("/quiz/1");
   }, [mounted]);
 
   return (
-    <div className="flex w-full items-center justify-center">
+    <div className="flex h-full w-full items-center justify-center">
       <h1 className="m-auto rounded-2xl bg-white/40 p-8 backdrop-blur-2xl sm:text-3xl">
         Cooking up a question for you
         <span className="loading loading-dots sm:loading-xl loading-sm ml-4"></span>

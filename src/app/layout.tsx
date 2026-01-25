@@ -67,7 +67,7 @@ export default function RootLayout({
             {children}
           </div>
           {/* calculate the height of the drawer side prevent overflow */}
-          <div className="drawer-side h-[calc(100vh-4rem)]">
+          <div className="drawer-side md:h-[calc(100vh-4rem)]">
             <Sidebar />
           </div>
         </div>

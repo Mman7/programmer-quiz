@@ -37,7 +37,7 @@ export default function QuestionOptions({
 
   return (
     <section
-      className={`flex flex-col space-y-3 rounded-xl p-4 ${isSubmit && "pointer-events-none"} ${isOptionLessThan3Character && "grid grid-cols-2 grid-rows-2 gap-6"}`}
+      className={`mt-4 flex flex-col space-y-3 rounded-xl ${isSubmit && "pointer-events-none"} ${isOptionLessThan3Character && "grid grid-cols-2 grid-rows-2 gap-6"}`}
     >
       {question.options.map((option: string, index: number) => (
         <button

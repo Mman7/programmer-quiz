@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://quiz-this.netlify.app/"),
   authors: [{ name: "Eric Man" }],
   creator: "Eric Man",
-  publisher: "QuizThis",
+  publisher: "Eric Man",
   robots: "index, follow",
   icons: {
     apple: "/img/apple-touch-icon.png",

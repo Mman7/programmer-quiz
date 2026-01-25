@@ -24,8 +24,10 @@ interface DataChartProps {
   dataIn7Days: DataWithDate[];
 }
 
-export default function DataChart({ className, dataIn7Days }: DataChartProps) {
-  const labels: string[] = dataIn7Days.map((item: DataWithDate) => {
+const getResponsiveLabelName = (array: DataWithDate[]) => {
+  const windowWidth = typeof window !== "undefined" ? window.innerWidth : 0;
+
+  return array.map((item: DataWithDate) => {
     const newDate = new Date(item.date);
     const formatted: string = newDate.toLocaleDateString("en-GB", {
       day: "2-digit",
@@ -35,9 +37,19 @@ export default function DataChart({ className, dataIn7Days }: DataChartProps) {
     const week: string = newDate.toLocaleDateString("en-US", {
       weekday: "long",
     });
-    return `${formatted} (${week})`;
+    // Return different formats based on window width
+    if (windowWidth < 768) {
+      // Mobile view - short format
+      return `${newDate.getDate()} (${week})`;
+    } else {
+      // Desktop view - full format
+      return `${formatted} (${week})`;
+    }
   });
+};
 
+export default function DataChart({ className, dataIn7Days }: DataChartProps) {
+  const labels: string[] = getResponsiveLabelName(dataIn7Days);
   const dataValues: number[] = dataIn7Days.map((item) => {
     return item.correctQuiz;
   });
@@ -49,7 +61,6 @@ export default function DataChart({ className, dataIn7Days }: DataChartProps) {
     datasets: [
       {
         label: "Recent Data",
-
         data: dataValues,
         backgroundColor: [
           "rgba(255, 99, 132, 0.2)",

@@ -4,11 +4,11 @@ import { DataWithDate } from "../types/data";
 
 interface useStartModalState {
   correctQuiz: number;
-  // limit data by 7
   recent7DaysData: DataWithDate[];
   addCorrectQuiz: (count: number) => void;
   setCorrectQuiz: (count: number) => void;
   updateTodayData: (count: number) => void;
+  clearData: () => void;
 }
 
 const useDataStore = create<useStartModalState>()(
@@ -16,6 +16,9 @@ const useDataStore = create<useStartModalState>()(
     (set) => ({
       correctQuiz: 0,
       recent7DaysData: [],
+      addCorrectQuiz: (count: number) =>
+        set((state) => ({ correctQuiz: state.correctQuiz + count })),
+      setCorrectQuiz: (count: number) => set({ correctQuiz: count }),
       updateTodayData: (count: number) =>
         set((state) => {
           const newRecent7DaysData = updateTodayData(
@@ -24,10 +27,7 @@ const useDataStore = create<useStartModalState>()(
           );
           return { recent7DaysData: newRecent7DaysData };
         }),
-
-      addCorrectQuiz: (count: number) =>
-        set((state) => ({ correctQuiz: state.correctQuiz + count })),
-      setCorrectQuiz: (count: number) => set({ correctQuiz: count }),
+      clearData: () => set({ correctQuiz: 0, recent7DaysData: [] }),
     }),
     { name: "start-data-store" },
   ),
@@ -36,6 +36,7 @@ const useDataStore = create<useStartModalState>()(
 const findTodayData = (list: DataWithDate[]): DataWithDate | undefined => {
   const today = new Date();
   today.setHours(0, 0, 0, 0);
+
   return list.find((item) => {
     const itemDate = new Date(item.date);
     itemDate.setHours(0, 0, 0, 0);
@@ -45,22 +46,28 @@ const findTodayData = (list: DataWithDate[]): DataWithDate | undefined => {
 
 const updateTodayData = (list: DataWithDate[], value: number) => {
   const todayData = findTodayData(list);
-  // Create a copy of the list to avoid mutating the original
   const newList = [...list];
-  // remove last item if list is full (7 items)
   if (newList.length >= 7) newList.shift();
+  let newTodayData: number;
+  if (todayData) {
+    newTodayData = todayData.correctQuiz + value;
+  } else {
+    newTodayData = value;
+  }
 
-  // Add to the data
-  let newTodayData;
-  if (todayData) newTodayData = todayData.correctQuiz + value;
-  if (!todayData) newTodayData = value;
+  if (todayData) {
+    const todayIndex = newList.findIndex((item) => {
+      const newDate = new Date(item.date);
+      const todayDate = new Date(todayData.date);
+      return newDate.toDateString() === todayDate.toDateString();
+    });
+    if (todayIndex !== -1) newList.splice(todayIndex, 1);
+  }
 
-  // add newData to the last index of array
   const updatedList = [
     ...newList,
-    { date: new Date(), correctQuiz: newTodayData! },
+    { date: new Date(), correctQuiz: newTodayData },
   ];
-
   return updatedList;
 };
 
@@ -73,5 +80,6 @@ export const useData = () => {
     setCorrectQuiz: state.setCorrectQuiz,
     addCorrectQuiz: state.addCorrectQuiz,
     updateTodayData: state.updateTodayData,
+    clearData: state.clearData,
   };
 };

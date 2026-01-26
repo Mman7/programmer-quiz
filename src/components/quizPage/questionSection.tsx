@@ -59,10 +59,10 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
     setAnswer(response.answer);
     setReason(response.reason);
     setIsSubmit(true);
-    if (id === questions.length) handleIsCompleted();
+    if (id === questions.length) handleCompleted();
   };
 
-  const handleIsCompleted = () => {
+  const handleCompleted = () => {
     if (isLastGameDataSaved) return;
 
     const correctAnswers: number = questions.filter(

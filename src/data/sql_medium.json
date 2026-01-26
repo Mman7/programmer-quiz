@@ -1,0 +1,1126 @@
+[
+  {
+    "questionId": "sql_m_1",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is a subquery in SQL?",
+    "options": [
+      "A query inside another query",
+      "A temporary table",
+      "A stored procedure",
+      "A database view"
+    ],
+    "answer": "A query inside another query",
+    "reason": "Subqueries are nested queries used within other SQL statements."
+  },
+  {
+    "questionId": "sql_m_2",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which clause is commonly used with subqueries?",
+    "options": ["WHERE", "ORDER BY", "LIMIT", "OFFSET"],
+    "answer": "WHERE",
+    "reason": "Subqueries are often used in WHERE conditions."
+  },
+  {
+    "questionId": "sql_m_3",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does a correlated subquery do?",
+    "options": [
+      "Depends on outer query values",
+      "Runs independently",
+      "Creates a temp table",
+      "Improves performance"
+    ],
+    "answer": "Depends on outer query values",
+    "reason": "Correlated subqueries reference columns from the outer query."
+  },
+  {
+    "questionId": "sql_m_4",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which JOIN is used to return matching rows only?",
+    "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],
+    "answer": "INNER JOIN",
+    "reason": "INNER JOIN returns only rows that match in both tables."
+  },
+  {
+    "questionId": "sql_m_5",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What happens if a JOIN condition is missing?",
+    "options": [
+      "Creates a Cartesian product",
+      "Throws an error",
+      "Returns empty result",
+      "Ignores join"
+    ],
+    "answer": "Creates a Cartesian product",
+    "reason": "Without a join condition, all rows are combined."
+  },
+
+  {
+    "questionId": "sql_m_6",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is the purpose of an index?",
+    "options": [
+      "Speed up queries",
+      "Store data",
+      "Enforce constraints",
+      "Handle transactions"
+    ],
+    "answer": "Speed up queries",
+    "reason": "Indexes improve lookup performance."
+  },
+  {
+    "questionId": "sql_m_7",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which operation slows down when many indexes exist?",
+    "options": ["INSERT", "SELECT", "READ", "FETCH"],
+    "answer": "INSERT",
+    "reason": "Indexes must be updated on inserts."
+  },
+  {
+    "questionId": "sql_m_8",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does GROUP BY require in SELECT?",
+    "options": [
+      "Aggregated or grouped columns",
+      "Only numeric columns",
+      "Primary keys only",
+      "Indexed columns"
+    ],
+    "answer": "Aggregated or grouped columns",
+    "reason": "Non-aggregated columns must appear in GROUP BY."
+  },
+  {
+    "questionId": "sql_m_9",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does HAVING filter?",
+    "options": ["Aggregated results", "Raw rows", "Indexes", "Joins"],
+    "answer": "Aggregated results",
+    "reason": "HAVING filters groups after aggregation."
+  },
+  {
+    "questionId": "sql_m_10",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which clause executes last logically?",
+    "options": ["SELECT", "FROM", "WHERE", "GROUP BY"],
+    "answer": "SELECT",
+    "reason": "SELECT is processed after FROM, WHERE, and GROUP BY."
+  },
+
+  {
+    "questionId": "sql_m_11",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is a transaction?",
+    "options": ["A unit of work", "A backup", "A query cache", "An index"],
+    "answer": "A unit of work",
+    "reason": "Transactions group multiple operations into one unit."
+  },
+  {
+    "questionId": "sql_m_12",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which ACID property ensures all-or-nothing?",
+    "options": ["Atomicity", "Consistency", "Isolation", "Durability"],
+    "answer": "Atomicity",
+    "reason": "Atomicity ensures complete success or rollback."
+  },
+  {
+    "questionId": "sql_m_13",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which ACID property prevents dirty reads?",
+    "options": ["Isolation", "Atomicity", "Durability", "Consistency"],
+    "answer": "Isolation",
+    "reason": "Isolation separates concurrent transactions."
+  },
+  {
+    "questionId": "sql_m_14",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is a deadlock?",
+    "options": [
+      "Transactions waiting on each other",
+      "Query timeout",
+      "Index corruption",
+      "Lock release"
+    ],
+    "answer": "Transactions waiting on each other",
+    "reason": "Deadlocks occur when transactions block each other."
+  },
+  {
+    "questionId": "sql_m_15",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does COMMIT do?",
+    "options": [
+      "Permanently saves changes",
+      "Cancels changes",
+      "Locks tables",
+      "Starts transaction"
+    ],
+    "answer": "Permanently saves changes",
+    "reason": "COMMIT finalizes a transaction."
+  },
+
+  {
+    "questionId": "sql_m_16",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does ROLLBACK do?",
+    "options": [
+      "Reverts changes",
+      "Saves changes",
+      "Locks rows",
+      "Deletes data"
+    ],
+    "answer": "Reverts changes",
+    "reason": "ROLLBACK undoes uncommitted changes."
+  },
+  {
+    "questionId": "sql_m_17",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which constraint enforces referential integrity?",
+    "options": ["FOREIGN KEY", "PRIMARY KEY", "UNIQUE", "CHECK"],
+    "answer": "FOREIGN KEY",
+    "reason": "Foreign keys enforce table relationships."
+  },
+  {
+    "questionId": "sql_m_18",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What happens when a foreign key is violated?",
+    "options": [
+      "Insert/update fails",
+      "Data auto-fixes",
+      "Row is ignored",
+      "Table drops"
+    ],
+    "answer": "Insert/update fails",
+    "reason": "Foreign key constraints block invalid references."
+  },
+  {
+    "questionId": "sql_m_19",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is normalization?",
+    "options": [
+      "Reducing data redundancy",
+      "Indexing tables",
+      "Encrypting data",
+      "Backing up data"
+    ],
+    "answer": "Reducing data redundancy",
+    "reason": "Normalization organizes data efficiently."
+  },
+  {
+    "questionId": "sql_m_20",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which normal form removes partial dependencies?",
+    "options": [
+      "Second Normal Form",
+      "First Normal Form",
+      "Third Normal Form",
+      "BCNF"
+    ],
+    "answer": "Second Normal Form",
+    "reason": "2NF removes partial dependencies."
+  },
+
+  {
+    "questionId": "sql_m_21",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which normal form removes transitive dependencies?",
+    "options": [
+      "Third Normal Form",
+      "Second Normal Form",
+      "First Normal Form",
+      "BCNF"
+    ],
+    "answer": "Third Normal Form",
+    "reason": "3NF removes transitive dependencies."
+  },
+  {
+    "questionId": "sql_m_22",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is denormalization?",
+    "options": [
+      "Adding redundancy for performance",
+      "Removing indexes",
+      "Encrypting tables",
+      "Splitting tables"
+    ],
+    "answer": "Adding redundancy for performance",
+    "reason": "Denormalization trades space for speed."
+  },
+  {
+    "questionId": "sql_m_23",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which JOIN can return NULL values?",
+    "options": ["LEFT JOIN", "INNER JOIN", "CROSS JOIN", "SELF JOIN"],
+    "answer": "LEFT JOIN",
+    "reason": "LEFT JOIN returns NULL when no match exists."
+  },
+  {
+    "questionId": "sql_m_24",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is a self join?",
+    "options": [
+      "A table joined with itself",
+      "Recursive query",
+      "Nested join",
+      "Temporary join"
+    ],
+    "answer": "A table joined with itself",
+    "reason": "Self joins reference the same table."
+  },
+  {
+    "questionId": "sql_m_25",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does EXISTS return?",
+    "options": ["Boolean result", "Row count", "Table", "Index"],
+    "answer": "Boolean result",
+    "reason": "EXISTS checks for row existence."
+  },
+
+  {
+    "questionId": "sql_m_26",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which is faster for existence checks?",
+    "options": ["EXISTS", "COUNT(*)", "SUM()", "AVG()"],
+    "answer": "EXISTS",
+    "reason": "EXISTS stops scanning once a match is found."
+  },
+  {
+    "questionId": "sql_m_27",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does UNION require?",
+    "options": [
+      "Same number of columns",
+      "Same table name",
+      "Same index",
+      "Same constraints"
+    ],
+    "answer": "Same number of columns",
+    "reason": "UNION requires matching column structure."
+  },
+  {
+    "questionId": "sql_m_28",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is the difference between UNION and UNION ALL?",
+    "options": [
+      "UNION removes duplicates",
+      "UNION ALL is slower",
+      "UNION sorts data",
+      "UNION ALL removes duplicates"
+    ],
+    "answer": "UNION removes duplicates",
+    "reason": "UNION ALL keeps duplicate rows."
+  },
+  {
+    "questionId": "sql_m_29",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does an index NOT improve?",
+    "options": [
+      "INSERT speed",
+      "SELECT speed",
+      "WHERE lookup",
+      "JOIN performance"
+    ],
+    "answer": "INSERT speed",
+    "reason": "Indexes slow down inserts."
+  },
+  {
+    "questionId": "sql_m_30",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which index enforces uniqueness?",
+    "options": [
+      "UNIQUE index",
+      "CLUSTERED index",
+      "HASH index",
+      "BITMAP index"
+    ],
+    "answer": "UNIQUE index",
+    "reason": "Unique indexes prevent duplicate values."
+  },
+
+  {
+    "questionId": "sql_m_31",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is a clustered index?",
+    "options": [
+      "Defines physical row order",
+      "Stores pointers only",
+      "Temporary index",
+      "Memory-only index"
+    ],
+    "answer": "Defines physical row order",
+    "reason": "Clustered indexes determine data order."
+  },
+  {
+    "questionId": "sql_m_32",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "How many clustered indexes can a table have?",
+    "options": ["One", "Two", "Unlimited", "Zero only"],
+    "answer": "One",
+    "reason": "Only one physical order is possible."
+  },
+  {
+    "questionId": "sql_m_33",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does LIMIT with OFFSET enable?",
+    "options": ["Pagination", "Sorting", "Indexing", "Filtering"],
+    "answer": "Pagination",
+    "reason": "OFFSET + LIMIT enables paging results."
+  },
+  {
+    "questionId": "sql_m_34",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which clause is used to rank rows?",
+    "options": ["ORDER BY", "GROUP BY", "HAVING", "LIMIT"],
+    "answer": "ORDER BY",
+    "reason": "ORDER BY defines ranking."
+  },
+  {
+    "questionId": "sql_m_35",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does COALESCE do?",
+    "options": [
+      "Returns first non-NULL value",
+      "Counts rows",
+      "Joins strings",
+      "Rounds numbers"
+    ],
+    "answer": "Returns first non-NULL value",
+    "reason": "COALESCE handles NULL values."
+  },
+
+  {
+    "questionId": "sql_m_36",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is a view?",
+    "options": ["Virtual table", "Physical table", "Index", "Trigger"],
+    "answer": "Virtual table",
+    "reason": "Views store query definitions."
+  },
+  {
+    "questionId": "sql_m_37",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Can a view store data?",
+    "options": ["No", "Yes", "Only temporary", "Only indexed"],
+    "answer": "No",
+    "reason": "Views do not store data themselves."
+  },
+  {
+    "questionId": "sql_m_38",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is a trigger?",
+    "options": ["Auto-executed SQL action", "Manual query", "View", "Index"],
+    "answer": "Auto-executed SQL action",
+    "reason": "Triggers run on table events."
+  },
+  {
+    "questionId": "sql_m_39",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "When does a trigger execute?",
+    "options": [
+      "On INSERT/UPDATE/DELETE",
+      "On SELECT",
+      "On COMMIT",
+      "On INDEX"
+    ],
+    "answer": "On INSERT/UPDATE/DELETE",
+    "reason": "Triggers respond to data changes."
+  },
+  {
+    "questionId": "sql_m_40",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is a stored procedure?",
+    "options": ["Precompiled SQL logic", "View", "Trigger", "Index"],
+    "answer": "Precompiled SQL logic",
+    "reason": "Stored procedures encapsulate logic."
+  },
+
+  {
+    "questionId": "sql_m_41",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which improves performance for repeated queries?",
+    "options": ["Stored procedures", "Views", "Triggers", "Constraints"],
+    "answer": "Stored procedures",
+    "reason": "Stored procedures are precompiled."
+  },
+  {
+    "questionId": "sql_m_42",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does EXPLAIN show?",
+    "options": [
+      "Query execution plan",
+      "Table schema",
+      "Indexes only",
+      "Data preview"
+    ],
+    "answer": "Query execution plan",
+    "reason": "EXPLAIN analyzes query performance."
+  },
+  {
+    "questionId": "sql_m_43",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which clause reduces rows earliest?",
+    "options": ["WHERE", "HAVING", "SELECT", "ORDER BY"],
+    "answer": "WHERE",
+    "reason": "WHERE filters rows before grouping."
+  },
+  {
+    "questionId": "sql_m_44",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which type of JOIN is fastest generally?",
+    "options": ["INNER JOIN", "FULL JOIN", "CROSS JOIN", "SELF JOIN"],
+    "answer": "INNER JOIN",
+    "reason": "INNER JOIN processes fewer rows."
+  },
+  {
+    "questionId": "sql_m_45",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is a composite key?",
+    "options": [
+      "Key made of multiple columns",
+      "Auto increment key",
+      "Foreign key",
+      "Index key"
+    ],
+    "answer": "Key made of multiple columns",
+    "reason": "Composite keys use more than one column."
+  },
+
+  {
+    "questionId": "sql_m_46",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which isolation level allows dirty reads?",
+    "options": [
+      "READ UNCOMMITTED",
+      "READ COMMITTED",
+      "REPEATABLE READ",
+      "SERIALIZABLE"
+    ],
+    "answer": "READ UNCOMMITTED",
+    "reason": "Lowest isolation level."
+  },
+  {
+    "questionId": "sql_m_47",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which isolation level is the strictest?",
+    "options": [
+      "SERIALIZABLE",
+      "REPEATABLE READ",
+      "READ COMMITTED",
+      "READ UNCOMMITTED"
+    ],
+    "answer": "SERIALIZABLE",
+    "reason": "SERIALIZABLE prevents all anomalies."
+  },
+  {
+    "questionId": "sql_m_48",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is a phantom read?",
+    "options": [
+      "New rows appear in transaction",
+      "Dirty read",
+      "Lost update",
+      "Rollback issue"
+    ],
+    "answer": "New rows appear in transaction",
+    "reason": "Phantom reads occur during range queries."
+  },
+  {
+    "questionId": "sql_m_49",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What causes lost updates?",
+    "options": ["Concurrent writes", "Index usage", "Views", "Triggers"],
+    "answer": "Concurrent writes",
+    "reason": "Simultaneous updates overwrite changes."
+  },
+  {
+    "questionId": "sql_m_50",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which clause is used for conditional logic?",
+    "options": ["CASE", "IF", "WHEN", "SWITCH"],
+    "answer": "CASE",
+    "reason": "CASE handles conditional logic."
+  },
+
+  {
+    "questionId": "sql_m_51",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does CASE return?",
+    "options": ["A value", "A table", "A column", "An index"],
+    "answer": "A value",
+    "reason": "CASE expressions return values."
+  },
+  {
+    "questionId": "sql_m_52",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which function converts NULL to a value?",
+    "options": ["COALESCE()", "NULLIF()", "COUNT()", "CAST()"],
+    "answer": "COALESCE()",
+    "reason": "COALESCE replaces NULLs."
+  },
+  {
+    "questionId": "sql_m_53",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which keyword casts data types?",
+    "options": ["CAST", "CONVERT", "TYPE", "CHANGE"],
+    "answer": "CAST",
+    "reason": "CAST converts data types."
+  },
+  {
+    "questionId": "sql_m_54",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is an execution plan used for?",
+    "options": [
+      "Query optimization",
+      "Data backup",
+      "Security",
+      "Schema design"
+    ],
+    "answer": "Query optimization",
+    "reason": "Execution plans analyze query cost."
+  },
+  {
+    "questionId": "sql_m_55",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which operation benefits most from indexes?",
+    "options": ["WHERE lookup", "INSERT", "DELETE ALL", "TRUNCATE"],
+    "answer": "WHERE lookup",
+    "reason": "Indexes speed up lookups."
+  },
+
+  {
+    "questionId": "sql_m_56",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does DISTINCT operate on?",
+    "options": ["Result rows", "Tables", "Indexes", "Transactions"],
+    "answer": "Result rows",
+    "reason": "DISTINCT removes duplicate rows."
+  },
+  {
+    "questionId": "sql_m_57",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which JOIN is used for hierarchical data?",
+    "options": ["SELF JOIN", "LEFT JOIN", "RIGHT JOIN", "CROSS JOIN"],
+    "answer": "SELF JOIN",
+    "reason": "Self joins represent hierarchies."
+  },
+  {
+    "questionId": "sql_m_58",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is a covering index?",
+    "options": [
+      "Index containing all needed columns",
+      "Unique index",
+      "Primary index",
+      "Foreign index"
+    ],
+    "answer": "Index containing all needed columns",
+    "reason": "Covering indexes avoid table access."
+  },
+  {
+    "questionId": "sql_m_59",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which improves read-heavy workloads?",
+    "options": ["Indexes", "Triggers", "Constraints", "Transactions"],
+    "answer": "Indexes",
+    "reason": "Indexes optimize reads."
+  },
+  {
+    "questionId": "sql_m_60",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is a materialized view?",
+    "options": [
+      "View with stored data",
+      "Virtual view",
+      "Temporary table",
+      "Index"
+    ],
+    "answer": "View with stored data",
+    "reason": "Materialized views store query results."
+  },
+
+  {
+    "questionId": "sql_m_61",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does ANALYZE do?",
+    "options": [
+      "Updates query statistics",
+      "Deletes indexes",
+      "Locks tables",
+      "Formats data"
+    ],
+    "answer": "Updates query statistics",
+    "reason": "ANALYZE helps optimizer."
+  },
+  {
+    "questionId": "sql_m_62",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which constraint ensures domain integrity?",
+    "options": ["CHECK", "FOREIGN KEY", "PRIMARY KEY", "INDEX"],
+    "answer": "CHECK",
+    "reason": "CHECK enforces value rules."
+  },
+  {
+    "questionId": "sql_m_63",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does NULLIF do?",
+    "options": [
+      "Returns NULL if values match",
+      "Replaces NULL",
+      "Counts NULLs",
+      "Removes NULL"
+    ],
+    "answer": "Returns NULL if values match",
+    "reason": "NULLIF compares two expressions."
+  },
+  {
+    "questionId": "sql_m_64",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which function handles date arithmetic?",
+    "options": ["DATE_ADD()", "ADD()", "PLUS()", "TIME_SUM()"],
+    "answer": "DATE_ADD()",
+    "reason": "DATE_ADD() modifies dates."
+  },
+  {
+    "questionId": "sql_m_65",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which keyword creates temporary tables?",
+    "options": ["TEMPORARY", "SESSION", "VOLATILE", "LOCAL"],
+    "answer": "TEMPORARY",
+    "reason": "Temporary tables exist per session."
+  },
+
+  {
+    "questionId": "sql_m_66",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What happens when session ends for temp table?",
+    "options": [
+      "Table is dropped",
+      "Table persists",
+      "Table archived",
+      "Table locked"
+    ],
+    "answer": "Table is dropped",
+    "reason": "Temporary tables are session-scoped."
+  },
+  {
+    "questionId": "sql_m_67",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which index type is best for range queries?",
+    "options": [
+      "B-tree index",
+      "Hash index",
+      "Bitmap index",
+      "Full-text index"
+    ],
+    "answer": "B-tree index",
+    "reason": "B-tree indexes support ranges."
+  },
+  {
+    "questionId": "sql_m_68",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which index type is best for equality checks?",
+    "options": [
+      "Hash index",
+      "B-tree index",
+      "Bitmap index",
+      "Full-text index"
+    ],
+    "answer": "Hash index",
+    "reason": "Hash indexes optimize equality lookups."
+  },
+  {
+    "questionId": "sql_m_69",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does FULL JOIN return?",
+    "options": [
+      "All matching and non-matching rows",
+      "Only matches",
+      "Left only",
+      "Right only"
+    ],
+    "answer": "All matching and non-matching rows",
+    "reason": "FULL JOIN includes all rows."
+  },
+  {
+    "questionId": "sql_m_70",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which join type produces largest result?",
+    "options": ["CROSS JOIN", "INNER JOIN", "LEFT JOIN", "RIGHT JOIN"],
+    "answer": "CROSS JOIN",
+    "reason": "CROSS JOIN creates Cartesian product."
+  },
+
+  {
+    "questionId": "sql_m_71",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which command grants permissions?",
+    "options": ["GRANT", "ALLOW", "PERMIT", "ACCESS"],
+    "answer": "GRANT",
+    "reason": "GRANT assigns privileges."
+  },
+  {
+    "questionId": "sql_m_72",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which command removes permissions?",
+    "options": ["REVOKE", "DENY", "REMOVE", "BLOCK"],
+    "answer": "REVOKE",
+    "reason": "REVOKE removes privileges."
+  },
+  {
+    "questionId": "sql_m_73",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is role-based access?",
+    "options": [
+      "Permissions via roles",
+      "User-only access",
+      "Table-only access",
+      "Anonymous access"
+    ],
+    "answer": "Permissions via roles",
+    "reason": "Roles group permissions."
+  },
+  {
+    "questionId": "sql_m_74",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which SQL object improves security abstraction?",
+    "options": ["VIEW", "INDEX", "TRIGGER", "FUNCTION"],
+    "answer": "VIEW",
+    "reason": "Views hide underlying tables."
+  },
+  {
+    "questionId": "sql_m_75",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which keyword prevents duplicate inserts?",
+    "options": ["UNIQUE", "PRIMARY KEY", "CHECK", "DEFAULT"],
+    "answer": "UNIQUE",
+    "reason": "UNIQUE ensures distinct values."
+  },
+
+  {
+    "questionId": "sql_m_76",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does ON DELETE CASCADE do?",
+    "options": [
+      "Deletes child rows",
+      "Blocks deletion",
+      "Nullifies keys",
+      "Ignores relation"
+    ],
+    "answer": "Deletes child rows",
+    "reason": "Cascade propagates deletes."
+  },
+  {
+    "questionId": "sql_m_77",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does ON UPDATE CASCADE do?",
+    "options": [
+      "Updates child keys",
+      "Prevents update",
+      "Deletes rows",
+      "Locks table"
+    ],
+    "answer": "Updates child keys",
+    "reason": "Cascade updates foreign keys."
+  },
+  {
+    "questionId": "sql_m_78",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which SQL feature supports reusable logic?",
+    "options": ["Stored procedures", "Indexes", "Constraints", "Keys"],
+    "answer": "Stored procedures",
+    "reason": "Procedures encapsulate logic."
+  },
+  {
+    "questionId": "sql_m_79",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which keyword limits grouped output?",
+    "options": ["HAVING", "WHERE", "GROUP BY", "ORDER BY"],
+    "answer": "HAVING",
+    "reason": "HAVING filters groups."
+  },
+  {
+    "questionId": "sql_m_80",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is the benefit of prepared statements?",
+    "options": [
+      "Prevents SQL injection",
+      "Speeds rendering",
+      "Encrypts data",
+      "Indexes queries"
+    ],
+    "answer": "Prevents SQL injection",
+    "reason": "Prepared statements separate data from code."
+  },
+
+  {
+    "questionId": "sql_m_81",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which function converts strings to dates?",
+    "options": ["STR_TO_DATE()", "TO_DATE()", "DATE()", "CAST()"],
+    "answer": "STR_TO_DATE()",
+    "reason": "STR_TO_DATE parses strings."
+  },
+  {
+    "questionId": "sql_m_82",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which keyword handles conditional updates?",
+    "options": ["CASE", "IF", "WHEN", "SWITCH"],
+    "answer": "CASE",
+    "reason": "CASE supports conditional logic."
+  },
+  {
+    "questionId": "sql_m_83",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What is a common performance anti-pattern?",
+    "options": ["SELECT *", "Indexed WHERE", "INNER JOIN", "LIMIT"],
+    "answer": "SELECT *",
+    "reason": "SELECT * fetches unnecessary data."
+  },
+  {
+    "questionId": "sql_m_84",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which improves query readability?",
+    "options": ["Aliases", "Indexes", "Constraints", "Triggers"],
+    "answer": "Aliases",
+    "reason": "Aliases simplify query syntax."
+  },
+  {
+    "questionId": "sql_m_85",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which clause is optional in SELECT?",
+    "options": ["WHERE", "FROM", "SELECT", "JOIN"],
+    "answer": "WHERE",
+    "reason": "WHERE is optional."
+  },
+
+  {
+    "questionId": "sql_m_86",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which operation is non-reversible?",
+    "options": ["DROP TABLE", "DELETE", "ROLLBACK", "UPDATE"],
+    "answer": "DROP TABLE",
+    "reason": "DROP removes structure permanently."
+  },
+  {
+    "questionId": "sql_m_87",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does TRUNCATE bypass?",
+    "options": ["Transaction logs", "Indexes", "Constraints", "Triggers"],
+    "answer": "Transaction logs",
+    "reason": "TRUNCATE is faster and non-logged."
+  },
+  {
+    "questionId": "sql_m_88",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which SQL feature ensures durability?",
+    "options": ["COMMIT", "ROLLBACK", "LOCK", "INDEX"],
+    "answer": "COMMIT",
+    "reason": "Durability ensures committed data persists."
+  },
+  {
+    "questionId": "sql_m_89",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which improves concurrency control?",
+    "options": ["Isolation levels", "Indexes", "Views", "Triggers"],
+    "answer": "Isolation levels",
+    "reason": "Isolation controls concurrency behavior."
+  },
+  {
+    "questionId": "sql_m_90",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which SQL clause affects execution cost most?",
+    "options": ["WHERE", "SELECT", "ORDER BY", "AS"],
+    "answer": "WHERE",
+    "reason": "WHERE reduces row count early."
+  },
+
+  {
+    "questionId": "sql_m_91",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "What does CHECK constraint prevent?",
+    "options": ["Invalid values", "Duplicate rows", "NULLs", "Missing keys"],
+    "answer": "Invalid values",
+    "reason": "CHECK enforces value rules."
+  },
+  {
+    "questionId": "sql_m_92",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which SQL command copies structure only?",
+    "options": ["CREATE TABLE AS", "INSERT SELECT", "COPY TABLE", "DUPLICATE"],
+    "answer": "CREATE TABLE AS",
+    "reason": "CREATE TABLE AS can copy schema."
+  },
+  {
+    "questionId": "sql_m_93",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which improves bulk insert speed?",
+    "options": [
+      "Disable indexes",
+      "Add triggers",
+      "Enable constraints",
+      "Use views"
+    ],
+    "answer": "Disable indexes",
+    "reason": "Indexes slow inserts."
+  },
+  {
+    "questionId": "sql_m_94",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which keyword handles duplicate keys?",
+    "options": ["ON DUPLICATE KEY", "IF EXISTS", "IGNORE", "REPLACE"],
+    "answer": "ON DUPLICATE KEY",
+    "reason": "Handles conflicts on insert."
+  },
+  {
+    "questionId": "sql_m_95",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which feature supports auditing?",
+    "options": ["Triggers", "Indexes", "Views", "Keys"],
+    "answer": "Triggers",
+    "reason": "Triggers can log changes."
+  },
+
+  {
+    "questionId": "sql_m_96",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which SQL feature enforces business rules?",
+    "options": ["Constraints", "Indexes", "Views", "Keys"],
+    "answer": "Constraints",
+    "reason": "Constraints enforce data rules."
+  },
+  {
+    "questionId": "sql_m_97",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which clause reduces data before JOIN?",
+    "options": ["WHERE", "HAVING", "ORDER BY", "SELECT"],
+    "answer": "WHERE",
+    "reason": "WHERE filters rows early."
+  },
+  {
+    "questionId": "sql_m_98",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which SQL object is schema-bound?",
+    "options": ["TABLE", "VIEW", "INDEX", "QUERY"],
+    "answer": "TABLE",
+    "reason": "Tables define schema."
+  },
+  {
+    "questionId": "sql_m_99",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which is safer for dynamic queries?",
+    "options": [
+      "Prepared statements",
+      "String concatenation",
+      "Views",
+      "Triggers"
+    ],
+    "answer": "Prepared statements",
+    "reason": "Prepared statements prevent injection."
+  },
+  {
+    "questionId": "sql_m_100",
+    "topic": "sql",
+    "difficulty": "medium",
+    "questionText": "Which SQL concept improves maintainability?",
+    "options": ["Normalization", "Denormalization", "Indexing", "Partitioning"],
+    "answer": "Normalization",
+    "reason": "Normalization improves data consistency."
+  }
+]

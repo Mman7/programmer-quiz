@@ -27,6 +27,9 @@ const react_hard: QuizQuestion[] = require("@/src/data/react_hard.json");
 const typescript_easy: QuizQuestion[] = require("@/src/data/ts_easy.json");
 const typescript_medium: QuizQuestion[] = require("@/src/data/ts_medium.json");
 const typescript_hard: QuizQuestion[] = require("@/src/data/ts_hard.json");
+const sql_easy: QuizQuestion[] = require("@/src/data/sql_easy.json");
+const sql_medium: QuizQuestion[] = require("@/src/data/sql_medium.json");
+const sql_hard: QuizQuestion[] = require("@/src/data/sql_hard.json");
 
 // Maps for efficient question lookup by ID
 const cppEasyMap: Map<string, QuizQuestion> = new Map(
@@ -90,6 +93,15 @@ const typescriptMediumMap: Map<string, QuizQuestion> = new Map(
 const typescriptHardMap: Map<string, QuizQuestion> = new Map(
   typescript_hard.map((item) => [item.questionId, item]),
 );
+const sqlEasyMap: Map<string, QuizQuestion> = new Map(
+  sql_easy.map((item) => [item.questionId, item]),
+);
+const sqlMediumMap: Map<string, QuizQuestion> = new Map(
+  sql_medium.map((item) => [item.questionId, item]),
+);
+const sqlHardMap: Map<string, QuizQuestion> = new Map(
+  sql_hard.map((item) => [item.questionId, item]),
+);
 
 /**
  * Collection of all topic maps organized by subject and difficulty level
@@ -118,4 +130,7 @@ export const allTopic: TopicMap = {
   typescript_easy: typescriptEasyMap,
   typescript_medium: typescriptMediumMap,
   typescript_hard: typescriptHardMap,
+  sql_easy: sqlEasyMap,
+  sql_medium: sqlMediumMap,
+  sql_hard: sqlHardMap,
 };

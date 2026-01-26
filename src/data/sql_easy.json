@@ -1,0 +1,943 @@
+[
+  {
+    "questionId": "sql_e_1",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL statement is used to retrieve data from a database?",
+    "options": ["SELECT", "INSERT", "UPDATE", "DELETE"],
+    "answer": "SELECT",
+    "reason": "SELECT is used to query data from a database."
+  },
+  {
+    "questionId": "sql_e_2",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL clause is used to filter records?",
+    "options": ["WHERE", "ORDER BY", "GROUP BY", "LIMIT"],
+    "answer": "WHERE",
+    "reason": "WHERE filters rows based on a condition."
+  },
+  {
+    "questionId": "sql_e_3",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used to sort query results?",
+    "options": ["ORDER BY", "GROUP BY", "SORT", "FILTER"],
+    "answer": "ORDER BY",
+    "reason": "ORDER BY sorts the result set."
+  },
+  {
+    "questionId": "sql_e_4",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL statement is used to insert new data?",
+    "options": ["INSERT INTO", "ADD", "UPDATE", "CREATE"],
+    "answer": "INSERT INTO",
+    "reason": "INSERT INTO adds new rows to a table."
+  },
+  {
+    "questionId": "sql_e_5",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL statement updates existing data?",
+    "options": ["UPDATE", "INSERT", "SELECT", "ALTER"],
+    "answer": "UPDATE",
+    "reason": "UPDATE modifies existing records."
+  },
+  {
+    "questionId": "sql_e_6",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL statement removes records from a table?",
+    "options": ["DELETE", "DROP", "REMOVE", "TRUNCATE"],
+    "answer": "DELETE",
+    "reason": "DELETE removes rows based on conditions."
+  },
+  {
+    "questionId": "sql_e_7",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword selects all columns?",
+    "options": ["*", "ALL", "ANY", "EVERY"],
+    "answer": "*",
+    "reason": "* represents all columns."
+  },
+  {
+    "questionId": "sql_e_8",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which clause limits the number of results returned?",
+    "options": ["LIMIT", "WHERE", "ORDER BY", "GROUP BY"],
+    "answer": "LIMIT",
+    "reason": "LIMIT restricts the number of rows returned."
+  },
+  {
+    "questionId": "sql_e_9",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword creates a new table?",
+    "options": ["CREATE TABLE", "NEW TABLE", "ADD TABLE", "MAKE TABLE"],
+    "answer": "CREATE TABLE",
+    "reason": "CREATE TABLE defines a new table."
+  },
+  {
+    "questionId": "sql_e_10",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword deletes a table completely?",
+    "options": ["DROP TABLE", "DELETE TABLE", "REMOVE TABLE", "CLEAR TABLE"],
+    "answer": "DROP TABLE",
+    "reason": "DROP TABLE removes the table structure and data."
+  },
+
+  {
+    "questionId": "sql_e_11",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL clause groups rows with the same values?",
+    "options": ["GROUP BY", "ORDER BY", "WHERE", "HAVING"],
+    "answer": "GROUP BY",
+    "reason": "GROUP BY aggregates rows with identical values."
+  },
+  {
+    "questionId": "sql_e_12",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which clause is used with aggregate functions?",
+    "options": ["GROUP BY", "ORDER BY", "LIMIT", "OFFSET"],
+    "answer": "GROUP BY",
+    "reason": "Aggregate functions often require GROUP BY."
+  },
+  {
+    "questionId": "sql_e_13",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL function counts rows?",
+    "options": ["COUNT()", "SUM()", "AVG()", "TOTAL()"],
+    "answer": "COUNT()",
+    "reason": "COUNT() returns the number of rows."
+  },
+  {
+    "questionId": "sql_e_14",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which function calculates the average?",
+    "options": ["AVG()", "SUM()", "COUNT()", "MEAN()"],
+    "answer": "AVG()",
+    "reason": "AVG() returns the average value."
+  },
+  {
+    "questionId": "sql_e_15",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which function returns the maximum value?",
+    "options": ["MAX()", "HIGH()", "TOP()", "LARGE()"],
+    "answer": "MAX()",
+    "reason": "MAX() finds the highest value."
+  },
+  {
+    "questionId": "sql_e_16",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which function returns the minimum value?",
+    "options": ["MIN()", "LOW()", "BOTTOM()", "SMALL()"],
+    "answer": "MIN()",
+    "reason": "MIN() finds the smallest value."
+  },
+  {
+    "questionId": "sql_e_17",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which operator matches a pattern?",
+    "options": ["LIKE", "IN", "BETWEEN", "="],
+    "answer": "LIKE",
+    "reason": "LIKE matches patterns using wildcards."
+  },
+  {
+    "questionId": "sql_e_18",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which wildcard matches any number of characters?",
+    "options": ["%", "_", "*", "#"],
+    "answer": "%",
+    "reason": "% matches zero or more characters."
+  },
+  {
+    "questionId": "sql_e_19",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which wildcard matches a single character?",
+    "options": ["_", "%", "*", "?"],
+    "answer": "_",
+    "reason": "_ matches exactly one character."
+  },
+  {
+    "questionId": "sql_e_20",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword checks multiple values?",
+    "options": ["IN", "LIKE", "BETWEEN", "ANY"],
+    "answer": "IN",
+    "reason": "IN matches values from a list."
+  },
+
+  {
+    "questionId": "sql_e_21",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which operator selects values within a range?",
+    "options": ["BETWEEN", "IN", "LIKE", ">"],
+    "answer": "BETWEEN",
+    "reason": "BETWEEN checks a range of values."
+  },
+  {
+    "questionId": "sql_e_22",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL statement modifies a table structure?",
+    "options": ["ALTER TABLE", "UPDATE TABLE", "CHANGE TABLE", "EDIT TABLE"],
+    "answer": "ALTER TABLE",
+    "reason": "ALTER TABLE changes table structure."
+  },
+  {
+    "questionId": "sql_e_23",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword renames a column?",
+    "options": ["RENAME", "AS", "CHANGE", "ALTER"],
+    "answer": "AS",
+    "reason": "AS assigns an alias to a column."
+  },
+  {
+    "questionId": "sql_e_24",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which clause filters grouped results?",
+    "options": ["HAVING", "WHERE", "ORDER BY", "LIMIT"],
+    "answer": "HAVING",
+    "reason": "HAVING filters aggregated data."
+  },
+  {
+    "questionId": "sql_e_25",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword ensures unique values?",
+    "options": ["DISTINCT", "UNIQUE", "ONLY", "SINGLE"],
+    "answer": "DISTINCT",
+    "reason": "DISTINCT removes duplicate values."
+  },
+  {
+    "questionId": "sql_e_26",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword is used to combine rows from two tables?",
+    "options": ["JOIN", "MERGE", "UNION", "CONNECT"],
+    "answer": "JOIN",
+    "reason": "JOIN combines rows from two or more tables."
+  },
+  {
+    "questionId": "sql_e_27",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which JOIN returns all records from both tables?",
+    "options": ["FULL JOIN", "INNER JOIN", "LEFT JOIN", "RIGHT JOIN"],
+    "answer": "FULL JOIN",
+    "reason": "FULL JOIN returns matching and non-matching rows from both tables."
+  },
+  {
+    "questionId": "sql_e_28",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which JOIN returns only matching rows?",
+    "options": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN"],
+    "answer": "INNER JOIN",
+    "reason": "INNER JOIN returns rows with matching values in both tables."
+  },
+  {
+    "questionId": "sql_e_29",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which JOIN returns all rows from the left table?",
+    "options": ["LEFT JOIN", "RIGHT JOIN", "INNER JOIN", "FULL JOIN"],
+    "answer": "LEFT JOIN",
+    "reason": "LEFT JOIN keeps all rows from the left table."
+  },
+  {
+    "questionId": "sql_e_30",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which JOIN returns all rows from the right table?",
+    "options": ["RIGHT JOIN", "LEFT JOIN", "INNER JOIN", "FULL JOIN"],
+    "answer": "RIGHT JOIN",
+    "reason": "RIGHT JOIN keeps all rows from the right table."
+  },
+
+  {
+    "questionId": "sql_e_31",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword combines results of two SELECT statements?",
+    "options": ["UNION", "JOIN", "MERGE", "COMBINE"],
+    "answer": "UNION",
+    "reason": "UNION combines result sets and removes duplicates."
+  },
+  {
+    "questionId": "sql_e_32",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword keeps duplicate rows when combining queries?",
+    "options": ["UNION ALL", "UNION", "JOIN", "MERGE"],
+    "answer": "UNION ALL",
+    "reason": "UNION ALL keeps duplicate records."
+  },
+  {
+    "questionId": "sql_e_33",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which constraint ensures no NULL values?",
+    "options": ["NOT NULL", "UNIQUE", "PRIMARY KEY", "CHECK"],
+    "answer": "NOT NULL",
+    "reason": "NOT NULL prevents NULL values."
+  },
+  {
+    "questionId": "sql_e_34",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which constraint ensures unique values?",
+    "options": ["UNIQUE", "NOT NULL", "CHECK", "DEFAULT"],
+    "answer": "UNIQUE",
+    "reason": "UNIQUE enforces distinct values."
+  },
+  {
+    "questionId": "sql_e_35",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which constraint uniquely identifies a record?",
+    "options": ["PRIMARY KEY", "FOREIGN KEY", "UNIQUE", "INDEX"],
+    "answer": "PRIMARY KEY",
+    "reason": "PRIMARY KEY uniquely identifies each row."
+  },
+
+  {
+    "questionId": "sql_e_36",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which key references another table?",
+    "options": ["FOREIGN KEY", "PRIMARY KEY", "UNIQUE KEY", "INDEX"],
+    "answer": "FOREIGN KEY",
+    "reason": "FOREIGN KEY links tables together."
+  },
+  {
+    "questionId": "sql_e_37",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword sets a default value?",
+    "options": ["DEFAULT", "SET", "AUTO", "VALUE"],
+    "answer": "DEFAULT",
+    "reason": "DEFAULT assigns a value when none is provided."
+  },
+  {
+    "questionId": "sql_e_38",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword creates an index?",
+    "options": ["CREATE INDEX", "ADD INDEX", "NEW INDEX", "MAKE INDEX"],
+    "answer": "CREATE INDEX",
+    "reason": "CREATE INDEX improves query performance."
+  },
+  {
+    "questionId": "sql_e_39",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL statement removes all rows but keeps the table?",
+    "options": ["TRUNCATE", "DELETE", "DROP", "REMOVE"],
+    "answer": "TRUNCATE",
+    "reason": "TRUNCATE removes all data but keeps structure."
+  },
+  {
+    "questionId": "sql_e_40",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL clause skips rows?",
+    "options": ["OFFSET", "LIMIT", "SKIP", "PAGE"],
+    "answer": "OFFSET",
+    "reason": "OFFSET skips a number of rows."
+  },
+
+  {
+    "questionId": "sql_e_41",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which operator checks for NULL values?",
+    "options": ["IS NULL", "= NULL", "NULL =", "HAS NULL"],
+    "answer": "IS NULL",
+    "reason": "IS NULL checks for NULL values."
+  },
+  {
+    "questionId": "sql_e_42",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which operator checks for non-NULL values?",
+    "options": ["IS NOT NULL", "!= NULL", "NOT NULL", "HAS VALUE"],
+    "answer": "IS NOT NULL",
+    "reason": "IS NOT NULL filters non-NULL values."
+  },
+  {
+    "questionId": "sql_e_43",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL function concatenates strings?",
+    "options": ["CONCAT()", "MERGE()", "JOIN()", "APPEND()"],
+    "answer": "CONCAT()",
+    "reason": "CONCAT() joins strings together."
+  },
+  {
+    "questionId": "sql_e_44",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which function returns the current date?",
+    "options": ["CURRENT_DATE", "NOW()", "GETDATE()", "SYSDATE()"],
+    "answer": "CURRENT_DATE",
+    "reason": "CURRENT_DATE returns today's date."
+  },
+  {
+    "questionId": "sql_e_45",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which function returns the current time?",
+    "options": ["CURRENT_TIME", "NOW()", "TIME()", "GETTIME()"],
+    "answer": "CURRENT_TIME",
+    "reason": "CURRENT_TIME returns current time."
+  },
+
+  {
+    "questionId": "sql_e_46",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which function returns both date and time?",
+    "options": ["NOW()", "CURRENT_DATE", "CURRENT_TIME", "DATE()"],
+    "answer": "NOW()",
+    "reason": "NOW() returns current date and time."
+  },
+  {
+    "questionId": "sql_e_47",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword is used to rename a table?",
+    "options": ["RENAME TABLE", "ALTER TABLE", "CHANGE TABLE", "EDIT TABLE"],
+    "answer": "RENAME TABLE",
+    "reason": "RENAME TABLE changes table name."
+  },
+  {
+    "questionId": "sql_e_48",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword enforces a condition on values?",
+    "options": ["CHECK", "RULE", "VALIDATE", "ASSERT"],
+    "answer": "CHECK",
+    "reason": "CHECK enforces a condition on column values."
+  },
+  {
+    "questionId": "sql_e_49",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL statement starts a transaction?",
+    "options": ["BEGIN", "START", "OPEN", "INIT"],
+    "answer": "BEGIN",
+    "reason": "BEGIN starts a transaction."
+  },
+  {
+    "questionId": "sql_e_50",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which statement saves transaction changes?",
+    "options": ["COMMIT", "SAVE", "END", "PERSIST"],
+    "answer": "COMMIT",
+    "reason": "COMMIT saves changes permanently."
+  },
+
+  {
+    "questionId": "sql_e_51",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which statement cancels a transaction?",
+    "options": ["ROLLBACK", "UNDO", "CANCEL", "REVERT"],
+    "answer": "ROLLBACK",
+    "reason": "ROLLBACK cancels uncommitted changes."
+  },
+  {
+    "questionId": "sql_e_52",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword creates a view?",
+    "options": ["CREATE VIEW", "NEW VIEW", "MAKE VIEW", "ADD VIEW"],
+    "answer": "CREATE VIEW",
+    "reason": "CREATE VIEW defines a virtual table."
+  },
+  {
+    "questionId": "sql_e_53",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword removes a view?",
+    "options": ["DROP VIEW", "DELETE VIEW", "REMOVE VIEW", "CLEAR VIEW"],
+    "answer": "DROP VIEW",
+    "reason": "DROP VIEW deletes a view."
+  },
+  {
+    "questionId": "sql_e_54",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which clause defines conditions for JOIN?",
+    "options": ["ON", "WHERE", "USING", "MATCH"],
+    "answer": "ON",
+    "reason": "ON specifies join conditions."
+  },
+  {
+    "questionId": "sql_e_55",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword limits duplicate rows?",
+    "options": ["DISTINCT", "UNIQUE", "GROUP", "ONLY"],
+    "answer": "DISTINCT",
+    "reason": "DISTINCT removes duplicates."
+  },
+
+  {
+    "questionId": "sql_e_56",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL statement copies data from one table to another?",
+    "options": ["INSERT INTO ... SELECT", "COPY TABLE", "DUPLICATE", "CLONE"],
+    "answer": "INSERT INTO ... SELECT",
+    "reason": "INSERT SELECT copies data between tables."
+  },
+  {
+    "questionId": "sql_e_57",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword automatically increments a value?",
+    "options": ["AUTO_INCREMENT", "INCREMENT", "SERIAL", "IDENTITY"],
+    "answer": "AUTO_INCREMENT",
+    "reason": "AUTO_INCREMENT generates sequential numbers."
+  },
+  {
+    "questionId": "sql_e_58",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which data type stores whole numbers?",
+    "options": ["INT", "FLOAT", "DOUBLE", "DECIMAL"],
+    "answer": "INT",
+    "reason": "INT stores integer values."
+  },
+  {
+    "questionId": "sql_e_59",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which data type stores text?",
+    "options": ["VARCHAR", "INT", "DATE", "BOOLEAN"],
+    "answer": "VARCHAR",
+    "reason": "VARCHAR stores string values."
+  },
+  {
+    "questionId": "sql_e_60",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which data type stores dates?",
+    "options": ["DATE", "INT", "VARCHAR", "FLOAT"],
+    "answer": "DATE",
+    "reason": "DATE stores date values."
+  },
+
+  {
+    "questionId": "sql_e_61",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword returns unique rows?",
+    "options": ["DISTINCT", "UNIQUE", "ONLY", "GROUP"],
+    "answer": "DISTINCT",
+    "reason": "DISTINCT removes duplicate rows."
+  },
+  {
+    "questionId": "sql_e_62",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which clause sorts data in descending order?",
+    "options": ["ORDER BY DESC", "SORT DESC", "GROUP DESC", "FILTER DESC"],
+    "answer": "ORDER BY DESC",
+    "reason": "DESC sorts results in descending order."
+  },
+  {
+    "questionId": "sql_e_63",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword is used to alias a table?",
+    "options": ["AS", "ALIAS", "NAME", "RENAME"],
+    "answer": "AS",
+    "reason": "AS gives a temporary table name."
+  },
+  {
+    "questionId": "sql_e_64",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which function converts text to uppercase?",
+    "options": ["UPPER()", "CAPITAL()", "TOUPPER()", "BIG()"],
+    "answer": "UPPER()",
+    "reason": "UPPER() converts text to uppercase."
+  },
+  {
+    "questionId": "sql_e_65",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which function converts text to lowercase?",
+    "options": ["LOWER()", "SMALL()", "TOLOWER()", "MIN()"],
+    "answer": "LOWER()",
+    "reason": "LOWER() converts text to lowercase."
+  },
+
+  {
+    "questionId": "sql_e_66",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword removes duplicate rows in SELECT?",
+    "options": ["DISTINCT", "UNIQUE", "GROUP", "ONLY"],
+    "answer": "DISTINCT",
+    "reason": "DISTINCT removes duplicate records."
+  },
+  {
+    "questionId": "sql_e_67",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL function returns string length?",
+    "options": ["LENGTH()", "SIZE()", "COUNT()", "LENSTR()"],
+    "answer": "LENGTH()",
+    "reason": "LENGTH() returns number of characters."
+  },
+  {
+    "questionId": "sql_e_68",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which operator checks equality?",
+    "options": ["=", "==", "===", "EQUAL"],
+    "answer": "=",
+    "reason": "= checks equality in SQL."
+  },
+  {
+    "questionId": "sql_e_69",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which operator means not equal?",
+    "options": ["!=", "<>", "NOT =", "!=="],
+    "answer": "!=",
+    "reason": "!= represents not equal."
+  },
+  {
+    "questionId": "sql_e_70",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which logical operator combines conditions?",
+    "options": ["AND", "PLUS", "MERGE", "WITH"],
+    "answer": "AND",
+    "reason": "AND combines multiple conditions."
+  },
+
+  {
+    "questionId": "sql_e_71",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which logical operator matches any condition?",
+    "options": ["OR", "AND", "XOR", "ANY"],
+    "answer": "OR",
+    "reason": "OR matches if any condition is true."
+  },
+  {
+    "questionId": "sql_e_72",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword negates a condition?",
+    "options": ["NOT", "NO", "!", "NEGATE"],
+    "answer": "NOT",
+    "reason": "NOT negates a condition."
+  },
+  {
+    "questionId": "sql_e_73",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which clause is executed first logically?",
+    "options": ["FROM", "SELECT", "WHERE", "ORDER BY"],
+    "answer": "FROM",
+    "reason": "FROM is evaluated before SELECT logically."
+  },
+  {
+    "questionId": "sql_e_74",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword defines a database?",
+    "options": [
+      "CREATE DATABASE",
+      "NEW DATABASE",
+      "MAKE DATABASE",
+      "ADD DATABASE"
+    ],
+    "answer": "CREATE DATABASE",
+    "reason": "CREATE DATABASE creates a new database."
+  },
+  {
+    "questionId": "sql_e_75",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword selects a database?",
+    "options": ["USE", "SELECT", "OPEN", "CHOOSE"],
+    "answer": "USE",
+    "reason": "USE selects a database."
+  },
+
+  {
+    "questionId": "sql_e_76",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL statement deletes all rows with a condition?",
+    "options": ["DELETE FROM", "DROP TABLE", "TRUNCATE", "REMOVE"],
+    "answer": "DELETE FROM",
+    "reason": "DELETE FROM removes rows matching conditions."
+  },
+  {
+    "questionId": "sql_e_77",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword checks existence of records?",
+    "options": ["EXISTS", "HAS", "FOUND", "CHECK"],
+    "answer": "EXISTS",
+    "reason": "EXISTS checks if records exist."
+  },
+  {
+    "questionId": "sql_e_78",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword returns only first row?",
+    "options": ["LIMIT 1", "TOP 1", "FIRST", "ROW 1"],
+    "answer": "LIMIT 1",
+    "reason": "LIMIT 1 returns a single row."
+  },
+  {
+    "questionId": "sql_e_79",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL clause filters rows before grouping?",
+    "options": ["WHERE", "HAVING", "GROUP BY", "ORDER BY"],
+    "answer": "WHERE",
+    "reason": "WHERE filters rows before GROUP BY."
+  },
+  {
+    "questionId": "sql_e_80",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL clause filters rows after grouping?",
+    "options": ["HAVING", "WHERE", "GROUP BY", "LIMIT"],
+    "answer": "HAVING",
+    "reason": "HAVING filters grouped data."
+  },
+
+  {
+    "questionId": "sql_e_81",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which function rounds numbers?",
+    "options": ["ROUND()", "FIX()", "TRIM()", "CUT()"],
+    "answer": "ROUND()",
+    "reason": "ROUND() rounds numeric values."
+  },
+  {
+    "questionId": "sql_e_82",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which function removes spaces from text?",
+    "options": ["TRIM()", "CUT()", "REMOVE()", "STRIP()"],
+    "answer": "TRIM()",
+    "reason": "TRIM() removes leading and trailing spaces."
+  },
+  {
+    "questionId": "sql_e_83",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword defines a stored procedure?",
+    "options": [
+      "CREATE PROCEDURE",
+      "NEW PROCEDURE",
+      "MAKE PROCEDURE",
+      "ADD PROCEDURE"
+    ],
+    "answer": "CREATE PROCEDURE",
+    "reason": "CREATE PROCEDURE defines stored procedures."
+  },
+  {
+    "questionId": "sql_e_84",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL object stores reusable queries?",
+    "options": ["VIEW", "TABLE", "INDEX", "TRIGGER"],
+    "answer": "VIEW",
+    "reason": "Views store reusable query logic."
+  },
+  {
+    "questionId": "sql_e_85",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL object runs automatically on events?",
+    "options": ["TRIGGER", "VIEW", "INDEX", "FUNCTION"],
+    "answer": "TRIGGER",
+    "reason": "Triggers execute on table events."
+  },
+
+  {
+    "questionId": "sql_e_86",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which function returns absolute value?",
+    "options": ["ABS()", "ROUND()", "CEIL()", "FLOOR()"],
+    "answer": "ABS()",
+    "reason": "ABS() returns absolute value."
+  },
+  {
+    "questionId": "sql_e_87",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword creates a function?",
+    "options": [
+      "CREATE FUNCTION",
+      "NEW FUNCTION",
+      "MAKE FUNCTION",
+      "ADD FUNCTION"
+    ],
+    "answer": "CREATE FUNCTION",
+    "reason": "CREATE FUNCTION defines user functions."
+  },
+  {
+    "questionId": "sql_e_88",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword removes a database?",
+    "options": [
+      "DROP DATABASE",
+      "DELETE DATABASE",
+      "REMOVE DATABASE",
+      "CLEAR DATABASE"
+    ],
+    "answer": "DROP DATABASE",
+    "reason": "DROP DATABASE deletes a database."
+  },
+  {
+    "questionId": "sql_e_89",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword comments a single line?",
+    "options": ["--", "#", "/* */", "//"],
+    "answer": "--",
+    "reason": "-- starts a single-line comment."
+  },
+  {
+    "questionId": "sql_e_90",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword comments multiple lines?",
+    "options": ["/* */", "--", "#", "//"],
+    "answer": "/* */",
+    "reason": "/* */ comments multiple lines."
+  },
+
+  {
+    "questionId": "sql_e_91",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL function returns NULL if value is NULL?",
+    "options": ["IFNULL()", "ISNULL()", "NULLIF()", "COALESCE()"],
+    "answer": "IFNULL()",
+    "reason": "IFNULL() handles NULL values."
+  },
+  {
+    "questionId": "sql_e_92",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which function returns first non-NULL value?",
+    "options": ["COALESCE()", "NULLIF()", "IFNULL()", "NVL()"],
+    "answer": "COALESCE()",
+    "reason": "COALESCE() returns first non-NULL value."
+  },
+  {
+    "questionId": "sql_e_93",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword enforces referential integrity?",
+    "options": ["FOREIGN KEY", "PRIMARY KEY", "UNIQUE", "INDEX"],
+    "answer": "FOREIGN KEY",
+    "reason": "Foreign keys enforce relationships."
+  },
+  {
+    "questionId": "sql_e_94",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL statement changes column data type?",
+    "options": ["ALTER TABLE", "UPDATE TABLE", "CHANGE TABLE", "MODIFY TABLE"],
+    "answer": "ALTER TABLE",
+    "reason": "ALTER TABLE modifies table structure."
+  },
+  {
+    "questionId": "sql_e_95",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL function returns database name?",
+    "options": ["DATABASE()", "DB()", "CURRENT_DB()", "NAME()"],
+    "answer": "DATABASE()",
+    "reason": "DATABASE() returns current database name."
+  },
+
+  {
+    "questionId": "sql_e_96",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword forces sorting before limiting?",
+    "options": ["ORDER BY", "GROUP BY", "WHERE", "HAVING"],
+    "answer": "ORDER BY",
+    "reason": "ORDER BY sorts before LIMIT is applied."
+  },
+  {
+    "questionId": "sql_e_97",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which keyword locks a table?",
+    "options": ["LOCK TABLE", "HOLD TABLE", "FREEZE TABLE", "SECURE TABLE"],
+    "answer": "LOCK TABLE",
+    "reason": "LOCK TABLE prevents concurrent access."
+  },
+  {
+    "questionId": "sql_e_98",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL statement copies table structure only?",
+    "options": [
+      "CREATE TABLE AS",
+      "COPY TABLE",
+      "CLONE TABLE",
+      "DUPLICATE TABLE"
+    ],
+    "answer": "CREATE TABLE AS",
+    "reason": "CREATE TABLE AS can copy structure."
+  },
+  {
+    "questionId": "sql_e_99",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which SQL keyword ensures atomic operations?",
+    "options": ["TRANSACTION", "LOCK", "INDEX", "VIEW"],
+    "answer": "TRANSACTION",
+    "reason": "Transactions ensure atomicity."
+  },
+  {
+    "questionId": "sql_e_100",
+    "topic": "sql",
+    "difficulty": "easy",
+    "questionText": "Which property ensures data consistency?",
+    "options": ["ACID", "CRUD", "BASE", "CAP"],
+    "answer": "ACID",
+    "reason": "ACID ensures database reliability."
+  }
+]

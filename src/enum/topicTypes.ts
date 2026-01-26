@@ -6,6 +6,7 @@ export const TopicType = new Map([
   ["software", "Software"],
   ["react", "React"],
   ["typescript", "Typescript"],
+  ["sql", "SQL"],
 ]);
 
 const TopicTypeReverse = new Map([...TopicType].map(([k, v]) => [v, k]));

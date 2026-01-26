@@ -1,0 +1,1281 @@
+[
+  {
+    "questionId": "sql_h_1",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What does the ACID property 'Isolation' ensure?",
+    "options": [
+      "Transactions do not interfere with each other",
+      "Data is never lost",
+      "All changes are permanent",
+      "Operations are atomic"
+    ],
+    "answer": "Transactions do not interfere with each other",
+    "reason": "Isolation ensures concurrent transactions behave as if executed sequentially."
+  },
+  {
+    "questionId": "sql_h_2",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which isolation level allows dirty reads?",
+    "options": [
+      "READ UNCOMMITTED",
+      "READ COMMITTED",
+      "REPEATABLE READ",
+      "SERIALIZABLE"
+    ],
+    "answer": "READ UNCOMMITTED",
+    "reason": "READ UNCOMMITTED allows reading uncommitted data."
+  },
+  {
+    "questionId": "sql_h_3",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which isolation level prevents dirty reads but allows non-repeatable reads?",
+    "options": [
+      "READ COMMITTED",
+      "READ UNCOMMITTED",
+      "REPEATABLE READ",
+      "SERIALIZABLE"
+    ],
+    "answer": "READ COMMITTED",
+    "reason": "READ COMMITTED prevents dirty reads but allows data to change between reads."
+  },
+  {
+    "questionId": "sql_h_4",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which isolation level prevents phantom reads?",
+    "options": [
+      "SERIALIZABLE",
+      "READ COMMITTED",
+      "REPEATABLE READ",
+      "READ UNCOMMITTED"
+    ],
+    "answer": "SERIALIZABLE",
+    "reason": "SERIALIZABLE fully isolates transactions."
+  },
+  {
+    "questionId": "sql_h_5",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a phantom read?",
+    "options": [
+      "New rows appear in repeated queries",
+      "Uncommitted data is read",
+      "Same row changes value",
+      "Transaction rollback"
+    ],
+    "answer": "New rows appear in repeated queries",
+    "reason": "Phantom reads occur when new rows are added by another transaction."
+  },
+
+  {
+    "questionId": "sql_h_6",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is the main purpose of an execution plan?",
+    "options": [
+      "Analyze query performance",
+      "Create indexes",
+      "Lock tables",
+      "Validate schema"
+    ],
+    "answer": "Analyze query performance",
+    "reason": "Execution plans show how SQL queries are executed."
+  },
+  {
+    "questionId": "sql_h_7",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which command displays a query execution plan?",
+    "options": ["EXPLAIN", "ANALYZE", "PROFILE", "TRACE"],
+    "answer": "EXPLAIN",
+    "reason": "EXPLAIN shows how a query will be executed."
+  },
+  {
+    "questionId": "sql_h_8",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What does a full table scan indicate?",
+    "options": [
+      "No usable index found",
+      "Query is optimized",
+      "Index is forced",
+      "Table is empty"
+    ],
+    "answer": "No usable index found",
+    "reason": "Full table scans happen when indexes are not used."
+  },
+  {
+    "questionId": "sql_h_9",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which index type is best for range queries?",
+    "options": ["B-Tree", "Hash", "Bitmap", "Full-text"],
+    "answer": "B-Tree",
+    "reason": "B-Tree indexes support range queries efficiently."
+  },
+  {
+    "questionId": "sql_h_10",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Why are hash indexes unsuitable for range queries?",
+    "options": [
+      "They do not maintain order",
+      "They consume more memory",
+      "They lock tables",
+      "They require sorting"
+    ],
+    "answer": "They do not maintain order",
+    "reason": "Hash indexes cannot efficiently scan ranges."
+  },
+
+  {
+    "questionId": "sql_h_11",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a covering index?",
+    "options": [
+      "Index that satisfies query without table lookup",
+      "Index on all columns",
+      "Clustered index",
+      "Unique index"
+    ],
+    "answer": "Index that satisfies query without table lookup",
+    "reason": "Covering indexes contain all required columns."
+  },
+  {
+    "questionId": "sql_h_12",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a clustered index?",
+    "options": [
+      "Index that defines physical row order",
+      "Index on foreign keys",
+      "Non-unique index",
+      "Temporary index"
+    ],
+    "answer": "Index that defines physical row order",
+    "reason": "Clustered indexes determine data storage order."
+  },
+  {
+    "questionId": "sql_h_13",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "How many clustered indexes can a table have?",
+    "options": ["One", "Two", "Unlimited", "Depends on DB"],
+    "answer": "One",
+    "reason": "A table can only have one physical ordering."
+  },
+  {
+    "questionId": "sql_h_14",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What causes index fragmentation?",
+    "options": [
+      "Frequent inserts and deletes",
+      "SELECT queries",
+      "Joins",
+      "Views"
+    ],
+    "answer": "Frequent inserts and deletes",
+    "reason": "Data changes fragment index pages."
+  },
+  {
+    "questionId": "sql_h_15",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is index selectivity?",
+    "options": [
+      "Uniqueness of index values",
+      "Index size",
+      "Index depth",
+      "Query speed"
+    ],
+    "answer": "Uniqueness of index values",
+    "reason": "Higher selectivity improves performance."
+  },
+
+  {
+    "questionId": "sql_h_16",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a deadlock?",
+    "options": [
+      "Transactions waiting on each other",
+      "Slow query",
+      "Index lock",
+      "Table corruption"
+    ],
+    "answer": "Transactions waiting on each other",
+    "reason": "Deadlocks occur when transactions block each other."
+  },
+  {
+    "questionId": "sql_h_17",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "How do databases typically resolve deadlocks?",
+    "options": [
+      "Rollback one transaction",
+      "Restart server",
+      "Ignore conflict",
+      "Lock all tables"
+    ],
+    "answer": "Rollback one transaction",
+    "reason": "One transaction is aborted to break the cycle."
+  },
+  {
+    "questionId": "sql_h_18",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is optimistic locking?",
+    "options": [
+      "Assumes conflicts are rare",
+      "Locks rows immediately",
+      "Blocks readers",
+      "Uses table locks"
+    ],
+    "answer": "Assumes conflicts are rare",
+    "reason": "Optimistic locking checks conflicts before commit."
+  },
+  {
+    "questionId": "sql_h_19",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is pessimistic locking?",
+    "options": [
+      "Locks data before access",
+      "Avoids locks",
+      "Uses version numbers",
+      "Improves concurrency"
+    ],
+    "answer": "Locks data before access",
+    "reason": "Pessimistic locking prevents conflicts upfront."
+  },
+  {
+    "questionId": "sql_h_20",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which SQL clause locks selected rows?",
+    "options": ["FOR UPDATE", "LOCK TABLE", "HOLD", "SYNC"],
+    "answer": "FOR UPDATE",
+    "reason": "FOR UPDATE locks selected rows."
+  },
+
+  {
+    "questionId": "sql_h_21",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a Common Table Expression (CTE)?",
+    "options": [
+      "Temporary result set",
+      "Permanent table",
+      "Index type",
+      "Stored procedure"
+    ],
+    "answer": "Temporary result set",
+    "reason": "CTEs exist only during query execution."
+  },
+  {
+    "questionId": "sql_h_22",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which keyword defines a recursive CTE?",
+    "options": ["WITH RECURSIVE", "WITH LOOP", "RECURSE", "CONNECT"],
+    "answer": "WITH RECURSIVE",
+    "reason": "WITH RECURSIVE enables recursion."
+  },
+  {
+    "questionId": "sql_h_23",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is the main risk of recursive CTEs?",
+    "options": [
+      "Infinite recursion",
+      "Data loss",
+      "Deadlocks",
+      "Index corruption"
+    ],
+    "answer": "Infinite recursion",
+    "reason": "Missing termination conditions cause infinite loops."
+  },
+  {
+    "questionId": "sql_h_24",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is normalization?",
+    "options": [
+      "Reducing data redundancy",
+      "Improving performance",
+      "Creating indexes",
+      "Encrypting data"
+    ],
+    "answer": "Reducing data redundancy",
+    "reason": "Normalization organizes data efficiently."
+  },
+  {
+    "questionId": "sql_h_25",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which normal form removes transitive dependencies?",
+    "options": [
+      "Third Normal Form",
+      "First Normal Form",
+      "Second Normal Form",
+      "BCNF"
+    ],
+    "answer": "Third Normal Form",
+    "reason": "3NF eliminates transitive dependencies."
+  },
+
+  {
+    "questionId": "sql_h_26",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is denormalization?",
+    "options": [
+      "Adding redundancy for performance",
+      "Removing indexes",
+      "Splitting tables",
+      "Encrypting data"
+    ],
+    "answer": "Adding redundancy for performance",
+    "reason": "Denormalization improves read performance."
+  },
+  {
+    "questionId": "sql_h_27",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which window function assigns unique ranks?",
+    "options": ["ROW_NUMBER()", "RANK()", "DENSE_RANK()", "COUNT()"],
+    "answer": "ROW_NUMBER()",
+    "reason": "ROW_NUMBER assigns unique sequential numbers."
+  },
+  {
+    "questionId": "sql_h_28",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which window function allows gaps in ranking?",
+    "options": ["RANK()", "ROW_NUMBER()", "DENSE_RANK()", "NTILE()"],
+    "answer": "RANK()",
+    "reason": "RANK produces gaps when ties occur."
+  },
+  {
+    "questionId": "sql_h_29",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which window function avoids gaps?",
+    "options": ["DENSE_RANK()", "RANK()", "ROW_NUMBER()", "SUM()"],
+    "answer": "DENSE_RANK()",
+    "reason": "DENSE_RANK assigns consecutive ranks."
+  },
+  {
+    "questionId": "sql_h_30",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What does PARTITION BY do in window functions?",
+    "options": [
+      "Divides rows into groups",
+      "Sorts results",
+      "Limits rows",
+      "Filters data"
+    ],
+    "answer": "Divides rows into groups",
+    "reason": "PARTITION BY creates logical partitions."
+  },
+
+  {
+    "questionId": "sql_h_31",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is the CAP theorem?",
+    "options": [
+      "Consistency, Availability, Partition tolerance",
+      "Concurrency, Atomicity, Performance",
+      "Cache, Access, Persistence",
+      "Consistency, Accuracy, Precision"
+    ],
+    "answer": "Consistency, Availability, Partition tolerance",
+    "reason": "CAP defines trade-offs in distributed systems."
+  },
+  {
+    "questionId": "sql_h_32",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which SQL feature enforces business logic at database level?",
+    "options": ["Triggers", "Indexes", "Views", "Joins"],
+    "answer": "Triggers",
+    "reason": "Triggers execute logic automatically."
+  },
+  {
+    "questionId": "sql_h_33",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a materialized view?",
+    "options": [
+      "Stored query result",
+      "Virtual table",
+      "Temporary table",
+      "Index alias"
+    ],
+    "answer": "Stored query result",
+    "reason": "Materialized views store data physically."
+  },
+  {
+    "questionId": "sql_h_34",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is the downside of materialized views?",
+    "options": ["Stale data", "Slow reads", "No indexing", "High CPU usage"],
+    "answer": "Stale data",
+    "reason": "Materialized views need refresh."
+  },
+  {
+    "questionId": "sql_h_35",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which SQL statement improves batch insert performance?",
+    "options": ["Bulk insert", "Row by row insert", "Triggers", "Views"],
+    "answer": "Bulk insert",
+    "reason": "Bulk operations reduce overhead."
+  },
+
+  {
+    "questionId": "sql_h_36",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is write amplification?",
+    "options": [
+      "More writes than requested",
+      "Slow reads",
+      "Index scan",
+      "Deadlock"
+    ],
+    "answer": "More writes than requested",
+    "reason": "Occurs in storage engines like LSM trees."
+  },
+  {
+    "questionId": "sql_h_37",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which SQL object speeds up text searching?",
+    "options": ["Full-text index", "B-tree index", "Hash index", "View"],
+    "answer": "Full-text index",
+    "reason": "Full-text indexes optimize text search."
+  },
+  {
+    "questionId": "sql_h_38",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is sharding?",
+    "options": [
+      "Horizontal partitioning",
+      "Vertical partitioning",
+      "Indexing",
+      "Replication"
+    ],
+    "answer": "Horizontal partitioning",
+    "reason": "Sharding splits data across nodes."
+  },
+  {
+    "questionId": "sql_h_39",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is replication used for?",
+    "options": ["High availability", "Normalization", "Indexing", "Locking"],
+    "answer": "High availability",
+    "reason": "Replication improves fault tolerance."
+  },
+  {
+    "questionId": "sql_h_40",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which replication type allows read scaling?",
+    "options": ["Master-slave", "Synchronous", "Single-node", "Sharded"],
+    "answer": "Master-slave",
+    "reason": "Read replicas handle read traffic."
+  },
+
+  {
+    "questionId": "sql_h_41",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is eventual consistency?",
+    "options": [
+      "Data becomes consistent over time",
+      "Always consistent",
+      "Never consistent",
+      "Immediate consistency"
+    ],
+    "answer": "Data becomes consistent over time",
+    "reason": "Used in distributed databases."
+  },
+  {
+    "questionId": "sql_h_42",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a correlated subquery?",
+    "options": [
+      "Subquery referencing outer query",
+      "Independent subquery",
+      "Recursive query",
+      "Join replacement"
+    ],
+    "answer": "Subquery referencing outer query",
+    "reason": "Correlated subqueries run per row."
+  },
+  {
+    "questionId": "sql_h_43",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Why are correlated subqueries slower?",
+    "options": [
+      "Executed repeatedly",
+      "Use indexes",
+      "Cache results",
+      "Lock tables"
+    ],
+    "answer": "Executed repeatedly",
+    "reason": "They run once per outer row."
+  },
+  {
+    "questionId": "sql_h_44",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which join can cause row explosion?",
+    "options": ["Cartesian join", "Inner join", "Left join", "Right join"],
+    "answer": "Cartesian join",
+    "reason": "Cartesian joins multiply rows."
+  },
+  {
+    "questionId": "sql_h_45",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "How can you avoid Cartesian joins?",
+    "options": [
+      "Use join conditions",
+      "Add indexes",
+      "Use DISTINCT",
+      "Limit rows"
+    ],
+    "answer": "Use join conditions",
+    "reason": "Join conditions prevent row explosion."
+  },
+
+  {
+    "questionId": "sql_h_46",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What does SQL injection exploit?",
+    "options": ["Unsanitized input", "Indexes", "Locks", "Views"],
+    "answer": "Unsanitized input",
+    "reason": "Injection manipulates queries via input."
+  },
+  {
+    "questionId": "sql_h_47",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Best defense against SQL injection?",
+    "options": ["Prepared statements", "Indexes", "Triggers", "Views"],
+    "answer": "Prepared statements",
+    "reason": "Prepared statements separate SQL and data."
+  },
+  {
+    "questionId": "sql_h_48",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a savepoint?",
+    "options": [
+      "Partial rollback point",
+      "Index snapshot",
+      "Backup",
+      "Commit marker"
+    ],
+    "answer": "Partial rollback point",
+    "reason": "Savepoints allow partial rollbacks."
+  },
+  {
+    "questionId": "sql_h_49",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which SQL statement creates a savepoint?",
+    "options": ["SAVEPOINT", "MARK", "POINT", "CHECKPOINT"],
+    "answer": "SAVEPOINT",
+    "reason": "SAVEPOINT defines rollback points."
+  },
+  {
+    "questionId": "sql_h_50",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a checkpoint?",
+    "options": [
+      "Flush dirty pages to disk",
+      "Rollback transaction",
+      "Create index",
+      "Lock table"
+    ],
+    "answer": "Flush dirty pages to disk",
+    "reason": "Checkpoints ensure durability."
+  },
+
+  {
+    "questionId": "sql_h_51",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is MVCC?",
+    "options": [
+      "Multi-Version Concurrency Control",
+      "Multi-Value Column Control",
+      "Memory Version Cache",
+      "Manual Version Check"
+    ],
+    "answer": "Multi-Version Concurrency Control",
+    "reason": "MVCC allows concurrent reads and writes."
+  },
+  {
+    "questionId": "sql_h_52",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which databases commonly use MVCC?",
+    "options": ["PostgreSQL", "MongoDB", "Redis", "SQLite"],
+    "answer": "PostgreSQL",
+    "reason": "PostgreSQL relies heavily on MVCC."
+  },
+  {
+    "questionId": "sql_h_53",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is vacuuming in PostgreSQL?",
+    "options": [
+      "Cleaning dead tuples",
+      "Rebuilding indexes",
+      "Defragmenting disk",
+      "Compressing tables"
+    ],
+    "answer": "Cleaning dead tuples",
+    "reason": "Vacuum removes obsolete row versions."
+  },
+  {
+    "questionId": "sql_h_54",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a hot standby?",
+    "options": [
+      "Readable replica",
+      "Backup mode",
+      "Offline node",
+      "Index cache"
+    ],
+    "answer": "Readable replica",
+    "reason": "Hot standby allows read queries."
+  },
+  {
+    "questionId": "sql_h_55",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is WAL?",
+    "options": [
+      "Write-Ahead Logging",
+      "Wide Access Layer",
+      "Work Allocation List",
+      "Write After Lock"
+    ],
+    "answer": "Write-Ahead Logging",
+    "reason": "WAL ensures durability."
+  },
+
+  {
+    "questionId": "sql_h_56",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Why is WAL important?",
+    "options": [
+      "Crash recovery",
+      "Index speed",
+      "Query parsing",
+      "Lock avoidance"
+    ],
+    "answer": "Crash recovery",
+    "reason": "WAL allows replaying changes."
+  },
+  {
+    "questionId": "sql_h_57",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a bitmap index best for?",
+    "options": [
+      "Low-cardinality columns",
+      "Primary keys",
+      "Text search",
+      "Range scans"
+    ],
+    "answer": "Low-cardinality columns",
+    "reason": "Bitmap indexes work well with few distinct values."
+  },
+  {
+    "questionId": "sql_h_58",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which SQL feature enforces data lineage?",
+    "options": ["Foreign keys", "Indexes", "Views", "Triggers"],
+    "answer": "Foreign keys",
+    "reason": "Foreign keys enforce relationships."
+  },
+  {
+    "questionId": "sql_h_59",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is horizontal scaling?",
+    "options": [
+      "Adding more nodes",
+      "Upgrading CPU",
+      "Adding indexes",
+      "Optimizing queries"
+    ],
+    "answer": "Adding more nodes",
+    "reason": "Horizontal scaling increases capacity via nodes."
+  },
+  {
+    "questionId": "sql_h_60",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is vertical scaling?",
+    "options": ["Upgrading hardware", "Adding replicas", "Sharding", "Caching"],
+    "answer": "Upgrading hardware",
+    "reason": "Vertical scaling improves single-node capacity."
+  },
+
+  {
+    "questionId": "sql_h_61",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which SQL clause is evaluated last?",
+    "options": ["ORDER BY", "FROM", "WHERE", "GROUP BY"],
+    "answer": "ORDER BY",
+    "reason": "ORDER BY is applied after result set creation."
+  },
+  {
+    "questionId": "sql_h_62",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Why can ORDER BY be expensive?",
+    "options": [
+      "Requires sorting",
+      "Uses indexes",
+      "Locks tables",
+      "Runs triggers"
+    ],
+    "answer": "Requires sorting",
+    "reason": "Sorting large datasets is costly."
+  },
+  {
+    "questionId": "sql_h_63",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a lateral join?",
+    "options": [
+      "Subquery per row join",
+      "Cross join",
+      "Self join",
+      "Outer join"
+    ],
+    "answer": "Subquery per row join",
+    "reason": "LATERAL allows subqueries to reference outer rows."
+  },
+  {
+    "questionId": "sql_h_64",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is query caching?",
+    "options": [
+      "Storing query results",
+      "Indexing queries",
+      "Locking rows",
+      "Sharding data"
+    ],
+    "answer": "Storing query results",
+    "reason": "Caching avoids re-execution."
+  },
+  {
+    "questionId": "sql_h_65",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Why is query cache deprecated in MySQL?",
+    "options": [
+      "Global lock contention",
+      "Lowiwes security",
+      "Too complex",
+      "Consumes disk"
+    ],
+    "answer": "Global lock contention",
+    "reason": "Query cache caused scalability issues."
+  },
+
+  {
+    "questionId": "sql_h_66",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a covering query?",
+    "options": [
+      "Query satisfied by index only",
+      "Query with joins",
+      "Recursive query",
+      "Window query"
+    ],
+    "answer": "Query satisfied by index only",
+    "reason": "Covering queries avoid table lookups."
+  },
+  {
+    "questionId": "sql_h_67",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is data skew?",
+    "options": [
+      "Uneven data distribution",
+      "Corrupted data",
+      "Missing indexes",
+      "Duplicate rows"
+    ],
+    "answer": "Uneven data distribution",
+    "reason": "Skew affects query planning."
+  },
+  {
+    "questionId": "sql_h_68",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which SQL feature supports analytics?",
+    "options": ["Window functions", "Triggers", "Indexes", "Constraints"],
+    "answer": "Window functions",
+    "reason": "Window functions enable analytical queries."
+  },
+  {
+    "questionId": "sql_h_69",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a star schema?",
+    "options": [
+      "Fact table with dimension tables",
+      "Normalized schema",
+      "Key-value schema",
+      "Graph schema"
+    ],
+    "answer": "Fact table with dimension tables",
+    "reason": "Used in data warehousing."
+  },
+  {
+    "questionId": "sql_h_70",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is OLAP optimized for?",
+    "options": [
+      "Analytical queries",
+      "Transactional writes",
+      "Row locking",
+      "Concurrency"
+    ],
+    "answer": "Analytical queries",
+    "reason": "OLAP focuses on reporting."
+  },
+
+  {
+    "questionId": "sql_h_71",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is OLTP optimized for?",
+    "options": [
+      "Transactional workloads",
+      "Analytics",
+      "Batch processing",
+      "ETL"
+    ],
+    "answer": "Transactional workloads",
+    "reason": "OLTP handles frequent small transactions."
+  },
+  {
+    "questionId": "sql_h_72",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a snowflake schema?",
+    "options": [
+      "Normalized dimension tables",
+      "Single fact table",
+      "Key-value design",
+      "Graph layout"
+    ],
+    "answer": "Normalized dimension tables",
+    "reason": "Snowflake schema reduces redundancy."
+  },
+  {
+    "questionId": "sql_h_73",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a surrogate key?",
+    "options": [
+      "Artificial primary key",
+      "Natural key",
+      "Foreign key",
+      "Composite key"
+    ],
+    "answer": "Artificial primary key",
+    "reason": "Surrogate keys are system-generated."
+  },
+  {
+    "questionId": "sql_h_74",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a natural key?",
+    "options": [
+      "Business-meaningful key",
+      "Auto-increment key",
+      "Random UUID",
+      "Composite index"
+    ],
+    "answer": "Business-meaningful key",
+    "reason": "Natural keys have real-world meaning."
+  },
+  {
+    "questionId": "sql_h_75",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a composite index?",
+    "options": [
+      "Index on multiple columns",
+      "Unique index",
+      "Bitmap index",
+      "Clustered index"
+    ],
+    "answer": "Index on multiple columns",
+    "reason": "Composite indexes cover multiple columns."
+  },
+
+  {
+    "questionId": "sql_h_76",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Why does column order matter in composite indexes?",
+    "options": [
+      "Leftmost prefix rule",
+      "Memory usage",
+      "Locking",
+      "Replication"
+    ],
+    "answer": "Leftmost prefix rule",
+    "reason": "Index is used from leftmost columns."
+  },
+  {
+    "questionId": "sql_h_77",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is the leftmost prefix rule?",
+    "options": [
+      "Index used from first column",
+      "Index order ignored",
+      "Only last column used",
+      "Full scan required"
+    ],
+    "answer": "Index used from first column",
+    "reason": "Queries must match leading columns."
+  },
+  {
+    "questionId": "sql_h_78",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is table partitioning?",
+    "options": [
+      "Splitting table into parts",
+      "Indexing",
+      "Replication",
+      "Normalization"
+    ],
+    "answer": "Splitting table into parts",
+    "reason": "Partitioning improves manageability."
+  },
+  {
+    "questionId": "sql_h_79",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which partitioning type uses ranges?",
+    "options": [
+      "Range partitioning",
+      "Hash partitioning",
+      "List partitioning",
+      "Composite partitioning"
+    ],
+    "answer": "Range partitioning",
+    "reason": "Range partitioning uses value ranges."
+  },
+  {
+    "questionId": "sql_h_80",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is hash partitioning best for?",
+    "options": ["Even data distribution", "Date queries", "Sorting", "Joins"],
+    "answer": "Even data distribution",
+    "reason": "Hashing spreads data evenly."
+  },
+
+  {
+    "questionId": "sql_h_81",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is predicate pushdown?",
+    "options": [
+      "Filtering early",
+      "Sorting early",
+      "Index creation",
+      "Row locking"
+    ],
+    "answer": "Filtering early",
+    "reason": "Pushdown reduces processed data."
+  },
+  {
+    "questionId": "sql_h_82",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is cost-based optimization?",
+    "options": [
+      "Choosing lowest cost plan",
+      "Using fixed rules",
+      "Manual tuning",
+      "Lock-based execution"
+    ],
+    "answer": "Choosing lowest cost plan",
+    "reason": "CBO selects optimal execution plan."
+  },
+  {
+    "questionId": "sql_h_83",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What are statistics used for?",
+    "options": ["Query planning", "Security", "Index creation", "Replication"],
+    "answer": "Query planning",
+    "reason": "Statistics help optimizer decisions."
+  },
+  {
+    "questionId": "sql_h_84",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is plan cache?",
+    "options": [
+      "Cached execution plans",
+      "Cached results",
+      "Index cache",
+      "Table cache"
+    ],
+    "answer": "Cached execution plans",
+    "reason": "Plan cache avoids recompiling queries."
+  },
+  {
+    "questionId": "sql_h_85",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Why can parameter sniffing be problematic?",
+    "options": [
+      "Suboptimal plans",
+      "Deadlocks",
+      "Missing indexes",
+      "Data loss"
+    ],
+    "answer": "Suboptimal plans",
+    "reason": "Cached plans may not fit all parameters."
+  },
+
+  {
+    "questionId": "sql_h_86",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a slow query log?",
+    "options": [
+      "Records slow queries",
+      "Backup file",
+      "Index map",
+      "Error log"
+    ],
+    "answer": "Records slow queries",
+    "reason": "Used for performance tuning."
+  },
+  {
+    "questionId": "sql_h_87",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is read amplification?",
+    "options": [
+      "Reading more data than needed",
+      "Duplicate reads",
+      "Index scans",
+      "Cache miss"
+    ],
+    "answer": "Reading more data than needed",
+    "reason": "Occurs in some storage engines."
+  },
+  {
+    "questionId": "sql_h_88",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Which SQL feature ensures referential actions?",
+    "options": ["ON DELETE CASCADE", "UNIQUE", "CHECK", "INDEX"],
+    "answer": "ON DELETE CASCADE",
+    "reason": "Cascades actions to child rows."
+  },
+  {
+    "questionId": "sql_h_89",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is temporal data?",
+    "options": [
+      "Time-based data",
+      "Encrypted data",
+      "Indexed data",
+      "Cached data"
+    ],
+    "answer": "Time-based data",
+    "reason": "Temporal data tracks changes over time."
+  },
+  {
+    "questionId": "sql_h_90",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is system-versioned table?",
+    "options": [
+      "Tracks row history",
+      "Read-only table",
+      "Cached table",
+      "Partitioned table"
+    ],
+    "answer": "Tracks row history",
+    "reason": "System-versioned tables store temporal history."
+  },
+
+  {
+    "questionId": "sql_h_91",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is data masking?",
+    "options": [
+      "Hiding sensitive data",
+      "Encrypting tables",
+      "Indexing data",
+      "Compressing rows"
+    ],
+    "answer": "Hiding sensitive data",
+    "reason": "Masking protects sensitive fields."
+  },
+  {
+    "questionId": "sql_h_92",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is row-level security?",
+    "options": [
+      "Restricting row access",
+      "Column encryption",
+      "Table locking",
+      "Index filtering"
+    ],
+    "answer": "Restricting row access",
+    "reason": "Row-level security limits data exposure."
+  },
+  {
+    "questionId": "sql_h_93",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is a query hint?",
+    "options": ["Optimizer directive", "Index", "Trigger", "Constraint"],
+    "answer": "Optimizer directive",
+    "reason": "Hints influence execution plans."
+  },
+  {
+    "questionId": "sql_h_94",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Why should query hints be used sparingly?",
+    "options": [
+      "Reduce optimizer flexibility",
+      "Break SQL syntax",
+      "Increase memory",
+      "Cause deadlocks"
+    ],
+    "answer": "Reduce optimizer flexibility",
+    "reason": "Hints can lead to suboptimal plans."
+  },
+  {
+    "questionId": "sql_h_95",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is data consistency?",
+    "options": [
+      "Correctness of data",
+      "Availability",
+      "Performance",
+      "Scalability"
+    ],
+    "answer": "Correctness of data",
+    "reason": "Consistency ensures valid state."
+  },
+
+  {
+    "questionId": "sql_h_96",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is two-phase commit?",
+    "options": [
+      "Distributed transaction protocol",
+      "Index creation",
+      "Replication method",
+      "Backup strategy"
+    ],
+    "answer": "Distributed transaction protocol",
+    "reason": "2PC ensures atomicity across systems."
+  },
+  {
+    "questionId": "sql_h_97",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Main drawback of two-phase commit?",
+    "options": ["Blocking", "Data loss", "Slow reads", "Index corruption"],
+    "answer": "Blocking",
+    "reason": "Participants wait during failures."
+  },
+  {
+    "questionId": "sql_h_98",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is schema migration?",
+    "options": [
+      "Evolving database structure",
+      "Moving data",
+      "Index rebuild",
+      "Query rewrite"
+    ],
+    "answer": "Evolving database structure",
+    "reason": "Migrations manage schema changes."
+  },
+  {
+    "questionId": "sql_h_99",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "Why are online migrations important?",
+    "options": [
+      "Avoid downtime",
+      "Improve indexing",
+      "Increase security",
+      "Reduce storage"
+    ],
+    "answer": "Avoid downtime",
+    "reason": "Online migrations keep services running."
+  },
+  {
+    "questionId": "sql_h_100",
+    "topic": "sql",
+    "difficulty": "hard",
+    "questionText": "What is the biggest challenge in large-scale SQL systems?",
+    "options": [
+      "Balancing consistency and scalability",
+      "Writing queries",
+      "Creating tables",
+      "Using joins"
+    ],
+    "answer": "Balancing consistency and scalability",
+    "reason": "Scalability often conflicts with strict consistency."
+  }
+]

@@ -8,6 +8,7 @@ import { usePathname } from "next/navigation";
 import { useQuizGame } from "@/src/store/useQuizGameStore";
 import { ModelName, useConfirmModal } from "@/src/store/useComfirmModalStore";
 import Link from "next/link";
+import { playHoverSound, playPressedSound } from "@/src/utils/playSound";
 
 export default function Sidebar() {
   const { topics, clearTopic } = useQuizOption();
@@ -18,6 +19,11 @@ export default function Sidebar() {
 
   const showConfirmModal = () => {
     setModalName(ModelName.removeTopicModal);
+  };
+
+  const clearUpTopic = () => {
+    playPressedSound();
+    clearTopic();
   };
 
   return (
@@ -32,8 +38,9 @@ export default function Sidebar() {
           <h1 className="text-xl font-bold">Topics includes</h1>
           {!isQuizPage && (
             <button
+              onMouseEnter={() => playHoverSound()}
               onClick={() =>
-                questions.length > 0 ? showConfirmModal() : clearTopic()
+                questions.length > 0 ? showConfirmModal() : clearUpTopic()
               }
               className="btn btn-ghost btn-circle border-0 hover:bg-gray-200/15"
             >
@@ -52,14 +59,32 @@ export default function Sidebar() {
         </section>
         <ul className="menu bg-base-200 min-h-full w-full">
           <li className="p-1 text-lg">
-            <Link href={"/"}>Home</Link>
+            <Link
+              onMouseEnter={() => playHoverSound()}
+              onClick={() => playPressedSound()}
+              href={"/"}
+            >
+              Home
+            </Link>
           </li>
           <li className="p-1 text-lg">
-            <Link href={"/analysis"}>Analysis</Link>
+            <Link
+              onMouseEnter={() => playHoverSound()}
+              onClick={() => playPressedSound()}
+              href={"/analysis"}
+            >
+              Analysis
+            </Link>
           </li>
           {questions.length > 1 && (
             <li className="p-1 text-lg">
-              <Link href={"/results"}>Last results</Link>
+              <Link
+                onMouseEnter={() => playHoverSound()}
+                onClick={() => playPressedSound()}
+                href={"/results"}
+              >
+                Last results
+              </Link>
             </li>
           )}
         </ul>

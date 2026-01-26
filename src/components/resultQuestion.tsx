@@ -6,6 +6,7 @@ import {
   faCircleCheck,
   faCircleXmark,
 } from "@fortawesome/free-solid-svg-icons";
+import { playHoverSound, playPressedSound } from "../utils/playSound";
 
 export default function resultQuestion({
   question,
@@ -55,7 +56,11 @@ export default function resultQuestion({
   };
 
   return (
-    <div className="collapse-arrow collapse z-10 my-4 overflow-auto bg-white/5 backdrop-blur-xl">
+    <div
+      onMouseEnter={() => playHoverSound()}
+      onClick={() => playPressedSound()}
+      className="collapse-arrow collapse z-10 my-4 overflow-auto bg-white/5 backdrop-blur-xl"
+    >
       <input type="radio" name="my-accordion-2" defaultChecked />
       <div className="collapse-title font-semibold">
         <h1 className="mr-3 mb-2">

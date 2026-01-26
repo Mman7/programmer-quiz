@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ModelName, useConfirmModal } from "../store/useComfirmModalStore";
 import { usePathname, useRouter } from "next/navigation";
 import { useQuizGame } from "../store/useQuizGameStore";
+import { playPressedSound } from "../utils/playSound";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -18,6 +19,7 @@ export default function Navbar() {
   const router = useRouter();
 
   const handleBack = () => {
+    playPressedSound();
     router.replace("/");
   };
 
@@ -28,8 +30,9 @@ export default function Navbar() {
         <div className="dropdown">
           <div>
             <label
+              onClick={() => playPressedSound()}
               htmlFor="my-drawer-3"
-              className="btn drawer-button lg:hidden"
+              className="btn btn-neutral drawer-button lg:hidden"
             >
               <FontAwesomeIcon icon={faBars} />
             </label>
@@ -63,6 +66,7 @@ function ContinueButton() {
   const router = useRouter();
 
   const handleContinueGame = () => {
+    playPressedSound();
     router.push(`/quiz/${lastQuestionIndex + 1}`);
   };
 
@@ -86,6 +90,7 @@ function RestartButton() {
   const { setModalName } = useConfirmModal();
 
   const handleRestartGame = () => {
+    playPressedSound();
     setModalName(ModelName.restartModal);
   };
   return (

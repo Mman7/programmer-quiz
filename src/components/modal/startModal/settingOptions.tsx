@@ -1,5 +1,6 @@
 import { useQuizOption } from "@/src/store/useSelectedTopicsStore";
 import SelectedTopic from "../../sidebar/selectedTopic";
+import { playHoverSound, playPressedSound } from "@/src/utils/playSound";
 
 const questionNumber = [
   { number: 10, color: "btn-success" },
@@ -11,6 +12,7 @@ export function SettingOpion() {
   const { setQuizNumber, numberOfQuiz } = useQuizOption();
 
   const handleClick = (e: any) => {
+    playPressedSound();
     setQuizNumber(parseInt(e.target.value));
   };
 
@@ -20,6 +22,7 @@ export function SettingOpion() {
       <section className="flex gap-3">
         {questionNumber.map((item) => (
           <button
+            onMouseEnter={() => playHoverSound()}
             key={item.number}
             value={item.number}
             onClick={(e) => handleClick(e)}

@@ -1,4 +1,5 @@
 import { ModelName, useConfirmModal } from "@/src/store/useComfirmModalStore";
+import { playPressedSound } from "@/src/utils/playSound";
 
 interface ComfirmModalProps {
   title: string;
@@ -16,6 +17,7 @@ export default function ComfirmModal({
   const { closeModal, currentShowingModalName } = useConfirmModal();
 
   const handleRestart = () => {
+    playPressedSound();
     callback();
     closeModal();
   };

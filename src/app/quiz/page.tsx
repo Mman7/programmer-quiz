@@ -19,20 +19,20 @@ export default function QuizPage() {
   };
 
   useEffect(() => {
-    // if (mounted)
-    //   fetchQuiz({ quiz })
-    //     .then((quiz) => setQuestion(quiz))
-    //     .then(() => {
-    //       router.push("/quiz/1");
-    //     })
-    //     .catch((error) => {
-    //       console.error("Failed to fetch quiz, retrying...", error);
-    //       fetchQuiz({ quiz })
-    //         .then((quiz) => setQuestion(quiz))
-    //         .then(() => {
-    //           router.push("/quiz/1");
-    //         });
-    //     });
+    if (mounted)
+      fetchQuiz({ quiz })
+        .then((quiz) => setQuestion(quiz))
+        .then(() => {
+          router.push("/quiz/1");
+        })
+        .catch((error) => {
+          console.error("Failed to fetch quiz, retrying...", error);
+          fetchQuiz({ quiz })
+            .then((quiz) => setQuestion(quiz))
+            .then(() => {
+              router.push("/quiz/1");
+            });
+        });
   }, [mounted]);
 
   return (

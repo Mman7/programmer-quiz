@@ -121,7 +121,7 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
           {id} / {questions.length}
         </h1>
 
-        <section className="w-full flex-col rounded-xl bg-white/10 p-6 backdrop-blur-xl">
+        <section className="w-full flex-col rounded-xl bg-white/10 p-6 shadow-2xl backdrop-blur-xl">
           <h1 className="mb-2 text-xl font-medium lg:text-2xl">
             <span>{id}. </span>
             <span className="mr-2">{question.questionText}</span>

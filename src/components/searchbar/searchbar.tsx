@@ -64,11 +64,11 @@ export default function Searchbar() {
           onChange={(e) => handleChange(e)}
           required
           placeholder="What topics do you like? ( webdev / c# )"
-          className="w-full"
+          className="w-full shadow-2xl"
         />
       </label>
       {searchList.length !== 0 && (
-        <section className="absolute top-full left-0 z-10 flex w-full flex-col rounded-lg bg-white/10 p-1 backdrop-blur-lg">
+        <section className="absolute top-full left-0 z-10 flex w-full flex-col rounded-lg bg-white/10 p-1 shadow-2xl backdrop-blur-lg">
           {searchList.map((item: string, index: number) => (
             <DifficultyOption key={item} item={item} />
           ))}

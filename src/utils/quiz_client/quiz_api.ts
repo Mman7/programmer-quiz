@@ -19,6 +19,9 @@ export const fetchQuiz = async ({ quiz }: { quiz: Quiz }) => {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(quiz),
+  }).catch((error) => {
+    console.error("Error fetching quiz:", error);
+    throw new Error("Failed to fetch quiz questions");
   });
 
   if (!res.ok) {
@@ -35,6 +38,9 @@ export async function getQuizAnswer({ req }: { req: RequestAnswer }) {
       "Content-Type": "application/json",
     },
     body: JSON.stringify(req),
+  }).catch((error) => {
+    console.error("Error fetching quiz answer:", error);
+    throw new Error("Failed to fetch quiz answer");
   });
 
   if (!res.ok) {

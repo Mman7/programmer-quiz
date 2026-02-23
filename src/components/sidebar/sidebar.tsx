@@ -8,7 +8,7 @@ import { usePathname } from "next/navigation";
 import { useQuizGame } from "@/src/store/useQuizGameStore";
 import { ModelName, useConfirmModal } from "@/src/store/useComfirmModalStore";
 import Link from "next/link";
-import { playHoverSound, playPressedSound } from "@/src/utils/playSound";
+import { playSound } from "@/src/utils/playSound";
 
 export default function Sidebar() {
   const { topics, clearTopic } = useQuizOption();
@@ -22,7 +22,7 @@ export default function Sidebar() {
   };
 
   const clearUpTopic = () => {
-    playPressedSound();
+    playSound("pressed");
     clearTopic();
   };
 
@@ -38,7 +38,7 @@ export default function Sidebar() {
           <h1 className="text-xl font-bold">Topics includes</h1>
           {!isQuizPage && (
             <button
-              onMouseEnter={() => playHoverSound()}
+              onMouseEnter={() => playSound("uiHover")}
               onClick={() =>
                 questions.length > 0 ? showConfirmModal() : clearUpTopic()
               }
@@ -60,8 +60,8 @@ export default function Sidebar() {
         <ul className="menu bg-base-200 min-h-full w-full">
           <li className="p-1 text-lg">
             <Link
-              onMouseEnter={() => playHoverSound()}
-              onClick={() => playPressedSound()}
+              onMouseEnter={() => playSound("uiHover")}
+              onClick={() => playSound("pressed")}
               href={"/"}
             >
               Home
@@ -69,8 +69,8 @@ export default function Sidebar() {
           </li>
           <li className="p-1 text-lg">
             <Link
-              onMouseEnter={() => playHoverSound()}
-              onClick={() => playPressedSound()}
+              onMouseEnter={() => playSound("uiHover")}
+              onClick={() => playSound("pressed")}
               href={"/analysis"}
             >
               Analysis
@@ -79,8 +79,8 @@ export default function Sidebar() {
           {questions.length > 1 && (
             <li className="p-1 text-lg">
               <Link
-                onMouseEnter={() => playHoverSound()}
-                onClick={() => playPressedSound()}
+                onMouseEnter={() => playSound("uiHover")}
+                onClick={() => playSound("pressed")}
                 href={"/results"}
               >
                 Last results

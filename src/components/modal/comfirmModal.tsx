@@ -1,5 +1,5 @@
 import { ModelName, useConfirmModal } from "@/src/store/useComfirmModalStore";
-import { playPressedSound } from "@/src/utils/playSound";
+import { playSound } from "@/src/utils/playSound";
 
 interface ComfirmModalProps {
   title: string;
@@ -17,7 +17,7 @@ export default function ComfirmModal({
   const { closeModal, currentShowingModalName } = useConfirmModal();
 
   const handleRestart = () => {
-    playPressedSound();
+    playSound("pressed");
     callback();
     closeModal();
   };
@@ -42,7 +42,13 @@ export default function ComfirmModal({
           </button>
         </form>
         <section className="mt-3 flex justify-end gap-3 p-3">
-          <button className="btn" onClick={() => closeModal()}>
+          <button
+            className="btn"
+            onClick={() => {
+              playSound("pressed");
+              closeModal();
+            }}
+          >
             Cancel
           </button>
           <button className="btn btn-secondary" onClick={() => handleRestart()}>

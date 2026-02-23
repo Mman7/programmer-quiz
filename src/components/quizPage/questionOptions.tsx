@@ -1,5 +1,5 @@
 import { QuizQuestion } from "@/src/types/quizQuestion";
-import { playHoverSound } from "@/src/utils/playSound";
+import { playSound } from "@/src/utils/playSound";
 
 const indexOrder: string[] = ["A.", "B.", "C.", "D."];
 
@@ -42,7 +42,7 @@ export default function QuestionOptions({
     >
       {question.options.map((option: string, index: number) => (
         <button
-          onMouseEnter={() => playHoverSound()}
+          onMouseEnter={() => playSound("uiHover")}
           onClick={() => handleSelected(option)}
           className={`${getOptionStyle(option)} ${btnBlockStyle} relative h-full w-full rounded-lg border-0 bg-gray-600 p-2.5 text-lg font-medium text-white/90 hover:scale-105 hover:cursor-pointer hover:bg-gray-500 hover:text-white`}
           key={option}

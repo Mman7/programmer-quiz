@@ -1,5 +1,5 @@
 import { useDifficultyModal } from "@/src/store/useDifficultyModalStore";
-import { playHoverSound, playPressedSound } from "@/src/utils/playSound";
+import { playSound } from "@/src/utils/playSound";
 
 interface OptionProps {
   item: string;
@@ -9,12 +9,12 @@ export default function DifficultyOption({ item }: OptionProps) {
   const { openModal } = useDifficultyModal();
 
   const itemHandleClick = () => {
-    playPressedSound();
+    playSound("pressed");
     openModal(item);
   };
 
   const handleHover = () => {
-    playHoverSound();
+    playSound("uiHover");
   };
 
   return (

@@ -6,7 +6,7 @@ import {
   faCircleCheck,
   faCircleXmark,
 } from "@fortawesome/free-solid-svg-icons";
-import { playHoverSound, playPressedSound } from "../utils/playSound";
+import { playSound } from "../utils/playSound";
 
 export default function resultQuestion({
   question,
@@ -57,8 +57,8 @@ export default function resultQuestion({
 
   return (
     <div
-      onMouseEnter={() => playHoverSound()}
-      onClick={() => playPressedSound()}
+      onMouseEnter={() => playSound("uiHover")}
+      onClick={() => playSound("pressed")}
       className="collapse-arrow collapse z-10 my-4 overflow-auto bg-white/5 backdrop-blur-xl"
     >
       <input type="radio" name="my-accordion-2" defaultChecked />

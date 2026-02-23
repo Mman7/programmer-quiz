@@ -24,31 +24,37 @@ function getSounds(): Sounds | null {
   return sounds;
 }
 
-export const playHoverSound = () => {
+export const playSound = (key: keyof Sounds) => {
   const sounds = getSounds();
   if (!sounds) return;
-  const a = sounds.uiHover.cloneNode() as HTMLAudioElement;
+  const a = sounds[key].cloneNode(true) as HTMLAudioElement;
   try {
     a.play();
   } catch (err) {
-    console.log();
+    console.log(err);
   }
 };
+// export const playSound = () => {
+//   const sounds = getSounds();
+//   if (!sounds) return;
+//   const a = sounds.wrong.cloneNode(true) as HTMLAudioElement;
+//   a.play();
+// };
 
-export const playPressedSound = () => {
-  const sounds = getSounds();
-  sounds?.pressed.play();
-};
+// export const playPressedSound = () => {
+//   const sounds = getSounds();
+//   sounds?.pressed.play();
+// };
 
-export const playWrongSound = () => {
-  const sounds = getSounds();
-  if (!sounds) return;
-  const a = sounds.wrong.cloneNode() as HTMLAudioElement;
-  a.play();
-};
+// export const playWrongSound = () => {
+//   const sounds = getSounds();
+//   if (!sounds) return;
+//   const a = sounds.wrong.cloneNode(true) as HTMLAudioElement;
+//   a.play();
+// };
 
-export const playCorrectSound = () => {
-  if (!sounds) return;
-  const a = sounds.correct.cloneNode() as HTMLAudioElement;
-  a.play();
-};
+// export const playCorrectSound = () => {
+//   if (!sounds) return;
+//   const a = sounds.correct.cloneNode(true) as HTMLAudioElement;
+//   a.play();
+// };

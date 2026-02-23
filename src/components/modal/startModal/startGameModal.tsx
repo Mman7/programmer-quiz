@@ -4,7 +4,7 @@ import { SettingOpion } from "./settingOptions";
 import { useQuizOption } from "@/src/store/useSelectedTopicsStore";
 import { useRouter } from "next/navigation";
 import { useQuizGame } from "@/src/store/useQuizGameStore";
-import { playHoverSound, playPressedSound } from "@/src/utils/playSound";
+import { playSound } from "@/src/utils/playSound";
 
 const questionNumber = [10, 20, 30];
 
@@ -15,7 +15,7 @@ export default function StartGameModal() {
   const { numberOfQuiz, topics } = useQuizOption();
 
   const startHandler = () => {
-    playPressedSound();
+    playSound("pressed");
     router.push("/quiz");
     clearQuestion();
     closeModal();
@@ -47,7 +47,7 @@ export default function StartGameModal() {
         <SettingOpion />
         <button
           disabled={!checkOptionValid()}
-          onMouseEnter={() => playHoverSound()}
+          onMouseEnter={() => playSound("uiHover")}
           onClick={() => startHandler()}
           className="btn btn-block btn-outline btn-primary mt-4"
         >

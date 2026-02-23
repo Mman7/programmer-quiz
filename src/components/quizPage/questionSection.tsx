@@ -11,7 +11,7 @@ import CheckCorrect from "./showCorrect";
 import NavigationButton from "./navigationButton";
 import { useData } from "@/src/store/useDataStore";
 import { Confetti, ConfettiRef } from "@/components/ui/confetti";
-import { playCorrectSound, playWrongSound } from "@/src/utils/playSound";
+import { playSound } from "@/src/utils/playSound";
 
 interface QuestionSectionProps {
   question: QuizQuestion;
@@ -43,7 +43,7 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
   const showCelebration = () => {
     if (isSubmit) {
       confettiRef.current?.fire({});
-      playCorrectSound();
+      playSound("correct");
     }
   };
 
@@ -78,7 +78,7 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
     if (answer === selectedAnswer) {
       showCelebration();
     } else {
-      playWrongSound();
+      playSound("wrong");
     }
   }, [isSubmit]);
 
@@ -149,6 +149,7 @@ export default function QuestionSection({ question }: QuestionSectionProps) {
           </h2>
           <button
             onClick={() => selectedAnswer !== "" && submitAnswer()}
+            onMouseEnter={() => playSound("uiHover")}
             className={`btn ${selectedAnswer !== "" && "btn-info"} ${selectedAnswer === "" && "cursor-not-allowed"} ${isSubmit && "bg-sky-400 text-gray-800"} btn-outline mt-3 w-full`}
           >
             Check Answer!

@@ -2,7 +2,7 @@
 
 import { useDifficultyModal } from "@/src/store/useDifficultyModalStore";
 import { Topic } from "@/src/types/topic";
-import { playHoverSound, playPressedSound } from "@/src/utils/playSound";
+import { playSound } from "@/src/utils/playSound";
 
 interface SelectDifficultyModalProps {
   chooseFn: (topic: Topic) => void;
@@ -13,7 +13,7 @@ export default function SelectDifficultyModal({
   const { topicName, closeModal, modalOpenStatus } = useDifficultyModal();
 
   const chooseDifficulty = (difficulty: string) => {
-    playPressedSound();
+    playSound("pressed");
     const topic: Topic = {
       name: topicName,
       difficulty: difficulty,
@@ -28,7 +28,7 @@ export default function SelectDifficultyModal({
         <form method="dialog">
           {/*  close the modal */}
           <button
-            onMouseEnter={() => playHoverSound()}
+            onMouseEnter={() => playSound("uiHover")}
             onClick={() => closeModal()}
             className="btn btn-sm btn-circle btn-ghost absolute top-2 right-2"
           >
@@ -40,21 +40,21 @@ export default function SelectDifficultyModal({
         </h3>
         <section className="flex flex-col space-y-3">
           <button
-            onMouseEnter={() => playHoverSound()}
+            onMouseEnter={() => playSound("uiHover")}
             onClick={() => chooseDifficulty("easy")}
             className="btn btn-outline btn-success"
           >
             Easy
           </button>
           <button
-            onMouseEnter={() => playHoverSound()}
+            onMouseEnter={() => playSound("uiHover")}
             onClick={() => chooseDifficulty("medium")}
             className="btn btn-outline btn-warning"
           >
             Medium
           </button>
           <button
-            onMouseEnter={() => playHoverSound()}
+            onMouseEnter={() => playSound("uiHover")}
             onClick={() => chooseDifficulty("hard")}
             className="btn btn-outline btn-error"
           >

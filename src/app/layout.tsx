@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Navbar from "../components/navbar";
 import Sidebar from "../components/sidebar/sidebar";
 import ModalManager from "../components/modal/modalManager";
+import ShowLoading from "../components/showLoading";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -72,6 +73,7 @@ export default function RootLayout({
           </div>
         </div>
         <ModalManager />
+        <ShowLoading />
       </body>
     </html>
   );

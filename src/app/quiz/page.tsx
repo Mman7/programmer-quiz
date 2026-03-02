@@ -5,13 +5,15 @@ import { useQuizOption } from "@/src/store/useSelectedTopicsStore";
 import { fetchQuiz, Quiz } from "@/src/utils/quiz_client/quiz_api";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
+import { useLoading } from "@/src/store/useLoadingStore";
+import ShowLoading from "@/src/components/showLoading";
 
 export default function QuizPage() {
   const { numberOfQuiz, topics } = useQuizOption();
   const { setQuestion } = useQuizGame();
   const router = useRouter();
   const mounted = useMounted();
+  const { setLoading } = useLoading();
 
   const quiz: Quiz = {
     numberOfQuiz: numberOfQuiz,
@@ -23,6 +25,7 @@ export default function QuizPage() {
       fetchQuiz({ quiz })
         .then((quiz) => setQuestion(quiz))
         .then(() => {
+          setLoading(false);
           router.push("/quiz/1");
         })
         .catch((error) => {
@@ -30,27 +33,14 @@ export default function QuizPage() {
           fetchQuiz({ quiz })
             .then((quiz) => setQuestion(quiz))
             .then(() => {
+              setLoading(false);
               router.push("/quiz/1");
+            })
+            .catch(() => {
+              setLoading(false);
             });
         });
   }, [mounted]);
 
-  return (
-    <div className="flex h-full w-full items-center justify-center shadow-2xl">
-      <h1 className="m-auto rounded-2xl bg-white/10 p-8 font-bold backdrop-blur-xl sm:text-3xl">
-        <DotLottieReact
-          className="m-auto max-w-100"
-          src="/lottie/truck_delivering.lottie"
-          loop
-          autoplay
-        />
-        <div className="flex justify-center">
-          <span className="text-center text-white">
-            Delivering question for you
-            <span className="loading loading-dots sm:loading-xl loading-sm ml-4 text-white"></span>
-          </span>
-        </div>
-      </h1>
-    </div>
-  );
+  return <ShowLoading />;
 }

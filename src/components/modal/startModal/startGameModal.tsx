@@ -5,6 +5,7 @@ import { useQuizOption } from "@/src/store/useSelectedTopicsStore";
 import { useRouter } from "next/navigation";
 import { useQuizGame } from "@/src/store/useQuizGameStore";
 import { playSound } from "@/src/utils/playSound";
+import { useLoading } from "@/src/store/useLoadingStore";
 
 const questionNumber = [10, 20, 30];
 
@@ -13,9 +14,11 @@ export default function StartGameModal() {
   const { status, closeModal } = useStartModal();
   const { clearQuestion } = useQuizGame();
   const { numberOfQuiz, topics } = useQuizOption();
+  const { isLoading, setLoading } = useLoading();
 
-  const startHandler = () => {
+  const startHandler = async () => {
     playSound("pressed");
+    setLoading(true);
     router.push("/quiz");
     clearQuestion();
     closeModal();
@@ -46,12 +49,16 @@ export default function StartGameModal() {
         <p className="text-gray-00">Customize some settings</p>
         <SettingOpion />
         <button
-          disabled={!checkOptionValid()}
+          disabled={!checkOptionValid() || isLoading}
           onMouseEnter={() => playSound("uiHover")}
           onClick={() => startHandler()}
           className="btn btn-block btn-outline btn-primary mt-4"
         >
-          Start Quiz!
+          {isLoading ? (
+            <span className="loading loading-spinner loading-sm"></span>
+          ) : (
+            "Start Quiz!"
+          )}
         </button>
       </div>
     </dialog>

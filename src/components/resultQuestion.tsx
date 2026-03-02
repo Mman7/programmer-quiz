@@ -86,7 +86,7 @@ export default function resultQuestion({
         {question.options.map((item: string) => (
           <section
             key={item}
-            className={`btn relative m-1 w-1/2 border-0 bg-gray-700 text-gray-300 ${getOptionStyle(item)}`}
+            className={`btn relative m-1 border-0 bg-gray-700 text-gray-300 ${getOptionStyle(item)}`}
           >
             <h1>{item}</h1>
             {getIcon(item)}

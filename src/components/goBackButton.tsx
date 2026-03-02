@@ -1,12 +1,12 @@
 import { faBackward } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useRouter } from "next/navigation";
-import { playPressedSound } from "../utils/playSound";
+import { playSound } from "../utils/playSound";
 
 export default function GoBackButton({ className }: { className?: string }) {
   const router = useRouter();
   function handleBack(): void {
-    playPressedSound();
+    playSound("pressed");
     router.push("/");
   }
 

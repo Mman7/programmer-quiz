@@ -11,6 +11,7 @@ export default function Home() {
           loading="eager"
           className="m-auto"
           src="/img/logo.png"
+          priority
           fill={true}
           sizes="(max-width: 768px) 100vw, 256px"
           alt="Logo"

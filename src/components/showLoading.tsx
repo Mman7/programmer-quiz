@@ -4,11 +4,10 @@ import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 export default function ShowLoading() {
   const { isLoading } = useLoading();
-
   if (!isLoading) return null;
 
   return (
-    <div className="flex h-full w-full items-center justify-center shadow-2xl">
+    <div className="fixed top-0 right-0 z-50 flex h-full w-full items-center justify-center shadow-2xl">
       <h1 className="m-auto rounded-2xl bg-white/10 p-8 font-bold backdrop-blur-xl sm:text-3xl">
         <DotLottieReact
           className="m-auto max-w-100"

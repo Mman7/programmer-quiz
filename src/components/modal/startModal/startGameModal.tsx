@@ -16,11 +16,11 @@ export default function StartGameModal() {
   const { numberOfQuiz, topics } = useQuizOption();
   const { isLoading, setLoading } = useLoading();
 
-  const startHandler = async () => {
+  const startHandler = () => {
     playSound("pressed");
+    clearQuestion();
     setLoading(true);
     router.push("/quiz");
-    clearQuestion();
     closeModal();
   };
 

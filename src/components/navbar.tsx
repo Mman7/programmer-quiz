@@ -26,7 +26,12 @@ export default function Navbar() {
   return (
     <div className="navbar bg-base-100 shadow-sm">
       <div className="navbar-start">
-        <input id="my-drawer-1" type="checkbox" className="drawer-toggle" />
+        <input
+          id="my-drawer-1"
+          type="checkbox"
+          aria-label="Toggle drawer"
+          className="drawer-toggle"
+        />
         <div className="dropdown">
           <div>
             <label
@@ -75,6 +80,7 @@ function ContinueButton() {
       <button
         onClick={() => handleContinueGame()}
         className="btn btn-success group"
+        aria-label="Continue Game"
       >
         <FontAwesomeIcon
           className="sm:opacity-0 group-hover:sm:opacity-100"
@@ -94,7 +100,11 @@ function RestartButton() {
     setModalName(ModelName.restartModal);
   };
   return (
-    <button onClick={() => handleRestartGame()} className="btn btn-secondary">
+    <button
+      onClick={() => handleRestartGame()}
+      className="btn btn-secondary"
+      aria-label="Restart Game"
+    >
       <FontAwesomeIcon className="sm:hidden" icon={faArrowRotateRight} />
       <h1 className="hidden sm:block">Restart Game</h1>
     </button>

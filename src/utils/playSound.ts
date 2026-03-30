@@ -8,6 +8,13 @@ export interface Sounds {
 
 let sounds: Sounds | null = null;
 
+function hasUserInteracted(): boolean {
+  if (typeof window === "undefined") return false;
+  // Browsers may block audio until the first trusted user gesture.
+  const nav: Navigator = window.navigator;
+  return nav.userActivation.hasBeenActive;
+}
+
 function getSounds(): Sounds | null {
   if (typeof window === "undefined") return null;
 
@@ -25,12 +32,14 @@ function getSounds(): Sounds | null {
 }
 
 export const playSound = (key: keyof Sounds) => {
+  if (!hasUserInteracted()) return;
+
   const sounds = getSounds();
   if (!sounds) return;
-  const a = sounds[key].cloneNode(true) as HTMLAudioElement;
-  try {
-    a.play();
-  } catch (err) {
+
+  const sfx = sounds[key].cloneNode(true) as HTMLAudioElement;
+
+  void sfx.play().catch((err) => {
     console.log(err);
-  }
+  });
 };

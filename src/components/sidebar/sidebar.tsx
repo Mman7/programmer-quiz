@@ -38,6 +38,7 @@ export default function Sidebar() {
           <h1 className="text-xl font-bold">Topics includes</h1>
           {!isQuizPage && (
             <button
+              aria-label="Remove All Topics"
               onMouseEnter={() => playSound("uiHover")}
               onClick={() =>
                 questions.length > 0 ? showConfirmModal() : clearUpTopic()

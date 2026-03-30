@@ -1,136 +1,72 @@
-import { QuizQuestion } from "../types/quizQuestion";
+import type { QuizQuestion } from "../types/quizQuestion";
+import { mapValues } from "lodash-es";
+import cpp_easy from "@/src/data/cpp_easy.json";
+import cpp_medium from "@/src/data/cpp_medium.json";
+import cpp_hard from "@/src/data/cpp_hard.json";
+import js_easy from "@/src/data/js_easy.json";
+import js_medium from "@/src/data/js_medium.json";
+import js_hard from "@/src/data/js_hard.json";
+import csharp_easy from "@/src/data/csharp_easy.json";
+import csharp_medium from "@/src/data/csharp_medium.json";
+import csharp_hard from "@/src/data/csharp_hard.json";
+import software_easy from "@/src/data/softwaredev_easy.json";
+import software_medium from "@/src/data/softwaredev_medium.json";
+import software_hard from "@/src/data/softwaredev_hard.json";
+import webdev_easy from "@/src/data/webdev_easy.json";
+import webdev_medium from "@/src/data/webdev_medium.json";
+import webdev_hard from "@/src/data/webdev_hard.json";
+import react_easy from "@/src/data/react_easy.json";
+import react_medium from "@/src/data/react_medium.json";
+import react_hard from "@/src/data/react_hard.json";
+import typescript_easy from "@/src/data/ts_easy.json";
+import typescript_medium from "@/src/data/ts_medium.json";
+import typescript_hard from "@/src/data/ts_hard.json";
+import sql_easy from "@/src/data/sql_easy.json";
+import sql_medium from "@/src/data/sql_medium.json";
+import sql_hard from "@/src/data/sql_hard.json";
 
 export interface TopicMap {
   [key: string]: Map<string, QuizQuestion>;
 }
 
-// Data imports for different difficulty levels and topics
-// ! DOUBLE CHECK PATH
-const cpp_easy: QuizQuestion[] = require("@/src/data/cpp_easy.json");
-const cpp_medium: QuizQuestion[] = require("@/src/data/cpp_medium.json");
-const cpp_hard: QuizQuestion[] = require("@/src/data/cpp_hard.json");
-const js_easy: QuizQuestion[] = require("@/src/data/js_easy.json");
-const js_medium: QuizQuestion[] = require("@/src/data/js_medium.json");
-const js_hard: QuizQuestion[] = require("@/src/data/js_hard.json");
-const csharp_easy: QuizQuestion[] = require("@/src/data/csharp_easy.json");
-const csharp_medium: QuizQuestion[] = require("@/src/data/csharp_medium.json");
-const csharp_hard: QuizQuestion[] = require("@/src/data/csharp_hard.json");
-const software_easy: QuizQuestion[] = require("@/src/data/softwaredev_easy.json");
-const software_medium: QuizQuestion[] = require("@/src/data/softwaredev_medium.json");
-const software_hard: QuizQuestion[] = require("@/src/data/softwaredev_hard.json");
-const webdev_easy: QuizQuestion[] = require("@/src/data/webdev_easy.json");
-const webdev_medium: QuizQuestion[] = require("@/src/data/webdev_medium.json");
-const webdev_hard: QuizQuestion[] = require("@/src/data/webdev_hard.json");
-const react_easy: QuizQuestion[] = require("@/src/data/react_easy.json");
-const react_medium: QuizQuestion[] = require("@/src/data/react_medium.json");
-const react_hard: QuizQuestion[] = require("@/src/data/react_hard.json");
-const typescript_easy: QuizQuestion[] = require("@/src/data/ts_easy.json");
-const typescript_medium: QuizQuestion[] = require("@/src/data/ts_medium.json");
-const typescript_hard: QuizQuestion[] = require("@/src/data/ts_hard.json");
-const sql_easy: QuizQuestion[] = require("@/src/data/sql_easy.json");
-const sql_medium: QuizQuestion[] = require("@/src/data/sql_medium.json");
-const sql_hard: QuizQuestion[] = require("@/src/data/sql_hard.json");
+const topicData = {
+  cpp_easy,
+  cpp_medium,
+  cpp_hard,
+  javascript_easy: js_easy,
+  javascript_medium: js_medium,
+  javascript_hard: js_hard,
+  csharp_easy,
+  csharp_medium,
+  csharp_hard,
+  software_easy,
+  software_medium,
+  software_hard,
+  webdev_easy,
+  webdev_medium,
+  webdev_hard,
+  react_easy,
+  react_medium,
+  react_hard,
+  typescript_easy,
+  typescript_medium,
+  typescript_hard,
+  sql_easy,
+  sql_medium,
+  sql_hard,
+} satisfies Record<string, QuizQuestion[]>;
 
-// Maps for efficient question lookup by ID
-const cppEasyMap: Map<string, QuizQuestion> = new Map(
-  cpp_easy.map((item) => [item.questionId, item]),
-);
-const cppMediumMap: Map<string, QuizQuestion> = new Map(
-  cpp_medium.map((item) => [item.questionId, item]),
-);
-const cppHardMap: Map<string, QuizQuestion> = new Map(
-  cpp_hard.map((item) => [item.questionId, item]),
-);
-
-const jsEasyMap = new Map(js_easy.map((item) => [item.questionId, item]));
-const jsMediumMap = new Map(js_medium.map((item) => [item.questionId, item]));
-const jsHardMap = new Map(js_hard.map((item) => [item.questionId, item]));
-
-const csharpEasyMap: Map<string, QuizQuestion> = new Map(
-  csharp_easy.map((item) => [item.questionId, item]),
-);
-const csharpMediumMap: Map<string, QuizQuestion> = new Map(
-  csharp_medium.map((item) => [item.questionId, item]),
-);
-const csharpHardMap: Map<string, QuizQuestion> = new Map(
-  csharp_hard.map((item) => [item.questionId, item]),
-);
-
-const softwareEasyMap: Map<string, QuizQuestion> = new Map(
-  software_easy.map((item) => [item.questionId, item]),
-);
-const softwareMediumMap: Map<string, QuizQuestion> = new Map(
-  software_medium.map((item) => [item.questionId, item]),
-);
-const softwareHardMap: Map<string, QuizQuestion> = new Map(
-  software_hard.map((item) => [item.questionId, item]),
-);
-
-const webdevEasyMap: Map<string, QuizQuestion> = new Map(
-  webdev_easy.map((item) => [item.questionId, item]),
-);
-const webdevMediumMap: Map<string, QuizQuestion> = new Map(
-  webdev_medium.map((item) => [item.questionId, item]),
-);
-const webdevHardMap: Map<string, QuizQuestion> = new Map(
-  webdev_hard.map((item) => [item.questionId, item]),
-);
-const reactEasyMap: Map<string, QuizQuestion> = new Map(
-  react_easy.map((item) => [item.questionId, item]),
-);
-const reactMediumMap: Map<string, QuizQuestion> = new Map(
-  react_medium.map((item) => [item.questionId, item]),
-);
-const reactHardMap: Map<string, QuizQuestion> = new Map(
-  react_hard.map((item) => [item.questionId, item]),
-);
-const typescriptEasyMap: Map<string, QuizQuestion> = new Map(
-  typescript_easy.map((item) => [item.questionId, item]),
-);
-const typescriptMediumMap: Map<string, QuizQuestion> = new Map(
-  typescript_medium.map((item) => [item.questionId, item]),
-);
-const typescriptHardMap: Map<string, QuizQuestion> = new Map(
-  typescript_hard.map((item) => [item.questionId, item]),
-);
-const sqlEasyMap: Map<string, QuizQuestion> = new Map(
-  sql_easy.map((item) => [item.questionId, item]),
-);
-const sqlMediumMap: Map<string, QuizQuestion> = new Map(
-  sql_medium.map((item) => [item.questionId, item]),
-);
-const sqlHardMap: Map<string, QuizQuestion> = new Map(
-  sql_hard.map((item) => [item.questionId, item]),
-);
+function createQuestionMap(
+  questions: QuizQuestion[],
+): Map<string, QuizQuestion> {
+  return new Map(questions.map((item) => [item.questionId, item]));
+}
 
 /**
  * Collection of all topic maps organized by subject and difficulty level
  * Each topic map is structured as { [topicName]: Map<questionId, QuizQuestion> }
  * Topic names should match the TopicType enum keys for consistency
  */
-export const allTopic: TopicMap = {
-  cpp_easy: cppEasyMap,
-  cpp_medium: cppMediumMap,
-  cpp_hard: cppHardMap,
-  javascript_easy: jsEasyMap,
-  javascript_medium: jsMediumMap,
-  javascript_hard: jsHardMap,
-  csharp_easy: csharpEasyMap,
-  csharp_medium: csharpMediumMap,
-  csharp_hard: csharpHardMap,
-  software_easy: softwareEasyMap,
-  software_medium: softwareMediumMap,
-  software_hard: softwareHardMap,
-  webdev_easy: webdevEasyMap,
-  webdev_medium: webdevMediumMap,
-  webdev_hard: webdevHardMap,
-  react_easy: reactEasyMap,
-  react_medium: reactMediumMap,
-  react_hard: reactHardMap,
-  typescript_easy: typescriptEasyMap,
-  typescript_medium: typescriptMediumMap,
-  typescript_hard: typescriptHardMap,
-  sql_easy: sqlEasyMap,
-  sql_medium: sqlMediumMap,
-  sql_hard: sqlHardMap,
-};
+export const allTopic: TopicMap = mapValues(topicData, (questions) =>
+  createQuestionMap(questions),
+);
